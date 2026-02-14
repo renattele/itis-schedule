@@ -8,5 +8,6 @@ venv/
 dist/
 build/
 *.egg-info/
+calendars/
 .idea/
 .vscode/

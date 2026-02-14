@@ -28,15 +28,11 @@ jobs:
           mkdir -p calendars
           docker run --rm -v ${{ github.workspace }}/calendars:/app/calendars itis-schedule
 
-      - name: Commit and push calendars
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add calendars/
-          # Only commit if there are changes
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "📅 Update schedule calendars [$(date -u +%Y-%m-%dT%H:%M:%SZ)]"
-            git push
-          fi
+      - name: Deploy calendars
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./calendars
+          publish_branch: calendars
+          force_orphan: true
+          commit_message: "📅 Update schedule calendars [$(date -u +%Y-%m-%dT%H:%M:%SZ)]"
