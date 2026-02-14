@@ -1,0 +1,218 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS 11-531
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Элективные курсы по физическо
+ й культуре и спорту   (10:00-11:30) (вебинары)
+DTSTART;TZID=Europe/Moscow:20260209T101000
+DTEND;TZID=Europe/Moscow:20260209T114000
+UID:3cf5b3cc45caa95d31caeb2c2872b933b6b4d2bb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+LOCATION:https://telemost.360.yandex.ru/j/7243575179
+URL:https://telemost.360.yandex.ru/j/7243575179
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Алгоритмы и структуры данных 
+ в программировании
+DTSTART;TZID=Europe/Moscow:20260209T121000
+DTEND;TZID=Europe/Moscow:20260209T134000
+UID:2381082af58602c15b8ac751acdf9ee254f7ec72@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Хадиева А.И.\nв 1308\; (
+ вебинары)
+LOCATION:1308\, https://telemost.360.yandex.ru/j/3035515776
+URL:https://telemost.360.yandex.ru/j/3035515776
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Линейная алгебра для IT
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:5ffefad29fc1de323c5affbdbdd3f96c8d2eacb3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Бакирова А.Н.\nлек.в
+  1509\; (вебинары)
+LOCATION:1509\, https://telemost.360.yandex.ru/j/7308035612
+URL:https://telemost.360.yandex.ru/j/7308035612
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] История России лек.
+DTSTART;TZID=Europe/Moscow:20260210T083000
+DTEND;TZID=Europe/Moscow:20260210T100000
+UID:5d391b53f602623436894ad9a90d145841b7e399@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Фазлиев А.М.\n(вебин
+ ары)
+LOCATION:1309\, https://telemost.360.yandex.ru/j/4954750481
+URL:https://telemost.360.yandex.ru/j/4954750481
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260210T101000
+DTEND;TZID=Europe/Moscow:20260210T114000
+UID:d633c783a7799a5ba68043b663030dd03dc9b26b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Мохсени Ниари Фатемех\; (вебинары)
+LOCATION:1309\, https://telemost.360.yandex.ru/j/3696121740
+URL:https://telemost.360.yandex.ru/j/3696121740
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Линейная алгебра для IT
+DTSTART;TZID=Europe/Moscow:20260210T121000
+DTEND;TZID=Europe/Moscow:20260210T134000
+UID:b3a3aafe0fe79ff773bebf0173f957009d314d0b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Бакирова А.Н.\nпрак
+ т.\; (вебинары)
+LOCATION:1509\, https://telemost.360.yandex.ru/j/7308035612
+URL:https://telemost.360.yandex.ru/j/7308035612
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Проектный практикум\, лек.
+DTSTART;TZID=Europe/Moscow:20260210T135000
+DTEND;TZID=Europe/Moscow:20260210T152000
+UID:6f3071501ebf3ef92234bb84139c23440d4e350f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Доброквашина А.С.\n\
+ , (вебинары)\; 10 февраля не будет
+LOCATION:1412\, https://telemost.360.yandex.ru/j/1101159202
+URL:https://telemost.360.yandex.ru/j/1101159202
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Проектный практикум\, прак.
+DTSTART;TZID=Europe/Moscow:20260210T155000
+DTEND;TZID=Europe/Moscow:20260210T172000
+UID:14d9ba940631f515bb7eda75a8bba2110c2259ef@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Доброквашина А.С.\n\
+ , (вебинары)\; 10 февраля не будет
+LOCATION:1412\, https://telemost.360.yandex.ru/j/1101159202
+URL:https://telemost.360.yandex.ru/j/1101159202
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Русский язык и культура речи
+DTSTART;TZID=Europe/Moscow:20260211T083000
+DTEND;TZID=Europe/Moscow:20260211T100000
+UID:06c8881b29e61a9d407951e57b0fcf182156fcc5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Галиулина И.Р.\n(1-6 н
+ ед.) лек.\, с 7 нед. прак.\; (вебинары)
+LOCATION:1110\, https://telemost.360.yandex.ru/j/4959672104
+URL:https://telemost.360.yandex.ru/j/4959672104
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Философия
+DTSTART;TZID=Europe/Moscow:20260211T101000
+DTEND;TZID=Europe/Moscow:20260211T114000
+UID:a492f1e697c6a682d9952f5ba2de2676cb5c9096@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Солдатова Н.О.\n(1-9 н
+ ед.) лек.\; с 10 нед.прак.\; (вебинары)
+LOCATION:1405\, https://telemost.360.yandex.ru/j/4155605650
+URL:https://telemost.360.yandex.ru/j/4155605650
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Алгоритмы и структуры данных 
+ в программировании
+DTSTART;TZID=Europe/Moscow:20260211T121000
+DTEND;TZID=Europe/Moscow:20260211T134000
+UID:5d899e41d9038fd052215cd7babedcc121d2c250@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Хадиев К.Р.\nлек.\; (в
+ ебинары)
+LOCATION:1308\, https://telemost.360.yandex.ru/j/3035515776
+URL:https://telemost.360.yandex.ru/j/3035515776
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Элективные курсы по физическо
+ й культуре и спорту   (10:00-11:30) графику (веб
+ инары)
+DTSTART;TZID=Europe/Moscow:20260212T101000
+DTEND;TZID=Europe/Moscow:20260212T114000
+UID:1c051e0ebdcb0d706292ff1ee2b2cc75d253de47@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+LOCATION:https://docs.google.com/document/d/1VSlytmdGwnpY6oLX_JhPIW82mML2t
+ h2a/edit?usp=drive_link&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1VSlytmdGwnpY6oLX_JhPIW82mML2th2a/e
+ dit?usp=drive_link&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260212T121000
+DTEND;TZID=Europe/Moscow:20260212T134000
+UID:b73812774f9eb846af413ea6b4f978601d3cedef@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Мохсени Ниари Фатемех\; (вебинары)
+LOCATION:1110\, https://telemost.360.yandex.ru/j/3696121740
+URL:https://telemost.360.yandex.ru/j/3696121740
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260212T135000
+DTEND;TZID=Europe/Moscow:20260212T152000
+UID:50a75dfcdf908e6cba2e62c79a3bfeea32ebad58@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Мохсени Ниари Фатемех\; (вебинары)
+LOCATION:1110\, https://telemost.360.yandex.ru/j/3696121740
+URL:https://telemost.360.yandex.ru/j/3696121740
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Компьютерная математика\, пра
+ кт.
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:63bb308dadad2851b928cfce7e6763a80fd4db16@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Харин Н.В.\n(вебинар
+ ы)
+LOCATION:1302\, https://telemost.360.yandex.ru/j/8437996376
+URL:https://telemost.360.yandex.ru/j/8437996376
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] История России прак.
+DTSTART;TZID=Europe/Moscow:20260213T083000
+DTEND;TZID=Europe/Moscow:20260213T100000
+UID:f81a0e9caddd9579febd9c990be87e2be80c35f0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Фазлиев А.М.\n(вебин
+ ары)\; (1-12 нед.)
+LOCATION:1307\, https://telemost.360.yandex.ru/j/4954750481
+URL:https://telemost.360.yandex.ru/j/4954750481
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Алгоритмы и структуры данных 
+ в программировании
+DTSTART;TZID=Europe/Moscow:20260213T101000
+DTEND;TZID=Europe/Moscow:20260213T114000
+UID:6fe98aa0a45c2151b353fc04847507b36eaa170f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Хадиева А.И.\n(вебин
+ ары)
+LOCATION:1307\, https://telemost.360.yandex.ru/j/3035515776
+URL:https://telemost.360.yandex.ru/j/3035515776
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Алгоритмы и структуры данных 
+ в программировании
+DTSTART;TZID=Europe/Moscow:20260213T121000
+DTEND;TZID=Europe/Moscow:20260213T134000
+UID:5389abecc5cdc4090e74e17c312d0e577d971d6d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Хадиева А.И.\n(вебин
+ ары)
+LOCATION:1307\, https://telemost.360.yandex.ru/j/3035515776
+URL:https://telemost.360.yandex.ru/j/3035515776
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Компьютерная математика
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:59e0c571323b143bb9e817f3682168e8e0a8dbb9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Саченков О.А.\n(веби
+ нары)
+LOCATION:1307\, https://telemost.360.yandex.ru/j/8437996376
+URL:https://telemost.360.yandex.ru/j/8437996376
+END:VEVENT
+END:VCALENDAR

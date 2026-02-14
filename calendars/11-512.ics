@@ -1,0 +1,253 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS 11-512
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Лекц] Элективные курсы по физическо
+ й культуре и спорту   (10:00-11:30)
+DTSTART;TZID=Europe/Moscow:20260209T101000
+DTEND;TZID=Europe/Moscow:20260209T114000
+UID:00aadaeba7e50f17608ee537a7a0153414fb3174@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] История России\, Новоселов А.Л.
+DTSTART;TZID=Europe/Moscow:20260209T121000
+DTEND;TZID=Europe/Moscow:20260209T134000
+UID:b3a2672b858d95265fda98769136a5bc7008fcb4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Алгоритмы и структуры данных
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:14c2c3c1a8760a059616434e493187c7a0a90dc5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Суреева А.А.\nподгр.
+ №1
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Алгоритмы и структуры данных
+DTSTART;TZID=Europe/Moscow:20260209T155000
+DTEND;TZID=Europe/Moscow:20260209T172000
+UID:1f4e0dfc0768327d2679ae9dbe3754c1b0376559@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Суреева А.А.\nподгр.
+ №2
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Введение в проектную деятельн
+ ость
+DTSTART;TZID=Europe/Moscow:20260210T083000
+DTEND;TZID=Europe/Moscow:20260210T100000
+UID:8d7c39fe1334c6f0b32ff5e4b6df7dc68af78d18@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Преподаватель: Лукьяничева Е.О.\nч
+ етн.нед.гр№1\, нечет.нед.гр№2 в 1311
+LOCATION:1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Иностранный язык: Муфазалова 
+ Н.И в 1301\, Бибик Е.А. в 1302\, Гатиятуллина Г.М
+ . в 1303 Тагиров Р.М.  в 1304\, Шарифуллина А.Э.в
+  1305\, Булина Е.Н. в 1306
+DTSTART;TZID=Europe/Moscow:20260210T101000
+DTEND;TZID=Europe/Moscow:20260210T114000
+UID:fc62c379ff0534015074c12cfb5b417ceb67bf1c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Иностранный язык: Муфазалова 
+ Н.И в 1301\, Бибик Е.А. в 1302\, Гатиятуллина Г.М
+ . в 1303 Тагиров Р.М.  в 1304\, Шарифуллина А.Э.в
+  1305\, Булина Е.Н. в 1306
+DTSTART;TZID=Europe/Moscow:20260210T121000
+DTEND;TZID=Europe/Moscow:20260210T134000
+UID:3b42904ddfff481b880ae1b7a8fbf84ccc1294e5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Алгебра и геометрия\, Ямалеев 
+ М.М.
+DTSTART;TZID=Europe/Moscow:20260210T135000
+DTEND;TZID=Europe/Moscow:20260210T152000
+UID:67321d36a0cdfde79e2aeb89ea4001df503eb36f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Дискретная математика
+DTSTART;TZID=Europe/Moscow:20260210T155000
+DTEND;TZID=Europe/Moscow:20260210T172000
+UID:27fafc45966abe83a24f4ad014fc7f7f12a512c6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Зайнетдинов Д.Х.
+LOCATION:1303
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Алгебра и геометрия
+DTSTART;TZID=Europe/Moscow:20260211T101000
+DTEND;TZID=Europe/Moscow:20260211T114000
+UID:8a18724b2bb543b299d7d57561280a1a54c582ba@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Михайловская Я.А.
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Философия
+DTSTART;TZID=Europe/Moscow:20260211T121000
+DTEND;TZID=Europe/Moscow:20260211T134000
+UID:0b3e575628455355abe1f85d963eefd40abbda9f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Федотов Д.Л.\n(1-9 нед
+ .)
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Элективные курсы по физическо
+ й культуре и спорту   (10:00-11:30)
+DTSTART;TZID=Europe/Moscow:20260212T101000
+DTEND;TZID=Europe/Moscow:20260212T114000
+UID:87e2dd3e6d2e122eb4c70ac09a78465c3ba20e8e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Дискретная математика
+DTSTART;TZID=Europe/Moscow:20260212T121000
+DTEND;TZID=Europe/Moscow:20260212T134000
+UID:d57602f4bd811dae98aa6377d49bcbed84289f25@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Корнеева Н.Н.
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Информатика и программирован
+ ие
+DTSTART;TZID=Europe/Moscow:20260212T135000
+DTEND;TZID=Europe/Moscow:20260212T152000
+UID:943c3d944c260f92350837f2137cc3a11105d7b3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Еникеев К.Ш.
+LOCATION:1607
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Философия
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:2f8c536d60c9ed392334596025fe8b8af342d21d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Шаммазова Е.Ю.\n(1-9 н
+ ед.)
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Иностранный язык в профессион
+ альной сфере (1-9 нед): Муфазалова Н.И в 1301\,
+  Бибик Е.А. в 1302\, Гатиятуллина Г.М. в 1303 Та
+ гиров Р.М.  в 1304\, Шарифуллина А.Э.в 1305\, Бул
+ ина Е.Н. в 1306
+DTSTART;TZID=Europe/Moscow:20260213T083000
+DTEND;TZID=Europe/Moscow:20260213T100000
+UID:e7572a0b2b08bd67ff10d5ec1f0041c12abe2c87@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Математический анализ
+DTSTART;TZID=Europe/Moscow:20260213T101000
+DTEND;TZID=Europe/Moscow:20260213T114000
+UID:dfd88dcbf05e3b5f0aa137b3b534df1c667286e7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Широкова Е.А.
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Математический анализ
+DTSTART;TZID=Europe/Moscow:20260213T121000
+DTEND;TZID=Europe/Moscow:20260213T134000
+UID:9f2ee48a32bcc1cd91d6e6eb9f68f23bf0fc35af@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Хакимов Д.Р.
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] История России
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:6831f3501b016be1967246c1d485c5a4ae1c87f3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Кисленко А.О.\n(1-12 н
+ ед.)
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Алгоритмы и структуры данных
+DTSTART;TZID=Europe/Moscow:20260213T155000
+DTEND;TZID=Europe/Moscow:20260213T172000
+UID:e51a1e44d2be8b23361ad1e6e305c18df48add79@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Хадиев К.Р.\nауд.109
+LOCATION:109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Информатика и программирован
+ ие
+DTSTART;TZID=Europe/Moscow:20260214T101000
+DTEND;TZID=Europe/Moscow:20260214T114000
+UID:2f919afa82b692f76746961c4162032383c95a67@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Усачева Е.С.\nподгр.
+ №1\; 14.02 онлайн\; https://telemost.yandex.ru/j/95100676893435
+LOCATION:1508\, https://docs.google.com/document/d/1ucN32IOhTfenoNmzHiMsFb
+ vPOd772C1x/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1ucN32IOhTfenoNmzHiMsFbvPOd772C1x/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Информатика и программирован
+ ие
+DTSTART;TZID=Europe/Moscow:20260214T121000
+DTEND;TZID=Europe/Moscow:20260214T134000
+UID:19511c37c7add8cf1cc3bd4051090cfdb9babe41@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Усачева Е.С.\nподгр.
+ №1\; 14.02 онлайн\; https://telemost.yandex.ru/j/95100676893435
+LOCATION:1508\, https://docs.google.com/document/d/1ucN32IOhTfenoNmzHiMsFb
+ vPOd772C1x/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1ucN32IOhTfenoNmzHiMsFbvPOd772C1x/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Информатика и программирован
+ ие
+DTSTART;TZID=Europe/Moscow:20260214T135000
+DTEND;TZID=Europe/Moscow:20260214T152000
+UID:c82b0252f522143bbd6d91a01e83bc9a83e71d62@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Усачева Е.С.\nподгр.
+ №2\; 14.02 онлайн\; https://telemost.yandex.ru/j/95100676893435
+LOCATION:1508\, https://docs.google.com/document/d/1gdM2dhZiaN7ncMZsiC1ST4
+ Htx2-3mGC-/edit?usp=drive_link&ouid=112137016857706710646&rtpof=true&sd=tr
+ ue
+URL:https://docs.google.com/document/d/1gdM2dhZiaN7ncMZsiC1ST4Htx2-3mGC-/e
+ dit?usp=drive_link&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Информатика и программирован
+ ие
+DTSTART;TZID=Europe/Moscow:20260214T155000
+DTEND;TZID=Europe/Moscow:20260214T172000
+UID:7d0a1c8c4cba4fac02e5cc7fe1d9391f5d5613a9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Усачева Е.С.\nподгр.
+ №2\; 14.02 онлайн\; https://telemost.yandex.ru/j/95100676893435
+LOCATION:1508\, https://docs.google.com/document/d/1gdM2dhZiaN7ncMZsiC1ST4
+ Htx2-3mGC-/edit?usp=drive_link&ouid=112137016857706710646&rtpof=true&sd=tr
+ ue
+URL:https://docs.google.com/document/d/1gdM2dhZiaN7ncMZsiC1ST4Htx2-3mGC-/e
+ dit?usp=drive_link&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+END:VCALENDAR

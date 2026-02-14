@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS 11-210
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Практикум по исследовательск
+ ой деятельности
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:98509977db256c9188e23bcd7bdd734192ead67d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Костюк Д.И.\n(вебина
+ ры)
+LOCATION:https://telemost.360.yandex.ru/j/6472408672
+URL:https://telemost.360.yandex.ru/j/6472408672
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Практикум по исследовательск
+ ой деятельности
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:d192b23ad309272547454f3bde601d57110c145a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Костюк Д.И.\n(вебина
+ ры)
+LOCATION:https://telemost.360.yandex.ru/j/6472408672
+URL:https://telemost.360.yandex.ru/j/6472408672
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Методологии разработки
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:1e4677dc97cc7dfb6cdc75ec9a5720f1645653d3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Ахметзянов А.А.\n(ве
+ бинары)
+LOCATION:https://telemost.yandex.ru/j/70919436304560
+URL:https://telemost.yandex.ru/j/70919436304560
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Методологии разработки
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:8d93c0e5ca5de41306ee1bd08a39c85e074d138e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Ахметзянов А.А.\n(ве
+ бинары)
+LOCATION:https://telemost.yandex.ru/j/70919436304560
+URL:https://telemost.yandex.ru/j/70919436304560
+END:VEVENT
+END:VCALENDAR

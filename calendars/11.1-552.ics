@@ -1,0 +1,93 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS 11.1-552
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы машинного обучения Ага
+ фонов А.А. в 1405
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:df83404f71f815d57c312914f9682a04daaa8f34@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Средства и инструменты програ
+ ммной инженерии Тощев А.С. по н.н. лекц. по
+  ч.н. прак. в 1405
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:f99eef1ceff84226be86ef8b4447703b015524e5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Правовые аспекты использован
+ ия систем искусственного интеллекта  ле
+ кция по ч.н.Хасанов Р.А.\,  в ауд.1301
+DTSTART;TZID=Europe/Moscow:20260210T155000
+DTEND;TZID=Europe/Moscow:20260210T172000
+UID:76ae610f17d0fa5a7c07f608ccf39c581af0f0f9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Правовые аспекты использован
+ ия систем искусственного интеллекта   пр
+ актика по ч.н. Камалетдинова А.В. в ауд.1412
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:abe5fd02d78a1ef1dd0bccd1d227bb2f3cc583b0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Командный проект по искусстве
+ нному интеллекту Курносов О.В. в ауд.1412
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:90047306d49ecc40baf37c99a46af355b0f84aa9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Профессиональный иностранный
+  язык (английский) ауд. 1301\, Воронина Д.И. (
+ вебинары)
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:f063499358958532bc00e88ccb103d5b8154d639@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+LOCATION:https://telemost.yandex.ru/j/51121620730386
+URL:https://telemost.yandex.ru/j/51121620730386
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Профессиональный иностранный
+  язык (английский) ауд. 1301\, Воронина Д.И. (
+ вебинары)
+DTSTART;TZID=Europe/Moscow:20260211T191000
+DTEND;TZID=Europe/Moscow:20260211T204000
+UID:606cbe375698fe4f902fe2d369cf887b763816f6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+LOCATION:https://kpfu.mts-link.ru/j/82016803/846857397
+URL:https://kpfu.mts-link.ru/j/82016803/846857397
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Методология научных исследов
+ аний Тощев А.С. в ауд.1304 ( по неч. нед. лекц.
+  \,по чет.нед. практ.)
+DTSTART;TZID=Europe/Moscow:20260213T173000
+DTEND;TZID=Europe/Moscow:20260213T190000
+UID:483a60835b43cf1e3c67e3ad5a41796714d61cfd@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Средства и инструменты  Data-ана
+ литики Ханнанова Д.М. лекция 9 нед.: 1\,2\,3 \,7
+ .8.9.13.14.15\;  практика: 4.5.6.10.11.12 16.17.18 нед. в ау
+ д.1301 ( 14.02 в онлайн)https://telemost.yandex.ru/j/9228948600379
+ 5
+DTSTART;TZID=Europe/Moscow:20260214T121000
+DTEND;TZID=Europe/Moscow:20260214T134000
+UID:8e2b553cf25a7255751769a4b273f8c29f2a9179@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+LOCATION:https://telemost.yandex.ru/j/92289486003795
+URL:https://telemost.yandex.ru/j/92289486003795
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,223 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS 11-314а
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Практикум по управлению разра
+ боткой ПО
+DTSTART;TZID=Europe/Moscow:20260209T121000
+DTEND;TZID=Europe/Moscow:20260209T134000
+UID:cedc79909a198767b9e04a97ed5574647a7c8602@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Большаков Э.С.\nпра
+ к.\; (вебинары)
+LOCATION:1408\, https://telemost.360.yandex.ru/j/7132571105
+URL:https://telemost.360.yandex.ru/j/7132571105
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Практикум по управлению разра
+ боткой ПО
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:9106b49d09ee5a42191c90cd7df2a4c2e5ec075b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Преподаватель: Большаков Э.С.\nлек.
+ нечетн.нед.\; прак. четн.нед.\; (вебинары)
+LOCATION:1408\, https://telemost.360.yandex.ru/j/7132571105
+URL:https://telemost.360.yandex.ru/j/7132571105
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Основы машинного обучения
+DTSTART;TZID=Europe/Moscow:20260209T155000
+DTEND;TZID=Europe/Moscow:20260209T172000
+UID:fd849084a2fa53962ffeab7dca8fa53b0416474d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Доброквашина А.С.\n
+ лек.\; (вебинары)
+LOCATION:1303\, https://telemost.360.yandex.ru/j/5010636679
+URL:https://telemost.360.yandex.ru/j/5010636679
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы машинного обучения
+DTSTART;TZID=Europe/Moscow:20260210T121000
+DTEND;TZID=Europe/Moscow:20260210T134000
+UID:1d5eab94b8893057391f77a5ce308c56d1f9f282@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Доброквашина А.С.\n
+ прак.\; 1408\; (вебинары)
+LOCATION:1408\, https://telemost.360.yandex.ru/j/5010636679
+URL:https://telemost.360.yandex.ru/j/5010636679
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Элективные курсы по физическо
+ й культуре и спорту 14:00 - 15:30
+DTSTART;TZID=Europe/Moscow:20260210T135000
+DTEND;TZID=Europe/Moscow:20260210T152000
+UID:5e1aa3603c440e3937cae8cf52af21296cafb016@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:(вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/3972094966
+URL:https://telemost.360.yandex.ru/j/3972094966
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологическая (проектно-тех
+ нологическая) практика DML ауд.1110
+DTSTART;TZID=Europe/Moscow:20260211T155000
+DTEND;TZID=Europe/Moscow:20260211T172000
+UID:b846a2609e369a8bee2700fcef8aa633bf2439e9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:(нечетные недели)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Управление проектами
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:bf59643416de04b2afb2c072042d5cd3b3b13c74@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Шубин А.В.\nлек.\; (ве
+ бинары)
+LOCATION:1508\, https://telemost.360.yandex.ru/j/8495132034
+URL:https://telemost.360.yandex.ru/j/8495132034
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Управление проектами
+DTSTART;TZID=Europe/Moscow:20260211T191000
+DTEND;TZID=Europe/Moscow:20260211T204000
+UID:def21f43e2154a04bb78ca7a55a5d909d2fc951c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Преподаватель: Шубин А.В.\nпрак.чет
+ н.нед\, лек.нечетн.нед.\; (вебинары)
+LOCATION:1508\, https://telemost.360.yandex.ru/j/8495132034
+URL:https://telemost.360.yandex.ru/j/8495132034
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы научной коммуникации
+DTSTART;TZID=Europe/Moscow:20260212T101000
+DTEND;TZID=Europe/Moscow:20260212T114000
+UID:c48420dfa6e1d2ac45aac7a64ca99ed58e53526b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Гузельбаева Г.Я.\nв 
+ 1305\; (вебинары)
+LOCATION:1305\, https://telemost.360.yandex.ru/j/8529126588
+URL:https://telemost.360.yandex.ru/j/8529126588
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы научной коммуникации
+DTSTART;TZID=Europe/Moscow:20260212T121000
+DTEND;TZID=Europe/Moscow:20260212T134000
+UID:1a4f59046cbc7977868a7681cf02b57d0618565e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Гузельбаева Г.Я.\nв 
+ 1305\; (вебинары)
+LOCATION:1305\, https://telemost.360.yandex.ru/j/8529126588
+URL:https://telemost.360.yandex.ru/j/8529126588
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] ДГ веб-разработки. Часть 2 (Python)
+DTSTART;TZID=Europe/Moscow:20260212T135000
+DTEND;TZID=Europe/Moscow:20260212T152000
+UID:73cf96341898329458992b0c8fbf9ab06e48ee13@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:(по выбору)
+LOCATION:https://telemost.360.yandex.ru/j/0882540167
+URL:https://telemost.360.yandex.ru/j/0882540167
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] (вебинары)
+DTSTART;TZID=Europe/Moscow:20260212T135000
+DTEND;TZID=Europe/Moscow:20260212T152000
+UID:e40c11b8a0924f19d1b94f6290a5f6e1c8f37ce1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:(по выбору)
+LOCATION:https://telemost.360.yandex.ru/j/0882540167
+URL:https://telemost.360.yandex.ru/j/0882540167
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Разработка приложений вирт.и 
+ доп.реальности Часть2.
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:e56a52b4cbf89525d51390f6213e6911c5310976@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Большаков Э.С.\n(веб
+ инары) / (по выбору)
+LOCATION:1304\, https://telemost.360.yandex.ru/j/7254648732
+URL:https://telemost.360.yandex.ru/j/7254648732
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] ДГ веб-разработки. Часть 2 (Python)
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:fe10c41e693e2a8f242048b4267400920ad3408a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:(по выбору)
+LOCATION:https://telemost.360.yandex.ru/j/7254648732
+URL:https://telemost.360.yandex.ru/j/7254648732
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] (вебинары)
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:cc5b2c48087b93e7b058c18078e03f00d24f2973@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:(по выбору)
+LOCATION:https://telemost.360.yandex.ru/j/7254648732
+URL:https://telemost.360.yandex.ru/j/7254648732
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Разработка приложений вирт.и 
+ доп.реальности Часть2
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:7c013e008b4c052d770c00eaf12c0e91cf6eeb1b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Большаков Э.С.\n(веб
+ инары) (по выбору)
+LOCATION:https://telemost.360.yandex.ru/j/7254648732
+URL:https://telemost.360.yandex.ru/j/7254648732
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Элективные курсы по физическо
+ й культуре и спорту 14:00 - 15:30
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:4ba474ed60876da3a3fa99389b79d07b53f40fa3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:(вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/3972094966
+URL:https://telemost.360.yandex.ru/j/3972094966
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Программная инженерия
+DTSTART;TZID=Europe/Moscow:20260213T155000
+DTEND;TZID=Europe/Moscow:20260213T172000
+UID:a456ba7c9b2856e41d01724c0b3980807abfba9b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Коростелева Д.М.\n(в
+ ебинары)
+LOCATION:1302\, https://telemost.360.yandex.ru/j/9465635993
+URL:https://telemost.360.yandex.ru/j/9465635993
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Программная инженерия
+DTSTART;TZID=Europe/Moscow:20260213T173000
+DTEND;TZID=Europe/Moscow:20260213T190000
+UID:249407a4fee5be7f421f434eefd2743befe06c4f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Преподаватель: Коростелева Д.М.\n(в
+ ебинары)
+LOCATION:1302\, https://telemost.360.yandex.ru/j/9465635993
+URL:https://telemost.360.yandex.ru/j/9465635993
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологическая (проектно-тех
+ нологическая) практика (по распределени
+ ю)
+DTSTART;TZID=Europe/Moscow:20260213T191000
+DTEND;TZID=Europe/Moscow:20260213T204000
+UID:92dede6840ce266414fa05fa725f89111463eeda@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:9 нед.
+END:VEVENT
+END:VCALENDAR
