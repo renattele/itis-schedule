@@ -48,10 +48,15 @@ def main(argv: list[str] | None = None) -> None:
         default=DEFAULT_SEMESTER_END,
         help="Semester end date YYYY-MM-DD (default: %(default)s)",
     )
+    parser.add_argument(
+        "--split-types",
+        action="store_true",
+        help="Generate separate iCal files for lectures and practices.",
+    )
     args = parser.parse_args(argv)
 
-    semester_start = datetime.strptime(args.semester_start, "%Y-%m-%d")
-    semester_end = datetime.strptime(args.semester_end, "%Y-%m-%d")
+    semester_start_date = date.fromisoformat(args.semester_start)
+    semester_end_date = date.fromisoformat(args.semester_end)
 
     # 1. Fetch
     print(f"📥 Fetching schedule (sheet {args.spreadsheet_id}, gid={args.gid})…")
@@ -64,31 +69,46 @@ def main(argv: list[str] | None = None) -> None:
     total_lessons = sum(len(v) for v in schedule.values())
     print(f"   Found {len(schedule)} groups, {total_lessons} total lessons")
 
+    def save_ical_safe(title: str, lessons: list, output_path: pathlib.Path, include_type: bool = True):
+        if not lessons:
+            return
+        ical_bytes = generate_ical(title, lessons, semester_start_date, semester_end_date, include_type=include_type)
+        with open(output_path, "wb") as f:
+            f.write(ical_bytes)
+
+    def process_calendar_set(name: str, lessons: list, base_dir: pathlib.Path):
+        # 1. Unified
+        if args.split_types:
+            unified_dir = base_dir / "unified"
+            unified_dir.mkdir(exist_ok=True)
+            save_ical_safe(f"ITIS {name}", lessons, unified_dir / f"{name}.ics")
+            
+            # 2. Split
+            lectures = [l for l in lessons if l.type == "Лекц"]
+            practices = [l for l in lessons if l.type == "Прак"]
+            
+            if lectures:
+                lectures_dir = base_dir / "lectures"
+                lectures_dir.mkdir(exist_ok=True)
+                save_ical_safe("ITIS Лекции", lectures, lectures_dir / f"{name}.ics", include_type=False)
+            
+            if practices:
+                practices_dir = base_dir / "practices"
+                practices_dir.mkdir(exist_ok=True)
+                save_ical_safe("ITIS Практики", practices, practices_dir / f"{name}.ics", include_type=False)
+        else:
+            save_ical_safe(f"ITIS {name}", lessons, base_dir / f"{name}.ics")
+
     # 3. Generate group calendars
     output_dir = pathlib.Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    # Store generated group calendars mapping: group_name -> list[Lesson]
-    # We already have `schedule`.
-
     print("📅 Generating group calendars…")
-    semester_start = date.fromisoformat(args.semester_start)
-    semester_end = date.fromisoformat(args.semester_end)
-
     for group, lessons in schedule.items():
-        ical_bytes = generate_ical(group, lessons, semester_start, semester_end)
-        
-        output_path = output_dir / f"{group}.ics"
-        with open(output_path, "wb") as f:
-            f.write(ical_bytes)
-        print(f"   ✅ {output_path}  ({len(lessons) * 17} events approx)") # 17 weeks
+        process_calendar_set(group, lessons, output_dir)
+        print(f"   ✅ {group} processed")
 
-    # 4. Generate student calendars (if choices spreadsheet ID is provided or hardcoded)
-    # The user provided the ID in the prompt: 1bsaeOl8JQepHnEQggIo9fNzaCNyvFRtTlhqrYGP5YK4
-    # We should probably make this an argument, but for now we can hardcode it or add arg.
-    # Let's add arg support in a separate step or just hardcode for this task.
-    # User asked to "generate schedule for each one", implying we should just do it.
-    
+    # 4. Generate student calendars
     CHOICES_SHEET_ID = "1bsaeOl8JQepHnEQggIo9fNzaCNyvFRtTlhqrYGP5YK4"
     print(f"🔍 Fetching student choices from {CHOICES_SHEET_ID}…")
     try:
@@ -97,8 +117,6 @@ def main(argv: list[str] | None = None) -> None:
         choices = fetch_choices(CHOICES_SHEET_ID)
         print(f"   Found {len(choices)} student choices")
         
-        # Build a pool of ALL unique 3rd year electives to search against
-        # We only put marked "electives" in the pool to avoid accidental matches with mandatory classes
         elective_pool_all = []
 
         def is_elective_lesson(l):
@@ -113,7 +131,6 @@ def main(argv: list[str] | None = None) -> None:
                     if is_elective_lesson(l):
                         elective_pool_all.append(l)
         
-        # Deduplicate pool
         elective_pool = list(set(elective_pool_all))
         
         generated_students = 0
@@ -121,43 +138,32 @@ def main(argv: list[str] | None = None) -> None:
         students_dir.mkdir(exist_ok=True)
 
         for student in choices:
-            # 1. Base schedule from their group - separate mandatory from elective slots
             all_base = schedule.get(student.group, [])
             if not all_base:
-                print(f"   ⚠️  Group {student.group} not found for student {student.name}")
                 continue
             
-            # Filter out generic elective placeholders
             personal_lessons_set = set()
             for l in all_base:
                 if not is_elective_lesson(l):
                     personal_lessons_set.add(l)
             
-            # 2. Match their electives from the across-group pool
-            # Tech block
             found_tech = find_elective_match(student.tech_block, elective_pool)
             for m in found_tech:
                 personal_lessons_set.add(m)
             
-            # Sci block
             found_sci = find_elective_match(student.sci_block, elective_pool)
             for m in found_sci:
                 personal_lessons_set.add(m)
                 
-            # Convert back to list for iCal generator
             personal_lessons = list(personal_lessons_set)
             
-            # Generate
-            # Sanitize filename
             safe_name = "".join(c for c in student.name if c.isalnum() or c in (" ", "-", "_")).strip()
-            ical_bytes = generate_ical(f"Schedule for {student.name}", personal_lessons, semester_start, semester_end)
+            full_name = f"{student.group}_{safe_name}"
             
-            st_path = students_dir / f"{student.group}_{safe_name}.ics"
-            with open(st_path, "wb") as f:
-                f.write(ical_bytes)
+            process_calendar_set(full_name, personal_lessons, students_dir)
             generated_students += 1
             
-        print(f"   🎉 Generated {generated_students} student calendars in {students_dir}")
+        print(f"   🎉 Processed {generated_students} student calendars in {students_dir}")
 
     except Exception as e:
         print(f"   ❌ Failed to process student choices: {e}")

@@ -30,6 +30,7 @@ def generate_ical(
     lessons: list[Lesson],
     semester_start: date,
     semester_end: date,
+    include_type: bool = True,
 ) -> bytes:
     """Create an iCal calendar for one group.
 
@@ -40,6 +41,7 @@ def generate_ical(
         lessons: Parsed lesson list.
         semester_start: First day of the semester.
         semester_end: Last day of the semester.
+        include_type: Whether to prepend [Type] to the summary.
 
     Returns:
         Serialised iCal bytes (UTF-8).
@@ -47,7 +49,7 @@ def generate_ical(
     cal = Calendar()
     cal.add("prodid", "-//ITIS Schedule Generator//EN")
     cal.add("version", "2.0")
-    cal.add("x-wr-calname", f"ITIS {group_id}")
+    cal.add("x-wr-calname", group_id)
     cal.add("x-wr-timezone", "Europe/Moscow")
 
     for lesson in lessons:
@@ -89,7 +91,7 @@ def generate_ical(
         event.add("dtstart", dt_start)
         event.add("dtend", dt_end)
         summary = lesson.subject
-        if lesson.type:
+        if include_type and lesson.type:
             summary = f"[{lesson.type}] {summary}"
         
         event.add("summary", summary)
