@@ -106,14 +106,10 @@ def generate_ical(
         if desc_parts:
             event.add("description", "\n".join(desc_parts))
 
-        location_parts = []
-        if lesson.room:
-            location_parts.append(lesson.room)
         if lesson.link:
-            location_parts.append(lesson.link)
-        
-        if location_parts:
-            event.add("location", ", ".join(location_parts))
+            event.add("location", lesson.link)
+        elif lesson.room:
+            event.add("location", lesson.room)
 
         # Recur until semester end.
         rrule = {
