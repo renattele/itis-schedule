@@ -8,14 +8,26 @@ CLI application that fetches the [KFU ITIS schedule](https://docs.google.com/spr
 
 ```bash
 docker build -t itis-schedule .
-docker run --rm -v $(pwd)/calendars:/app/calendars itis-schedule
+docker run --rm \
+  -v $(pwd)/calendars:/app/calendars \
+  -v $(pwd)/overrides.json:/app/overrides.json \
+  itis-schedule \
+  --split-types \
+  --overrides /app/overrides.json
 ```
 
-### Run with Python
+### Overrides Format
 
-```bash
-pip install -r requirements.txt
-python -m src.main --output-dir ./calendars
+You can override event parameters using a JSON file where keys are regular expressions matching the subject name:
+
+```json
+{
+  "Технологии разработки ПО.*Kotlin.*": {
+    "subject": "KMP Development",
+    "link": "https://example.com/new-kotlin-link",
+    "notes": "Custom notes for this subject"
+  }
+}
 ```
 
 ## CLI Options
@@ -27,6 +39,7 @@ python -m src.main --output-dir ./calendars
 | `--output-dir` | `./calendars` | Output directory for `.ics` files |
 | `--semester-start` | `2026-02-09` | Semester start date (`YYYY-MM-DD`) |
 | `--semester-end` | `2026-06-06` | Semester end date (`YYYY-MM-DD`) |
+| `--overrides` | | Path to JSON file with event overrides (regex keys) |
 
 ## GitHub Actions
 
@@ -48,15 +61,29 @@ The included workflow (`.github/workflows/generate.yml`) runs **daily at 09:00 M
 │   ├── parser.py                    # Schedule CSV parser
 │   ├── generator.py                 # iCal file generator
 │   └── main.py                      # CLI entry point
-└── calendars/                       # Generated .ics files (gitignored locally)
+└── calendars/
+    ├── groups/
+    │   ├── unified/
+    │   ├── lectures/
+    │   └── practices/
+    └── students/
+        ├── unified/
+        ├── lectures/
+        └── practices/
 ```
 
 ## How to Subscribe
 
-After the workflow runs, each group's `.ics` file is available at:
+After the workflow runs, each group's unified `.ics` file is available at:
 
 ```
-https://raw.githubusercontent.com/<owner>/<repo>/main/calendars/<group>.ics
+https://raw.githubusercontent.com/<owner>/<repo>/calendars/calendars/groups/unified/<group>.ics
+```
+
+Student calendars are available at:
+
+```
+https://raw.githubusercontent.com/<owner>/<repo>/calendars/calendars/students/unified/<group>_<student>-student.ics
 ```
 
 You can add this URL as a calendar subscription in Google Calendar, Apple Calendar, or any iCal-compatible client.

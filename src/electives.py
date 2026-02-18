@@ -110,8 +110,9 @@ def find_elective_match(choice: str, available_lessons: List['Lesson']) -> List[
     matches = []
     
     for lesson in available_lessons:
-        # Check against lesson subject + instructor + notes
-        lesson_text = normalize_text(f"{lesson.subject} {lesson.instructor} {lesson.notes}")
+        # Match electives by subject + instructor only.
+        # Notes can contain the whole source cell with multiple elective options.
+        lesson_text = normalize_text(f"{lesson.subject} {lesson.instructor}")
         # Apply the same keyword extraction filter to the lesson text for consistency
         # This re-uses the extract_keywords logic (splitting + ignoring + min length)
         lesson_tokens = extract_keywords(lesson_text)
@@ -121,9 +122,9 @@ def find_elective_match(choice: str, available_lessons: List['Lesson']) -> List[
             matches.append(lesson)
             continue
             
-        # Keyword match
-        # We use set intersection for higher precision
-        if keywords.intersection(lesson_tokens):
+        # Keyword match: require stronger overlap to avoid false positives.
+        overlap = keywords.intersection(lesson_tokens)
+        if len(overlap) >= 2 or (len(overlap) == 1 and len(keywords) <= 1):
             matches.append(lesson)
     
     return matches

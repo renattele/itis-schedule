@@ -2,8 +2,8 @@ name: Generate Schedules
 
 on:
   schedule:
-    # Run daily at 06:00 UTC (09:00 Moscow time)
-    - cron: "0 6 * * *"
+    # Run every 5 hours
+    - cron: "0 */5 * * *"
   workflow_dispatch:
 
 permissions:
@@ -25,6 +25,7 @@ jobs:
 
       - name: Generate iCal files
         run: |
+          rm -rf calendars/*
           mkdir -p calendars
           docker run --rm -v ${{ github.workspace }}/calendars:/app/calendars itis-schedule --split-types
 

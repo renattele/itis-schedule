@@ -3,8 +3,10 @@
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import pathlib
+import re
 import sys
 from datetime import date, datetime
 
@@ -53,6 +55,11 @@ def main(argv: list[str] | None = None) -> None:
         action="store_true",
         help="Generate separate iCal files for lectures and practices.",
     )
+    parser.add_argument(
+        "--overrides",
+        type=pathlib.Path,
+        help="Path to JSON file with event overrides (keys are regexes for subject name).",
+    )
     args = parser.parse_args(argv)
 
     semester_start_date = date.fromisoformat(args.semester_start)
@@ -66,6 +73,14 @@ def main(argv: list[str] | None = None) -> None:
     # 2. Parse
     print("🔍 Parsing schedule…")
     schedule = parse_schedule(xlsx_bytes)
+    schedule_without_overrides = {gid: list(lessons) for gid, lessons in schedule.items()}
+    
+    # 3. Apply overrides
+    if args.overrides:
+        print(f"🛠️ Applying overrides from {args.overrides}…")
+        overrides = load_overrides(args.overrides)
+        apply_overrides(schedule, overrides)
+
     total_lessons = sum(len(v) for v in schedule.values())
     print(f"   Found {len(schedule)} groups, {total_lessons} total lessons")
 
@@ -77,36 +92,42 @@ def main(argv: list[str] | None = None) -> None:
             f.write(ical_bytes)
 
     def process_calendar_set(name: str, lessons: list, base_dir: pathlib.Path):
-        # 1. Unified
+        unified_dir = base_dir / "unified"
+        unified_dir.mkdir(parents=True, exist_ok=True)
+        save_ical_safe(f"ITIS {name}", lessons, unified_dir / f"{name}.ics")
+
+        lectures_dir = base_dir / "lectures"
+        practices_dir = base_dir / "practices"
+        lectures_dir.mkdir(parents=True, exist_ok=True)
+        practices_dir.mkdir(parents=True, exist_ok=True)
+
         if args.split_types:
-            unified_dir = base_dir / "unified"
-            unified_dir.mkdir(exist_ok=True)
-            save_ical_safe(f"ITIS {name}", lessons, unified_dir / f"{name}.ics")
-            
-            # 2. Split
             lectures = [l for l in lessons if l.type == "Лекц"]
             practices = [l for l in lessons if l.type == "Прак"]
-            
+
             if lectures:
-                lectures_dir = base_dir / "lectures"
-                lectures_dir.mkdir(exist_ok=True)
                 save_ical_safe("ITIS Лекции", lectures, lectures_dir / f"{name}.ics", include_type=False)
-            
+
             if practices:
-                practices_dir = base_dir / "practices"
-                practices_dir.mkdir(exist_ok=True)
                 save_ical_safe("ITIS Практики", practices, practices_dir / f"{name}.ics", include_type=False)
-        else:
-            save_ical_safe(f"ITIS {name}", lessons, base_dir / f"{name}.ics")
 
     # 3. Generate group calendars
     output_dir = pathlib.Path(args.output_dir)
-    output_dir.mkdir(parents=True, exist_ok=True)
+    groups_dir = output_dir / "groups"
+    students_root_dir = output_dir / "students"
+    groups_dir.mkdir(parents=True, exist_ok=True)
+    students_root_dir.mkdir(parents=True, exist_ok=True)
     
     print("📅 Generating group calendars…")
     for group, lessons in schedule.items():
-        process_calendar_set(group, lessons, output_dir)
+        process_calendar_set(group, lessons, groups_dir)
         print(f"   ✅ {group} processed")
+
+    groups_without_overrides_dir = groups_dir / "without_overrides"
+    print("📅 Generating group calendars (without overrides)…")
+    for group, lessons in schedule_without_overrides.items():
+        process_calendar_set(group, lessons, groups_without_overrides_dir)
+        print(f"   ✅ {group} processed (without overrides)")
 
     # 4. Generate student calendars
     CHOICES_SHEET_ID = "1bsaeOl8JQepHnEQggIo9fNzaCNyvFRtTlhqrYGP5YK4"
@@ -117,56 +138,106 @@ def main(argv: list[str] | None = None) -> None:
         choices = fetch_choices(CHOICES_SHEET_ID)
         print(f"   Found {len(choices)} student choices")
         
-        elective_pool_all = []
-
         def is_elective_lesson(l):
             subj = l.subject.lower()
             instr = l.instructor.lower()
             notes = l.notes.lower()
-            return "по выбору" in subj or "по выбору" in instr or "по выбору" in notes or "практика лаборато" in subj
+            return (
+                "по выбору" in subj
+                or "по выбору" in instr
+                or "по выбору" in notes
+                or "практика лаборато" in subj
+                or "практика лаборато" in instr
+                or "практика лаборато" in notes
+            )
 
-        for gid, lessons in schedule.items():
-            if gid.startswith("11-3"):
-                for l in lessons:
-                    if is_elective_lesson(l):
-                        elective_pool_all.append(l)
-        
-        elective_pool = list(set(elective_pool_all))
-        
-        generated_students = 0
-        students_dir = output_dir / "students"
-        students_dir.mkdir(exist_ok=True)
+        def generate_student_calendars(schedule_source: dict, out_dir: pathlib.Path) -> int:
+            elective_pool_all = []
+            for gid, lessons in schedule_source.items():
+                if gid.startswith("11-3"):
+                    for l in lessons:
+                        if is_elective_lesson(l):
+                            elective_pool_all.append(l)
 
-        for student in choices:
-            all_base = schedule.get(student.group, [])
-            if not all_base:
-                continue
-            
-            personal_lessons_set = set()
-            for l in all_base:
-                if not is_elective_lesson(l):
-                    personal_lessons_set.add(l)
-            
-            found_tech = find_elective_match(student.tech_block, elective_pool)
-            for m in found_tech:
-                personal_lessons_set.add(m)
-            
-            found_sci = find_elective_match(student.sci_block, elective_pool)
-            for m in found_sci:
-                personal_lessons_set.add(m)
-                
-            personal_lessons = list(personal_lessons_set)
-            
-            safe_name = "".join(c for c in student.name if c.isalnum() or c in (" ", "-", "_")).strip()
-            full_name = f"{student.group}_{safe_name}"
-            
-            process_calendar_set(full_name, personal_lessons, students_dir)
-            generated_students += 1
-            
+            elective_pool = list(set(elective_pool_all))
+
+            generated_students = 0
+            out_dir.mkdir(parents=True, exist_ok=True)
+            for student in choices:
+                all_base = schedule_source.get(student.group, [])
+                if not all_base:
+                    continue
+
+                personal_lessons_set = set()
+                for l in all_base:
+                    if not is_elective_lesson(l):
+                        personal_lessons_set.add(l)
+
+                found_tech = find_elective_match(student.tech_block, elective_pool)
+                for m in found_tech:
+                    personal_lessons_set.add(m)
+
+                found_sci = find_elective_match(student.sci_block, elective_pool)
+                for m in found_sci:
+                    personal_lessons_set.add(m)
+
+                personal_lessons = list(personal_lessons_set)
+
+                safe_name = "".join(c for c in student.name if c.isalnum() or c in (" ", "-", "_")).strip()
+                full_name = f"{student.group}_{safe_name}-student"
+                process_calendar_set(full_name, personal_lessons, out_dir)
+                generated_students += 1
+
+            return generated_students
+
+        students_dir = students_root_dir
+        generated_students = generate_student_calendars(schedule, students_dir)
         print(f"   🎉 Processed {generated_students} student calendars in {students_dir}")
+
+        students_without_overrides_dir = students_root_dir / "without_overrides"
+        generated_students_wo = generate_student_calendars(schedule_without_overrides, students_without_overrides_dir)
+        print(f"   🎉 Processed {generated_students_wo} student calendars in {students_without_overrides_dir}")
 
     except Exception as e:
         print(f"   ❌ Failed to process student choices: {e}")
+
+
+def load_overrides(path: pathlib.Path) -> dict:
+    """Load overrides from a JSON file."""
+    if not path.exists():
+        print(f"   ⚠️ Overrides file not found: {path}")
+        return {}
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def apply_overrides(schedule: dict, overrides: dict) -> None:
+    """Apply regex-based overrides to parsed lessons."""
+    # Compile regexes once
+    compiled_overrides = []
+    for pattern, values in overrides.items():
+        try:
+            compiled_overrides.append((re.compile(pattern, re.IGNORECASE), values))
+        except re.error as e:
+            print(f"   ⚠️ Invalid regex pattern '{pattern}': {e}")
+
+    from dataclasses import replace
+
+    for gid, group_lessons in schedule.items():
+        new_lessons = []
+        for lesson in group_lessons:
+            matched = False
+            haystack = f"{lesson.subject} {lesson.instructor} {lesson.notes}"
+            for pattern, values in compiled_overrides:
+                if pattern.search(haystack):
+                    # Apply overrides
+                    new_lesson = replace(lesson, **values)
+                    new_lessons.append(new_lesson)
+                    matched = True
+                    break
+            if not matched:
+                new_lessons.append(lesson)
+        schedule[gid] = new_lessons
 
 
 if __name__ == "__main__":

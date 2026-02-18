@@ -89,6 +89,8 @@ def _parse_cell_text(raw: str) -> list[tuple[str, str, str, str]]:
     # If the cell has commas or looks like a list, try splitting
     # for now, let's try to parse the block as one lesson first, 
     # but improve the extraction logic.
+    if len(lines) == 1:
+        return _split_single_line_lesson(lines[0])
     
     return [_parse_lesson_block(lines)]
 
@@ -337,8 +339,10 @@ def parse_schedule(xlsx_bytes: bytes) -> dict[str, list[Lesson]]:
                 if not subject:
                     continue
 
-                lesson_type = _detect_lesson_type(subject, instructor, notes, is_shared)
-                weeks = _detect_lesson_weeks(subject, instructor, notes)
+                # Keep notes exactly as in the source calendar cell.
+                raw_notes = cell_val
+                lesson_type = _detect_lesson_type(subject, instructor, raw_notes, is_shared)
+                weeks = _detect_lesson_weeks(subject, instructor, raw_notes)
 
                 schedule[gid].append(
                     Lesson(
@@ -348,7 +352,7 @@ def parse_schedule(xlsx_bytes: bytes) -> dict[str, list[Lesson]]:
                         subject=subject,
                         instructor=instructor,
                         room=room,
-                        notes=notes,
+                        notes=raw_notes,
                         link=cell_link,
                         type=lesson_type,
                         weeks=weeks,

@@ -96,12 +96,12 @@ def generate_ical(
         
         event.add("summary", summary)
 
-        # Build description from instructor + notes.
+        # Prefer notes as-is from the source calendar.
         desc_parts: list[str] = []
-        if lesson.instructor:
-            desc_parts.append(f"Преподаватель: {lesson.instructor}")
         if lesson.notes:
             desc_parts.append(lesson.notes)
+        elif lesson.instructor:
+            desc_parts.append(f"Преподаватель: {lesson.instructor}")
         if lesson.link:
             event.add("url", lesson.link)
 
