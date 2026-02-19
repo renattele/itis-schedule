@@ -184,7 +184,7 @@ def main(argv: list[str] | None = None) -> None:
                 personal_lessons = list(personal_lessons_set)
 
                 safe_name = "".join(c for c in student.name if c.isalnum() or c in (" ", "-", "_")).strip()
-                full_name = f"{student.group}_{safe_name}-student"
+                full_name = f"{student.group}_{safe_name}"
                 process_calendar_set(full_name, personal_lessons, out_dir)
                 generated_students += 1
 
