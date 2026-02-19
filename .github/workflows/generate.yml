@@ -27,7 +27,16 @@ jobs:
         run: |
           rm -rf calendars/*
           mkdir -p calendars
-          docker run --rm -v ${{ github.workspace }}/calendars:/app/calendars itis-schedule --split-types
+          docker run --rm \
+            -v ${{ github.workspace }}/calendars:/app/calendars \
+            -v ${{ github.workspace }}/overrides.json:/app/overrides.json \
+            itis-schedule \
+            --split-types \
+            --overrides /app/overrides.json
+
+      - name: Set commit timestamp
+        id: commit_ts
+        run: echo "value=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_OUTPUT"
 
       - name: Deploy calendars
         uses: peaceiris/actions-gh-pages@v4
@@ -36,4 +45,4 @@ jobs:
           publish_dir: ./calendars
           publish_branch: calendars
           force_orphan: true
-          commit_message: "📅 Update schedule calendars [$(date -u +%Y-%m-%dT%H:%M:%SZ)]"
+          commit_message: "📅 Update schedule calendars [${{ steps.commit_ts.outputs.value }}]"
