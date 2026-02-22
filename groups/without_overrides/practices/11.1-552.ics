@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Основы машинного обучения
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:0381e83c0a658fef2b139b953c214dedc4dae5f9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы машинного обучения Агафон
+ ов А.А. в 1405
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Средства и инструменты программной 
+ инженерии
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:9076f38801f617cc84f7160f064b615760afac47@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Средства и инструменты программн
+ ой инженерии Тощев А.С. по н.н. лекц. по ч.н
+ . прак. в 1405
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Правовые аспекты использования сис
+ тем искусственного интеллекта   практик
+ а по ч.н.
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:e69d927f4a74738e5e03b1df4562be48be358985@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Правовые аспекты использования с
+ истем искусственного интеллекта   практ
+ ика по ч.н. Камалетдинова А.В. в ауд.1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Командный проект по искусственному 
+ интеллекту
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:9b9c4ed522748a25db21ea477b37c247588e96ad@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Командный проект по искусственно
+ му интеллекту Курносов О.В. в ауд.1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Профессиональный иностранный язык (
+ английский) ауд. 1301
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:755f52b37dc8739929096c516ae6b055472a83d5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) ауд. 1301\, Воронина Д.И. (веби
+ нары)
+LOCATION:https://telemost.yandex.ru/j/51121620730386
+URL:https://telemost.yandex.ru/j/51121620730386
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Профессиональный иностранный язык (
+ английский) ауд. 1301
+DTSTART;TZID=Europe/Moscow:20260211T191000
+DTEND;TZID=Europe/Moscow:20260211T204000
+UID:abdbab075ad91f8c74f7e7798b5d23ac86b0654d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) ауд. 1301\, Воронина Д.И. (веби
+ нары)
+LOCATION:https://kpfu.mts-link.ru/j/82016803/846857397
+URL:https://kpfu.mts-link.ru/j/82016803/846857397
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Методология научных исследований
+DTSTART;TZID=Europe/Moscow:20260213T173000
+DTEND;TZID=Europe/Moscow:20260213T190000
+UID:a6a9ca76eabdc106e780cfc5bdbcbacf6c55e42d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Методология научных исследований
+  Тощев А.С. в ауд.1304 ( по неч. нед. лекц. \,по 
+ чет.нед. практ.)
+LOCATION:1304
+END:VEVENT
+END:VCALENDAR

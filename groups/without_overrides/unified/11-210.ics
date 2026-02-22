@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS 11-210
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Практикум по исследовательск
+ ой деятельности
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:fc0f174d3981494a31fc45199b96bf559046652c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Практикум по исследовательской д
+ еятельности\,\nКостюк Д.И.\n(вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/6472408672
+URL:https://telemost.360.yandex.ru/j/6472408672
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Практикум по исследовательск
+ ой деятельности
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:6575ebefa1f2d42741e78b1fd15b9d70919b2f11@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Практикум по исследовательской д
+ еятельности\,\nКостюк Д.И.\n(вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/6472408672
+URL:https://telemost.360.yandex.ru/j/6472408672
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Методологии разработки
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:51b01fe3b5253e9bcb216bdff7d67aff44a72bd7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Методологии разработки\,\nАхметзя
+ нов А.А.\n(вебинары)
+LOCATION:https://telemost.yandex.ru/j/70919436304560
+URL:https://telemost.yandex.ru/j/70919436304560
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Методологии разработки
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:76af40dfd9b6e8c240a5187e0be73fc37c6b1a85@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Методологии разработки\,\nАхметзя
+ нов А.А.\n(вебинары)
+LOCATION:https://telemost.yandex.ru/j/70919436304560
+URL:https://telemost.yandex.ru/j/70919436304560
+END:VEVENT
+END:VCALENDAR

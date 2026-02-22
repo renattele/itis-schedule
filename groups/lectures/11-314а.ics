@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Управление проектами
+DTSTART;TZID=Europe/Moscow:20260211T191000
+DTEND;TZID=Europe/Moscow:20260211T204000
+UID:f84bdf4118e058a57845d1cbd80ac093a207d6d8@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Управление проектами\nпрак.четн.н
+ ед\, лек.нечетн.нед. \nШубин А.В.\n 1508\n(вебин
+ ары)
+LOCATION:https://telemost.360.yandex.ru/j/8495132034
+URL:https://telemost.360.yandex.ru/j/8495132034
+END:VEVENT
+END:VCALENDAR

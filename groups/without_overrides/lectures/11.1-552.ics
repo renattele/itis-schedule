@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Правовые аспекты использования сис
+ тем искусственного интеллекта  лекция п
+ о ч.н.
+DTSTART;TZID=Europe/Moscow:20260210T155000
+DTEND;TZID=Europe/Moscow:20260210T172000
+UID:e3786bc66c8e0dbcceeb7dadab5fa3f75246a09d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Правовые аспекты использования с
+ истем искусственного интеллекта  лекция
+  по ч.н.Хасанов Р.А.\,  в ауд.1301
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Средства и инструменты  Data-аналитик
+ и
+DTSTART;TZID=Europe/Moscow:20260214T121000
+DTEND;TZID=Europe/Moscow:20260214T134000
+UID:54a083b1ea445485d9bda1c5e8140ad8d7194bd2@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Средства и инструменты  Data-аналит
+ ики Ханнанова Д.М. лекция 9 нед.: 1\,2\,3 \,7.8.9.1
+ 3.14.15\;  практика: 4.5.6.10.11.12 16.17.18 нед. в ауд.130
+ 1
+LOCATION:1301
+END:VEVENT
+END:VCALENDAR

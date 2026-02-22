@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Гуманитарные дисциплины
+DTSTART;TZID=Europe/Moscow:20260217T173000
+DTEND;TZID=Europe/Moscow:20260217T190000
+UID:ec0ef02b2fe4ba81bc9a017d2b7908dba77e81d4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Правовые аспекты облачных технол
+ огий\,сервисов и платформ Никитин Д.В. в а
+ уд.в 1508 ( лекц. по н.нед\,практ по чет.нед.)
+LOCATION:1508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Облачные технологии
+DTSTART;TZID=Europe/Moscow:20260211T155000
+DTEND;TZID=Europe/Moscow:20260211T172000
+UID:1f5d086e4ebd63565ddf16b8807a47907072ebf6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Разработка облачных платформ-при
+ нципы\, архитектура\,инструменты. Валиул
+ лин Р.М.в ауд. 1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Облачные технологии
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:7ab447e9cdb85f5cd33073748da88a1ad96beb0d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Практикум по облачным технология
+ м Валиуллин Р.М.в 1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы методологии Devops
+DTSTART;TZID=Europe/Moscow:20260211T191000
+DTEND;TZID=Europe/Moscow:20260211T204000
+UID:882425775d05e7fc0084e123879557f5e0570453@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы методологии Devops Буравцов Е
+ .В .в ауд. в 1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Средства и инструменты программной 
+ инженерии
+DTSTART;TZID=Europe/Moscow:20260212T191000
+DTEND;TZID=Europe/Moscow:20260212T204000
+UID:bc7f762e1500fd69279e016c265a24b670f5ba04@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Средства и инструменты программн
+ ой инженерии Архипов К. по неч. нед. практ
+ ика в ауд.1310-1311 (по чет.нед. практика веби
+ нары)
+LOCATION:https://my.mts-link.ru/j/MTC/11486153180
+URL:https://my.mts-link.ru/j/MTC/11486153180
+END:VEVENT
+END:VCALENDAR

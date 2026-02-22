@@ -1,0 +1,244 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS 11-522
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Лекц] Элективные курсы по физическо
+ й культуре и спорту   (10:00-11:30)
+DTSTART;TZID=Europe/Moscow:20260209T101000
+DTEND;TZID=Europe/Moscow:20260209T114000
+UID:6fe2a9daedd8fe549e4bec721ddf489356aefc29@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту   (10:00-11:30)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Линейная алгебра для IT
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:f6cc4836e067dddf0a42b2478e3313871b1165a3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Линейная алгебра для IT\,\nЛавренть
+ ева Е.Е. (вебинары) \n(ЦОР)
+LOCATION:https://my.mts-link.ru/j/82040081/10375334633
+URL:https://my.mts-link.ru/j/82040081/10375334633
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260209T155000
+DTEND;TZID=Europe/Moscow:20260209T172000
+UID:9cd93d36b5e13180bad5f9684f18704135ead420@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nШарифуллина Э.
+ А. (группа А) (вебинары)\nВоронин К.В.(групп
+ а В) (вебинары)\n(ЦОР)
+LOCATION:https://my.mts-link.ru/j/87728589/1440005848
+URL:https://my.mts-link.ru/j/87728589/1440005848
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:242e8077b29ff10b511f9831acdcb232fdc68731@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nШарифуллина Э.
+ А. (группа А) (вебинары)\nВоронин К.В.(групп
+ а В) (вебинары)\n(ЦОР)
+LOCATION:https://my.mts-link.ru/j/87728589/1440005848
+URL:https://my.mts-link.ru/j/87728589/1440005848
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Проектный практикум
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:f44d3b46f4e0aadcee308afdb308c9486b1b7184@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Проектный практикум\,\nВалишин И.А.
+  (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/user/index.php?id=6074
+URL:https://edu.kpfu.ru/user/index.php?id=6074
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Русский язык и культура речи\, 
+ Галиулина И.Р.
+DTSTART;TZID=Europe/Moscow:20260210T121000
+DTEND;TZID=Europe/Moscow:20260210T134000
+UID:c05e54d68d83f83bc7a99199de1b15e3d7c193a2@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Русский язык и культура речи\, Гал
+ иулина И.Р.\n(вебинары)\n(1-12 нед.)
+LOCATION:https://telemost.360.yandex.ru/j/1654264699
+URL:https://telemost.360.yandex.ru/j/1654264699
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Философия
+DTSTART;TZID=Europe/Moscow:20260210T135000
+DTEND;TZID=Europe/Moscow:20260210T152000
+UID:c94b8d3283f593f349cf7584b8ae8525c7fbc4db@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Философия\,\nКотляр П.С.\n(1-9 нед.)\n(в
+ ебинары)
+LOCATION:https://telemost.360.yandex.ru/j/7765938084
+URL:https://telemost.360.yandex.ru/j/7765938084
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Алгоритмы и структуры данных 
+ в программировании
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:6c77c0c83e43a445b961ff74c0894b68c2ab3e71@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных в пр
+ ограммировании\,\nЕникеев К.Ш.\n(вебинары)
+LOCATION:https://my.mts-link.ru/j/103963005/1658403080
+URL:https://my.mts-link.ru/j/103963005/1658403080
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Линейная алгебра для IT
+DTSTART;TZID=Europe/Moscow:20260211T101000
+DTEND;TZID=Europe/Moscow:20260211T114000
+UID:d5d897e8b64b4378a52698ec09966ba5833f7ab6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Линейная алгебра для IT\,\nЛавренть
+ ева Е.Е.\nпракт.\n 1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] История России
+DTSTART;TZID=Europe/Moscow:20260211T121000
+DTEND;TZID=Europe/Moscow:20260211T134000
+UID:13eed7710fe8a469bc8b2c07e426b130e3f5c603@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:История России\,\nБайамонте А.И.\nау
+ д. 1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] История России
+DTSTART;TZID=Europe/Moscow:20260211T135000
+DTEND;TZID=Europe/Moscow:20260211T152000
+UID:9da6f6a795098ea650a2f87ad865862b945cc502@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:История России\,\nГрафова Д.Ф.\n (1-12 
+ нед.) \n 1309
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Элективные курсы по физическо
+ й культуре и спорту   (10:00-11:30)
+DTSTART;TZID=Europe/Moscow:20260212T101000
+DTEND;TZID=Europe/Moscow:20260212T114000
+UID:f9355679e7d80aa83ea42886b582eb7f8b414820@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту   (10:00-11:30)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:435338b9f40f1f297cfbb589602e4b513a1b5cb4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nШарифуллина Э.
+ А. (группа А) (вебинары)\nВоронин К.В.(групп
+ а В) (вебинары)\n(ЦОР)
+LOCATION:https://my.mts-link.ru/j/87728589/1440005848
+URL:https://my.mts-link.ru/j/87728589/1440005848
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Русский язык и культура речи
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:e1c4978ad4fb92e8dcc9c4e6a4cc81b4c9be174b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Русский язык и культура речи\,\nГал
+ иулина И.Р. \n(6 нед.)      \n(ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/view.php?id=5262
+URL:https://edu.kpfu.ru/course/view.php?id=5262
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Проектный практикум
+DTSTART;TZID=Europe/Moscow:20260213T083000
+DTEND;TZID=Europe/Moscow:20260213T100000
+UID:3d4cb25cc059bb99b5a12fc0eb9a93a1e9d60241@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Проектный практикум\,\nЛукьяничев
+ а Е.О. (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/user/index.php?id=6074
+URL:https://edu.kpfu.ru/user/index.php?id=6074
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Компьютерная математика
+DTSTART;TZID=Europe/Moscow:20260213T101000
+DTEND;TZID=Europe/Moscow:20260213T114000
+UID:4a1bf7000ffc0c711df0214025139e02cb71f6c1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Компьютерная математика\,\nГераси
+ мов О.В. (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/view.php?id=6737
+URL:https://edu.kpfu.ru/course/view.php?id=6737
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Философия
+DTSTART;TZID=Europe/Moscow:20260213T121000
+DTEND;TZID=Europe/Moscow:20260213T134000
+UID:aae75302030df70dbb1550ea9897d79a43854cbe@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Философия\,\nФедотов Д.Л.\n(вебинары
+ )\n1-9 нед.
+LOCATION:https://telemost.360.yandex.ru/j/5785776948
+URL:https://telemost.360.yandex.ru/j/5785776948
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Компьютерная математика\, пра
+ кт.
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:9df0f868eda29087cf6d52f4235f73752907c50e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Компьютерная математика\, практ.\n
+ Харин Н.В.\n (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/view.php?id=6737
+URL:https://edu.kpfu.ru/course/view.php?id=6737
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Алгоритмы и структуры данных 
+ в программировании
+DTSTART;TZID=Europe/Moscow:20260213T155000
+DTEND;TZID=Europe/Moscow:20260213T172000
+UID:87d6918778ea7fb061c84ad519183ef359a2735a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных в пр
+ ограммировании\,\nЕникеева А.И.\n(вебинары
+ )
+LOCATION:https://telemost.yandex.ru/j/27729488545338
+URL:https://telemost.yandex.ru/j/27729488545338
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Алгоритмы и структуры данных 
+ в программировании
+DTSTART;TZID=Europe/Moscow:20260214T101000
+DTEND;TZID=Europe/Moscow:20260214T114000
+UID:2ef2e0f24109bfbfe75e60a2a184940584261161@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных в пр
+ ограммировании\,\nЕникеева А.И.\n(вебинары
+ )
+LOCATION:https://telemost.yandex.ru/j/27729488545338
+URL:https://telemost.yandex.ru/j/27729488545338
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Алгоритмы и структуры данных 
+ в программировании
+DTSTART;TZID=Europe/Moscow:20260214T121000
+DTEND;TZID=Europe/Moscow:20260214T134000
+UID:41143440e4fd7b2ffb5c2927278bfa01469ecb13@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных в пр
+ ограммировании\,\nЕникеева А.И.\n(вебинары
+ )
+LOCATION:https://telemost.yandex.ru/j/27729488545338
+URL:https://telemost.yandex.ru/j/27729488545338
+END:VEVENT
+END:VCALENDAR

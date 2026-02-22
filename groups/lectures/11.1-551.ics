@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Средства и инструменты  Data-аналитик
+ и Ханнанова Д.М. лекция 9 нед.: 1\,2\,3 \,7.8.9.13.14
+ .15\;  практика: 4.5.6.10.11.12 16.17.18 нед.
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:49d1252e29d16f7063e4393c5b4b3d3dbe4d0f84@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Средства и инструменты  Data-аналит
+ ики Ханнанова Д.М. лекция 9 нед.: 1\,2\,3 \,7.8.9.1
+ 3.14.15\;  практика: 4.5.6.10.11.12 16.17.18 нед. \n(вебин
+ ары)
+LOCATION:https://telemost.yandex.ru/j/82976309174028
+URL:https://telemost.yandex.ru/j/82976309174028
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,145 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Элективные курсы по физической куль
+ туре и спорту
+DTSTART;TZID=Europe/Moscow:20260209T121000
+DTEND;TZID=Europe/Moscow:20260209T134000
+UID:01381a086f37ee9fa943a626f51c867f69885e49@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту\, \n12:00-13:30\n(ЦОР)
+LOCATION:https://edu.kpfu.ru/course/view.php?id=5573
+URL:https://edu.kpfu.ru/course/view.php?id=5573
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:5246a07e23138681954cef4f4faddd763a8afba1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\, \nАлеева Г.Х.\n(гр
+ уппа А) (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/edit.php?id=6106
+URL:https://edu.kpfu.ru/course/edit.php?id=6106
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260209T155000
+DTEND;TZID=Europe/Moscow:20260209T172000
+UID:c8b4e3ace4904ac12ea44c24c38853a18b1d78bc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\n Алеева Г.Х.\n(гр
+ уппа В) (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/edit.php?id=6106
+URL:https://edu.kpfu.ru/course/edit.php?id=6106
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260210T121000
+DTEND;TZID=Europe/Moscow:20260210T134000
+UID:441cbe040cbec1752bb4b59dbda893a686805c7f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nАлеева Г.Х.\n(гр
+ уппа А) (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/edit.php?id=6106
+URL:https://edu.kpfu.ru/course/edit.php?id=6106
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260210T135000
+DTEND;TZID=Europe/Moscow:20260210T152000
+UID:367070c65ef56f1c77af1ea227d39860e762c688@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nАлеева Г.Х.\n(гр
+ уппа В) (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/edit.php?id=6106
+URL:https://edu.kpfu.ru/course/edit.php?id=6106
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы финансовой грамотности
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:b241dd6039ce0a5dac1d7c3dd0cbd918224cfee1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы финансовой грамотности\,\nН
+ иконова Т.В.\n(1-9 нед.)\n(вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/8388969407
+URL:https://telemost.360.yandex.ru/j/8388969407
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260211T135000
+DTEND;TZID=Europe/Moscow:20260211T152000
+UID:e00e8b174921c26ae2cb6345f9be167e06414f35@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nАлеева Г.Х.\n(гр
+ уппа А) (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/edit.php?id=6106
+URL:https://edu.kpfu.ru/course/edit.php?id=6106
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260211T155000
+DTEND;TZID=Europe/Moscow:20260211T172000
+UID:75a967fafdb42165e83a782a40d1ad7a5a9b905a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nАлеева Г.Х.\n(гр
+ уппа В) (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/edit.php?id=6106
+URL:https://edu.kpfu.ru/course/edit.php?id=6106
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы разработки информационных с
+ истем
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:8698d92dfad0c330f974e5087764764b501d1b14@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы разработки информационных
+  систем\,\nЛеухин А.Д.\n(вебинары)
+LOCATION:https://kpfu.mts-link.ru/j/82067161/11479795244
+URL:https://kpfu.mts-link.ru/j/82067161/11479795244
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Элективные курсы по физической куль
+ туре и спорту\, 12:00-13:30 (ЦОР)
+DTSTART;TZID=Europe/Moscow:20260212T121000
+DTEND;TZID=Europe/Moscow:20260212T134000
+UID:b3214629fe0eedb0f2865b14518ddae32d03cb2e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту\, 12:00-13:30 (ЦОР)
+LOCATION:https://edu.kpfu.ru/course/view.php?id=5573
+URL:https://edu.kpfu.ru/course/view.php?id=5573
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Инновационная экономика и технолог
+ ическое предпринимательство
+DTSTART;TZID=Europe/Moscow:20260212T135000
+DTEND;TZID=Europe/Moscow:20260212T152000
+UID:ead04cff4220ec189d82d92d5641c26319d5bfba@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Инновационная экономика и технол
+ огическое предпринимательство\,\nГурьян
+ ова Е.О.(1-9нед.) лек. \n(вебинары)
+LOCATION:https://my.mts-link.ru/j/60026685/10372441870
+URL:https://my.mts-link.ru/j/60026685/10372441870
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория вероятностей и математическ
+ ая статистика
+DTSTART;TZID=Europe/Moscow:20260213T121000
+DTEND;TZID=Europe/Moscow:20260213T134000
+UID:84072593e4a32e94839933b6e658b7da8b9e565a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Теория вероятностей и математиче
+ ская статистика\,\nМухамеджанова С.А. \n(ве
+ бинары)
+LOCATION:https://telemost.360.yandex.ru/j/4913769558
+URL:https://telemost.360.yandex.ru/j/4913769558
+END:VEVENT
+END:VCALENDAR

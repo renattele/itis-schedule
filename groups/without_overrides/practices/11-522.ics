@@ -1,0 +1,121 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Проектный практикум
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:15abf591a7616eba6845377b89308889df5da174@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Проектный практикум\,\nВалишин И.А.
+  (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/user/index.php?id=6074
+URL:https://edu.kpfu.ru/user/index.php?id=6074
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Русский язык и культура речи\, Галиу
+ лина И.Р.
+DTSTART;TZID=Europe/Moscow:20260210T121000
+DTEND;TZID=Europe/Moscow:20260210T134000
+UID:db3635abccba6a2a05620232a47b91b51303aba4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Русский язык и культура речи\, Гал
+ иулина И.Р.\n(вебинары)\n(1-12 нед.)
+LOCATION:https://telemost.360.yandex.ru/j/1654264699
+URL:https://telemost.360.yandex.ru/j/1654264699
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Линейная алгебра для IT
+DTSTART;TZID=Europe/Moscow:20260211T101000
+DTEND;TZID=Europe/Moscow:20260211T114000
+UID:57111ee8af03fff5ce45c75acadc287b26f975d6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Линейная алгебра для IT\,\nЛавренть
+ ева Е.Е.\nпракт.\n 1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:История России
+DTSTART;TZID=Europe/Moscow:20260211T135000
+DTEND;TZID=Europe/Moscow:20260211T152000
+UID:a7aa73a638bd7a34a99c497fb340e20a22820ad6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:История России\,\nГрафова Д.Ф.\n (1-12 
+ нед.) \n 1309
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Проектный практикум
+DTSTART;TZID=Europe/Moscow:20260213T083000
+DTEND;TZID=Europe/Moscow:20260213T100000
+UID:d326a1137b6cbb964f68ba007685bd382348e819@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Проектный практикум\,\nЛукьяничев
+ а Е.О. (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/user/index.php?id=6074
+URL:https://edu.kpfu.ru/user/index.php?id=6074
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Философия
+DTSTART;TZID=Europe/Moscow:20260213T121000
+DTEND;TZID=Europe/Moscow:20260213T134000
+UID:33fef21f4f300a5c2de8e0b5ba01f27be10ee11e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Философия\,\nФедотов Д.Л.\n(вебинары
+ )\n1-9 нед.
+LOCATION:https://telemost.360.yandex.ru/j/5785776948
+URL:https://telemost.360.yandex.ru/j/5785776948
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Компьютерная математика\, практ.
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:2eeaab1e234f49674b1b78788eef033760099f49@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Компьютерная математика\, практ.\n
+ Харин Н.В.\n (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/view.php?id=6737
+URL:https://edu.kpfu.ru/course/view.php?id=6737
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгоритмы и структуры данных в прог
+ раммировании
+DTSTART;TZID=Europe/Moscow:20260213T155000
+DTEND;TZID=Europe/Moscow:20260213T172000
+UID:6836d69af952000631933d8b6aded3947fb99c98@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных в пр
+ ограммировании\,\nЕникеева А.И.\n(вебинары
+ )
+LOCATION:https://telemost.yandex.ru/j/27729488545338
+URL:https://telemost.yandex.ru/j/27729488545338
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгоритмы и структуры данных в прог
+ раммировании
+DTSTART;TZID=Europe/Moscow:20260214T101000
+DTEND;TZID=Europe/Moscow:20260214T114000
+UID:ff9e5335a27538e53564afbbedeb26791ca4b97f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных в пр
+ ограммировании\,\nЕникеева А.И.\n(вебинары
+ )
+LOCATION:https://telemost.yandex.ru/j/27729488545338
+URL:https://telemost.yandex.ru/j/27729488545338
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгоритмы и структуры данных в прог
+ раммировании
+DTSTART;TZID=Europe/Moscow:20260214T121000
+DTEND;TZID=Europe/Moscow:20260214T134000
+UID:5b192bd2b4f79bc8e00b1c0a2baad93b1b43da20@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных в пр
+ ограммировании\,\nЕникеева А.И.\n(вебинары
+ )
+LOCATION:https://telemost.yandex.ru/j/27729488545338
+URL:https://telemost.yandex.ru/j/27729488545338
+END:VEVENT
+END:VCALENDAR

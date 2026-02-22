@@ -1,0 +1,331 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS 11-411
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Лекц] Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260209T121000
+DTEND;TZID=Europe/Moscow:20260209T134000
+UID:352b12b3d36ca5dcf08303f9ba213c30771b083d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту\, \n12:00-13:30\n(ЦОР)
+LOCATION:https://edu.kpfu.ru/course/view.php?id=5573
+URL:https://edu.kpfu.ru/course/view.php?id=5573
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:e0606ac5cecbb1a3792099b5e6ed628e1e61ac84@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\, \nАлеева Г.Х.\n(гр
+ уппа А) (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/edit.php?id=6106
+URL:https://edu.kpfu.ru/course/edit.php?id=6106
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260209T155000
+DTEND;TZID=Europe/Moscow:20260209T172000
+UID:06e38d052e0189cc070db27d75ce2a187b6e2e1d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\n Алеева Г.Х.\n(гр
+ уппа В) (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/edit.php?id=6106
+URL:https://edu.kpfu.ru/course/edit.php?id=6106
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Веб-разработка Java
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:9e575c6813fa940d1158f950908c968a8c215779@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка (Java)\, Митько Г.В. (вебинары)\nВеб-разра
+ ботка (Frontend)\, Морозова А.Э. (вебинары\, ЦОР
+ )\nРазработка мобильных приложений (Android)\
+ , Гарифуллина А.Р. (вебинары\, ЦОР)
+LOCATION:https://telemost.yandex.ru/j/19033772429232
+URL:https://telemost.yandex.ru/j/19033772429232
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Веб-разработка Java
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:9e575c6813fa940d1158f950908c968a8c215779@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка (Java)\, Митько Г.В. (вебинары)\nВеб-разра
+ ботка (Frontend)\, Морозова А.Э. (вебинары\, ЦОР
+ )\nРазработка мобильных приложений (Android)\
+ , Гарифуллина А.Р. (вебинары\, ЦОР)
+LOCATION:https://telemost.yandex.ru/j/19033772429232
+URL:https://telemost.yandex.ru/j/19033772429232
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Веб-разработка Java
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:9e575c6813fa940d1158f950908c968a8c215779@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка (Java)\, Митько Г.В. (вебинары)\nВеб-разра
+ ботка (Frontend)\, Морозова А.Э. (вебинары\, ЦОР
+ )\nРазработка мобильных приложений (Android)\
+ , Гарифуллина А.Р. (вебинары\, ЦОР)
+LOCATION:https://telemost.yandex.ru/j/19033772429232
+URL:https://telemost.yandex.ru/j/19033772429232
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Веб-разработка Java
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:fefafabd13b338d408010cec3dca0e896170019e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка (Java)\, Митько Г.В. (вебинары)\nВеб-разра
+ ботка (Frontend)\, Морозова А.Э. (вебинары\, ЦОР
+ )\nРазработка мобильных приложений(Android)\,
+  Гарифуллина А.Р. (вебинары\, ЦОР)
+LOCATION:https://telemost.yandex.ru/j/19033772429232
+URL:https://telemost.yandex.ru/j/19033772429232
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Веб-разработка Java
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:fefafabd13b338d408010cec3dca0e896170019e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка (Java)\, Митько Г.В. (вебинары)\nВеб-разра
+ ботка (Frontend)\, Морозова А.Э. (вебинары\, ЦОР
+ )\nРазработка мобильных приложений(Android)\,
+  Гарифуллина А.Р. (вебинары\, ЦОР)
+LOCATION:https://telemost.yandex.ru/j/19033772429232
+URL:https://telemost.yandex.ru/j/19033772429232
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Веб-разработка Java
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:fefafabd13b338d408010cec3dca0e896170019e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка (Java)\, Митько Г.В. (вебинары)\nВеб-разра
+ ботка (Frontend)\, Морозова А.Э. (вебинары\, ЦОР
+ )\nРазработка мобильных приложений(Android)\,
+  Гарифуллина А.Р. (вебинары\, ЦОР)
+LOCATION:https://telemost.yandex.ru/j/19033772429232
+URL:https://telemost.yandex.ru/j/19033772429232
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260210T121000
+DTEND;TZID=Europe/Moscow:20260210T134000
+UID:19ba234c2e11826728fd55e26d1256964f1e1ff9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nАлеева Г.Х.\n(гр
+ уппа А) (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/edit.php?id=6106
+URL:https://edu.kpfu.ru/course/edit.php?id=6106
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260210T135000
+DTEND;TZID=Europe/Moscow:20260210T152000
+UID:53662a48007d760a9adaa0fa56284caed560d09a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nАлеева Г.Х.\n(гр
+ уппа В) (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/edit.php?id=6106
+URL:https://edu.kpfu.ru/course/edit.php?id=6106
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Практикум по командной разраб
+ отке
+DTSTART;TZID=Europe/Moscow:20260210T155000
+DTEND;TZID=Europe/Moscow:20260210T172000
+UID:10b2f49520a9de2e11b18810f2c5a4411113758e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Практикум по командной разработк
+ е\,\nЮнусов М.Б.\n(вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/7097013198
+URL:https://telemost.360.yandex.ru/j/7097013198
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Практикум по командной разраб
+ отке
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:6b808b7192884cacc54d7224fbb667ea15aca9f3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Практикум по командной разработк
+ е\,\nЮнусов М.Б.\n(вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/7097013198
+URL:https://telemost.360.yandex.ru/j/7097013198
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Основы финансовой грамотност
+ и
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:dd73ff4e3985744688d47f36f9dde463e3bb29aa@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы финансовой грамотности\,\nН
+ иконова Т.В.\n(1-9 нед.)\n(вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/8388969407
+URL:https://telemost.360.yandex.ru/j/8388969407
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Практикум по командной разраб
+ отке
+DTSTART;TZID=Europe/Moscow:20260211T101000
+DTEND;TZID=Europe/Moscow:20260211T114000
+UID:d7572be168dfe21503aa0480762e3d3a31263da0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Практикум по командной разработк
+ е\,\nЛукьяничева Е.О.\n(вебинары)
+LOCATION:https://my.mts-link.ru/j/91499745/787051350/stream-new/825718755
+URL:https://my.mts-link.ru/j/91499745/787051350/stream-new/825718755
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260211T135000
+DTEND;TZID=Europe/Moscow:20260211T152000
+UID:f164517915d564042013b53f27c2fbfcbaa28ad4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nАлеева Г.Х.\n(гр
+ уппа А) (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/edit.php?id=6106
+URL:https://edu.kpfu.ru/course/edit.php?id=6106
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260211T155000
+DTEND;TZID=Europe/Moscow:20260211T172000
+UID:1c9b66a7d04620ec67fb1a15e90b27f00ffd634d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nАлеева Г.Х.\n(гр
+ уппа В) (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/edit.php?id=6106
+URL:https://edu.kpfu.ru/course/edit.php?id=6106
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Основы разработки информацио
+ нных систем
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:3690c9075bab6240794197285f04bdf4013bd1da@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы разработки информационных
+  систем\,\nЛеухин А.Д.\n(вебинары)
+LOCATION:https://kpfu.mts-link.ru/j/82067161/11479795244
+URL:https://kpfu.mts-link.ru/j/82067161/11479795244
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260212T121000
+DTEND;TZID=Europe/Moscow:20260212T134000
+UID:fcf7ad5a07eedfc46e7ef8af2220126969f9050f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту\, 12:00-13:30 (ЦОР)
+LOCATION:https://edu.kpfu.ru/course/view.php?id=5573
+URL:https://edu.kpfu.ru/course/view.php?id=5573
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Инновационная экономика
+DTSTART;TZID=Europe/Moscow:20260212T135000
+DTEND;TZID=Europe/Moscow:20260212T152000
+UID:68da102673923fca87395e646452e5d8efb9f43b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Инновационная экономика и технол
+ огическое предпринимательство\,\nГурьян
+ ова Е.О.(1-9нед.) лек. \n(вебинары)
+LOCATION:https://my.mts-link.ru/j/60026685/10372441870
+URL:https://my.mts-link.ru/j/60026685/10372441870
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Инновационная экономика
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:bf2a7bcc6b0da4651b574f52353addbca7c6283d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Инновационная экономика и технол
+ огическое предпринимательство\,\nГурьян
+ ова Е.О. \n(1-9 нед.) прак. \n(вебинары)
+LOCATION:https://my.mts-link.ru/j/60026685/10372441870
+URL:https://my.mts-link.ru/j/60026685/10372441870
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы финансовой грамотност
+ и
+DTSTART;TZID=Europe/Moscow:20260219T173000
+DTEND;TZID=Europe/Moscow:20260219T190000
+UID:21f71c7ca33ce59038e044476a12d220d605924b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Основы финансовой грамотности\,\nН
+ иконова Т.В.\n(четн.нед)\n(вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/8388969407
+URL:https://telemost.360.yandex.ru/j/8388969407
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологическая практика
+DTSTART;TZID=Europe/Moscow:20260212T191000
+DTEND;TZID=Europe/Moscow:20260212T204000
+UID:0fcacb506a056df26798b1ba1eda747c5df54760@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Математика
+DTSTART;TZID=Europe/Moscow:20260213T121000
+DTEND;TZID=Europe/Moscow:20260213T134000
+UID:c288fd31666d37044dc69a3a6d135c7dc46f397d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Теория вероятностей и математиче
+ ская статистика\,\nМухамеджанова С.А. \n(ве
+ бинары)
+LOCATION:https://telemost.360.yandex.ru/j/4913769558
+URL:https://telemost.360.yandex.ru/j/4913769558
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Математика
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:31c925a616271888b0760dc2dab53cff45bf74fc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Теория вероятностей и математиче
+ ская статистика\,\nМухамеджанова С.А.\n     (
+ вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/4913769558
+URL:https://telemost.360.yandex.ru/j/4913769558
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы разработки информацио
+ нных систем
+DTSTART;TZID=Europe/Moscow:20260213T155000
+DTEND;TZID=Europe/Moscow:20260213T172000
+UID:c1d424100aa44d1914820694a378b706fde8a7b5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы разработки информационных
+  систем\,\nБудревич А.Д.\n(вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/4511025986
+URL:https://telemost.360.yandex.ru/j/4511025986
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы разработки информацио
+ нных систем
+DTSTART;TZID=Europe/Moscow:20260213T173000
+DTEND;TZID=Europe/Moscow:20260213T190000
+UID:3e31ecac6163dbf5a85a4ea5c40d0d1ed8caa52f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы разработки информационных
+  систем\,\nБудревич А.Д.\n(вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/4511025986
+URL:https://telemost.360.yandex.ru/j/4511025986
+END:VEVENT
+END:VCALENDAR

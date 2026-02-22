@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Гуманитарные дисциплины
+DTSTART;TZID=Europe/Moscow:20260210T083000
+DTEND;TZID=Europe/Moscow:20260210T100000
+UID:714109571a04a138f7f81444936ebafbf49b5637@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:История России лек. \nФазлиев А.М. \n
+ (вебинары)\n1309
+LOCATION:https://telemost.360.yandex.ru/j/4954750481
+URL:https://telemost.360.yandex.ru/j/4954750481
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Проектная работа
+DTSTART;TZID=Europe/Moscow:20260210T135000
+DTEND;TZID=Europe/Moscow:20260210T152000
+UID:ef9723c6b42bf5db95dd84ce82876546233858b2@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Проектный практикум\, лек.\nДоброк
+ вашина А.С.\, (вебинары)\n1412
+LOCATION:https://telemost.360.yandex.ru/j/1101159202
+URL:https://telemost.360.yandex.ru/j/1101159202
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260211T083000
+DTEND;TZID=Europe/Moscow:20260211T100000
+UID:228a2f97aeb52f9fc8a1884d5ccb4fa900bfc8fc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Русский язык и культура речи\,\nГал
+ иулина И.Р.\n(1-6 нед.) лек.\, с 7 нед. прак.\n(ве
+ бинары)\n1110
+LOCATION:https://telemost.360.yandex.ru/j/4959672104
+URL:https://telemost.360.yandex.ru/j/4959672104
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Гуманитарные дисциплины
+DTSTART;TZID=Europe/Moscow:20260211T101000
+DTEND;TZID=Europe/Moscow:20260211T114000
+UID:3b996a3dd73faf3caa008763e82ba884ea2c2d3d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Философия\,\nСолдатова Н.О.\n(1-9 нед.)
+  лек.\nс 10 нед.прак.\n   (вебинары)\n1405
+LOCATION:https://telemost.360.yandex.ru/j/4155605650
+URL:https://telemost.360.yandex.ru/j/4155605650
+END:VEVENT
+END:VCALENDAR

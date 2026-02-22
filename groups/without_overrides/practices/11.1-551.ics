@@ -1,0 +1,95 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Средства и инструменты программной 
+ инженерии
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:75c3fe198c842a02f95baa99cfce6e1ce6b86e24@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Средства и инструменты программн
+ ой инженерии Тощев А.С.по н.н. лекц. по ч.н.
+  прак. (вебинары)
+LOCATION:https://my.mts-link.ru/j/83410197/10648215350
+URL:https://my.mts-link.ru/j/83410197/10648215350
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы машинного обучения
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:7a838326e63d4c5d630a73dce3a78cad65ca9677@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы машинного обучения Агафон
+ ов А.А.( вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/8012852657
+URL:https://telemost.360.yandex.ru/j/8012852657
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Профессиональный иностранный язык (
+ английский)
+DTSTART;TZID=Europe/Moscow:20260210T155000
+DTEND;TZID=Europe/Moscow:20260210T172000
+UID:0e80181aa2639a1f60c5c7bafa1e6765c7acd7dd@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nМохаммед Марико Ламин (ЦО
+ Р\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/view.php?id=6752
+URL:https://edu.kpfu.ru/course/view.php?id=6752
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Профессиональный иностранный язык (
+ английский)
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:39087814f5bec375291f0386c84ee6833049bb11@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nМохаммед Марико Ламин (ЦО
+ Р\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/view.php?id=6752
+URL:https://edu.kpfu.ru/course/view.php?id=6752
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Методология научных  исследований
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:aaf1171dbceab12a7955e52e85eff2bc97e35d6c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Методология научных  исследовани
+ й Осокин С.И. по н.н. лекц. по ч.н. прак. (веб
+ инары)
+LOCATION:https://my.mts-link.ru/j/91197657/1705411273
+URL:https://my.mts-link.ru/j/91197657/1705411273
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Правовые аспекты использования сис
+ тем искусственного интеллекта Старости
+ на Е.С.  (Лекц. по н.н. практ. по ч.н.)
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:9a1f8e294245fc3de211e22ef7f10af2c55bd028@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Правовые аспекты использования с
+ истем искусственного интеллекта Старос
+ тина Е.С.  (Лекц. по н.н. практ. по ч.н.)\n(веб
+ инары)\n(ЦОР)
+LOCATION:https://telemost.360.yandex.ru/j/1874191986
+URL:https://telemost.360.yandex.ru/j/1874191986
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Командный проект по искусственному 
+ интеллекту
+DTSTART;TZID=Europe/Moscow:20260212T191000
+DTEND;TZID=Europe/Moscow:20260212T204000
+UID:b3033f4872404309c64de22d03579d61317619bd@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Командный проект по искусственно
+ му интеллекту Курносов О..(вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/05390254939287
+URL:https://telemost.360.yandex.ru/j/05390254939287
+END:VEVENT
+END:VCALENDAR
