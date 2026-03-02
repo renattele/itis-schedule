@@ -1,0 +1,181 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS 11-302_Саяров Артём Тимурович
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Управление проектами
+DTSTART;TZID=Europe/Moscow:20260219T135000
+DTEND;TZID=Europe/Moscow:20260219T152000
+UID:163536de4ec6f0680b45bc18c63c4cfa8328ebb9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Управление проектами\, Коростелев
+ а Д.М. \nчетн.нед.\n1302
+LOCATION:1302
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260212T191000
+DTEND;TZID=Europe/Moscow:20260212T204000
+UID:8de96ca70f8c169214e96641da2fa62299678e9f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nНейронные с
+ ети для визуализации и компьютерных игр\
+ , Хафизов М.Р. в 1412\nОбработка текстов на е
+ /я\, Липачев Е.К.в 1304\nПрикладные задачи ин
+ телл.АД (ДГ алгоритмики)\, Лернер Э.Ю.в 1307\n
+ Прикладные задачи интелл.АД (Разработка 
+ ПО и анализ данных в задачах применения 
+ космической плазмы)\, Шемахин А.Ю\, в 1305\nП
+ рикладные задачи интелл.АД (BigData)\, Хайрул
+ лин А.Ф. в 1306\nФизика\, Алакшин Е.М. в ауд.401 
+ института физики\nПрикладные задачи инт
+ елл.АД (АД в физике)\, Галимзянов Б.Н. в 1308
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Управление проектами
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:6d4b5b34f619a6baf7bd3178722b7d7043d1ac0b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление проектами\,\nГригорян К
+ .А.\n1310-1311\n(11 февраля не будет с переносом 
+ на 24 апреля в 10:10 онлайн)
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Инфобез
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:2a735cb9da52ae91823edbd827225e6b348262a9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информационная безопасность\, Дор
+ офеев В.И. \n1307
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологическая практика
+DTSTART;TZID=Europe/Moscow:20260213T191000
+DTEND;TZID=Europe/Moscow:20260213T204000
+UID:2d2c3fb84d89f0def8f44a82396233d7a7148c8a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика (по распределению) 9 
+ нед.\nЛаборатория  Cloud Lab ауд.1409
+LOCATION:1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:d25aa22cebcf053b92db86d3926bad281d356819@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nНейронные с
+ ети для визуализации и компьютерных игр\
+ , Хафизов М.Р. в 1412\nОбработка текстов на е
+ /я\, Липачев Е.К. в 1304\nПрикладные задачи и
+ нтелл.АД (ДГ алгоритмики)\, Лернер Э.Ю. в 130
+ 7\nПрикладные задачи интелл.АД (Разработк
+ а ПО и анализ данных в задачах применени
+ я космической плазмы)\, Шемахин А.Ю\, в 1305\n
+ Прикладные задачи интелл.АД (BigData)\, Хайру
+ ллин А.Ф. в 1306\nФизика\, Алакшин Е.М.в ауд.112
+  института физики\nПрикладные задачи инт
+ елл.АД (АД в физике)\, Галимзянов Б.Н. в 1308
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Инновационная экономика
+DTSTART;TZID=Europe/Moscow:20260211T155000
+DTEND;TZID=Europe/Moscow:20260211T172000
+UID:11a89953cdd75cb322d5de5b998a9f5838c740e7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Инновационная экономика и технол
+ огическое предпринимательство\,\nГалеев 
+ С.И.\n(нечетн.нед.)\n1304
+LOCATION:1304
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Инновационная экономика
+DTSTART;TZID=Europe/Moscow:20260217T155000
+DTEND;TZID=Europe/Moscow:20260217T172000
+UID:b2cbf721a7e264cad3ba837992f3e1c32da2cffd@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Инновационная экономика и технол
+ огическое предпринимательство\,\nГалеев 
+ С.И.\n(четн. нед.лек.) \nауд. 1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Архитектура ПО
+DTSTART;TZID=Europe/Moscow:20260211T191000
+DTEND;TZID=Europe/Moscow:20260211T204000
+UID:c91319936ed22388fcef8674a3ec79b9ef9bba64@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Архитектура программных систем\, 
+ Тощев А.С. \n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Архитектура ПО
+DTSTART;TZID=Europe/Moscow:20260213T155000
+DTEND;TZID=Europe/Moscow:20260213T172000
+UID:8e8cddb85bb39c01a7712f3d371d463c54725d34@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Архитектура программных систем\,\n
+ Курносов О.В.\n1305
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Управление качеством
+DTSTART;TZID=Europe/Moscow:20260214T155000
+DTEND;TZID=Europe/Moscow:20260214T172000
+UID:70648d661e373c2c3f6f0a59ec0a44fa2b15abc7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление качеством разработки 
+ ПО\, Николаева Е.О. лекции (в эл.форме)\n(ве
+ бинары)\n28 февраля не будет
+LOCATION:https://kpfu.mts-link.ru/j/91781839/12981210676
+URL:https://kpfu.mts-link.ru/j/91781839/12981210676
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260210T135000
+DTEND;TZID=Europe/Moscow:20260210T152000
+UID:2c3e89e8635b46421d9e5b7ed5c6af030f1601bb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС\, 14:00 - 15:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:94c762ed0965ff645e377c9d07d9b5921994d045@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС   \n14:00 - 15:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Инфобез
+DTSTART;TZID=Europe/Moscow:20260213T173000
+DTEND;TZID=Europe/Moscow:20260213T190000
+UID:0cbe58c4e54e81ab49d8beb0eadf2fbfa7a4d4d4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информационная безопасность\, Мул
+ юков Р.И.      \n ауд. 1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Управление качеством
+DTSTART;TZID=Europe/Moscow:20260214T101000
+DTEND;TZID=Europe/Moscow:20260214T114000
+UID:d930cb04627f8302d3bc445bcc9038bdcf82ebee@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление качеством разработки 
+ ПО\, Николаева Е.О. \n 1302\n28 февраля не буде
+ т
+LOCATION:1302
+END:VEVENT
+END:VCALENDAR

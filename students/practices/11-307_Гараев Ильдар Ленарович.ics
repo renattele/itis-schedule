@@ -1,0 +1,90 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Технологическая практика
+DTSTART;TZID=Europe/Moscow:20260213T191000
+DTEND;TZID=Europe/Moscow:20260213T204000
+UID:c7dd145d0bc4564e688fa54271ae66de11bf9def@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика (по распределению) 9 
+ нед.\nЛаборатория  Cloud Lab ауд.1409
+LOCATION:1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Управление проектами
+DTSTART;TZID=Europe/Moscow:20260213T155000
+DTEND;TZID=Europe/Moscow:20260213T172000
+UID:36cd29598ff8c8507cd670edf04a618c465a985d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Управление проектами\,\nКарпеева Ю
+ .А.\n(нечетн. нед.) \n1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Инфобез
+DTSTART;TZID=Europe/Moscow:20260214T083000
+DTEND;TZID=Europe/Moscow:20260214T100000
+UID:5005345744482f83ea089ba1ccd5a2f6c35a2ffb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информационная безопасность\,\nГа
+ дельшин Д\,В.\n 1304
+LOCATION:1304
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Инновационная экономика
+DTSTART;TZID=Europe/Moscow:20260221T101000
+DTEND;TZID=Europe/Moscow:20260221T114000
+UID:c3b778c40f671d4e7709a760f55e768eec6af8bb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Инновационная экономика и технол
+ огическое предпринимательство\,\nКулаги
+ н Р.В.\nчетн.нед.\n1303
+LOCATION:1303
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Архитектура ПО
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:ec4a6f788899435fa9ed2b7a251f1913208c100e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Архитектура программных систем\, 
+ Ихсанов И.С.\n 1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Биоинформатика
+DTSTART;TZID=Europe/Moscow:20260212T083000
+DTEND;TZID=Europe/Moscow:20260212T100000
+UID:e74e821ea6a8227bb095ae28caae710ca8c83e92@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору:\nПрикладные 
+ задачи интелл.АД (Биоинформатика)\, Козло
+ ва О.С.в 1306
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Биоинформатика
+DTSTART;TZID=Europe/Moscow:20260212T101000
+DTEND;TZID=Europe/Moscow:20260212T114000
+UID:eeb2f515a0a06ead863a193352ee06d46007d806@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору:\nПрикладные 
+ задачи интелл.АД (Биоинформатика)\, Козло
+ ва О.С.в 1306
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Управление качеством
+DTSTART;TZID=Europe/Moscow:20260212T135000
+DTEND;TZID=Europe/Moscow:20260212T152000
+UID:74090e78f9565b94cc6e40fc1c2c6e71e191552e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление качеством разработки 
+ ПО\, Хисамутдинов А.Э.  1307
+LOCATION:1307
+END:VEVENT
+END:VCALENDAR

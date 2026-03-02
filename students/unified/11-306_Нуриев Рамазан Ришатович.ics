@@ -1,0 +1,172 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS 11-306_Нуриев Рамазан Ришатович
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Девопс
+DTSTART;TZID=Europe/Moscow:20260210T121000
+DTEND;TZID=Europe/Moscow:20260210T134000
+UID:f89dcd6c8c8af6541853b5c5b128ac91095661da@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору:\nТехнологии 
+ разработки ПО (Devops)\, Редькин М.С. в 1508
+LOCATION:1508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологическая практика
+DTSTART;TZID=Europe/Moscow:20260213T191000
+DTEND;TZID=Europe/Moscow:20260213T204000
+UID:44246d1c70b8b2006ef7961e1efd1951175d65a8@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика (по распределению) 9 
+ нед.\nЛаборатория  Cloud Lab ауд.1409
+LOCATION:1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Управление проектами
+DTSTART;TZID=Europe/Moscow:20260211T155000
+DTEND;TZID=Europe/Moscow:20260211T172000
+UID:bbac016a995f15664131a0fa6e44bcaf89f08131@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление проектами\,\nНасибулли
+ на Э.Р.\n 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Управление проектами
+DTSTART;TZID=Europe/Moscow:20260212T135000
+DTEND;TZID=Europe/Moscow:20260212T152000
+UID:72ca03a98ad213848fd3bf2e21e6fd21a7b1a8bc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление проектами\,\nНасибулли
+ на Э.Р.\n(1-9 нед.) \n1508
+LOCATION:1508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Инфобез
+DTSTART;TZID=Europe/Moscow:20260213T173000
+DTEND;TZID=Europe/Moscow:20260213T190000
+UID:5f9dd59a70b01df1acb04b64e78e67421242bc4c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информационная безопасность\,\nГа
+ дельшин Д\,В. \n 1409
+LOCATION:1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Управление качеством
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:3f85fd39676d77a27f2fd5405a1bcdf2b26ec019@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление качеством разработки 
+ ПО\, Родионова А.В. \n 1306
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Инновационная экономика
+DTSTART;TZID=Europe/Moscow:20260214T083000
+DTEND;TZID=Europe/Moscow:20260214T100000
+UID:2527fe9a11c03cafb4238ba90f74b0bd5af15b9b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Инновационная экономика и технол
+ огическое предпринимательство\,\nКулаги
+ н Р.В.\nнечетн.нед.\n 1303
+LOCATION:1303
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Инновационная экономика
+DTSTART;TZID=Europe/Moscow:20260210T155000
+DTEND;TZID=Europe/Moscow:20260210T172000
+UID:0878a72456d910cbcf665a77e973ceb3ef235f7b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Инновационная экономика и технол
+ огическое предпринимательство\,\nГалеев 
+ С.И.\n(нечетн. нед.лек.) \nауд. 1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Инфобез
+DTSTART;TZID=Europe/Moscow:20260214T135000
+DTEND;TZID=Europe/Moscow:20260214T152000
+UID:b09a1c4691ff99b4713b5d62fef2488eefffc5f4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информационная безопасность\, Ива
+ нов К.В. (в эл.форме)        \n(вебинары)
+LOCATION:https://kpfu.mts-link.ru/j/92169153/13056633572
+URL:https://kpfu.mts-link.ru/j/92169153/13056633572
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Управление качеством
+DTSTART;TZID=Europe/Moscow:20260214T155000
+DTEND;TZID=Europe/Moscow:20260214T172000
+UID:da1c0ab1c01eab1fcfa245f287b70e3a76d16625@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление качеством разработки 
+ ПО\, Николаева Е.О. лекции (в эл.форме)\n(ве
+ бинары)\n28 февраля не будет
+LOCATION:https://kpfu.mts-link.ru/j/91781839/12981210676
+URL:https://kpfu.mts-link.ru/j/91781839/12981210676
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Биоинформатика
+DTSTART;TZID=Europe/Moscow:20260212T083000
+DTEND;TZID=Europe/Moscow:20260212T100000
+UID:2894b81bdd383af1439b4db268f5d5978b258cbc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору:\nПрикладные 
+ задачи интелл.АД (Биоинформатика)\, Козло
+ ва О.С.в 1306
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260210T135000
+DTEND;TZID=Europe/Moscow:20260210T152000
+UID:7f2913314dc910408db659ed7af11332d9201fbb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС\, 14:00 - 15:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Биоинформатика
+DTSTART;TZID=Europe/Moscow:20260212T101000
+DTEND;TZID=Europe/Moscow:20260212T114000
+UID:f90195767f53ee2e7d874cde2d53f903f8793f39@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору:\nПрикладные 
+ задачи интелл.АД (Биоинформатика)\, Козло
+ ва О.С.в 1306
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:2a65fc77a835f243dc4f4a1135805280ac701bb8@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС   \n14:00 - 15:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Архитектура ПО
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:75c328d49a2ad280e81f35dcd484b5fe9aa8f2ee@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Архитектура программных систем\,\n
+ Коростелева Д.М.\nв 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Архитектура ПО
+DTSTART;TZID=Europe/Moscow:20260209T155000
+DTEND;TZID=Europe/Moscow:20260209T172000
+UID:2bc9f52dc8ee8cee6fdc695df1382fc86d514536@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Архитектура программных систем\,\n
+ Коростелева Д.М.\n1302
+LOCATION:1302
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Методология научной деятельности
+DTSTART;TZID=Europe/Moscow:20260211T101000
+DTEND;TZID=Europe/Moscow:20260211T114000
+UID:5735b8f9aab12d9dab6f4875f2338742070924b3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Методология научной деятельности
+ \,\nГаллямова Д.Х.\n(1-9 нед.)\n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы информационного поиска
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:11b820e5a2af35013522d1cb2e2cda428921b51e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы информационного поиска\,\nЗ
+ уев Д.С.(1-9 нед.) (онлайн)
+END:VEVENT
+END:VCALENDAR

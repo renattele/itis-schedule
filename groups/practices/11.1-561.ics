@@ -1,0 +1,87 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Цифровизация бизнес-процессов
+DTSTART;TZID=Europe/Moscow:20260210T155000
+DTEND;TZID=Europe/Moscow:20260210T172000
+UID:3d8b199e4cfa600c0876fb6028a001804ff56a9f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Цифровизация бизнес-процессов Ко
+ ростелева Д.М. в ауд.1302 (17.02 в онлайн)
+LOCATION:1302
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Нормативное регулирование цифровой
+  экономики
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:dd9f3576843fbb4404c8761f620b468fd81c5628@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Нормативное регулирование цифров
+ ой экономики Старостина Е.С. в 1302 ( по неч.
+ нед. лекц. по чет .нед. практ.)
+LOCATION:1302
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Практикум по развитию бизнеса
+DTSTART;TZID=Europe/Moscow:20260211T155000
+DTEND;TZID=Europe/Moscow:20260211T172000
+UID:29b5d651217a69f680548c7b3fafa754e7cb86d7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Практикум по развитию бизнеса Син
+ гатуллина Г.Р. лекц.с 1- 9н. в ауд.1302   Метод
+ ология научных исследований Галлямова Д
+ .Х. лекц. с 10 н. в ауд.1302
+LOCATION:1302
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Практикум по развитию бизнеса
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:fbc184078b43ccce8d2c92d3dedb3f8f42486107@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Практикум по развитию бизнеса Син
+ гатуллина Г.Р. прак.с 1- 9н. в ауд.1302   Метод
+ ология научных исследований Галлямова Д
+ .Х. прак. с 10 н. в ауд.1302
+LOCATION:1302
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Национальные и корпоративные цифро
+ вые платформы
+DTSTART;TZID=Europe/Moscow:20260211T191000
+DTEND;TZID=Europe/Moscow:20260211T204000
+UID:36c2d06efe41130d2a5b02fd47069e8dcc54a896@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Национальные и корпоративные циф
+ ровые платформы Гайнуллин Р.З. в 1302
+LOCATION:1302
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в искусственный интеллект
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:1e23996af8e21d54b3c9d590bf8e1c64b062c9f5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Введение в искусственный интелле
+ кт Мухамеджанов А.И.в 1508
+LOCATION:1508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Средства и инструменты программной 
+ инженерии
+DTSTART;TZID=Europe/Moscow:20260212T191000
+DTEND;TZID=Europe/Moscow:20260212T204000
+UID:bc7f762e1500fd69279e016c265a24b670f5ba04@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Средства и инструменты программн
+ ой инженерии Архипов К. по неч. нед. практ
+ ика в ауд.1310-1311 (по чет.нед. практика веби
+ нары)
+LOCATION:https://my.mts-link.ru/j/MTC/11486153180
+URL:https://my.mts-link.ru/j/MTC/11486153180
+END:VEVENT
+END:VCALENDAR

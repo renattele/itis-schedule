@@ -1,0 +1,180 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS 11-303_Кремень Амалия Наилевна
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:23460524716e75cbf07928de999b98e696cf7bae@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nНейронные с
+ ети для визуализации и компьютерных игр\
+ , Хафизов М.Р. в 1412\nОбработка текстов на е
+ /я\, Липачев Е.К. в 1304\nПрикладные задачи и
+ нтелл.АД (ДГ алгоритмики)\, Лернер Э.Ю. в 130
+ 7\nПрикладные задачи интелл.АД (Разработк
+ а ПО и анализ данных в задачах применени
+ я космической плазмы)\, Шемахин А.Ю\, в 1305\n
+ Прикладные задачи интелл.АД (BigData)\, Хайру
+ ллин А.Ф. в 1306\nФизика\, Алакшин Е.М.в ауд.112
+  института физики\nПрикладные задачи инт
+ елл.АД (АД в физике)\, Галимзянов Б.Н. в 1308
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Инновационная экономика
+DTSTART;TZID=Europe/Moscow:20260212T135000
+DTEND;TZID=Europe/Moscow:20260212T152000
+UID:1ee14e087b82645e16434c29638126427f56de35@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Инновационная экономика и технол
+ огическое предпринимательство\,\nСафина 
+ Д.М.\n(нечетн. нед.)  \n1301
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260212T191000
+DTEND;TZID=Europe/Moscow:20260212T204000
+UID:663f2a7bd3ff1c99b3ee0996057c6999014a9bea@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nНейронные с
+ ети для визуализации и компьютерных игр\
+ , Хафизов М.Р. в 1412\nОбработка текстов на е
+ /я\, Липачев Е.К.в 1304\nПрикладные задачи ин
+ телл.АД (ДГ алгоритмики)\, Лернер Э.Ю.в 1307\n
+ Прикладные задачи интелл.АД (Разработка 
+ ПО и анализ данных в задачах применения 
+ космической плазмы)\, Шемахин А.Ю\, в 1305\nП
+ рикладные задачи интелл.АД (BigData)\, Хайрул
+ лин А.Ф. в 1306\nФизика\, Алакшин Е.М. в ауд.401 
+ института физики\nПрикладные задачи инт
+ елл.АД (АД в физике)\, Галимзянов Б.Н. в 1308
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Управление проектами
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:91d1bdbccae14daa2fb70f933fa0b4c4543439f4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление проектами\,\nГригорян К
+ .А.\n1310-1311\n(11 февраля не будет с переносом 
+ на 24 апреля в 10:10 онлайн)
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологическая практика
+DTSTART;TZID=Europe/Moscow:20260213T191000
+DTEND;TZID=Europe/Moscow:20260213T204000
+UID:656d5d8e1ba6b1ade5bfd65e6134b781acab6395@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика (по распределению) 9 
+ нед.\nЛаборатория  Cloud Lab ауд.1409
+LOCATION:1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Управление проектами
+DTSTART;TZID=Europe/Moscow:20260220T155000
+DTEND;TZID=Europe/Moscow:20260220T172000
+UID:dc93eaf24d065facb600b47e5bdfc251858bf6dc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Управление проектами\,\nКарпеева Ю
+ .А.\n(четн. нед.) \n 1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Архитектура ПО
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:d2889a528fb3cf496afbc9914ebd10c75f268176@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Архитектура программных систем\,\n
+ Родионова А.В.\n 1305
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Инновационная экономика
+DTSTART;TZID=Europe/Moscow:20260217T155000
+DTEND;TZID=Europe/Moscow:20260217T172000
+UID:7b25bd62a3da4a47edca919d2ce90274a7a5aff2@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Инновационная экономика и технол
+ огическое предпринимательство\,\nГалеев 
+ С.И.\n(четн. нед.лек.) \nауд. 1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Архитектура ПО
+DTSTART;TZID=Europe/Moscow:20260211T191000
+DTEND;TZID=Europe/Moscow:20260211T204000
+UID:6ca6f65ba76338fba2b94845849e2acb130c423f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Архитектура программных систем\, 
+ Тощев А.С. \n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Управление качеством
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:28c299274660215c6bfcab413b89ceee9bf25fed@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление качеством разработки 
+ ПО\, Хисамутдинов А.Э.  1307
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Управление качеством
+DTSTART;TZID=Europe/Moscow:20260214T155000
+DTEND;TZID=Europe/Moscow:20260214T172000
+UID:1d5da8684abcd7f390b4de3559c6e5c166e62156@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление качеством разработки 
+ ПО\, Николаева Е.О. лекции (в эл.форме)\n(ве
+ бинары)\n28 февраля не будет
+LOCATION:https://kpfu.mts-link.ru/j/91781839/12981210676
+URL:https://kpfu.mts-link.ru/j/91781839/12981210676
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260210T135000
+DTEND;TZID=Europe/Moscow:20260210T152000
+UID:455277dc6e3928d8105287b1290a550b51ce3913@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС\, 14:00 - 15:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Инфобез
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:5953ebad9da4f664399b429dd9fbceddfcfb1a66@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информационная безопасность\, Мул
+ юков Р.И. \n1303
+LOCATION:1303
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:cd675319a02608620a6ffa5830516f70e481398d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС   \n14:00 - 15:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Инфобез
+DTSTART;TZID=Europe/Moscow:20260213T173000
+DTEND;TZID=Europe/Moscow:20260213T190000
+UID:4cbb486c9870e9054313153ee707626ffb69cc6c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информационная безопасность\, Мул
+ юков Р.И.      \n ауд. 1310-1311
+LOCATION:1310-1311
+END:VEVENT
+END:VCALENDAR

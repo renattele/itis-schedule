@@ -1,0 +1,160 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Алгоритмы и структуры данных
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:c15e76ad54ff81205eed973b2831c738a63ed090@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных\,\nСу
+ реева А.А.\nподгр.№1 \n1305
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгоритмы и структуры данных
+DTSTART;TZID=Europe/Moscow:20260209T155000
+DTEND;TZID=Europe/Moscow:20260209T172000
+UID:bee4f2a0ef9f82091846a86d61a0e3ee4ebebe49@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных\,\nСу
+ реева А.А.\nподгр.№2 \n 1305
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Дискретная математика
+DTSTART;TZID=Europe/Moscow:20260210T155000
+DTEND;TZID=Europe/Moscow:20260210T172000
+UID:d9dca8792e49a085244bcdda409dac046dd29415@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дискретная математика\,\nЗайнетди
+ нов Д.Х.\n1303
+LOCATION:1303
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгебра и геометрия
+DTSTART;TZID=Europe/Moscow:20260211T101000
+DTEND;TZID=Europe/Moscow:20260211T114000
+UID:a35a490b20becb27ceb205de895f09e2df65fb92@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгебра и геометрия\,\nМихайловска
+ я Я.А. \n1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Философия
+DTSTART;TZID=Europe/Moscow:20260211T121000
+DTEND;TZID=Europe/Moscow:20260211T134000
+UID:f52d8cd5f168d9980ccf2befa0b82aba9c26df11@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Философия\,\nФедотов Д.Л.\n(1-9 нед.) \n 
+ 1309
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информатика и программирование
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:99e593e3b963eeefab3b06dc77be1306ab604223@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информатика и программирование\,\n
+ Усачева Е.С.\nподгр.№1 \nонлайн\n18 марта/\nп
+ одгр.№2 - 11 марта
+LOCATION:https://docs.google.com/document/d/1ucN32IOhTfenoNmzHiMsFbvPOd772
+ C1x/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1ucN32IOhTfenoNmzHiMsFbvPOd772C1x/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информатика и программирование
+DTSTART;TZID=Europe/Moscow:20260211T191000
+DTEND;TZID=Europe/Moscow:20260211T204000
+UID:f55ce0a918eca2ae7a983be79aa156ea2ce09a01@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информатика и программирование\,\n
+ Усачева Е.С.\nподгр.№1 \nонлайн\n18 марта /\nп
+ одгр.№2 - 11 марта
+LOCATION:https://docs.google.com/document/d/1ucN32IOhTfenoNmzHiMsFbvPOd772
+ C1x/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1ucN32IOhTfenoNmzHiMsFbvPOd772C1x/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математический анализ
+DTSTART;TZID=Europe/Moscow:20260213T121000
+DTEND;TZID=Europe/Moscow:20260213T134000
+UID:d91336a0fbcfe601715a03de2b9b35edb0a5dbfb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Математический анализ\,\nХакимов Д
+ .Р.\n1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:История России
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:7b20c096702e213180b5eb886572d25dca3a6736@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:История России\,\nКисленко А.О.\n (1-13
+  нед.)\n 1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информатика и программирование
+DTSTART;TZID=Europe/Moscow:20260214T101000
+DTEND;TZID=Europe/Moscow:20260214T114000
+UID:c2d422b3e193ca840b8e78ff86ec3acb5b3d23e2@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информатика и программирование\,\n
+ Усачева Е.С.\nподгр.№1 \n1508\n28 февраля не бу
+ дет с переносом
+LOCATION:https://docs.google.com/document/d/1ucN32IOhTfenoNmzHiMsFbvPOd772
+ C1x/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1ucN32IOhTfenoNmzHiMsFbvPOd772C1x/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информатика и программирование
+DTSTART;TZID=Europe/Moscow:20260214T121000
+DTEND;TZID=Europe/Moscow:20260214T134000
+UID:ac5d2c3b8294b8c3cdab0ffd58bf07573ab2ef4e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информатика и программирование\,\n
+ Усачева Е.С.\nподгр.№1 \n1508\n28 февраля не бу
+ дет с переносом
+LOCATION:https://docs.google.com/document/d/1ucN32IOhTfenoNmzHiMsFbvPOd772
+ C1x/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1ucN32IOhTfenoNmzHiMsFbvPOd772C1x/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информатика и программирование
+DTSTART;TZID=Europe/Moscow:20260214T135000
+DTEND;TZID=Europe/Moscow:20260214T152000
+UID:df3220201890f3497f388ea18ef3685e12a7aeec@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информатика и программирование\,\n
+ Усачева Е.С.\nподгр.№2 \n1508\n28 февраля не бу
+ дет с переносом
+LOCATION:https://docs.google.com/document/d/1gdM2dhZiaN7ncMZsiC1ST4Htx2-3m
+ GC-/edit?usp=drive_link&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1gdM2dhZiaN7ncMZsiC1ST4Htx2-3mGC-/e
+ dit?usp=drive_link&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информатика и программирование
+DTSTART;TZID=Europe/Moscow:20260214T155000
+DTEND;TZID=Europe/Moscow:20260214T172000
+UID:8a87ef360918af12915de76f40595e2c168911c5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информатика и программирование\,\n
+ Усачева Е.С.\nподгр.№2 \n1508\n28 февраля не бу
+ дет с переносом
+LOCATION:https://docs.google.com/document/d/1gdM2dhZiaN7ncMZsiC1ST4Htx2-3m
+ GC-/edit?usp=drive_link&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1gdM2dhZiaN7ncMZsiC1ST4Htx2-3mGC-/e
+ dit?usp=drive_link&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+END:VCALENDAR

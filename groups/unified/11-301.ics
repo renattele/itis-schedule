@@ -1,0 +1,791 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS 11-301
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы робототехники
+DTSTART;TZID=Europe/Moscow:20260209T101000
+DTEND;TZID=Europe/Moscow:20260209T114000
+UID:3b03eff63ba82f5f48e28813cadaac00a58ae4a5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору:\nОсновы робо
+ тотехники.Часть 2\, Чеботарева Э.В. в 1409
+LOCATION:1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы робототехники
+DTSTART;TZID=Europe/Moscow:20260209T121000
+DTEND;TZID=Europe/Moscow:20260209T134000
+UID:0bff1a0a25d5a903f4c6c037c0d5b23abdf2b389@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору:\nОсновы робо
+ тотехники.Часть 2\, Чеботарева Э.В. в 1409
+LOCATION:1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Архитектура ПО
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:fdc28b311035474eec5064121c03b860d44bdeae@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Архитектура программных систем\,\n
+ Курносов О.В.\n1301
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] КМП
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:95073403e37f1080f12c57a9f7cd552f06d0d3c1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nПроектиров
+ ание веб-интерфейсов\, Якушенкова А.Д. в 13
+ 05\nТехнологии разработки ПО (Django)\, Дубров
+ ец В.О. (вебинары) \nРазработка корп.прило
+ жений.ДГ.(Технологии Java.Дополнительные г
+ лавы )\, Фасхутдинов А.Н. в 1308\nРазработка 
+ корп.приложений.ДГ. (NET)\, Адмакин Д.А. (веб
+ инары)\nРазработка корп.приложений.ДГ. (GoL
+ ang)\, Ахметов Д.Ю. (вебинары)\nТехнологии ра
+ зработки ПО (Kotlin Multiplatform)\, Шайхразиев Н.К.
+  в 1307\nТехнологии разработки ПО (Android)\, За
+ рипова Д.И. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/61996855007742
+URL:https://telemost.yandex.ru/j/61996855007742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] КМП
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:95073403e37f1080f12c57a9f7cd552f06d0d3c1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nПроектиров
+ ание веб-интерфейсов\, Якушенкова А.Д. в 13
+ 05\nТехнологии разработки ПО (Django)\, Дубров
+ ец В.О. (вебинары) \nРазработка корп.прило
+ жений.ДГ.(Технологии Java.Дополнительные г
+ лавы )\, Фасхутдинов А.Н. в 1308\nРазработка 
+ корп.приложений.ДГ. (NET)\, Адмакин Д.А. (веб
+ инары)\nРазработка корп.приложений.ДГ. (GoL
+ ang)\, Ахметов Д.Ю. (вебинары)\nТехнологии ра
+ зработки ПО (Kotlin Multiplatform)\, Шайхразиев Н.К.
+  в 1307\nТехнологии разработки ПО (Android)\, За
+ рипова Д.И. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/61996855007742
+URL:https://telemost.yandex.ru/j/61996855007742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] КМП
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:95073403e37f1080f12c57a9f7cd552f06d0d3c1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nПроектиров
+ ание веб-интерфейсов\, Якушенкова А.Д. в 13
+ 05\nТехнологии разработки ПО (Django)\, Дубров
+ ец В.О. (вебинары) \nРазработка корп.прило
+ жений.ДГ.(Технологии Java.Дополнительные г
+ лавы )\, Фасхутдинов А.Н. в 1308\nРазработка 
+ корп.приложений.ДГ. (NET)\, Адмакин Д.А. (веб
+ инары)\nРазработка корп.приложений.ДГ. (GoL
+ ang)\, Ахметов Д.Ю. (вебинары)\nТехнологии ра
+ зработки ПО (Kotlin Multiplatform)\, Шайхразиев Н.К.
+  в 1307\nТехнологии разработки ПО (Android)\, За
+ рипова Д.И. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/61996855007742
+URL:https://telemost.yandex.ru/j/61996855007742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] КМП
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:95073403e37f1080f12c57a9f7cd552f06d0d3c1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nПроектиров
+ ание веб-интерфейсов\, Якушенкова А.Д. в 13
+ 05\nТехнологии разработки ПО (Django)\, Дубров
+ ец В.О. (вебинары) \nРазработка корп.прило
+ жений.ДГ.(Технологии Java.Дополнительные г
+ лавы )\, Фасхутдинов А.Н. в 1308\nРазработка 
+ корп.приложений.ДГ. (NET)\, Адмакин Д.А. (веб
+ инары)\nРазработка корп.приложений.ДГ. (GoL
+ ang)\, Ахметов Д.Ю. (вебинары)\nТехнологии ра
+ зработки ПО (Kotlin Multiplatform)\, Шайхразиев Н.К.
+  в 1307\nТехнологии разработки ПО (Android)\, За
+ рипова Д.И. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/61996855007742
+URL:https://telemost.yandex.ru/j/61996855007742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] КМП
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:95073403e37f1080f12c57a9f7cd552f06d0d3c1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nПроектиров
+ ание веб-интерфейсов\, Якушенкова А.Д. в 13
+ 05\nТехнологии разработки ПО (Django)\, Дубров
+ ец В.О. (вебинары) \nРазработка корп.прило
+ жений.ДГ.(Технологии Java.Дополнительные г
+ лавы )\, Фасхутдинов А.Н. в 1308\nРазработка 
+ корп.приложений.ДГ. (NET)\, Адмакин Д.А. (веб
+ инары)\nРазработка корп.приложений.ДГ. (GoL
+ ang)\, Ахметов Д.Ю. (вебинары)\nТехнологии ра
+ зработки ПО (Kotlin Multiplatform)\, Шайхразиев Н.К.
+  в 1307\nТехнологии разработки ПО (Android)\, За
+ рипова Д.И. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/61996855007742
+URL:https://telemost.yandex.ru/j/61996855007742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] КМП
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:95073403e37f1080f12c57a9f7cd552f06d0d3c1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nПроектиров
+ ание веб-интерфейсов\, Якушенкова А.Д. в 13
+ 05\nТехнологии разработки ПО (Django)\, Дубров
+ ец В.О. (вебинары) \nРазработка корп.прило
+ жений.ДГ.(Технологии Java.Дополнительные г
+ лавы )\, Фасхутдинов А.Н. в 1308\nРазработка 
+ корп.приложений.ДГ. (NET)\, Адмакин Д.А. (веб
+ инары)\nРазработка корп.приложений.ДГ. (GoL
+ ang)\, Ахметов Д.Ю. (вебинары)\nТехнологии ра
+ зработки ПО (Kotlin Multiplatform)\, Шайхразиев Н.К.
+  в 1307\nТехнологии разработки ПО (Android)\, За
+ рипова Д.И. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/61996855007742
+URL:https://telemost.yandex.ru/j/61996855007742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] КМП
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:95073403e37f1080f12c57a9f7cd552f06d0d3c1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nПроектиров
+ ание веб-интерфейсов\, Якушенкова А.Д. в 13
+ 05\nТехнологии разработки ПО (Django)\, Дубров
+ ец В.О. (вебинары) \nРазработка корп.прило
+ жений.ДГ.(Технологии Java.Дополнительные г
+ лавы )\, Фасхутдинов А.Н. в 1308\nРазработка 
+ корп.приложений.ДГ. (NET)\, Адмакин Д.А. (веб
+ инары)\nРазработка корп.приложений.ДГ. (GoL
+ ang)\, Ахметов Д.Ю. (вебинары)\nТехнологии ра
+ зработки ПО (Kotlin Multiplatform)\, Шайхразиев Н.К.
+  в 1307\nТехнологии разработки ПО (Android)\, За
+ рипова Д.И. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/61996855007742
+URL:https://telemost.yandex.ru/j/61996855007742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] КМП
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:ea9dc10db27f2e22115e7e5187f6b1727691cdd5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nПроектиров
+ ание веб-интерфейсов\, Якушенкова А.Д. в 13
+ 05\nТехнологии разработки ПО (Django)\, Дубров
+ ец В.О. (вебинары)\nРазработка корп.прилож
+ ений.ДГ.(Технологии Java.Дополнительные гл
+ авы )\, Фасхутдинов А.Н. в 1308\nРазработка к
+ орп.приложений.ДГ. (NET)\,  Адмакин Д.А. (веби
+ нары)\nРазработка корп.приложений.ДГ. (GoLan
+ g)\, Ахметов Д.Ю. (вебинары)\nТехнологии раз
+ работки ПО (Kotlin Multiplatform)\, Шайхразиев Н.К. 
+ в 1307\nТехнологии разработки ПО (Android)\, Зар
+ ипова Д.И. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/61996855007742
+URL:https://telemost.yandex.ru/j/61996855007742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] КМП
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:ea9dc10db27f2e22115e7e5187f6b1727691cdd5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nПроектиров
+ ание веб-интерфейсов\, Якушенкова А.Д. в 13
+ 05\nТехнологии разработки ПО (Django)\, Дубров
+ ец В.О. (вебинары)\nРазработка корп.прилож
+ ений.ДГ.(Технологии Java.Дополнительные гл
+ авы )\, Фасхутдинов А.Н. в 1308\nРазработка к
+ орп.приложений.ДГ. (NET)\,  Адмакин Д.А. (веби
+ нары)\nРазработка корп.приложений.ДГ. (GoLan
+ g)\, Ахметов Д.Ю. (вебинары)\nТехнологии раз
+ работки ПО (Kotlin Multiplatform)\, Шайхразиев Н.К. 
+ в 1307\nТехнологии разработки ПО (Android)\, Зар
+ ипова Д.И. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/61996855007742
+URL:https://telemost.yandex.ru/j/61996855007742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] КМП
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:ea9dc10db27f2e22115e7e5187f6b1727691cdd5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nПроектиров
+ ание веб-интерфейсов\, Якушенкова А.Д. в 13
+ 05\nТехнологии разработки ПО (Django)\, Дубров
+ ец В.О. (вебинары)\nРазработка корп.прилож
+ ений.ДГ.(Технологии Java.Дополнительные гл
+ авы )\, Фасхутдинов А.Н. в 1308\nРазработка к
+ орп.приложений.ДГ. (NET)\,  Адмакин Д.А. (веби
+ нары)\nРазработка корп.приложений.ДГ. (GoLan
+ g)\, Ахметов Д.Ю. (вебинары)\nТехнологии раз
+ работки ПО (Kotlin Multiplatform)\, Шайхразиев Н.К. 
+ в 1307\nТехнологии разработки ПО (Android)\, Зар
+ ипова Д.И. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/61996855007742
+URL:https://telemost.yandex.ru/j/61996855007742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] КМП
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:ea9dc10db27f2e22115e7e5187f6b1727691cdd5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nПроектиров
+ ание веб-интерфейсов\, Якушенкова А.Д. в 13
+ 05\nТехнологии разработки ПО (Django)\, Дубров
+ ец В.О. (вебинары)\nРазработка корп.прилож
+ ений.ДГ.(Технологии Java.Дополнительные гл
+ авы )\, Фасхутдинов А.Н. в 1308\nРазработка к
+ орп.приложений.ДГ. (NET)\,  Адмакин Д.А. (веби
+ нары)\nРазработка корп.приложений.ДГ. (GoLan
+ g)\, Ахметов Д.Ю. (вебинары)\nТехнологии раз
+ работки ПО (Kotlin Multiplatform)\, Шайхразиев Н.К. 
+ в 1307\nТехнологии разработки ПО (Android)\, Зар
+ ипова Д.И. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/61996855007742
+URL:https://telemost.yandex.ru/j/61996855007742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] КМП
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:ea9dc10db27f2e22115e7e5187f6b1727691cdd5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nПроектиров
+ ание веб-интерфейсов\, Якушенкова А.Д. в 13
+ 05\nТехнологии разработки ПО (Django)\, Дубров
+ ец В.О. (вебинары)\nРазработка корп.прилож
+ ений.ДГ.(Технологии Java.Дополнительные гл
+ авы )\, Фасхутдинов А.Н. в 1308\nРазработка к
+ орп.приложений.ДГ. (NET)\,  Адмакин Д.А. (веби
+ нары)\nРазработка корп.приложений.ДГ. (GoLan
+ g)\, Ахметов Д.Ю. (вебинары)\nТехнологии раз
+ работки ПО (Kotlin Multiplatform)\, Шайхразиев Н.К. 
+ в 1307\nТехнологии разработки ПО (Android)\, Зар
+ ипова Д.И. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/61996855007742
+URL:https://telemost.yandex.ru/j/61996855007742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] КМП
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:ea9dc10db27f2e22115e7e5187f6b1727691cdd5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nПроектиров
+ ание веб-интерфейсов\, Якушенкова А.Д. в 13
+ 05\nТехнологии разработки ПО (Django)\, Дубров
+ ец В.О. (вебинары)\nРазработка корп.прилож
+ ений.ДГ.(Технологии Java.Дополнительные гл
+ авы )\, Фасхутдинов А.Н. в 1308\nРазработка к
+ орп.приложений.ДГ. (NET)\,  Адмакин Д.А. (веби
+ нары)\nРазработка корп.приложений.ДГ. (GoLan
+ g)\, Ахметов Д.Ю. (вебинары)\nТехнологии раз
+ работки ПО (Kotlin Multiplatform)\, Шайхразиев Н.К. 
+ в 1307\nТехнологии разработки ПО (Android)\, Зар
+ ипова Д.И. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/61996855007742
+URL:https://telemost.yandex.ru/j/61996855007742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] КМП
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:ea9dc10db27f2e22115e7e5187f6b1727691cdd5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nПроектиров
+ ание веб-интерфейсов\, Якушенкова А.Д. в 13
+ 05\nТехнологии разработки ПО (Django)\, Дубров
+ ец В.О. (вебинары)\nРазработка корп.прилож
+ ений.ДГ.(Технологии Java.Дополнительные гл
+ авы )\, Фасхутдинов А.Н. в 1308\nРазработка к
+ орп.приложений.ДГ. (NET)\,  Адмакин Д.А. (веби
+ нары)\nРазработка корп.приложений.ДГ. (GoLan
+ g)\, Ахметов Д.Ю. (вебинары)\nТехнологии раз
+ работки ПО (Kotlin Multiplatform)\, Шайхразиев Н.К. 
+ в 1307\nТехнологии разработки ПО (Android)\, Зар
+ ипова Д.И. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/61996855007742
+URL:https://telemost.yandex.ru/j/61996855007742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Компьютерное зрение
+DTSTART;TZID=Europe/Moscow:20260210T083000
+DTEND;TZID=Europe/Moscow:20260210T100000
+UID:4986b5e548a1e59b3e812dae3301dcf9fb956d1f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору:\nПрикладные 
+ задачи интелл.АД (Компьютерное зрение)\, 
+ Тощев А.С. (вебинары)
+LOCATION:https://my.mts-link.ru/j/83410197/1156124563
+URL:https://my.mts-link.ru/j/83410197/1156124563
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Компьютерное зрение
+DTSTART;TZID=Europe/Moscow:20260210T101000
+DTEND;TZID=Europe/Moscow:20260210T114000
+UID:eac65cee7ff91c7a9011e806c90b7014075c314d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору:\nТехнологии 
+ разработки ПО (Devops)\, Редькин М.С. в 1508\nПри
+ кладные задачи интелл.АД (Компьютерное з
+ рение)\, Тощев А.С. (вебинары)
+LOCATION:https://my.mts-link.ru/j/83410197/1156124563
+URL:https://my.mts-link.ru/j/83410197/1156124563
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Девопс
+DTSTART;TZID=Europe/Moscow:20260210T121000
+DTEND;TZID=Europe/Moscow:20260210T134000
+UID:d63d7250f1304072c48774cec5323b23c2c65616@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору:\nТехнологии 
+ разработки ПО (Devops)\, Редькин М.С. в 1508
+LOCATION:1508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260210T135000
+DTEND;TZID=Europe/Moscow:20260210T152000
+UID:0fd294c1d3f08a2d626f9b2f7f92152fe15aa045@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС\, 14:00 - 15:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Инновационная экономика
+DTSTART;TZID=Europe/Moscow:20260217T155000
+DTEND;TZID=Europe/Moscow:20260217T172000
+UID:d9cee5c11af4d9ba144737f6f944584ad34b9d68@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Инновационная экономика и технол
+ огическое предпринимательство\,\nГалеев 
+ С.И.\n(четн. нед.лек.) \nауд. 1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Инфобез
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:b9903c83ad20972d283ddb64ccc5b2de9c92d824@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информационная безопасность\, Мул
+ юков Р.И.  \n1307
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Инновационная экономика
+DTSTART;TZID=Europe/Moscow:20260218T155000
+DTEND;TZID=Europe/Moscow:20260218T172000
+UID:364c0ffa442f25ed61671df5e95bfb4176d21b46@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Инновационная экономика и технол
+ огическое предпринимательство\,\nГалеев 
+ С.И.\n(четн.нед.)\n1304
+LOCATION:1304
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Управление проектами
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:87256ed382f04452050e1028fdda066fe07aeaa7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление проектами\,\nГригорян К
+ .А.\n1310-1311\n(11 февраля не будет с переносом 
+ на 24 апреля в 10:10 онлайн)
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Архитектура ПО
+DTSTART;TZID=Europe/Moscow:20260211T191000
+DTEND;TZID=Europe/Moscow:20260211T204000
+UID:8ca9c482dd869f31f6743543343269c697dbf7f0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Архитектура программных систем\, 
+ Тощев А.С. \n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Биоинформатика
+DTSTART;TZID=Europe/Moscow:20260212T083000
+DTEND;TZID=Europe/Moscow:20260212T100000
+UID:4c40f5091d642e1bc7aa35f91b80f7c41a169f34@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору:\nПрикладные 
+ задачи интелл.АД (Биоинформатика)\, Козло
+ ва О.С.в 1306
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Биоинформатика
+DTSTART;TZID=Europe/Moscow:20260212T101000
+DTEND;TZID=Europe/Moscow:20260212T114000
+UID:2870eeb965313d3d6aeb75497dcb1b87e115da34@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору:\nПрикладные 
+ задачи интелл.АД (Биоинформатика)\, Козло
+ ва О.С.в 1306
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Управление проектами
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:1f129fe8ae1509c2329218e56e67034a124dc183@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление проектами\,\nКарпеева Ю
+ .А.\n(1-9 нед.) \n 1309
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:bebf62a00ae519a3ee179d75c6b8af162226c4e5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nНейронные с
+ ети для визуализации и компьютерных игр\
+ , Хафизов М.Р. в 1412\nОбработка текстов на е
+ /я\, Липачев Е.К. в 1304\nПрикладные задачи и
+ нтелл.АД (ДГ алгоритмики)\, Лернер Э.Ю. в 130
+ 7\nПрикладные задачи интелл.АД (Разработк
+ а ПО и анализ данных в задачах применени
+ я космической плазмы)\, Шемахин А.Ю\, в 1305\n
+ Прикладные задачи интелл.АД (BigData)\, Хайру
+ ллин А.Ф. в 1306\nФизика\, Алакшин Е.М.в ауд.112
+  института физики\nПрикладные задачи инт
+ елл.АД (АД в физике)\, Галимзянов Б.Н. в 1308
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:bebf62a00ae519a3ee179d75c6b8af162226c4e5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nНейронные с
+ ети для визуализации и компьютерных игр\
+ , Хафизов М.Р. в 1412\nОбработка текстов на е
+ /я\, Липачев Е.К. в 1304\nПрикладные задачи и
+ нтелл.АД (ДГ алгоритмики)\, Лернер Э.Ю. в 130
+ 7\nПрикладные задачи интелл.АД (Разработк
+ а ПО и анализ данных в задачах применени
+ я космической плазмы)\, Шемахин А.Ю\, в 1305\n
+ Прикладные задачи интелл.АД (BigData)\, Хайру
+ ллин А.Ф. в 1306\nФизика\, Алакшин Е.М.в ауд.112
+  института физики\nПрикладные задачи инт
+ елл.АД (АД в физике)\, Галимзянов Б.Н. в 1308
+LOCATION:1304
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:bebf62a00ae519a3ee179d75c6b8af162226c4e5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nНейронные с
+ ети для визуализации и компьютерных игр\
+ , Хафизов М.Р. в 1412\nОбработка текстов на е
+ /я\, Липачев Е.К. в 1304\nПрикладные задачи и
+ нтелл.АД (ДГ алгоритмики)\, Лернер Э.Ю. в 130
+ 7\nПрикладные задачи интелл.АД (Разработк
+ а ПО и анализ данных в задачах применени
+ я космической плазмы)\, Шемахин А.Ю\, в 1305\n
+ Прикладные задачи интелл.АД (BigData)\, Хайру
+ ллин А.Ф. в 1306\nФизика\, Алакшин Е.М.в ауд.112
+  института физики\nПрикладные задачи инт
+ елл.АД (АД в физике)\, Галимзянов Б.Н. в 1308
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:bebf62a00ae519a3ee179d75c6b8af162226c4e5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nНейронные с
+ ети для визуализации и компьютерных игр\
+ , Хафизов М.Р. в 1412\nОбработка текстов на е
+ /я\, Липачев Е.К. в 1304\nПрикладные задачи и
+ нтелл.АД (ДГ алгоритмики)\, Лернер Э.Ю. в 130
+ 7\nПрикладные задачи интелл.АД (Разработк
+ а ПО и анализ данных в задачах применени
+ я космической плазмы)\, Шемахин А.Ю\, в 1305\n
+ Прикладные задачи интелл.АД (BigData)\, Хайру
+ ллин А.Ф. в 1306\nФизика\, Алакшин Е.М.в ауд.112
+  института физики\nПрикладные задачи инт
+ елл.АД (АД в физике)\, Галимзянов Б.Н. в 1308
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:bebf62a00ae519a3ee179d75c6b8af162226c4e5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nНейронные с
+ ети для визуализации и компьютерных игр\
+ , Хафизов М.Р. в 1412\nОбработка текстов на е
+ /я\, Липачев Е.К. в 1304\nПрикладные задачи и
+ нтелл.АД (ДГ алгоритмики)\, Лернер Э.Ю. в 130
+ 7\nПрикладные задачи интелл.АД (Разработк
+ а ПО и анализ данных в задачах применени
+ я космической плазмы)\, Шемахин А.Ю\, в 1305\n
+ Прикладные задачи интелл.АД (BigData)\, Хайру
+ ллин А.Ф. в 1306\nФизика\, Алакшин Е.М.в ауд.112
+  института физики\nПрикладные задачи инт
+ елл.АД (АД в физике)\, Галимзянов Б.Н. в 1308
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:bebf62a00ae519a3ee179d75c6b8af162226c4e5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nНейронные с
+ ети для визуализации и компьютерных игр\
+ , Хафизов М.Р. в 1412\nОбработка текстов на е
+ /я\, Липачев Е.К. в 1304\nПрикладные задачи и
+ нтелл.АД (ДГ алгоритмики)\, Лернер Э.Ю. в 130
+ 7\nПрикладные задачи интелл.АД (Разработк
+ а ПО и анализ данных в задачах применени
+ я космической плазмы)\, Шемахин А.Ю\, в 1305\n
+ Прикладные задачи интелл.АД (BigData)\, Хайру
+ ллин А.Ф. в 1306\nФизика\, Алакшин Е.М.в ауд.112
+  института физики\nПрикладные задачи инт
+ елл.АД (АД в физике)\, Галимзянов Б.Н. в 1308
+LOCATION:112
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:bebf62a00ae519a3ee179d75c6b8af162226c4e5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nНейронные с
+ ети для визуализации и компьютерных игр\
+ , Хафизов М.Р. в 1412\nОбработка текстов на е
+ /я\, Липачев Е.К. в 1304\nПрикладные задачи и
+ нтелл.АД (ДГ алгоритмики)\, Лернер Э.Ю. в 130
+ 7\nПрикладные задачи интелл.АД (Разработк
+ а ПО и анализ данных в задачах применени
+ я космической плазмы)\, Шемахин А.Ю\, в 1305\n
+ Прикладные задачи интелл.АД (BigData)\, Хайру
+ ллин А.Ф. в 1306\nФизика\, Алакшин Е.М.в ауд.112
+  института физики\nПрикладные задачи инт
+ елл.АД (АД в физике)\, Галимзянов Б.Н. в 1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260212T191000
+DTEND;TZID=Europe/Moscow:20260212T204000
+UID:5abcbdc8cf054dbb9f21b0f9024ab59e65e17bfc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nНейронные с
+ ети для визуализации и компьютерных игр\
+ , Хафизов М.Р. в 1412\nОбработка текстов на е
+ /я\, Липачев Е.К.в 1304\nПрикладные задачи ин
+ телл.АД (ДГ алгоритмики)\, Лернер Э.Ю.в 1307\n
+ Прикладные задачи интелл.АД (Разработка 
+ ПО и анализ данных в задачах применения 
+ космической плазмы)\, Шемахин А.Ю\, в 1305\nП
+ рикладные задачи интелл.АД (BigData)\, Хайрул
+ лин А.Ф. в 1306\nФизика\, Алакшин Е.М. в ауд.401 
+ института физики\nПрикладные задачи инт
+ елл.АД (АД в физике)\, Галимзянов Б.Н. в 1308
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260212T191000
+DTEND;TZID=Europe/Moscow:20260212T204000
+UID:5abcbdc8cf054dbb9f21b0f9024ab59e65e17bfc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nНейронные с
+ ети для визуализации и компьютерных игр\
+ , Хафизов М.Р. в 1412\nОбработка текстов на е
+ /я\, Липачев Е.К.в 1304\nПрикладные задачи ин
+ телл.АД (ДГ алгоритмики)\, Лернер Э.Ю.в 1307\n
+ Прикладные задачи интелл.АД (Разработка 
+ ПО и анализ данных в задачах применения 
+ космической плазмы)\, Шемахин А.Ю\, в 1305\nП
+ рикладные задачи интелл.АД (BigData)\, Хайрул
+ лин А.Ф. в 1306\nФизика\, Алакшин Е.М. в ауд.401 
+ института физики\nПрикладные задачи инт
+ елл.АД (АД в физике)\, Галимзянов Б.Н. в 1308
+LOCATION:1304
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260212T191000
+DTEND;TZID=Europe/Moscow:20260212T204000
+UID:5abcbdc8cf054dbb9f21b0f9024ab59e65e17bfc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nНейронные с
+ ети для визуализации и компьютерных игр\
+ , Хафизов М.Р. в 1412\nОбработка текстов на е
+ /я\, Липачев Е.К.в 1304\nПрикладные задачи ин
+ телл.АД (ДГ алгоритмики)\, Лернер Э.Ю.в 1307\n
+ Прикладные задачи интелл.АД (Разработка 
+ ПО и анализ данных в задачах применения 
+ космической плазмы)\, Шемахин А.Ю\, в 1305\nП
+ рикладные задачи интелл.АД (BigData)\, Хайрул
+ лин А.Ф. в 1306\nФизика\, Алакшин Е.М. в ауд.401 
+ института физики\nПрикладные задачи инт
+ елл.АД (АД в физике)\, Галимзянов Б.Н. в 1308
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260212T191000
+DTEND;TZID=Europe/Moscow:20260212T204000
+UID:5abcbdc8cf054dbb9f21b0f9024ab59e65e17bfc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nНейронные с
+ ети для визуализации и компьютерных игр\
+ , Хафизов М.Р. в 1412\nОбработка текстов на е
+ /я\, Липачев Е.К.в 1304\nПрикладные задачи ин
+ телл.АД (ДГ алгоритмики)\, Лернер Э.Ю.в 1307\n
+ Прикладные задачи интелл.АД (Разработка 
+ ПО и анализ данных в задачах применения 
+ космической плазмы)\, Шемахин А.Ю\, в 1305\nП
+ рикладные задачи интелл.АД (BigData)\, Хайрул
+ лин А.Ф. в 1306\nФизика\, Алакшин Е.М. в ауд.401 
+ института физики\nПрикладные задачи инт
+ елл.АД (АД в физике)\, Галимзянов Б.Н. в 1308
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260212T191000
+DTEND;TZID=Europe/Moscow:20260212T204000
+UID:5abcbdc8cf054dbb9f21b0f9024ab59e65e17bfc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nНейронные с
+ ети для визуализации и компьютерных игр\
+ , Хафизов М.Р. в 1412\nОбработка текстов на е
+ /я\, Липачев Е.К.в 1304\nПрикладные задачи ин
+ телл.АД (ДГ алгоритмики)\, Лернер Э.Ю.в 1307\n
+ Прикладные задачи интелл.АД (Разработка 
+ ПО и анализ данных в задачах применения 
+ космической плазмы)\, Шемахин А.Ю\, в 1305\nП
+ рикладные задачи интелл.АД (BigData)\, Хайрул
+ лин А.Ф. в 1306\nФизика\, Алакшин Е.М. в ауд.401 
+ института физики\nПрикладные задачи инт
+ елл.АД (АД в физике)\, Галимзянов Б.Н. в 1308
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260212T191000
+DTEND;TZID=Europe/Moscow:20260212T204000
+UID:5abcbdc8cf054dbb9f21b0f9024ab59e65e17bfc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nНейронные с
+ ети для визуализации и компьютерных игр\
+ , Хафизов М.Р. в 1412\nОбработка текстов на е
+ /я\, Липачев Е.К.в 1304\nПрикладные задачи ин
+ телл.АД (ДГ алгоритмики)\, Лернер Э.Ю.в 1307\n
+ Прикладные задачи интелл.АД (Разработка 
+ ПО и анализ данных в задачах применения 
+ космической плазмы)\, Шемахин А.Ю\, в 1305\nП
+ рикладные задачи интелл.АД (BigData)\, Хайрул
+ лин А.Ф. в 1306\nФизика\, Алакшин Е.М. в ауд.401 
+ института физики\nПрикладные задачи инт
+ елл.АД (АД в физике)\, Галимзянов Б.Н. в 1308
+LOCATION:401
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260212T191000
+DTEND;TZID=Europe/Moscow:20260212T204000
+UID:5abcbdc8cf054dbb9f21b0f9024ab59e65e17bfc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nНейронные с
+ ети для визуализации и компьютерных игр\
+ , Хафизов М.Р. в 1412\nОбработка текстов на е
+ /я\, Липачев Е.К.в 1304\nПрикладные задачи ин
+ телл.АД (ДГ алгоритмики)\, Лернер Э.Ю.в 1307\n
+ Прикладные задачи интелл.АД (Разработка 
+ ПО и анализ данных в задачах применения 
+ космической плазмы)\, Шемахин А.Ю\, в 1305\nП
+ рикладные задачи интелл.АД (BigData)\, Хайрул
+ лин А.Ф. в 1306\nФизика\, Алакшин Е.М. в ауд.401 
+ института физики\nПрикладные задачи инт
+ елл.АД (АД в физике)\, Галимзянов Б.Н. в 1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:bd7d019d8c5f43321212246fc1fd68217b9f7f5d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС   \n14:00 - 15:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Инфобез
+DTSTART;TZID=Europe/Moscow:20260213T173000
+DTEND;TZID=Europe/Moscow:20260213T190000
+UID:2a7cff7dfd827a96a479daae8b85bc9f1d583c6c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информационная безопасность\, Мул
+ юков Р.И.      \n ауд. 1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологическая практика
+DTSTART;TZID=Europe/Moscow:20260213T191000
+DTEND;TZID=Europe/Moscow:20260213T204000
+UID:08f7bb58f63a930c156a555043cd68f49fd1d8e3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика (по распределению) 9 
+ нед.\nЛаборатория  Cloud Lab ауд.1409
+LOCATION:1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Управление качеством
+DTSTART;TZID=Europe/Moscow:20260214T083000
+DTEND;TZID=Europe/Moscow:20260214T100000
+UID:ddbac385ebd1224ffc3a8db124df1a4b88f15ae6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление качеством разработки 
+ ПО\, Николаева Е.О.\n 1302\n28 февраля не будет
+LOCATION:1302
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Управление качеством
+DTSTART;TZID=Europe/Moscow:20260214T155000
+DTEND;TZID=Europe/Moscow:20260214T172000
+UID:5f50f2a7e424a7b909cb97110e077ddf8599147a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление качеством разработки 
+ ПО\, Николаева Е.О. лекции (в эл.форме)\n(ве
+ бинары)\n28 февраля не будет
+LOCATION:https://kpfu.mts-link.ru/j/91781839/12981210676
+URL:https://kpfu.mts-link.ru/j/91781839/12981210676
+END:VEVENT
+END:VCALENDAR

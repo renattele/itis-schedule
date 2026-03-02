@@ -1,0 +1,221 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS 11-305_Забинский Данил Евгеньеви
+ ч
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Дисциплина по выбору:
+DTSTART;TZID=Europe/Moscow:20260210T083000
+DTEND;TZID=Europe/Moscow:20260210T100000
+UID:3918ff60264f2ebbc5782756863b48854b2fe5df@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору:\nПрикладные 
+ задачи интелл.АД (Компьютерное зрение)\, 
+ Тощев А.С. (вебинары)
+LOCATION:https://my.mts-link.ru/j/83410197/1156124563
+URL:https://my.mts-link.ru/j/83410197/1156124563
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологии разработки ПО (Kotlin 
+ Multiplatform)
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:2a95c4d97da5bc9037ae3b8013f7db64f7548cab@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nПроектиров
+ ание веб-интерфейсов\, Якушенкова А.Д. в 13
+ 05\nТехнологии разработки ПО (Django)\, Дубров
+ ец В.О. (вебинары)\nРазработка корп.прилож
+ ений.ДГ.(Технологии Java.Дополнительные гл
+ авы )\, Фасхутдинов А.Н. в 1308\nРазработка к
+ орп.приложений.ДГ. (NET)\,  Адмакин Д.А. (веби
+ нары)\nРазработка корп.приложений.ДГ. (GoLan
+ g)\, Ахметов Д.Ю. (вебинары)\nТехнологии раз
+ работки ПО (Kotlin Multiplatform)\, Шайхразиев Н.К. 
+ в 1307\nТехнологии разработки ПО (Android)\, Зар
+ ипова Д.И. (вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/7102971487
+URL:https://telemost.360.yandex.ru/j/7102971487
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Инновационная экономика и тех
+ нологическое предпринимательство
+DTSTART;TZID=Europe/Moscow:20260210T155000
+DTEND;TZID=Europe/Moscow:20260210T172000
+UID:284c8125da5b6319b6be17ce9c147289e05b7533@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Инновационная экономика и технол
+ огическое предпринимательство\,\nГалеев 
+ С.И.\n(нечетн. нед.лек.) \nауд. 1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Управление качеством разрабо
+ тки ПО\, Николаева Е.О. лекции (в эл.форме)
+DTSTART;TZID=Europe/Moscow:20260214T155000
+DTEND;TZID=Europe/Moscow:20260214T172000
+UID:2f396e25b8bd81c16a042badfc44316938213df0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление качеством разработки 
+ ПО\, Николаева Е.О. лекции (в эл.форме)\n(ве
+ бинары)\n28 февраля не будет
+LOCATION:https://kpfu.mts-link.ru/j/91781839/12981210676
+URL:https://kpfu.mts-link.ru/j/91781839/12981210676
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Элективные курсы по физическо
+ й культуре и спорту  УНИКС\, 14:00 - 15:30
+DTSTART;TZID=Europe/Moscow:20260210T135000
+DTEND;TZID=Europe/Moscow:20260210T152000
+UID:08a17ad0ebb572bd588cd68fa5e505beacd47e1e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС\, 14:00 - 15:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Информационная безопасность\,
+  Валишин И.А.
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:7b5ae95ff10e8b2994d7b1ea96fb16a850049c0d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информационная безопасность\, Вал
+ ишин И.А.\nонлайн
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Управление проектами
+DTSTART;TZID=Europe/Moscow:20260211T155000
+DTEND;TZID=Europe/Moscow:20260211T172000
+UID:03da5304ae8a8bbf7df276ca6da8626fe858fdee@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление проектами\,\nНасибулли
+ на Э.Р.\n 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологическая (проектно-тех
+ нологическая) практика (по распределени
+ ю) 9 нед.
+DTSTART;TZID=Europe/Moscow:20260213T191000
+DTEND;TZID=Europe/Moscow:20260213T204000
+UID:09a646bb9d70fdbc577b5352bee5f2c8747f8c92@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика (по распределению) 9 
+ нед.\nЛаборатория  Cloud Lab ауд.1409
+LOCATION:1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Инновационная экономика и тех
+ нологическое предпринимательство
+DTSTART;TZID=Europe/Moscow:20260221T083000
+DTEND;TZID=Europe/Moscow:20260221T100000
+UID:3a6226fdee7fa900d65d959452b9a8b886cec736@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Инновационная экономика и технол
+ огическое предпринимательство\,\nКулаги
+ н Р.В.\nчетн.нед.\n 1303
+LOCATION:1303
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Информационная безопасность\,
+  Иванов К.В. (в эл.форме)
+DTSTART;TZID=Europe/Moscow:20260214T135000
+DTEND;TZID=Europe/Moscow:20260214T152000
+UID:159cabc15d7396c46914776ea8ca0d866a5f82c7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информационная безопасность\, Ива
+ нов К.В. (в эл.форме)        \n(вебинары)
+LOCATION:https://kpfu.mts-link.ru/j/92169153/13056633572
+URL:https://kpfu.mts-link.ru/j/92169153/13056633572
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологии разработки ПО (Kotlin 
+ Multiplatform)
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:119a584f7587a0da12c5689b4d93168e2b5cfbda@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nПроектиров
+ ание веб-интерфейсов\, Якушенкова А.Д. в 13
+ 05\nТехнологии разработки ПО (Django)\, Дубров
+ ец В.О. (вебинары) \nРазработка корп.прило
+ жений.ДГ.(Технологии Java.Дополнительные г
+ лавы )\, Фасхутдинов А.Н. в 1308\nРазработка 
+ корп.приложений.ДГ. (NET)\, Адмакин Д.А. (веб
+ инары)\nРазработка корп.приложений.ДГ. (GoL
+ ang)\, Ахметов Д.Ю. (вебинары)\nТехнологии ра
+ зработки ПО (Kotlin Multiplatform)\, Шайхразиев Н.К.
+  в 1307\nТехнологии разработки ПО (Android)\, За
+ рипова Д.И. (вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/7102971487
+URL:https://telemost.360.yandex.ru/j/7102971487
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Архитектура программных сист
+ ем
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:43f37d886399c45e9f380918fd9fc60115b56ef8@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Архитектура программных систем\,\n
+ Коростелева Д.М.\nв 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Дисциплина по выбору:
+DTSTART;TZID=Europe/Moscow:20260210T101000
+DTEND;TZID=Europe/Moscow:20260210T114000
+UID:a61c7bef3c49f895ad4fe604d46108198eb66420@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору:\nТехнологии 
+ разработки ПО (Devops)\, Редькин М.С. в 1508\nПри
+ кладные задачи интелл.АД (Компьютерное з
+ рение)\, Тощев А.С. (вебинары)
+LOCATION:https://my.mts-link.ru/j/83410197/1156124563
+URL:https://my.mts-link.ru/j/83410197/1156124563
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Элективные курсы по физическо
+ й культуре и спорту  УНИКС
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:9834409cddb11f78fad61dcea3eec5793583bf25@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС   \n14:00 - 15:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Управление проектами
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:25521161b87e2ca41dc3019a2fb7f6ec6f4e69f6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление проектами\,\nНасибулли
+ на Э.Р.\n(1-9 нед.) \n 1309
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Управление качеством разрабо
+ тки ПО
+DTSTART;TZID=Europe/Moscow:20260211T191000
+DTEND;TZID=Europe/Moscow:20260211T204000
+UID:3888180f1a9c31b1c188266e543f028a21278e48@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление качеством разработки 
+ ПО\, Родионова А.В.  1306
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Архитектура программных сист
+ ем
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:2cef883dc5189b3d1217441cbb6d11b311041632@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Архитектура программных систем\,\n
+ Коростелева Д.М.\n1302
+LOCATION:1302
+END:VEVENT
+END:VCALENDAR

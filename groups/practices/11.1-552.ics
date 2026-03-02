@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:3ed18776e58207ce058f54ae540a478497841d33@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы машинного обучения Агафон
+ ов А.А. в 1405
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Средства и инструменты программной 
+ инженерии
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:9076f38801f617cc84f7160f064b615760afac47@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Средства и инструменты программн
+ ой инженерии Тощев А.С. по н.н. лекц. по ч.н
+ . прак. в 1405
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Гуманитарные дисциплины
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:ec0ef02b2fe4ba81bc9a017d2b7908dba77e81d4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Правовые аспекты использования с
+ истем искусственного интеллекта   практ
+ ика по ч.н. Камалетдинова А.В. в ауд.1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Проектная работа
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:dc0e90e85303c70d65b22afd85a6331725e0018b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Командный проект по искусственно
+ му интеллекту Курносов О.В. в ауд.1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:5caaaec46d23bfca68e62759160d71fb461ed04e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) ауд. 1301\, Воронина Д.И. (веби
+ нары)
+LOCATION:https://telemost.yandex.ru/j/51121620730386
+URL:https://telemost.yandex.ru/j/51121620730386
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260211T191000
+DTEND;TZID=Europe/Moscow:20260211T204000
+UID:884662211f33faed5a2156562a3bceabbd474ef9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) ауд. 1301\, Воронина Д.И. (веби
+ нары)
+LOCATION:https://kpfu.mts-link.ru/j/82016803/846857397
+URL:https://kpfu.mts-link.ru/j/82016803/846857397
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Методология научных исследований
+DTSTART;TZID=Europe/Moscow:20260213T173000
+DTEND;TZID=Europe/Moscow:20260213T190000
+UID:a6a9ca76eabdc106e780cfc5bdbcbacf6c55e42d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Методология научных исследований
+  Тощев А.С. в ауд.1304 ( по неч. нед. лекц. \,по 
+ чет.нед. практ.)
+LOCATION:1304
+END:VEVENT
+END:VCALENDAR

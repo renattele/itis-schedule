@@ -1,0 +1,267 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS 11-502
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Лекц] Элективные курсы по физическо
+ й культуре и спорту   (10:00-11:30)
+DTSTART;TZID=Europe/Moscow:20260209T101000
+DTEND;TZID=Europe/Moscow:20260209T114000
+UID:9d9186ff4affdb7d53a59d76ba04cf4b621aacae@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту   (10:00-11:30)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Дискретная математика
+DTSTART;TZID=Europe/Moscow:20260209T121000
+DTEND;TZID=Europe/Moscow:20260209T134000
+UID:af9bd1b5334c8ed4d7d4edd1183a8022ebd61263@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дискретная математика\,\nЗайнетди
+ нов Д.Х. 1305
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] История России
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:32cd02540ae9793a2e839972b8a5972240589f4f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:История России\,  \nНовоселов А.Л. \n2
+ 18
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Философия
+DTSTART;TZID=Europe/Moscow:20260209T155000
+DTEND;TZID=Europe/Moscow:20260209T172000
+UID:a125a2aef60bf3115edca48e36f9d9bd7923d58a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Философия\,\nЛагутин М.В.\n(1-9 нед.) в 
+ 1307
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Введение в проектную деятельн
+ ость\, (9 нед.)
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:c96aed4955abe2a8570da082d33d36035fc7f944@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Введение в проектную деятельност
+ ь\, (9 нед.) \nШигапов М.И. в 1301 (список студе
+ нтов) перенос на среду 15:50\nАбдурахманов 
+ А.Ш. в 1409 (список студентов)\nДоброквашина
+  А.С. в 1304 (список студентов)\nТ-банк в 1306 (с
+ писок студентов)\nс 4 недели
+LOCATION:https://docs.google.com/document/d/1bz1W1k8b_1qqfg5dh1tRkEczhzS6H
+ liG/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1bz1W1k8b_1qqfg5dh1tRkEczhzS6HliG/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Иностранный язык в профессион
+ альной сфере (1-9 нед.):
+DTSTART;TZID=Europe/Moscow:20260210T083000
+DTEND;TZID=Europe/Moscow:20260210T100000
+UID:c6b80a3a1ce7467dca6ae68078a52b0d64a46ec9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык в профессиональ
+ ной сфере (1-9 нед.): Муфазалова Н.И в 1301\, Би
+ бик Е.А. в 1302\, Гатиятуллина Г.М. в 1303\, Таги
+ ров Р.М. в 1304\, Шарифуллина Э.А. в 1305\, Булин
+ а Е.Н. в 1306
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Дискретная математика
+DTSTART;TZID=Europe/Moscow:20260210T101000
+DTEND;TZID=Europe/Moscow:20260210T114000
+UID:b794d872e9af022c2669a0e58c4210567fc6116d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дискретная математика\, \n Калимул
+ лин И.Ш.\, \nауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Алгебра и геометрия
+DTSTART;TZID=Europe/Moscow:20260210T121000
+DTEND;TZID=Europe/Moscow:20260210T134000
+UID:05ac672b7b174b53a529e8146693aac34ac193c3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгебра и геометрия\,\nЗубкова С.К. 
+ \n1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Введение в проектную деятельн
+ ость
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:ceec797575832206c23c245553ba6e352eb1adb7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Введение в проектную деятельност
+ ь\, \nРоманчук Н.Э. в 1412  (список студентов)\
+ n24 февраля\, 3\,10\,24 марта\, 7\,21 апреля\, 5 и 19 
+ мая\,2 июня
+LOCATION:https://docs.google.com/document/d/136N0F1SgoTKuMRJL_j5X859FtuiPM
+ Iba/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/136N0F1SgoTKuMRJL_j5X859FtuiPMIba/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Философия\, Солдатова Н.О.
+DTSTART;TZID=Europe/Moscow:20260211T083000
+DTEND;TZID=Europe/Moscow:20260211T100000
+UID:c0c3c91a8383514d85eec9f17a52cd6339bac68a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Философия\, Солдатова Н.О.\n(1-9 нед.)\
+ n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Математический анализ
+DTSTART;TZID=Europe/Moscow:20260211T101000
+DTEND;TZID=Europe/Moscow:20260211T114000
+UID:f24326af5e459bc18971d66c89878edcbc29eda5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Математический анализ\, \nДаутова 
+ Д.Н.\, \nауд. 108
+LOCATION:108
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Алгебра и геометрия\, лекции\, 
+ Арсланов М.М.
+DTSTART;TZID=Europe/Moscow:20260211T135000
+DTEND;TZID=Europe/Moscow:20260211T152000
+UID:4eeb1ab4c2d5042acd5180bc8eb3ca51909b6308@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгебра и геометрия\, лекции\, Арсл
+ анов М.М. \nауд. 109
+LOCATION:109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Введение в проектную деятельн
+ ость\, (9 нед.)
+DTSTART;TZID=Europe/Moscow:20260211T155000
+DTEND;TZID=Europe/Moscow:20260211T172000
+UID:019c3c8eac8b99718cd035ed86d3207c87c4e2f9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Введение в проектную деятельност
+ ь\, (9 нед.) \nШигапов М.И. в 1508 (список студе
+ нтов) \nс 4 марта
+LOCATION:https://docs.google.com/document/d/1bz1W1k8b_1qqfg5dh1tRkEczhzS6H
+ liG/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1bz1W1k8b_1qqfg5dh1tRkEczhzS6HliG/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Элективные курсы по физическо
+ й культуре и спорту   (10:00-11:30)
+DTSTART;TZID=Europe/Moscow:20260212T101000
+DTEND;TZID=Europe/Moscow:20260212T114000
+UID:08316f38de8a0ea09d9db9e29f4abae2c295eb1c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту   (10:00-11:30)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] История Росии
+DTSTART;TZID=Europe/Moscow:20260212T121000
+DTEND;TZID=Europe/Moscow:20260212T134000
+UID:e648b465510ae9f17d8bb3d2ab025504e8da8d6f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:История Росии\,\nКисленко А.О.\, \n(1-12
+  нед.)  \n 1306
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Математический анализ
+DTSTART;TZID=Europe/Moscow:20260212T135000
+DTEND;TZID=Europe/Moscow:20260212T152000
+UID:f037ae9b0ba72ae471798fdb0e5f1c89201878d6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Математический анализ\, \nДаутова 
+ Д.Н.\, \nв 1306
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Алгоритмы и структуры данных
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:fa52938cf3698fe0b50ad4a02373d959022bf33c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных\,\nФа
+ йзуллин Р.Ф.\n1306
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Информатика и программирован
+ ие
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:251df1264cdc4421ddcd5f154f509842351a7ca6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информатика и программирование\, 
+ Абрамский М.М.\, ауд. 109
+LOCATION:109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Иностранный язык:
+DTSTART;TZID=Europe/Moscow:20260213T101000
+DTEND;TZID=Europe/Moscow:20260213T114000
+UID:f7af1cc14b408525a8fbc64bf59042f7e52259ac@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык: Муфазалова Н.И в
+  1301\, Бибик Е.А. в 1302\, Гатиятуллина Г.М. в 130
+ 3\, Тагиров Р.М.  в 1304\, Шарифуллина А.Э.в 1305\
+ , Булина Е.Н. в 1306
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Иностранный язык:
+DTSTART;TZID=Europe/Moscow:20260213T121000
+DTEND;TZID=Europe/Moscow:20260213T134000
+UID:9414c8260e35af5554fb60f56de5439087b115cb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык: Муфазалова Н.И в
+  1301\, Бибик Е.А. в 1302\, Гатиятуллина Г.М. в 130
+ 3\, Тагиров Р.М.  в 1304\, Шарифуллина А.Э.в 1305\
+ , Булина Е.Н. в 1306
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Алгоритмы и структуры данных
+DTSTART;TZID=Europe/Moscow:20260213T155000
+DTEND;TZID=Europe/Moscow:20260213T172000
+UID:11e93f30cf3bed0d1d1562a1c92afb4e49bb30e5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных\,\nХа
+ диев К.Р.\nауд. 109
+LOCATION:109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Информатика и программирован
+ ие
+DTSTART;TZID=Europe/Moscow:20260214T121000
+DTEND;TZID=Europe/Moscow:20260214T134000
+UID:5ee29dd176cf5e05bd324426d7ab53b8c840f84f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информатика и программирование\, \
+ nГусев Ф.А. \n1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Информатика и программирован
+ ие
+DTSTART;TZID=Europe/Moscow:20260214T135000
+DTEND;TZID=Europe/Moscow:20260214T152000
+UID:2e881eb79a264a357e21d145de854c45511f6b48@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информатика и программирование\, \
+ nГусев Ф.А.\n1509
+LOCATION:1509
+END:VEVENT
+END:VCALENDAR

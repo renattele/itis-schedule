@@ -1,0 +1,585 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS 11-408
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Лекц] Элективные курсы по физическо
+ й культуре и спорту  УНИКС\, 12:00 - 13:30
+DTSTART;TZID=Europe/Moscow:20260209T121000
+DTEND;TZID=Europe/Moscow:20260209T134000
+UID:9c4b4f6fae874b05aaa877dff365f4bc2b19635a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС\, 12:00 - 13:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:6f77e1f375918e9954201c42dd06fa368ec6f2b7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Машинное обучение\,\nАгафонов А.А.\n
+ в 1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Теория вероятностей и математ
+ ическая статистика
+DTSTART;TZID=Europe/Moscow:20260209T155000
+DTEND;TZID=Europe/Moscow:20260209T172000
+UID:9e71cbccb90523e809072611d5c63523fd626418@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Теория вероятностей и математиче
+ ская статистика\,\n Голод К.А. \n1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Введение в трехмерную графику
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:aa19bc065ea00ffc627b705b64e1dfba179759db@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\n\nВведение в
+  трехмерную графику\, Газизов Р.Р. в 1408\nВе
+ б-программирование (Fullstack Web Development)\, Коша
+ рский И.Е. в 1508
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Веб-программирование (Fullstack Web 
+ Development)
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:d2d497d11e89e096f1d96f429613174cec700cad@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\n\nВведение в
+  трехмерную графику\, Газизов Р.Р. в 1408\nВе
+ б-программирование (Fullstack Web Development)\, Коша
+ рский И.Е. в 1508
+LOCATION:1508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Введение в трехмерную графику
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:87b132906222e9e27d1c04b0f2ddf45aca8225b3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nВведение в 
+ трехмерную графику\, Газизов Р.Р. в 1408\nВе
+ б-программирование (Fullstack Web Development)\, Коша
+ рский И.Е. в 1508\nРазработка корпоративных
+  приложений (Java)\, Бельская Е.Э.  (вебинары)
+LOCATION:https://tbank.ktalk.ru/4574874931
+URL:https://tbank.ktalk.ru/4574874931
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Веб-программирование (Fullstack Web 
+ Development)
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:7d7dab24ea6b0a9d27c5f62b97c92fdaa0397177@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nВведение в 
+ трехмерную графику\, Газизов Р.Р. в 1408\nВе
+ б-программирование (Fullstack Web Development)\, Коша
+ рский И.Е. в 1508\nРазработка корпоративных
+  приложений (Java)\, Бельская Е.Э.  (вебинары)
+LOCATION:https://tbank.ktalk.ru/4574874931
+URL:https://tbank.ktalk.ru/4574874931
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Разработка корпоративных при
+ ложений (Java)
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:c06cb34f5075be4aeb20e5ce7e553b8cffa960ef@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nВведение в 
+ трехмерную графику\, Газизов Р.Р. в 1408\nВе
+ б-программирование (Fullstack Web Development)\, Коша
+ рский И.Е. в 1508\nРазработка корпоративных
+  приложений (Java)\, Бельская Е.Э.  (вебинары)
+LOCATION:https://tbank.ktalk.ru/4574874931
+URL:https://tbank.ktalk.ru/4574874931
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Основы профилактики и противо
+ действия терроризму и экстремизму
+DTSTART;TZID=Europe/Moscow:20260210T135000
+DTEND;TZID=Europe/Moscow:20260210T152000
+UID:6eb2e0eae4ede7d7eac89677e4d2760b7e2fbd85@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы профилактики и противодей
+ ствия терроризму и экстремизму\,\n10\,24 фев
+ раля\, 10\,24 марта\nИванов А.В. \nв 108
+LOCATION:108
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Базы данных\, Хайруллин А.Ф.
+DTSTART;TZID=Europe/Moscow:20260210T155000
+DTEND;TZID=Europe/Moscow:20260210T172000
+UID:f2047ff42586209da8205279b956b6f1ff7145a5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Базы данных\, Хайруллин А.Ф.\, \nауд. 
+ 109
+LOCATION:109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Разработка корпоративных при
+ ложений (Java)
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:cfc9aa1235413a2fcecbbd66a3cafe80390c67d7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nРазработка 
+ корпоративных приложений (Java)\, Кондрать
+ ев А.А. в 1409 \nВеб-программирование (Frontend)\,
+  Морозова А.Э. в 1301 \nРазработка мобильных
+  приложений (Android)\, Фасхетдинов Р.Р. в 1304\n
+ Разработка корпоративных приложений .NET\
+ , Живова Е.Б. в 1308\nВеб-программирование Dja
+ ngo\, Дубровец В.О. в 1509 \nРазработка мобиль
+ ных приложений ( IOS)\, Залялов И.Р. (вебинар
+ ы)
+LOCATION:https://telemost.yandex.ru/j/93479235178696
+URL:https://telemost.yandex.ru/j/93479235178696
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Веб-программирование (Frontend)
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:07273665f70ea6d4d55ef4655b7a13bf1f6d2e82@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nРазработка 
+ корпоративных приложений (Java)\, Кондрать
+ ев А.А. в 1409 \nВеб-программирование (Frontend)\,
+  Морозова А.Э. в 1301 \nРазработка мобильных
+  приложений (Android)\, Фасхетдинов Р.Р. в 1304\n
+ Разработка корпоративных приложений .NET\
+ , Живова Е.Б. в 1308\nВеб-программирование Dja
+ ngo\, Дубровец В.О. в 1509 \nРазработка мобиль
+ ных приложений ( IOS)\, Залялов И.Р. (вебинар
+ ы)
+LOCATION:https://telemost.yandex.ru/j/93479235178696
+URL:https://telemost.yandex.ru/j/93479235178696
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Разработка мобильных приложе
+ ний (Android)
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:b0dfc4377cf58159d7639649ab03a4afe029f4b3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nРазработка 
+ корпоративных приложений (Java)\, Кондрать
+ ев А.А. в 1409 \nВеб-программирование (Frontend)\,
+  Морозова А.Э. в 1301 \nРазработка мобильных
+  приложений (Android)\, Фасхетдинов Р.Р. в 1304\n
+ Разработка корпоративных приложений .NET\
+ , Живова Е.Б. в 1308\nВеб-программирование Dja
+ ngo\, Дубровец В.О. в 1509 \nРазработка мобиль
+ ных приложений ( IOS)\, Залялов И.Р. (вебинар
+ ы)
+LOCATION:https://telemost.yandex.ru/j/93479235178696
+URL:https://telemost.yandex.ru/j/93479235178696
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Разработка корпоративных при
+ ложений .NET
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:d671e4d89a54ec39a63450b61a8155673e1813ba@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nРазработка 
+ корпоративных приложений (Java)\, Кондрать
+ ев А.А. в 1409 \nВеб-программирование (Frontend)\,
+  Морозова А.Э. в 1301 \nРазработка мобильных
+  приложений (Android)\, Фасхетдинов Р.Р. в 1304\n
+ Разработка корпоративных приложений .NET\
+ , Живова Е.Б. в 1308\nВеб-программирование Dja
+ ngo\, Дубровец В.О. в 1509 \nРазработка мобиль
+ ных приложений ( IOS)\, Залялов И.Р. (вебинар
+ ы)
+LOCATION:https://telemost.yandex.ru/j/93479235178696
+URL:https://telemost.yandex.ru/j/93479235178696
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Веб-программирование Django
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:1136714fa79fafed4ff23c79b2a0d10460f675f6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nРазработка 
+ корпоративных приложений (Java)\, Кондрать
+ ев А.А. в 1409 \nВеб-программирование (Frontend)\,
+  Морозова А.Э. в 1301 \nРазработка мобильных
+  приложений (Android)\, Фасхетдинов Р.Р. в 1304\n
+ Разработка корпоративных приложений .NET\
+ , Живова Е.Б. в 1308\nВеб-программирование Dja
+ ngo\, Дубровец В.О. в 1509 \nРазработка мобиль
+ ных приложений ( IOS)\, Залялов И.Р. (вебинар
+ ы)
+LOCATION:https://telemost.yandex.ru/j/93479235178696
+URL:https://telemost.yandex.ru/j/93479235178696
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Разработка мобильных приложе
+ ний ( IOS)
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:70cbce0d5a2e97a26b42a56a812f4aea6f6c14f1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nРазработка 
+ корпоративных приложений (Java)\, Кондрать
+ ев А.А. в 1409 \nВеб-программирование (Frontend)\,
+  Морозова А.Э. в 1301 \nРазработка мобильных
+  приложений (Android)\, Фасхетдинов Р.Р. в 1304\n
+ Разработка корпоративных приложений .NET\
+ , Живова Е.Б. в 1308\nВеб-программирование Dja
+ ngo\, Дубровец В.О. в 1509 \nРазработка мобиль
+ ных приложений ( IOS)\, Залялов И.Р. (вебинар
+ ы)
+LOCATION:https://telemost.yandex.ru/j/93479235178696
+URL:https://telemost.yandex.ru/j/93479235178696
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Разработка корпоративных при
+ ложений (Java)
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:b990c1760738eb67eaf6f6fe3a338bae00522f4e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nРазработка 
+ корпоративных приложений (Java)\, Кондрать
+ ев А.А. в 1409 \nВеб-программирование (Frontend)\,
+  Морозова А.Э. в 1301 \nРазработка мобильных
+  приложений (Android)\, Фасхетдинов Р.Р.  в 1304\n
+ Веб-программирование Django\, Дубровец В.О. 
+ в 1509 \nРазработка корпоративных приложен
+ ий .NET\, Живова Е.Б.в 1308 \nРазработка мобиль
+ ных приложений ( IOS)\, Залялов И.Р.(вебинар
+ ы)\nРазработка корпоративных приложений 
+ (Java)\, Бельская Е.Э. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/93479235178696
+URL:https://telemost.yandex.ru/j/93479235178696
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Веб-программирование (Frontend)
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:e1f191ac375dbdb03863e32ac496eee13e0ef461@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nРазработка 
+ корпоративных приложений (Java)\, Кондрать
+ ев А.А. в 1409 \nВеб-программирование (Frontend)\,
+  Морозова А.Э. в 1301 \nРазработка мобильных
+  приложений (Android)\, Фасхетдинов Р.Р.  в 1304\n
+ Веб-программирование Django\, Дубровец В.О. 
+ в 1509 \nРазработка корпоративных приложен
+ ий .NET\, Живова Е.Б.в 1308 \nРазработка мобиль
+ ных приложений ( IOS)\, Залялов И.Р.(вебинар
+ ы)\nРазработка корпоративных приложений 
+ (Java)\, Бельская Е.Э. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/93479235178696
+URL:https://telemost.yandex.ru/j/93479235178696
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Разработка мобильных приложе
+ ний (Android)
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:8d2c3c17e399bf50e14f632fd21804623b968b54@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nРазработка 
+ корпоративных приложений (Java)\, Кондрать
+ ев А.А. в 1409 \nВеб-программирование (Frontend)\,
+  Морозова А.Э. в 1301 \nРазработка мобильных
+  приложений (Android)\, Фасхетдинов Р.Р.  в 1304\n
+ Веб-программирование Django\, Дубровец В.О. 
+ в 1509 \nРазработка корпоративных приложен
+ ий .NET\, Живова Е.Б.в 1308 \nРазработка мобиль
+ ных приложений ( IOS)\, Залялов И.Р.(вебинар
+ ы)\nРазработка корпоративных приложений 
+ (Java)\, Бельская Е.Э. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/93479235178696
+URL:https://telemost.yandex.ru/j/93479235178696
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Веб-программирование Django
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:7cf0b2f9920eb4141fef8d966efb1ef81cce1230@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nРазработка 
+ корпоративных приложений (Java)\, Кондрать
+ ев А.А. в 1409 \nВеб-программирование (Frontend)\,
+  Морозова А.Э. в 1301 \nРазработка мобильных
+  приложений (Android)\, Фасхетдинов Р.Р.  в 1304\n
+ Веб-программирование Django\, Дубровец В.О. 
+ в 1509 \nРазработка корпоративных приложен
+ ий .NET\, Живова Е.Б.в 1308 \nРазработка мобиль
+ ных приложений ( IOS)\, Залялов И.Р.(вебинар
+ ы)\nРазработка корпоративных приложений 
+ (Java)\, Бельская Е.Э. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/93479235178696
+URL:https://telemost.yandex.ru/j/93479235178696
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Разработка корпоративных при
+ ложений .NET
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:11ebebfc5ba0dcc2af7bfc1d889db2634f8d81d7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nРазработка 
+ корпоративных приложений (Java)\, Кондрать
+ ев А.А. в 1409 \nВеб-программирование (Frontend)\,
+  Морозова А.Э. в 1301 \nРазработка мобильных
+  приложений (Android)\, Фасхетдинов Р.Р.  в 1304\n
+ Веб-программирование Django\, Дубровец В.О. 
+ в 1509 \nРазработка корпоративных приложен
+ ий .NET\, Живова Е.Б.в 1308 \nРазработка мобиль
+ ных приложений ( IOS)\, Залялов И.Р.(вебинар
+ ы)\nРазработка корпоративных приложений 
+ (Java)\, Бельская Е.Э. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/93479235178696
+URL:https://telemost.yandex.ru/j/93479235178696
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Разработка мобильных приложе
+ ний ( IOS)
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:ee34fdb36b1a59285837355df823d098f2808543@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nРазработка 
+ корпоративных приложений (Java)\, Кондрать
+ ев А.А. в 1409 \nВеб-программирование (Frontend)\,
+  Морозова А.Э. в 1301 \nРазработка мобильных
+  приложений (Android)\, Фасхетдинов Р.Р.  в 1304\n
+ Веб-программирование Django\, Дубровец В.О. 
+ в 1509 \nРазработка корпоративных приложен
+ ий .NET\, Живова Е.Б.в 1308 \nРазработка мобиль
+ ных приложений ( IOS)\, Залялов И.Р.(вебинар
+ ы)\nРазработка корпоративных приложений 
+ (Java)\, Бельская Е.Э. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/93479235178696
+URL:https://telemost.yandex.ru/j/93479235178696
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Разработка корпоративных при
+ ложений (Java)
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:b990c1760738eb67eaf6f6fe3a338bae00522f4e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nРазработка 
+ корпоративных приложений (Java)\, Кондрать
+ ев А.А. в 1409 \nВеб-программирование (Frontend)\,
+  Морозова А.Э. в 1301 \nРазработка мобильных
+  приложений (Android)\, Фасхетдинов Р.Р.  в 1304\n
+ Веб-программирование Django\, Дубровец В.О. 
+ в 1509 \nРазработка корпоративных приложен
+ ий .NET\, Живова Е.Б.в 1308 \nРазработка мобиль
+ ных приложений ( IOS)\, Залялов И.Р.(вебинар
+ ы)\nРазработка корпоративных приложений 
+ (Java)\, Бельская Е.Э. (вебинары)
+LOCATION:https://telemost.yandex.ru/j/93479235178696
+URL:https://telemost.yandex.ru/j/93479235178696
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Базы данных
+DTSTART;TZID=Europe/Moscow:20260211T101000
+DTEND;TZID=Europe/Moscow:20260211T114000
+UID:1d5c59da9e2fc80782cf1ff1567d897f1aabc49e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Базы данных\,\nХайруллин А.Ф.\n1309\nс 1
+ 0 недели
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Базы данных
+DTSTART;TZID=Europe/Moscow:20260211T121000
+DTEND;TZID=Europe/Moscow:20260211T134000
+UID:41defc5aedd59c3375df75ca7bda54801fa9e4c9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Базы данных\,\nХайруллин А.Ф.\n1309\nс 1
+ 0 недели
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Иностранный язык в профессион
+ альной сфере: Марико М.Л.в 1301\, Епишева К.Д
+ . в 1302\, Нсубуга Мосес в 1303\, Мухтарова Р.Й. 
+ в 1304\, Файзуллина Р.А. в 1305\, Воронин К.В. в 1
+ 412
+DTSTART;TZID=Europe/Moscow:20260211T135000
+DTEND;TZID=Europe/Moscow:20260211T152000
+UID:65cd3185940f1020f8753aff613af1abd9bb905d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык в профессиональ
+ ной сфере: Марико М.Л.в 1301\, Епишева К.Д. в 1
+ 302\, Нсубуга Мосес в 1303\, Мухтарова Р.Й. в 130
+ 4\, Файзуллина Р.А. в 1305\, Воронин К.В. в 1412\n\
+ nРаспределение
+LOCATION:https://docs.google.com/document/d/1_kl2ddoBxAYdGL6ofiFeDG33CTdj4
+ lVN/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1_kl2ddoBxAYdGL6ofiFeDG33CTdj4lVN/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260218T155000
+DTEND;TZID=Europe/Moscow:20260218T172000
+UID:dd7450137cafbd461c0b3e22e5537404f3bbd411@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Машинное обучение\,\nАкифьев К.Н.\n(
+ четн.нед.) \n 1305
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы профилактики и противо
+ действия терроризму и экстремизму
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:5ac034266c30afa91ac37ea8e1beca008a85f73e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы профилактики и противодей
+ ствия терроризму и экстремизму\,\n(18 февр
+ аля\, 4\,18 марта\,\n1\,15 апреля)\nИванов Г.А. \n 1
+ 305
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологическая (проектно-тех
+ нологическая) практика DML ауд.
+DTSTART;TZID=Europe/Moscow:20260212T101000
+DTEND;TZID=Europe/Moscow:20260212T114000
+UID:ac49b119b72acb5ab70bba50841210a1de49a446@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика DML ауд.1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Элективные курсы по физическо
+ й культуре и спорту  УНИКС
+DTSTART;TZID=Europe/Moscow:20260212T121000
+DTEND;TZID=Europe/Moscow:20260212T134000
+UID:d03a71f9df33b9866a2abc75e64a7aca09a05a85@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС   \n12:00 - 13:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Программирование на С++
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:ee8f7dba0d56406724c45e3cfa8e255ad9005a25@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\n\nПрограмми
+ рование на С++\, Аббясов Б.Р. в 1303
+LOCATION:1303
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Программирование на С++
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:d2cfb3dcf41211211b6ab4eb1443edf07612ea1d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\n\nПрограмми
+ рование на С++\, Аббясов Б.Р. в 1303
+LOCATION:1303
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологическая (проектно-тех
+ нологическая) практика
+DTSTART;TZID=Europe/Moscow:20260212T191000
+DTEND;TZID=Europe/Moscow:20260212T204000
+UID:09ebe5ad39d7130ef00d6c0c084ec79659f2d4cf@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика\n\nлаборатория ЛИРС о
+ нлайн (https://telemost.yandex.ru/j/63405561046899)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Иностранный язык:  Марико М.Л. 
+ в 1405\, Епишева К.Д. в 1408\, Нсубуга Мозес в 141
+ 2\, Мухтарова Р.Й. в 1308\, Файзуллина Р.А. в 130
+ 9\, Воронин К.В. в 1110
+DTSTART;TZID=Europe/Moscow:20260213T083000
+DTEND;TZID=Europe/Moscow:20260213T100000
+UID:7d68a96ebf917bf27d458d54dddb97774155a33c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык:  Марико М.Л. в 1405\
+ , Епишева К.Д. в 1408\, Нсубуга Мозес в 1412\, Му
+ хтарова Р.Й. в 1308\, Файзуллина Р.А. в 1309\, Во
+ ронин К.В. в 1110\n\nРаспределение
+LOCATION:https://docs.google.com/document/d/1_kl2ddoBxAYdGL6ofiFeDG33CTdj4
+ lVN/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1_kl2ddoBxAYdGL6ofiFeDG33CTdj4lVN/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Иностранный язык: Марико М.Л. в
+  1405\, Епишева К.Д. в 1408\, Нсубуга Мозес в 1412
+DTSTART;TZID=Europe/Moscow:20260213T101000
+DTEND;TZID=Europe/Moscow:20260213T114000
+UID:b7dcd48fcd838d3ce44a08c0bac2232453a4e073@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык: Марико М.Л. в 1405\,
+  Епишева К.Д. в 1408\, Нсубуга Мозес в 1412\, \nМ
+ ухтарова Р.Й. в 1308\, Файзуллина Р.А. в 1309\, В
+ оронин К.В. в 1110\n\nРаспределение
+LOCATION:https://docs.google.com/document/d/1_kl2ddoBxAYdGL6ofiFeDG33CTdj4
+ lVN/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1_kl2ddoBxAYdGL6ofiFeDG33CTdj4lVN/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Теория вероятностей и математ
+ ическая статистика
+DTSTART;TZID=Europe/Moscow:20260213T121000
+DTEND;TZID=Europe/Moscow:20260213T134000
+UID:15344bc1f0216bf46e653b86d3c81eebd9d4b708@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Теория вероятностей и математиче
+ ская статистика\, Григорьева И.С.\, ауд. 108
+LOCATION:108
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Основы разработки информацио
+ нных систем (C#)
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:208dc82a84a2619edb136ba9f23caa9825a14c3d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы разработки информационных
+  систем (C#)\, \nСалимов Р.Ф. (1-9 нед.)\, \nауд. 131
+ 0-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы разработки информацио
+ нных систем
+DTSTART;TZID=Europe/Moscow:20260214T083000
+DTEND;TZID=Europe/Moscow:20260214T100000
+UID:214576fb746156d86ba72afa4d0f51af6c70191f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы разработки информационных
+  систем\,\nМухутдинов Т.А. \n1309
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы разработки информацио
+ нных систем
+DTSTART;TZID=Europe/Moscow:20260214T101000
+DTEND;TZID=Europe/Moscow:20260214T114000
+UID:62c488e8766475bccd15f1375288ce1b470b25ae@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы разработки информационных
+  систем\,\nМухутдинов Т.А. \n1309
+LOCATION:1309
+END:VEVENT
+END:VCALENDAR

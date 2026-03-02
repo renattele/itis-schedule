@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Робототехническая операционная сис
+ тема
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:cf04e8d5c0d5966c6bfd4e992926b864ed0a2c65@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Робототехническая операционная с
+ истема Лавренов Р.О. в 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Методология научных исследований
+DTSTART;TZID=Europe/Moscow:20260211T155000
+DTEND;TZID=Europe/Moscow:20260211T172000
+UID:60c1b5a403639f2213713467a53c350c5b26ab50@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Методология научных исследований
+  Магид Е.А.  по неч.нед. практ.в 1409
+LOCATION:1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Инженерия приложений и инженерия пр
+ едметной области
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:142afc2aeccfaae7a645143167bb8fe2547bdc9c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Инженерия приложений и инженерия 
+ предметной области Магид Е.А. ( лекц. по н.
+ н. \,прак. по ч.н.) в 1405 (11.02 не будет с перен
+ осом на 18.02 в 15:50)
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Средства и инструменты программной 
+ инженерии
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:8a80b1f70f48959d61b0260258e65350590f92da@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Средства и инструменты программн
+ ой инженерии Сафин Р.Н.по н.н. лекц. по ч.н.
+  прак. в 1405 (26.02 не будет с переносом)
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Дисциплина по выбору: Датчики робот
+ отехнических систем
+DTSTART;TZID=Europe/Moscow:20260212T191000
+DTEND;TZID=Europe/Moscow:20260212T204000
+UID:c338b3db3ceab468b38eafdba3ded7898927d92d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору: Датчики роб
+ ототехнических систем Сафин Р.Н.в 1405  (26.02
+  не будет с переносом)
+LOCATION:1405
+END:VEVENT
+END:VCALENDAR

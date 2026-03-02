@@ -1,0 +1,133 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Элективные курсы по физической куль
+ туре и спорту  УНИКС\, 12:00 - 13:30
+DTSTART;TZID=Europe/Moscow:20260209T121000
+DTEND;TZID=Europe/Moscow:20260209T134000
+UID:a6af33910246b449b0770127463a67ccd347ee1b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС\, 12:00 - 13:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:9b0765a8bbe8cdfe6b780606620e007bd215398b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Машинное обучение\,\nАгафонов А.А.\n
+ в 1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы профилактики и противодейст
+ вия терроризму и экстремизму
+DTSTART;TZID=Europe/Moscow:20260210T135000
+DTEND;TZID=Europe/Moscow:20260210T152000
+UID:5bd1a494e41c276fe02afebba0717e583a47f41b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы профилактики и противодей
+ ствия терроризму и экстремизму\,\n10\,24 фев
+ раля\, 10\,24 марта\nИванов А.В. \nв 108
+LOCATION:108
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Базы данных\, Хайруллин А.Ф.
+DTSTART;TZID=Europe/Moscow:20260210T155000
+DTEND;TZID=Europe/Moscow:20260210T172000
+UID:f0789cadd60dd2f69831131fafb0577a8c6b0262@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Базы данных\, Хайруллин А.Ф.\, \nауд. 
+ 109
+LOCATION:109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Иностранный язык в профессионально
+ й сфере: Марико М.Л.в 1301\, Епишева К.Д. в 1302\
+ , Нсубуга Мосес в 1303\, Мухтарова Р.Й. в 1304\, 
+ Файзуллина Р.А. в 1305\, Воронин К.В. в 1412
+DTSTART;TZID=Europe/Moscow:20260211T135000
+DTEND;TZID=Europe/Moscow:20260211T152000
+UID:87d7febab280b6d0b69ed9648eead1780d66dcd8@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык в профессиональ
+ ной сфере: Марико М.Л.в 1301\, Епишева К.Д. в 1
+ 302\, Нсубуга Мосес в 1303\, Мухтарова Р.Й. в 130
+ 4\, Файзуллина Р.А. в 1305\, Воронин К.В. в 1412\n\
+ nРаспределение
+LOCATION:https://docs.google.com/document/d/1_kl2ddoBxAYdGL6ofiFeDG33CTdj4
+ lVN/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1_kl2ddoBxAYdGL6ofiFeDG33CTdj4lVN/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Элективные курсы по физической куль
+ туре и спорту  УНИКС
+DTSTART;TZID=Europe/Moscow:20260212T121000
+DTEND;TZID=Europe/Moscow:20260212T134000
+UID:98d12e6d3b78bc3c524c86a3ef242ee90b7d034f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС   \n12:00 - 13:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Иностранный язык:  Марико М.Л. в 1405\, Е
+ пишева К.Д. в 1408\, Нсубуга Мозес в 1412\, Мухт
+ арова Р.Й. в 1308\, Файзуллина Р.А. в 1309\, Воро
+ нин К.В. в 1110
+DTSTART;TZID=Europe/Moscow:20260213T083000
+DTEND;TZID=Europe/Moscow:20260213T100000
+UID:fdd0ea90c3b6042c8eab781be589900a8e130b94@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык:  Марико М.Л. в 1405\
+ , Епишева К.Д. в 1408\, Нсубуга Мозес в 1412\, Му
+ хтарова Р.Й. в 1308\, Файзуллина Р.А. в 1309\, Во
+ ронин К.В. в 1110\n\nРаспределение
+LOCATION:https://docs.google.com/document/d/1_kl2ddoBxAYdGL6ofiFeDG33CTdj4
+ lVN/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1_kl2ddoBxAYdGL6ofiFeDG33CTdj4lVN/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Иностранный язык: Марико М.Л. в 1405\, Е
+ пишева К.Д. в 1408\, Нсубуга Мозес в 1412
+DTSTART;TZID=Europe/Moscow:20260213T101000
+DTEND;TZID=Europe/Moscow:20260213T114000
+UID:f2cbb67abcdb032739395410ab8b0d1e032c0d58@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык: Марико М.Л. в 1405\,
+  Епишева К.Д. в 1408\, Нсубуга Мозес в 1412\, \nМ
+ ухтарова Р.Й. в 1308\, Файзуллина Р.А. в 1309\, В
+ оронин К.В. в 1110\n\nРаспределение
+LOCATION:https://docs.google.com/document/d/1_kl2ddoBxAYdGL6ofiFeDG33CTdj4
+ lVN/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1_kl2ddoBxAYdGL6ofiFeDG33CTdj4lVN/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория вероятностей и математическ
+ ая статистика
+DTSTART;TZID=Europe/Moscow:20260213T121000
+DTEND;TZID=Europe/Moscow:20260213T134000
+UID:84072593e4a32e94839933b6e658b7da8b9e565a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Теория вероятностей и математиче
+ ская статистика\, Григорьева И.С.\, ауд. 108
+LOCATION:108
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы разработки информационных с
+ истем (Java)
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:49cc2e985899d5d3e19b1ce778edb64f45cb3d10@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы разработки информационных
+  систем (Java) \, Ференец А.А.\, 1-10 нед.\, ауд. 109
+LOCATION:109
+END:VEVENT
+END:VCALENDAR

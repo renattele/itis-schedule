@@ -1,0 +1,125 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260209T101000
+DTEND;TZID=Europe/Moscow:20260209T114000
+UID:dc7496133ccc5c8bc5b6a7af836f46a8a3ac594f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту   (10:00-11:30)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математика
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:86258b2042ce8a427c04b22d869f05683126cc38@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Линейная алгебра для IT\,\nЛавренть
+ ева Е.Е. (вебинары) \n(ЦОР)
+LOCATION:https://my.mts-link.ru/j/82040081/10375334633
+URL:https://my.mts-link.ru/j/82040081/10375334633
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260209T155000
+DTEND;TZID=Europe/Moscow:20260209T172000
+UID:0608d1a2bde59051e16c22e8bfc91cbfded82e54@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nШарифуллина Э.
+ А. (группа А) (вебинары)\nВоронин К.В.(групп
+ а В) (вебинары)\n(ЦОР)
+LOCATION:https://my.mts-link.ru/j/87728589/1440005848
+URL:https://my.mts-link.ru/j/87728589/1440005848
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:183d49a54ba7cb6e79128acd5ae25ee21359cf90@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nШарифуллина Э.
+ А. (группа А) (вебинары)\nВоронин К.В.(групп
+ а В) (вебинары)\n(ЦОР)
+LOCATION:https://my.mts-link.ru/j/87728589/1440005848
+URL:https://my.mts-link.ru/j/87728589/1440005848
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Гуманитарные дисциплины
+DTSTART;TZID=Europe/Moscow:20260210T135000
+DTEND;TZID=Europe/Moscow:20260210T152000
+UID:f2aab630b27412b7cf91411c1966780796133bc3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Философия\,\nКотляр П.С.\n(1-9 нед.)\n(в
+ ебинары)
+LOCATION:https://telemost.360.yandex.ru/j/7765938084
+URL:https://telemost.360.yandex.ru/j/7765938084
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгоритмы
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:201bd2c66a28986b6b278ec8d6897caa7a8de56a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных в пр
+ ограммировании\,\nЕникеев К.Ш.\n(вебинары)
+LOCATION:https://my.mts-link.ru/j/103963005/1658403080
+URL:https://my.mts-link.ru/j/103963005/1658403080
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Гуманитарные дисциплины
+DTSTART;TZID=Europe/Moscow:20260211T121000
+DTEND;TZID=Europe/Moscow:20260211T134000
+UID:17830e1bbb20d0094d4ff6c5c8eea14d7fc19034@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:История России\,\nБайамонте А.И.\nау
+ д. 1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260212T101000
+DTEND;TZID=Europe/Moscow:20260212T114000
+UID:652d66ad1adb263585f959fc10983057347ee32f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту   (10:00-11:30)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:c103ba2734a907a196429fdb31dea1df7c53b2cb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nШарифуллина Э.
+ А. (группа А) (вебинары)\nВоронин К.В.(групп
+ а В) (вебинары)\n(ЦОР)
+LOCATION:https://my.mts-link.ru/j/87728589/1440005848
+URL:https://my.mts-link.ru/j/87728589/1440005848
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:90a9f9887e117c4cfbd1c823030d5c1455223b24@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Русский язык и культура речи\,\nГал
+ иулина И.Р. \n(6 нед.)      \n(ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/view.php?id=5262
+URL:https://edu.kpfu.ru/course/view.php?id=5262
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Дискретная математика
+DTSTART;TZID=Europe/Moscow:20260213T101000
+DTEND;TZID=Europe/Moscow:20260213T114000
+UID:a3dc8598b2c22f81620a47e6f4d8adb621a8261d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Компьютерная математика\,\nГераси
+ мов О.В. (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/view.php?id=6737
+URL:https://edu.kpfu.ru/course/view.php?id=6737
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,175 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Профессиональный иностранный язык (
+ английский)
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:6e07a0e225c7c1f2697bf45fa350edd22d676526@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nГурьянов И.О. \nгр.№1 в ауд.
+  1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Профессиональный иностранный язык (
+ английский)
+DTSTART;TZID=Europe/Moscow:20260209T155000
+DTEND;TZID=Europe/Moscow:20260209T172000
+UID:c5093c874c275694c5380e523751f8589a725914@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nГурьянов И.О. \nгр.№1 в ауд.
+  1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Профессиональный иностранный язык (
+ английский)
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:4e9bfd79e5f9044b070d9c49095ff3c635c454e3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nГурьянов И.О. \nгр.№2 в ауд.
+  1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Профессиональный иностранный язык (
+ английский)
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:52076cd9b439166329e8fdc8e46138f7ac3c1268@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nГурьянов И.О. \nгр.№2 в ауд.
+  1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Методология научных исследований
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:9899521c670465604511bb1e998f355aba51940b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Методология научных исследований
+  Абрамский М.М. лекция  9 нед  в 1508 ( с 17.02 по
+  14.04)\, практика Валиуллин Р.М.( с 21.04 по 2.06-7
+  нед. + 2 нед. 26.05 и 2.06 в 15.50 в ауд.1508)  в ауд.150
+ 8.
+LOCATION:1508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Средства и инструменты программной 
+ инженерии
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:6bbe0bc070bfccb83a6b06e8dca083d1e21b1810@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Средства и инструменты программн
+ ой инженерии Архипов К. по неч. нед. лекци
+ я в ауд. 1310-1311 (  по чет.нед. практика вебин
+ ары)
+LOCATION:https://my.mts-link.ru/j/MTC/11486153180
+URL:https://my.mts-link.ru/j/MTC/11486153180
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Профессиональный иностранный язык (
+ английский)
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:69006fb832d1f9478a81961931a2b0d437703550@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nГурьянова К.А.\, гр.№3\, ауд
+ . 1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Профессиональный иностранный язык (
+ английский)
+DTSTART;TZID=Europe/Moscow:20260213T155000
+DTEND;TZID=Europe/Moscow:20260213T172000
+UID:d91c6f6410117dd50b716decdd2e368649c4f911@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nГурьянова К.А.\, гр.№3\, ауд
+ . 1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Профессиональный иностранный язык (
+ английский)
+DTSTART;TZID=Europe/Moscow:20260213T173000
+DTEND;TZID=Europe/Moscow:20260213T190000
+UID:537a662953a1e41a6da8f40e5f8630c8630bc6ca@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nГурьянова К.А.\, гр.№4\, ауд
+ . 1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Профессиональный иностранный язык (
+ английский)
+DTSTART;TZID=Europe/Moscow:20260213T191000
+DTEND;TZID=Europe/Moscow:20260213T204000
+UID:5458c7c2df775bd2e77011fab88089acb839aa18@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nГурьянова К.А.\, гр.№4\, ауд
+ . 1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Профессиональный иностранный язык (
+ английский)
+DTSTART;TZID=Europe/Moscow:20260214T121000
+DTEND;TZID=Europe/Moscow:20260214T134000
+UID:6667e0af410bacebfba443d3c810b85218f78773@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nКривошеева Н.Н.\, гр.№ 5\, 141
+ 2
+LOCATION:https://telemost.360.yandex.ru/j/9625814291
+URL:https://telemost.360.yandex.ru/j/9625814291
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Профессиональный иностранный язык (
+ английский)
+DTSTART;TZID=Europe/Moscow:20260214T135000
+DTEND;TZID=Europe/Moscow:20260214T152000
+UID:b5ff0bb50a6bd9d3c7fb7c99f3f851727c309312@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nКривошеева Н.Н. \nгр.№5 \n1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Профессиональный иностранный язык (
+ английский)
+DTSTART;TZID=Europe/Moscow:20260214T155000
+DTEND;TZID=Europe/Moscow:20260214T172000
+UID:99ee33b007fdcdd69b469cfa59427fbb316101f6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nКривошеева Н.Н. \nгр.№6\n1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Профессиональный иностранный язык (
+ английский)
+DTSTART;TZID=Europe/Moscow:20260214T173000
+DTEND;TZID=Europe/Moscow:20260214T190000
+UID:1802a6af59569ade89ccc8b191d89db3c659569d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nКривошеева Н.Н.\, гр.№6\, 1412
+LOCATION:1412
+END:VEVENT
+END:VCALENDAR

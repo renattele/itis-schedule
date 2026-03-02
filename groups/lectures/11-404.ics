@@ -1,0 +1,123 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260209T121000
+DTEND;TZID=Europe/Moscow:20260209T134000
+UID:362ef0efd68fdebfacdfdd355610edc24599a154@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС\, 12:00 - 13:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Машинное обучение
+DTSTART;TZID=Europe/Moscow:20260209T155000
+DTEND;TZID=Europe/Moscow:20260209T172000
+UID:0a19fba91a393dfcba23a6b2f2f51bb8a828b51b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Машинное обучение\,\nАгафонов А.А.\n
+ в 108 ауд.
+LOCATION:108
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы профилактики и противодейст
+ вия терроризму и экстремизму
+DTSTART;TZID=Europe/Moscow:20260210T135000
+DTEND;TZID=Europe/Moscow:20260210T152000
+UID:5bd1a494e41c276fe02afebba0717e583a47f41b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы профилактики и противодей
+ ствия терроризму и экстремизму\,\n17 февра
+ ля\, 3\,17\, 31 марта\nИванов А.В. \nв 108
+LOCATION:108
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260211T101000
+DTEND;TZID=Europe/Moscow:20260211T114000
+UID:751c2487646f4fd4a9aeabb8822bdfedfaf7da2e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык: Марико М.Л. в 1301\,
+  Епишева К.Д. в 1302\, Нсубуга Мозес в 1303\, Му
+ хтарова Р.Й. в 1304\, Файзуллина Р.А. в 1305\, Во
+ ронин К.В. в 1412\n\nРаспределение
+LOCATION:https://docs.google.com/document/d/1CKK3Jj6CDfmGeNIWiDccZKccxGhhz
+ LNh/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1CKK3Jj6CDfmGeNIWiDccZKccxGhhzLNh/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260211T121000
+DTEND;TZID=Europe/Moscow:20260211T134000
+UID:56f17dae667f38de403dced95f3905f4e3796e73@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык: Марико М.Л. в 1301\,
+  Епишева К.Д. в 1302\, Нсубуга Мозес в 1303\, Му
+ хтарова Р.Й. в 1304\, Файзуллина Р.А. в 1305\, Во
+ ронин К.В. в 1412\n\nРаспределение
+LOCATION:https://docs.google.com/document/d/1CKK3Jj6CDfmGeNIWiDccZKccxGhhz
+ LNh/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1CKK3Jj6CDfmGeNIWiDccZKccxGhhzLNh/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260212T121000
+DTEND;TZID=Europe/Moscow:20260212T134000
+UID:8046a8ea3e860500b2341e590e32ac508332d5ba@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС   \n12:00 - 13:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математика
+DTSTART;TZID=Europe/Moscow:20260213T101000
+DTEND;TZID=Europe/Moscow:20260213T114000
+UID:63b81b534012871c82e93188fcdea532d5b74af2@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Теория вероятностей и математиче
+ ская статистика\, Григорьева И.С.\, ауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260213T121000
+DTEND;TZID=Europe/Moscow:20260213T134000
+UID:3422dd913e2d0a8cacfd694eb9ff9d95de6f2f15@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык в профессиональ
+ ной сфере: Марико М.Л. в 1405\, Епишева К.Д. в 
+ 1408\, Нсубуга Мозес в 1412\, Мухтарова Р.Й. в 13
+ 08\, Файзуллина Р.А. в 1309\,  Воронин К.В. в 1110\
+ n\nРаспределение
+LOCATION:https://docs.google.com/document/d/1CKK3Jj6CDfmGeNIWiDccZKccxGhhz
+ LNh/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1CKK3Jj6CDfmGeNIWiDccZKccxGhhzLNh/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы разработки информационных с
+ истем (Java)
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:49cc2e985899d5d3e19b1ce778edb64f45cb3d10@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы разработки информационных
+  систем (Java) \, Ференец А.А.\, 1-10 нед.\, ауд. 109
+LOCATION:109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Базы данных
+DTSTART;TZID=Europe/Moscow:20260214T121000
+DTEND;TZID=Europe/Moscow:20260214T134000
+UID:529f881459f2fa51a563fd22726120da4aafa212@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Базы данных\, Абрамский М.М. \nауд. 10
+ 9
+LOCATION:109
+END:VEVENT
+END:VCALENDAR

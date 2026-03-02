@@ -1,0 +1,276 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS 11-206
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Мобильные системы
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:db989504feededd5d7ee0ba0ffc8d64bb6685c56@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору (1-9 нед.):\nИнт
+ ернет вещей\, Чупин М.М. в 1309 \nМобильные и
+ нформ.системы (OS  и импортозамещение в IT)\
+ , Валиуллин Р.М.в 1311\nМобильные информаци
+ онные системы\, Хайруллин А.Ф.в 1310\nПроект
+ ирование ЧМИ (Разработка прилож.для упра
+ вления бизнесс-процессами организации н
+ а платформе 1 С)\, Григорян К.А.в 1306\nПроект
+ ный практикум по робототехнике. Ч2\, Муст
+ афин М.А. в 1405
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Мобильные системы
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:db989504feededd5d7ee0ba0ffc8d64bb6685c56@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору (1-9 нед.):\nИнт
+ ернет вещей\, Чупин М.М. в 1309 \nМобильные и
+ нформ.системы (OS  и импортозамещение в IT)\
+ , Валиуллин Р.М.в 1311\nМобильные информаци
+ онные системы\, Хайруллин А.Ф.в 1310\nПроект
+ ирование ЧМИ (Разработка прилож.для упра
+ вления бизнесс-процессами организации н
+ а платформе 1 С)\, Григорян К.А.в 1306\nПроект
+ ный практикум по робототехнике. Ч2\, Муст
+ афин М.А. в 1405
+LOCATION:1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Мобильные системы
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:db989504feededd5d7ee0ba0ffc8d64bb6685c56@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору (1-9 нед.):\nИнт
+ ернет вещей\, Чупин М.М. в 1309 \nМобильные и
+ нформ.системы (OS  и импортозамещение в IT)\
+ , Валиуллин Р.М.в 1311\nМобильные информаци
+ онные системы\, Хайруллин А.Ф.в 1310\nПроект
+ ирование ЧМИ (Разработка прилож.для упра
+ вления бизнесс-процессами организации н
+ а платформе 1 С)\, Григорян К.А.в 1306\nПроект
+ ный практикум по робототехнике. Ч2\, Муст
+ афин М.А. в 1405
+LOCATION:1310
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Мобильные системы
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:db989504feededd5d7ee0ba0ffc8d64bb6685c56@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору (1-9 нед.):\nИнт
+ ернет вещей\, Чупин М.М. в 1309 \nМобильные и
+ нформ.системы (OS  и импортозамещение в IT)\
+ , Валиуллин Р.М.в 1311\nМобильные информаци
+ онные системы\, Хайруллин А.Ф.в 1310\nПроект
+ ирование ЧМИ (Разработка прилож.для упра
+ вления бизнесс-процессами организации н
+ а платформе 1 С)\, Григорян К.А.в 1306\nПроект
+ ный практикум по робототехнике. Ч2\, Муст
+ афин М.А. в 1405
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Мобильные системы
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:db989504feededd5d7ee0ba0ffc8d64bb6685c56@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору (1-9 нед.):\nИнт
+ ернет вещей\, Чупин М.М. в 1309 \nМобильные и
+ нформ.системы (OS  и импортозамещение в IT)\
+ , Валиуллин Р.М.в 1311\nМобильные информаци
+ онные системы\, Хайруллин А.Ф.в 1310\nПроект
+ ирование ЧМИ (Разработка прилож.для упра
+ вления бизнесс-процессами организации н
+ а платформе 1 С)\, Григорян К.А.в 1306\nПроект
+ ный практикум по робототехнике. Ч2\, Муст
+ афин М.А. в 1405
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Мобильные системы
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:94dd5a1e9f433f13c88cc104c6f1d72c80381a9f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору (1-9 нед.):\nИнт
+ ернет вещей\, Чупин М.М. в 1309 \nМобильные и
+ нформ.системы (OS  и импортозамещение в IT)\
+ , Валиуллин Р.М.в 1311\nМобильные информаци
+ онные системы\, Хайруллин А.Ф. в 1310\nПроек
+ тирование ЧМИ (Разработка прилож.для упр
+ авления бизнесс-процессами организации 
+ на платформе 1 С)\, Григорян К.А.в 1306\nПроек
+ тный практикум по робототехнике. Ч2\, Мус
+ тафин М.А. в 1405
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Мобильные системы
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:94dd5a1e9f433f13c88cc104c6f1d72c80381a9f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору (1-9 нед.):\nИнт
+ ернет вещей\, Чупин М.М. в 1309 \nМобильные и
+ нформ.системы (OS  и импортозамещение в IT)\
+ , Валиуллин Р.М.в 1311\nМобильные информаци
+ онные системы\, Хайруллин А.Ф. в 1310\nПроек
+ тирование ЧМИ (Разработка прилож.для упр
+ авления бизнесс-процессами организации 
+ на платформе 1 С)\, Григорян К.А.в 1306\nПроек
+ тный практикум по робототехнике. Ч2\, Мус
+ тафин М.А. в 1405
+LOCATION:1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Мобильные системы
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:94dd5a1e9f433f13c88cc104c6f1d72c80381a9f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору (1-9 нед.):\nИнт
+ ернет вещей\, Чупин М.М. в 1309 \nМобильные и
+ нформ.системы (OS  и импортозамещение в IT)\
+ , Валиуллин Р.М.в 1311\nМобильные информаци
+ онные системы\, Хайруллин А.Ф. в 1310\nПроек
+ тирование ЧМИ (Разработка прилож.для упр
+ авления бизнесс-процессами организации 
+ на платформе 1 С)\, Григорян К.А.в 1306\nПроек
+ тный практикум по робототехнике. Ч2\, Мус
+ тафин М.А. в 1405
+LOCATION:1310
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Мобильные системы
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:94dd5a1e9f433f13c88cc104c6f1d72c80381a9f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору (1-9 нед.):\nИнт
+ ернет вещей\, Чупин М.М. в 1309 \nМобильные и
+ нформ.системы (OS  и импортозамещение в IT)\
+ , Валиуллин Р.М.в 1311\nМобильные информаци
+ онные системы\, Хайруллин А.Ф. в 1310\nПроек
+ тирование ЧМИ (Разработка прилож.для упр
+ авления бизнесс-процессами организации 
+ на платформе 1 С)\, Григорян К.А.в 1306\nПроек
+ тный практикум по робототехнике. Ч2\, Мус
+ тафин М.А. в 1405
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Мобильные системы
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:94dd5a1e9f433f13c88cc104c6f1d72c80381a9f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору (1-9 нед.):\nИнт
+ ернет вещей\, Чупин М.М. в 1309 \nМобильные и
+ нформ.системы (OS  и импортозамещение в IT)\
+ , Валиуллин Р.М.в 1311\nМобильные информаци
+ онные системы\, Хайруллин А.Ф. в 1310\nПроек
+ тирование ЧМИ (Разработка прилож.для упр
+ авления бизнесс-процессами организации 
+ на платформе 1 С)\, Григорян К.А.в 1306\nПроек
+ тный практикум по робототехнике. Ч2\, Мус
+ тафин М.А. в 1405
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Поиск и NLP
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:a9d4bfcd216afbbb18c0bc8a34ac78bb7b95f281@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы информационного поиска\,\nЗ
+ уев Д.С.(1-9 нед.) (онлайн)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Методология научной деятельн
+ ости
+DTSTART;TZID=Europe/Moscow:20260212T101000
+DTEND;TZID=Europe/Moscow:20260212T114000
+UID:c4acad837123f670c75846e97b37a4c8dc7ed96c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Методология научной деятельности
+ \,\nЕлизаров А.М.\n(1-9 нед.)\nауд. 1311
+LOCATION:1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Инструменты для игр
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:88347a73b907775fb1347e90c0daac4fa1f29c68@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору (1-9 нед.):\nПро
+ ектирование ЧМИ (Разработка интеллектуа
+ льных инструментов для создания компьют
+ ерных игр)\, Газизов Р.Р. в 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Инструменты для игр
+DTSTART;TZID=Europe/Moscow:20260213T155000
+DTEND;TZID=Europe/Moscow:20260213T172000
+UID:d64a740b1d05e561879dd6a545db16dd493e6a76@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору (1-9 нед.):\nПро
+ ектирование ЧМИ (Разработка интеллектуа
+ льных инструментов для создания компьют
+ ерных игр)\, Газизов Р.Р. в 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Контент-маркетинг
+DTSTART;TZID=Europe/Moscow:20260213T173000
+DTEND;TZID=Europe/Moscow:20260213T190000
+UID:6f9cefccadb3e3a8731d8113f2c259d7b321c601@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору (1-9 нед.):\nПро
+ ектирование ЧМИ (Веб-аналитика)\, Григоря
+ н К.А. в 1306\nПроектирование ЧМИ (Контент-м
+ аркетинг)\, Ярко Е.И. в 1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Контент-маркетинг
+DTSTART;TZID=Europe/Moscow:20260213T191000
+DTEND;TZID=Europe/Moscow:20260213T204000
+UID:1a5f7a517fb91e7dbebcf861248b30dd91ee5e07@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору (1-9 нед.):\nПро
+ ектирование ЧМИ (Веб-аналитика)\, Григоря
+ н К.А. в 1306\nПроектирование ЧМИ (Контент-м
+ аркетинг)\, Ярко Е.И. в 1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Поиск и NLP
+DTSTART;TZID=Europe/Moscow:20260214T101000
+DTEND;TZID=Europe/Moscow:20260214T114000
+UID:918dfc9ab4dca4c12132d7f63990515d4e05d181@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы информационного поиска\, \n
+ Ильдиряков  В.Р.\n(1-9 нед.) \n 1301
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Методология научной деятельн
+ ости
+DTSTART;TZID=Europe/Moscow:20260214T135000
+DTEND;TZID=Europe/Moscow:20260214T152000
+UID:91730fa5a9c2603c400db427c84f168abcede2cc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Методология научной деятельности
+ \,\nШахова И.С.\n(1-9 нед.)\nонлайн\n(вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/3243228948
+URL:https://telemost.360.yandex.ru/j/3243228948
+END:VEVENT
+END:VCALENDAR

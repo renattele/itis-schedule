@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Основы разработки информационных с
+ истем\, лек
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:a1570477105604b02a1f6295e430ac723430e7d7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы разработки информационных
+  систем\, лек\nЛеухин А.Д.\n (вебинары) \n 1405
+LOCATION:https://telemost.360.yandex.ru/j/5930491217
+URL:https://telemost.360.yandex.ru/j/5930491217
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математика
+DTSTART;TZID=Europe/Moscow:20260214T121000
+DTEND;TZID=Europe/Moscow:20260214T134000
+UID:647c79d060499736f63c84f986eab9a54dc90d66@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Теория вероятностей и математиче
+ ская статистика\,\nМухамеджанова С.А. лек.
+  \n(вебинары)\n1304
+LOCATION:https://telemost.360.yandex.ru/j/8613554754
+URL:https://telemost.360.yandex.ru/j/8613554754
+END:VEVENT
+END:VCALENDAR

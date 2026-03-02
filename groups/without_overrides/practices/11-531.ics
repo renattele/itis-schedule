@@ -1,0 +1,223 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Элективные курсы по физической куль
+ туре и спорту   (10:00-11:30) (вебинары)
+DTSTART;TZID=Europe/Moscow:20260209T101000
+DTEND;TZID=Europe/Moscow:20260209T114000
+UID:4fca5e72e16cd9e328e3559188878f4187c56ac1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту   (10:00-11:30) (вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/7243575179
+URL:https://telemost.360.yandex.ru/j/7243575179
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгоритмы и структуры данных в прог
+ раммировании
+DTSTART;TZID=Europe/Moscow:20260209T121000
+DTEND;TZID=Europe/Moscow:20260209T134000
+UID:a8d2383098eff741e7e47a27f6c870845267b369@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных в пр
+ ограммировании\,\nХадиева А.И.в 1308\n(вебин
+ ары)
+LOCATION:https://telemost.360.yandex.ru/j/3035515776
+URL:https://telemost.360.yandex.ru/j/3035515776
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Линейная алгебра для IT
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:1579e5599a9084bd2a9ae8a45cd9c9865aac63ec@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Линейная алгебра для IT\,\nБакирова 
+ А.Н.\nлек.в 1509\n(вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/7308035612
+URL:https://telemost.360.yandex.ru/j/7308035612
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260210T101000
+DTEND;TZID=Europe/Moscow:20260210T114000
+UID:6370702207bf19cc89a481ee83e9f83872849c89@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nМохсени Ниари 
+ Фатемех\n (вебинары)\n1309
+LOCATION:https://telemost.360.yandex.ru/j/3696121740
+URL:https://telemost.360.yandex.ru/j/3696121740
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Линейная алгебра для IT
+DTSTART;TZID=Europe/Moscow:20260210T121000
+DTEND;TZID=Europe/Moscow:20260210T134000
+UID:bbdb5f36d6b3e84730df24955f2c836ce38df32d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Линейная алгебра для IT\,\nБакирова 
+ А.Н.\nпракт.\n(вебинары)\n1509
+LOCATION:https://telemost.360.yandex.ru/j/7308035612
+URL:https://telemost.360.yandex.ru/j/7308035612
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Проектный практикум\, прак.
+DTSTART;TZID=Europe/Moscow:20260210T155000
+DTEND;TZID=Europe/Moscow:20260210T172000
+UID:8c4c9481d539b1639b549dede8185218d7dd155b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Проектный практикум\, прак.\nДобро
+ квашина А.С.\, (вебинары)\n1412
+LOCATION:https://telemost.360.yandex.ru/j/1101159202
+URL:https://telemost.360.yandex.ru/j/1101159202
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгоритмы и структуры данных в прог
+ раммировании
+DTSTART;TZID=Europe/Moscow:20260211T121000
+DTEND;TZID=Europe/Moscow:20260211T134000
+UID:f3c360c7b203315cf3b9e916e5324d16f9f384c8@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных в пр
+ ограммировании\,\nлек.\nХадиев К.Р. \n(вебин
+ ары)\n1308
+LOCATION:https://telemost.360.yandex.ru/j/3035515776
+URL:https://telemost.360.yandex.ru/j/3035515776
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Элективные курсы по физической куль
+ туре и спорту   (10:00-11:30) графику (вебинары)
+DTSTART;TZID=Europe/Moscow:20260212T101000
+DTEND;TZID=Europe/Moscow:20260212T114000
+UID:20e1bbf2c2c39b28f5f48d943e938ab862765128@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту   (10:00-11:30) графику (вебина
+ ры)
+LOCATION:https://docs.google.com/document/d/1VSlytmdGwnpY6oLX_JhPIW82mML2t
+ h2a/edit?usp=drive_link&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1VSlytmdGwnpY6oLX_JhPIW82mML2th2a/e
+ dit?usp=drive_link&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260212T121000
+DTEND;TZID=Europe/Moscow:20260212T134000
+UID:029eaa0abc4469143d321628339fd79732e74ee0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nМохсени Ниари 
+ Фатемех\n (вебинары)\n1110
+LOCATION:https://telemost.360.yandex.ru/j/3696121740
+URL:https://telemost.360.yandex.ru/j/3696121740
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260212T135000
+DTEND;TZID=Europe/Moscow:20260212T152000
+UID:7bcdfd96c5231b00c7236cc350971d2f52609471@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nМохсени Ниари 
+ Фатемех\n(вебинары)\n1110
+LOCATION:https://telemost.360.yandex.ru/j/3696121740
+URL:https://telemost.360.yandex.ru/j/3696121740
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Компьютерная математика\, практ.
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:12647bbcfd5dfa1bb7745c407b8fe8ca3b1264a4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Компьютерная математика\, практ.\n
+ Харин Н.В.\,  \n(вебинары)\n1302
+LOCATION:https://telemost.360.yandex.ru/j/8437996376
+URL:https://telemost.360.yandex.ru/j/8437996376
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:История России прак.
+DTSTART;TZID=Europe/Moscow:20260213T083000
+DTEND;TZID=Europe/Moscow:20260213T100000
+UID:ffc47c0fc496e340efce997d1105b14fa6c8d1f8@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:История России прак. \nФазлиев А.М. 
+ \n (вебинары)\n(1-12 нед.)\n1307
+LOCATION:https://telemost.360.yandex.ru/j/4954750481
+URL:https://telemost.360.yandex.ru/j/4954750481
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгоритмы и структуры данных в прог
+ раммировании
+DTSTART;TZID=Europe/Moscow:20260213T101000
+DTEND;TZID=Europe/Moscow:20260213T114000
+UID:79cfd1613dcfade9eab7b1123a9959838cda3e89@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных в пр
+ ограммировании\,\nХадиева А.И. \n(вебинары)
+ \n1307
+LOCATION:https://telemost.360.yandex.ru/j/3035515776
+URL:https://telemost.360.yandex.ru/j/3035515776
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгоритмы и структуры данных в прог
+ раммировании
+DTSTART;TZID=Europe/Moscow:20260213T121000
+DTEND;TZID=Europe/Moscow:20260213T134000
+UID:3e589cc3f0edf81118a3825790a340eba41b28ec@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных в пр
+ ограммировании\,\nХадиева А.И. \n(вебинары)
+ \n1307
+LOCATION:https://telemost.360.yandex.ru/j/3035515776
+URL:https://telemost.360.yandex.ru/j/3035515776
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Компьютерная математика
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:db06969cdb502eacdd1119f0e0915d7810a5002f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Компьютерная математика\,\nСаченк
+ ов О.А.\n (вебинары)\n1307
+LOCATION:https://telemost.360.yandex.ru/j/8437996376
+URL:https://telemost.360.yandex.ru/j/8437996376
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгоритмы и структуры данных в прог
+ раммировании
+DTSTART;TZID=Europe/Moscow:20260214T101000
+DTEND;TZID=Europe/Moscow:20260214T114000
+UID:ff9e5335a27538e53564afbbedeb26791ca4b97f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных в пр
+ ограммировании\,\nХадиева А.И. \n(вебинары)
+ \n7\,14\,21\,28 марта
+LOCATION:https://telemost.360.yandex.ru/j/3035515776
+URL:https://telemost.360.yandex.ru/j/3035515776
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгоритмы и структуры данных в прог
+ раммировании
+DTSTART;TZID=Europe/Moscow:20260214T121000
+DTEND;TZID=Europe/Moscow:20260214T134000
+UID:5b192bd2b4f79bc8e00b1c0a2baad93b1b43da20@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных в пр
+ ограммировании\,\nХадиева А.И. \n(вебинары)
+ \n7\,14\,21\,28 марта
+LOCATION:https://telemost.360.yandex.ru/j/3035515776
+URL:https://telemost.360.yandex.ru/j/3035515776
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгоритмы и структуры данных в прог
+ раммировании
+DTSTART;TZID=Europe/Moscow:20260214T135000
+DTEND;TZID=Europe/Moscow:20260214T152000
+UID:787e006665ecbaf77bcfecf19dc7bc0a8765f3ac@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных в пр
+ ограммировании\,\nХадиева А.И. \n(вебинары)
+ \n7\,14\,21\,28 марта
+LOCATION:https://telemost.360.yandex.ru/j/3035515776
+URL:https://telemost.360.yandex.ru/j/3035515776
+END:VEVENT
+END:VCALENDAR

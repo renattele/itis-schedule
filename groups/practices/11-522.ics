@@ -1,0 +1,117 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Проектная работа
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:25b45fcf1d53ac7e6b8f0f62cd68eb1f8fcee601@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Проектный практикум\,\nВалишин И.А.
+  (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/user/index.php?id=6074
+URL:https://edu.kpfu.ru/user/index.php?id=6074
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260210T121000
+DTEND;TZID=Europe/Moscow:20260210T134000
+UID:7a38fc28254ab48e4ef6834ddfa21c2c62708f16@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Русский язык и культура речи\, Гал
+ иулина И.Р.\n(вебинары)\n(1-12 нед.)
+LOCATION:https://telemost.360.yandex.ru/j/1654264699
+URL:https://telemost.360.yandex.ru/j/1654264699
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математика
+DTSTART;TZID=Europe/Moscow:20260211T101000
+DTEND;TZID=Europe/Moscow:20260211T114000
+UID:55a11fa1d140ba6ca0f91928f59a3d03694569e5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Линейная алгебра для IT\,\nЛавренть
+ ева Е.Е.\nпракт.\n 1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Гуманитарные дисциплины
+DTSTART;TZID=Europe/Moscow:20260211T135000
+DTEND;TZID=Europe/Moscow:20260211T152000
+UID:e1bc502e89a700e52513e6021791a31beaf0c954@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:История России\,\nГрафова Д.Ф.\n (1-12 
+ нед.) \n 1309
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Проектная работа
+DTSTART;TZID=Europe/Moscow:20260213T083000
+DTEND;TZID=Europe/Moscow:20260213T100000
+UID:ac85d4cd38343d5cf60e225f539e2fc35f34a2e6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Проектный практикум\,\nЛукьяничев
+ а Е.О. (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/user/index.php?id=6074
+URL:https://edu.kpfu.ru/user/index.php?id=6074
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Гуманитарные дисциплины
+DTSTART;TZID=Europe/Moscow:20260213T121000
+DTEND;TZID=Europe/Moscow:20260213T134000
+UID:e13e70f50d0c24849c36b1d8ff7cbd1be5bfdb94@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Философия\,\nФедотов Д.Л.\n(вебинары
+ )\n1-9 нед.
+LOCATION:https://telemost.360.yandex.ru/j/5785776948
+URL:https://telemost.360.yandex.ru/j/5785776948
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Дискретная математика
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:b4bd1f9609243a28031ec83b1b6e87c6bb4691f2@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Компьютерная математика\, практ.\n
+ Харин Н.В.\n (ЦОР\, вебинары)
+LOCATION:https://edu.kpfu.ru/course/view.php?id=6737
+URL:https://edu.kpfu.ru/course/view.php?id=6737
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгоритмы
+DTSTART;TZID=Europe/Moscow:20260213T155000
+DTEND;TZID=Europe/Moscow:20260213T172000
+UID:008cc8883f7b8f1f9cc380b585d423251a6f6679@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных в пр
+ ограммировании\,\nЕникеева А.И.\n(вебинары
+ )
+LOCATION:https://telemost.yandex.ru/j/27729488545338
+URL:https://telemost.yandex.ru/j/27729488545338
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгоритмы
+DTSTART;TZID=Europe/Moscow:20260214T101000
+DTEND;TZID=Europe/Moscow:20260214T114000
+UID:f4f668cb22d97f53fbc5131e9670abadf266bc9b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных в пр
+ ограммировании\,\nЕникеева А.И.\n(вебинары
+ )
+LOCATION:https://telemost.yandex.ru/j/27729488545338
+URL:https://telemost.yandex.ru/j/27729488545338
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгоритмы
+DTSTART;TZID=Europe/Moscow:20260214T121000
+DTEND;TZID=Europe/Moscow:20260214T134000
+UID:f79404e05d6a8ec1c3217f27aed433513edb1a7d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных в пр
+ ограммировании\,\nЕникеева А.И.\n(вебинары
+ )
+LOCATION:https://telemost.yandex.ru/j/27729488545338
+URL:https://telemost.yandex.ru/j/27729488545338
+END:VEVENT
+END:VCALENDAR

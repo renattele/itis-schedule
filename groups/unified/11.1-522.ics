@@ -1,0 +1,250 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS 11.1-522
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:c4827ca4e50ef9cca11e0e9de590f1f185e43a5f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Гурьянов И.О.\, гр. №1 в ауд
+ . 1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260209T155000
+DTEND;TZID=Europe/Moscow:20260209T172000
+UID:7c1d77e8be4441a4d530b6e46e1084fb0189041c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Гурьянов И.О.\, гр. №1 в ауд
+ . 1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:a51919ed313f39b40863fb1f783b6f8e13e89651@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Гурьянов И.О.\, гр. №2 в ауд
+ . 1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:ed5061d1a958f85251af4067dad1268ddca20086@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Гурьянов И.О.\, гр. №2 в ауд
+ . 1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Гуманитарные дисциплины
+DTSTART;TZID=Europe/Moscow:20260210T155000
+DTEND;TZID=Europe/Moscow:20260210T172000
+UID:686f8c89a38d487622e9ed7950cd416441d4aa9a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Правовые основы информатизации  Н
+ икитин Д. В. в 1509 (9н.лекц.)
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Проектная работа
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:90efe73b629d43c8a8ba913fd896314dc2d394ee@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Проектный практикум Ференец А.А.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Программная инженерия
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:138f000281be6ee1468a7e423cb2590f246dd028@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Инженерия приложений и инженерия 
+ предметной Таланов М.О.(онлайн) лекц. 9 н.ht
+ tps://meet.google.com/omw-ksdn-hgv
+LOCATION:https://meet.google.com/omw-ksdn-hgv
+URL:https://meet.google.com/omw-ksdn-hgv
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Методология научных исследов
+ аний
+DTSTART;TZID=Europe/Moscow:20260218T135000
+DTEND;TZID=Europe/Moscow:20260218T152000
+UID:54c0cf654e839720d6021d80a441db3e8f57f806@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Методология научных исследований
+  Магид Е.А. по н.н. лекц. в 1310-1311 по чет.нед. 
+ практ. у гр.11.1-521 в 1310
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Методология научных исследов
+ аний
+DTSTART;TZID=Europe/Moscow:20260218T155000
+DTEND;TZID=Europe/Moscow:20260218T172000
+UID:3a8c2c2edceb61201d43def6d07b57ba5c7ab62e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Методология научных исследований
+  Магид Е.А.  по чет.нед. практ.в 1409
+LOCATION:1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Программная инженерия
+DTSTART;TZID=Europe/Moscow:20260211T191000
+DTEND;TZID=Europe/Moscow:20260211T204000
+UID:6f29e0de0d60e0c449235e5f2324d44fc41ea226@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Инженерия приложений и инженерия 
+ предметной области Таланов М.О.(онлайн) п
+ ракт. 9 н.по ч.н. https://meet.google.com/peb-zpqg-ocz
+LOCATION:https://meet.google.com/peb-zpqg-ocz
+URL:https://meet.google.com/peb-zpqg-ocz
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Гуманитарные дисциплины
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:672260dad76e729858f8c5d37fee704e3de2224e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Правовые основы информатизации п
+ рактика Никитин Д.В. по ч.нед в ауд.1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Средства и инструменты програ
+ ммной инженерии
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:7c37728e7503618597f810ace45de5f1dbe252e7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Средства и инструменты программн
+ ой инженерии Архипов К. по неч. нед. лекци
+ я в ауд. 1310-1311 (  по чет.нед. практика  веби
+ нары)
+LOCATION:https://my.mts-link.ru/j/MTC/11486153180
+URL:https://my.mts-link.ru/j/MTC/11486153180
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Средства и инструменты програ
+ ммной инженерии
+DTSTART;TZID=Europe/Moscow:20260212T191000
+DTEND;TZID=Europe/Moscow:20260212T204000
+UID:7b45255b5019992cac671e40035642f969ccd8be@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Средства и инструменты программн
+ ой инженерии Архипов К. по неч. нед. практ
+ ика в ауд.1310-1311 (по чет.нед. практика веби
+ нары)
+LOCATION:https://my.mts-link.ru/j/MTC/11486153180
+URL:https://my.mts-link.ru/j/MTC/11486153180
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:e6d3f544843582e6e80ac3f38b5801d0667e77a6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Гурьянова К.А.\, гр.№3\, ауд
+ . 1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260213T155000
+DTEND;TZID=Europe/Moscow:20260213T172000
+UID:12bac573cf7cbee44565aa8d650c766533a8b2df@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Гурьянова К.А.\, гр.№3\, ауд
+ . 1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260213T173000
+DTEND;TZID=Europe/Moscow:20260213T190000
+UID:4a84933a2a64ff0b33b277f2330157e6edae0f10@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Гурьянова К.А.\, гр.№4\, ауд
+ . 1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260213T191000
+DTEND;TZID=Europe/Moscow:20260213T204000
+UID:d689531b4dedf19b0827de72b7f9baaebce393cb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Гурьянова К.А.\, гр.№4\, ауд
+ . 1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы управления
+DTSTART;TZID=Europe/Moscow:20260214T101000
+DTEND;TZID=Europe/Moscow:20260214T114000
+UID:72635e3b3e6f6a106dba449bbec80921b4a49399@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору: Основы упра
+ вления проектами Чегодаев В.Г.в ауд.1307
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260214T121000
+DTEND;TZID=Europe/Moscow:20260214T134000
+UID:a31926ad944ea92c4167163aec67769cdac6355e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nКривошеева Н.Н.\, гр.№5 в 141
+ 2
+LOCATION:https://telemost.360.yandex.ru/j/9625814291
+URL:https://telemost.360.yandex.ru/j/9625814291
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260214T135000
+DTEND;TZID=Europe/Moscow:20260214T152000
+UID:9a89acf73ed6ea4f9123ed504fda1d8ac4257d46@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nКривошеева Н.Н. \nгр.№5 \n1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260214T155000
+DTEND;TZID=Europe/Moscow:20260214T172000
+UID:72fe160eb80a634edca5e34cacd1db17c81efcce@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nКривошеева Н.Н. \nгр.№6 \n1412
+LOCATION:https://telemost.360.yandex.ru/j/9625814291
+URL:https://telemost.360.yandex.ru/j/9625814291
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260214T173000
+DTEND;TZID=Europe/Moscow:20260214T190000
+UID:dc2a3467fd05e8dbf8490d35e7d65df4cb47e91a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nКривошеева Н.Н.\, гр.№6\, 1412
+LOCATION:1412
+END:VEVENT
+END:VCALENDAR

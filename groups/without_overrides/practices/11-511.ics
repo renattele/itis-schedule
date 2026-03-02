@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Дискретная математика
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:dd616c8ca16fb4578eb6f17e7c0a681cebe8d88f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дискретная математика\,\nЗубков М.
+ В. \n1309
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгоритмы и структуры данных
+DTSTART;TZID=Europe/Moscow:20260209T155000
+DTEND;TZID=Europe/Moscow:20260209T172000
+UID:bee4f2a0ef9f82091846a86d61a0e3ee4ebebe49@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных\,\nБи
+ кмуллин Н.Т.\nподгр.№2 \n 1304
+LOCATION:1304
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:История России
+DTSTART;TZID=Europe/Moscow:20260210T155000
+DTEND;TZID=Europe/Moscow:20260210T172000
+UID:8afc5d9be997b29e0603cf263185294fa5406be3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:История России\,\nКисленко А.О.\n (1-12
+  нед.)\n 1306
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгоритмы и структуры данных
+DTSTART;TZID=Europe/Moscow:20260211T083000
+DTEND;TZID=Europe/Moscow:20260211T100000
+UID:ac353f68e5d2408dfc823538df705dae7b1bb7aa@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгоритмы и структуры данных\,\nФа
+ йзуллин Р\,Ф.\nподгр.№1 \n 1405
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Философия
+DTSTART;TZID=Europe/Moscow:20260211T101000
+DTEND;TZID=Europe/Moscow:20260211T114000
+UID:f69bc1447938f03e9c9cda2a8b115e7002a33c9b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Философия\,\nФедотов Д.Л.\n(1-9 нед.) \n 
+ 1309
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Алгебра и геометрия
+DTSTART;TZID=Europe/Moscow:20260211T121000
+DTEND;TZID=Europe/Moscow:20260211T134000
+UID:baf3279c8513ebcaf3ad86e90cd323e988d0cf51@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Алгебра и геометрия\,\nМихайловска
+ я Я.А.\, 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математический анализ
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:56ca9e5bcf05e1881a7f0540a3a01253124565cc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Математический анализ\,\nХакимов Д
+ .Р. \n1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информатика и программирование
+DTSTART;TZID=Europe/Moscow:20260214T083000
+DTEND;TZID=Europe/Moscow:20260214T100000
+UID:767e70bf630bbbd2fbfcf7aa6ae0e4921e3978d4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информатика и программирование\,\n
+ Абдурахманов А.Ш.\nподгр.№2\n1405\n28 февраля 
+ онлайн
+LOCATION:https://docs.google.com/document/d/1AabzV4jAybyz5P0ucaOeh-n_SWLPW
+ wYL/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1AabzV4jAybyz5P0ucaOeh-n_SWLPWwYL/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информатика и программирование
+DTSTART;TZID=Europe/Moscow:20260214T101000
+DTEND;TZID=Europe/Moscow:20260214T114000
+UID:c2d422b3e193ca840b8e78ff86ec3acb5b3d23e2@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информатика и программирование\,\n
+ Абдурахманов А.Ш.\nподгр.№2 \n1405\n28 февраля
+  онлайн
+LOCATION:https://docs.google.com/document/d/1AabzV4jAybyz5P0ucaOeh-n_SWLPW
+ wYL/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1AabzV4jAybyz5P0ucaOeh-n_SWLPWwYL/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информатика и программирование
+DTSTART;TZID=Europe/Moscow:20260214T121000
+DTEND;TZID=Europe/Moscow:20260214T134000
+UID:ac5d2c3b8294b8c3cdab0ffd58bf07573ab2ef4e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информатика и программирование\,\n
+ Абдурахманов А.Ш.\nподгр.№1 \n1405\n28 февраля
+  онлайн
+LOCATION:https://docs.google.com/document/d/1MmX_Z__nr1U6GDmWObts6YWrlr0a2
+ ahz/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1MmX_Z__nr1U6GDmWObts6YWrlr0a2ahz/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информатика и программирование
+DTSTART;TZID=Europe/Moscow:20260214T135000
+DTEND;TZID=Europe/Moscow:20260214T152000
+UID:df3220201890f3497f388ea18ef3685e12a7aeec@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Информатика и программирование\,\n
+ Абдурахманов А.Ш.\nподгр.№1 \n1405\n28 февраля
+  онлайн
+LOCATION:https://docs.google.com/document/d/1MmX_Z__nr1U6GDmWObts6YWrlr0a2
+ ahz/edit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+URL:https://docs.google.com/document/d/1MmX_Z__nr1U6GDmWObts6YWrlr0a2ahz/e
+ dit?usp=sharing&ouid=112137016857706710646&rtpof=true&sd=true
+END:VEVENT
+END:VCALENDAR

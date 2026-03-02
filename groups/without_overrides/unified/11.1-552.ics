@@ -1,0 +1,116 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS 11.1-552
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы машинного обучения
+DTSTART;TZID=Europe/Moscow:20260209T173000
+DTEND;TZID=Europe/Moscow:20260209T190000
+UID:6e8698adc3254e276147b6bbbf0a8f632afb42b4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы машинного обучения Агафон
+ ов А.А. в 1405
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Средства и инструменты програ
+ ммной инженерии
+DTSTART;TZID=Europe/Moscow:20260209T191000
+DTEND;TZID=Europe/Moscow:20260209T204000
+UID:804a4b9494be3df0b935606818971f610725bd1d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Средства и инструменты программн
+ ой инженерии Тощев А.С. по н.н. лекц. по ч.н
+ . прак. в 1405
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Правовые аспекты использован
+ ия систем искусственного интеллекта  ле
+ кция по ч.н.
+DTSTART;TZID=Europe/Moscow:20260210T155000
+DTEND;TZID=Europe/Moscow:20260210T172000
+UID:5b1f0d4ecbff7e8fba491bfe878deacebab64145@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Правовые аспекты использования с
+ истем искусственного интеллекта  лекция
+  по ч.н.Хасанов Р.А.\,  в ауд.1301
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Правовые аспекты использован
+ ия систем искусственного интеллекта   пр
+ актика по ч.н.
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:6566ed8a543e64bd4f327ad89d9f8b70c5196dac@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Правовые аспекты использования с
+ истем искусственного интеллекта   практ
+ ика по ч.н. Камалетдинова А.В. в ауд.1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Командный проект по искусстве
+ нному интеллекту
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:f8f441128c9f5dd112531f8462c86bae51993f4b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Командный проект по искусственно
+ му интеллекту Курносов О.В. в ауд.1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Профессиональный иностранный
+  язык (английский) ауд. 1301
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:93e1fa9c99dbe450684d10c317832382a0010fec@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) ауд. 1301\, Воронина Д.И. (веби
+ нары)
+LOCATION:https://telemost.yandex.ru/j/51121620730386
+URL:https://telemost.yandex.ru/j/51121620730386
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Профессиональный иностранный
+  язык (английский) ауд. 1301
+DTSTART;TZID=Europe/Moscow:20260211T191000
+DTEND;TZID=Europe/Moscow:20260211T204000
+UID:673918fb8d0d371f194e228ac5ee585d7e632f51@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) ауд. 1301\, Воронина Д.И. (веби
+ нары)
+LOCATION:https://kpfu.mts-link.ru/j/82016803/846857397
+URL:https://kpfu.mts-link.ru/j/82016803/846857397
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Методология научных исследов
+ аний
+DTSTART;TZID=Europe/Moscow:20260213T173000
+DTEND;TZID=Europe/Moscow:20260213T190000
+UID:a437006445d3a088c709fbca863624df89f2e52b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Методология научных исследований
+  Тощев А.С. в ауд.1304 ( по неч. нед. лекц. \,по 
+ чет.нед. практ.)
+LOCATION:1304
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Средства и инструменты  Data-ана
+ литики
+DTSTART;TZID=Europe/Moscow:20260214T121000
+DTEND;TZID=Europe/Moscow:20260214T134000
+UID:9c1011308862779a4b59077ed5a4cc834e05b179@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Средства и инструменты  Data-аналит
+ ики Ханнанова Д.М. лекция 9 нед.: 1\,2\,3 \,7.8.9.1
+ 3.14.15\;  практика: 4.5.6.10.11.12 16.17.18 нед. в ауд.130
+ 1
+LOCATION:1301
+END:VEVENT
+END:VCALENDAR

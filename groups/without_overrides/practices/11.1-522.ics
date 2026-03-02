@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Проектный практикум
+DTSTART;TZID=Europe/Moscow:20260210T173000
+DTEND;TZID=Europe/Moscow:20260210T190000
+UID:b4a53662e9137ae4eec6aa9f0bf51d2c0d9b93ed@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Проектный практикум Ференец А.А.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Методология научных исследований
+DTSTART;TZID=Europe/Moscow:20260218T155000
+DTEND;TZID=Europe/Moscow:20260218T172000
+UID:60c1b5a403639f2213713467a53c350c5b26ab50@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Методология научных исследований
+  Магид Е.А.  по чет.нед. практ.в 1409
+LOCATION:1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Инженерия приложений и инженерия пр
+ едметной области
+DTSTART;TZID=Europe/Moscow:20260211T191000
+DTEND;TZID=Europe/Moscow:20260211T204000
+UID:0801e06f4081d9f246633ce7a5501a5987036914@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Инженерия приложений и инженерия 
+ предметной области Таланов М.О.(онлайн) п
+ ракт. 9 н.по ч.н. https://meet.google.com/peb-zpqg-ocz
+LOCATION:https://meet.google.com/peb-zpqg-ocz
+URL:https://meet.google.com/peb-zpqg-ocz
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Правовые основы информатизации пра
+ ктика
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:81352bfa9f65c4aaec9573a5a2e32823027aa670@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Правовые основы информатизации п
+ рактика Никитин Д.В. по ч.нед в ауд.1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Средства и инструменты программной 
+ инженерии
+DTSTART;TZID=Europe/Moscow:20260212T191000
+DTEND;TZID=Europe/Moscow:20260212T204000
+UID:bc7f762e1500fd69279e016c265a24b670f5ba04@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959;INTERVAL=2
+DESCRIPTION:Средства и инструменты программн
+ ой инженерии Архипов К. по неч. нед. практ
+ ика в ауд.1310-1311 (по чет.нед. практика веби
+ нары)
+LOCATION:https://my.mts-link.ru/j/MTC/11486153180
+URL:https://my.mts-link.ru/j/MTC/11486153180
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Дисциплина по выбору: Основы управл
+ ения проектами
+DTSTART;TZID=Europe/Moscow:20260214T101000
+DTEND;TZID=Europe/Moscow:20260214T114000
+UID:58241b39b8606e3a937ee7dec14f7593f531ec44@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору: Основы упра
+ вления проектами Чегодаев В.Г.в ауд.1307
+LOCATION:1307
+END:VEVENT
+END:VCALENDAR

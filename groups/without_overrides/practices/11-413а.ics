@@ -1,0 +1,262 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260209T083000
+DTEND;TZID=Europe/Moscow:20260209T100000
+UID:f6f562b6fd7b2b96f50b278d86aa60eb65cb3328@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nМохсени Ниари 
+ Фатемех \n(вебинары)\n1305
+LOCATION:https://telemost.360.yandex.ru/j/3275031125
+URL:https://telemost.360.yandex.ru/j/3275031125
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260209T101000
+DTEND;TZID=Europe/Moscow:20260209T114000
+UID:4fabc94b424d7e569a347e4eb3f8995b87ab09a4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nМохсени Ниари 
+ Фатемех\n(вебинары)\n 1305
+LOCATION:https://telemost.360.yandex.ru/j/3275031125
+URL:https://telemost.360.yandex.ru/j/3275031125
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Элективные курсы по физической куль
+ туре и спорту
+DTSTART;TZID=Europe/Moscow:20260209T121000
+DTEND;TZID=Europe/Moscow:20260209T134000
+UID:29e1bea95e0db4313e7ff54abda639c55516a1a5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту\,\n12:00-13:30                               
+                         \n(вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/9901773564
+URL:https://telemost.360.yandex.ru/j/9901773564
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Практикум по командной разработке
+DTSTART;TZID=Europe/Moscow:20260209T135000
+DTEND;TZID=Europe/Moscow:20260209T152000
+UID:393b91a1224d152aae42514907884f2a6ab20272@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Практикум по командной разработк
+ е\,\nФролов Д.Д.\n(вебинары)\n1405
+LOCATION:https://telemost.360.yandex.ru/j/5210591931
+URL:https://telemost.360.yandex.ru/j/5210591931
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Практикум по командной разработке
+DTSTART;TZID=Europe/Moscow:20260209T155000
+DTEND;TZID=Europe/Moscow:20260209T172000
+UID:d92ffcba00e454e1ef3067322ee6818ac6b481b2@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Практикум по командной разработк
+ е\,\nФролов Д.Д.\n(вебинары)\n1405
+LOCATION:https://telemost.360.yandex.ru/j/5210591931
+URL:https://telemost.360.yandex.ru/j/5210591931
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260210T083000
+DTEND;TZID=Europe/Moscow:20260210T100000
+UID:308d5fac21b3e567cdc26d9364ddab24eb2c62ff@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\, \nСпиридонов А.В
+ . (вебинары)\n  1405
+LOCATION:https://telemost.360.yandex.ru/j/3935970137
+URL:https://telemost.360.yandex.ru/j/3935970137
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260210T101000
+DTEND;TZID=Europe/Moscow:20260210T114000
+UID:6370702207bf19cc89a481ee83e9f83872849c89@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\, \nСпиридонов А.В
+ . (вебинары)\n  1405
+LOCATION:https://telemost.360.yandex.ru/j/3935970137
+URL:https://telemost.360.yandex.ru/j/3935970137
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Инновационная экономика и технолог
+ ическое предпринимательство
+DTSTART;TZID=Europe/Moscow:20260210T121000
+DTEND;TZID=Europe/Moscow:20260210T134000
+UID:24b19817c1204469ebcdc0872d8bf77f0b2c0d74@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Инновационная экономика и технол
+ огическое предпринимательство\,\nГалеев 
+ С.И.\n9 нед.лек./с 10 нед.прак..\n(вебинары)\n1405
+LOCATION:https://telemost.360.yandex.ru/j/3443864218
+URL:https://telemost.360.yandex.ru/j/3443864218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория вероятностей и математическ
+ ая статистика
+DTSTART;TZID=Europe/Moscow:20260210T135000
+DTEND;TZID=Europe/Moscow:20260210T152000
+UID:e4557498951045b5beb36c2ccb09c330716a0adc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Теория вероятностей и математиче
+ ская статистика\,\nМухамеджанова С.А. \n(ве
+ бинары)\n1405
+LOCATION:https://telemost.360.yandex.ru/j/8613554754
+URL:https://telemost.360.yandex.ru/j/8613554754
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы разработки информационных с
+ истем\, практ.
+DTSTART;TZID=Europe/Moscow:20260210T155000
+DTEND;TZID=Europe/Moscow:20260210T172000
+UID:de69249dda2e6e13cde1ba9ff8134453cd42dbad@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы разработки информационных
+  систем\, практ.\, \nЛеухин А.Д.  \n(вебинары)\
+ n1508
+LOCATION:https://telemost.360.yandex.ru/j/5930491217
+URL:https://telemost.360.yandex.ru/j/5930491217
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Технологическая (проектно-технолог
+ ическая) практика DML
+DTSTART;TZID=Europe/Moscow:20260211T155000
+DTEND;TZID=Europe/Moscow:20260211T172000
+UID:d1503f58d6b6c166eb02dd74258abc7381d3769a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика DML \n1110\n\nhttps://telemost.yandex
+ .ru/j/26367301915358
+LOCATION:https://telemost.yandex.ru/j/26367301915358
+URL:https://telemost.yandex.ru/j/26367301915358
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Разработка игр
+DTSTART;TZID=Europe/Moscow:20260211T173000
+DTEND;TZID=Europe/Moscow:20260211T190000
+UID:92f20b58ad1af4ac1267c5c07f7b3dec1d4c78d0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nРазработка 
+ игр\, Нурметов Ф.Ю.  (вебинары)\n1307
+LOCATION:https://telemost.360.yandex.ru/j/6302935916
+URL:https://telemost.360.yandex.ru/j/6302935916
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Разработка игр
+DTSTART;TZID=Europe/Moscow:20260211T191000
+DTEND;TZID=Europe/Moscow:20260211T204000
+UID:aa4b6171eaa194051049de6d27983facf2982f78@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nРазработка 
+ игр\, Нурметов Ф.Ю.\n(вебинары)\n1307
+LOCATION:https://telemost.360.yandex.ru/j/6302935916
+URL:https://telemost.360.yandex.ru/j/6302935916
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(вебинары)
+DTSTART;TZID=Europe/Moscow:20260211T191000
+DTEND;TZID=Europe/Moscow:20260211T204000
+UID:a246e67c848da031bd146f2462699f2d6505f518@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплины по выбору:\nРазработка 
+ игр\, Нурметов Ф.Ю.\n(вебинары)\n1307
+LOCATION:https://telemost.360.yandex.ru/j/6302935916
+URL:https://telemost.360.yandex.ru/j/6302935916
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Элективные курсы по физической куль
+ туре и спорту
+DTSTART;TZID=Europe/Moscow:20260212T121000
+DTEND;TZID=Europe/Moscow:20260212T134000
+UID:2ef348fc028d32ebb1998c04f631758c56b5afe1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту\,\n12:00-13:30                               
+                         \n(вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/9901773564
+URL:https://telemost.360.yandex.ru/j/9901773564
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы финансовой грамотности
+DTSTART;TZID=Europe/Moscow:20260212T135000
+DTEND;TZID=Europe/Moscow:20260212T152000
+UID:be8d0b4a7c61659dc20829728a8b8961057583db@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы финансовой грамотности\,\nС
+ ахбиева А.И.\n1-9 нед.лек.\nс 10 нед.прак. \n(ве
+ бинары)\n1412
+LOCATION:https://telemost.360.yandex.ru/j/6307847596
+URL:https://telemost.360.yandex.ru/j/6307847596
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260212T155000
+DTEND;TZID=Europe/Moscow:20260212T172000
+UID:96a4e306d849964aa6b71c95474b15652e2c18d0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Иностранный язык\,\nМохсени Ниари 
+ Фатемех в 1110 (вебинары) /\n\n\nСпиридонов А.
+ В. в 1412 (вебинары)
+LOCATION:https://telemost.360.yandex.ru/j/3275031125
+URL:https://telemost.360.yandex.ru/j/3275031125
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Технологическая (проектно-
+DTSTART;TZID=Europe/Moscow:20260212T191000
+DTEND;TZID=Europe/Moscow:20260212T204000
+UID:2279313cb44b1b6e5f02a3bf14e4e37d587c2699@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Технологическая (проектно-\nтехно
+ логическая) практика
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы разработки информационных с
+ истем\, прак.
+DTSTART;TZID=Europe/Moscow:20260213T155000
+DTEND;TZID=Europe/Moscow:20260213T172000
+UID:71aeed5bd7d8aee70ec8f28664d34da5686d2f45@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы разработки информационных
+  систем\, прак.\nЛеухин А.Д.\n (вебинары) \n1405
+LOCATION:https://telemost.360.yandex.ru/j/5930491217
+URL:https://telemost.360.yandex.ru/j/5930491217
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Практикум по командной разработке
+DTSTART;TZID=Europe/Moscow:20260213T173000
+DTEND;TZID=Europe/Moscow:20260213T190000
+UID:e39738a977cbc118f0a01c69b18751ec2dda7793@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Практикум по командной разработк
+ е\,\nФролов Д.Д.\n(вебинары)\n1405\n27 февраля в 
+ ауд.1508
+LOCATION:https://telemost.360.yandex.ru/j/5210591931
+URL:https://telemost.360.yandex.ru/j/5210591931
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Дисциплина по выбору:
+DTSTART;TZID=Europe/Moscow:20260214T135000
+DTEND;TZID=Europe/Moscow:20260214T152000
+UID:b7ecf4305c767b16dca919fc5e247467e3d6b9d3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору:\nВеб-разрабо
+ тка (Java)\, Теренин Д.М.\n(вебинары)\n1304
+LOCATION:https://telemost.360.yandex.ru/j/5929653515
+URL:https://telemost.360.yandex.ru/j/5929653515
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Дисциплина по выбору:
+DTSTART;TZID=Europe/Moscow:20260214T155000
+DTEND;TZID=Europe/Moscow:20260214T172000
+UID:cded7db5ac9882c234baacb8a50727fbcd524ac4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Дисциплина по выбору:\nВеб-разрабо
+ тка (Java)\, Теренин Д.М.\n(вебинары)\n1304
+LOCATION:https://telemost.360.yandex.ru/j/5929653515
+URL:https://telemost.360.yandex.ru/j/5929653515
+END:VEVENT
+END:VCALENDAR

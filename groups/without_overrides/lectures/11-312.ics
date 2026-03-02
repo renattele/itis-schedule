@@ -1,0 +1,85 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Основы научной коммуникации
+DTSTART;TZID=Europe/Moscow:20260209T121000
+DTEND;TZID=Europe/Moscow:20260209T134000
+UID:b70c66b84688f859c3a5b8e215251edfcd222e4c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы научной коммуникации\,\nГуз
+ ельбаева Г.Я.\n(вебинары)
+LOCATION:https://my.mts-link.ru/j/125200023/10644512032
+URL:https://my.mts-link.ru/j/125200023/10644512032
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Элективные курсы по физической куль
+ туре и спорту\, 14:00 - 15:30\, (ЦОР)
+DTSTART;TZID=Europe/Moscow:20260210T135000
+DTEND;TZID=Europe/Moscow:20260210T152000
+UID:81480d093c82962802d1b9b90ebcac95a5be738e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту\, 14:00 - 15:30\, (ЦОР)
+LOCATION:https://edu.kpfu.ru/course/view.php?id=5573
+URL:https://edu.kpfu.ru/course/view.php?id=5573
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Управление проектами
+DTSTART;TZID=Europe/Moscow:20260210T191000
+DTEND;TZID=Europe/Moscow:20260210T204000
+UID:ac086255e25896ae1a56788cf352d220d05b2c1f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление проектами\,\nБаранова А
+ .В.\n (вебинары)\n(2-11 нед.)
+LOCATION:https://telemost.yandex.ru/j/28547167181155
+URL:https://telemost.yandex.ru/j/28547167181155
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Программная инженерия
+DTSTART;TZID=Europe/Moscow:20260211T135000
+DTEND;TZID=Europe/Moscow:20260211T152000
+UID:04907ceade889e51ace0a92eaa7ebf7736c419df@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Программная инженерия\,\nКоростел
+ ева Д.М.\n(вебинары)
+LOCATION:https://kpfu.mts-link.ru/j/81830937/10373851517
+URL:https://kpfu.mts-link.ru/j/81830937/10373851517
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Управление проектами
+DTSTART;TZID=Europe/Moscow:20260212T173000
+DTEND;TZID=Europe/Moscow:20260212T190000
+UID:2fef042e746f3509c05dd9e0934f80c5007dbb34@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Управление проектами\,\nБаранова А
+ .В.\n (вебинары)
+LOCATION:https://telemost.yandex.ru/j/28547167181155
+URL:https://telemost.yandex.ru/j/28547167181155
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Элективные курсы по физической куль
+ туре и спорту
+DTSTART;TZID=Europe/Moscow:20260213T135000
+DTEND;TZID=Europe/Moscow:20260213T152000
+UID:ddfbc40d85d03757834d7011626bcab7a602c690@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту\, \n14:00 - 15:30 (ЦОР)
+LOCATION:https://edu.kpfu.ru/course/view.php?id=5573
+URL:https://edu.kpfu.ru/course/view.php?id=5573
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы машинного обучения
+DTSTART;TZID=Europe/Moscow:20260213T155000
+DTEND;TZID=Europe/Moscow:20260213T172000
+UID:9902e4ecdd3f90f2bd7fda1ad64ec014383f5a5f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260606T235959
+DESCRIPTION:Основы машинного обучения\,\nГалим
+ зянов Б.Н.\n(вебинары)
+LOCATION:https://telemost.yandex.ru/j/62333610102320
+URL:https://telemost.yandex.ru/j/62333610102320
+END:VEVENT
+END:VCALENDAR
