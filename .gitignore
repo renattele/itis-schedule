@@ -9,5 +9,6 @@ dist/
 build/
 *.egg-info/
 calendars/
+student_choices.json
 .idea/
 .vscode/

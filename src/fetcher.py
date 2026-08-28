@@ -1,4 +1,4 @@
-"""Fetch schedule CSV from Google Sheets."""
+"""Fetch schedule data from Google Sheets."""
 
 import requests
 
@@ -6,6 +6,11 @@ import requests
 EXPORT_URL_TEMPLATE = (
     "https://docs.google.com/spreadsheets/d/{spreadsheet_id}/export"
     "?format=xlsx&gid={gid}"
+)
+
+CSV_URL_TEMPLATE = (
+    "https://docs.google.com/spreadsheets/d/{spreadsheet_id}/export"
+    "?format=csv&gid={gid}"
 )
 
 
@@ -26,3 +31,11 @@ def fetch_schedule(spreadsheet_id: str, gid: str = "0") -> bytes:
     response = requests.get(url, timeout=30)
     response.raise_for_status()
     return response.content
+
+
+def fetch_csv(spreadsheet_id: str, gid: str = "0") -> str:
+    """Download a sheet tab as CSV text (UTF-8)."""
+    url = CSV_URL_TEMPLATE.format(spreadsheet_id=spreadsheet_id, gid=gid)
+    response = requests.get(url, timeout=30)
+    response.raise_for_status()
+    return response.content.decode("utf-8")

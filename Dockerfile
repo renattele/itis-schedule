@@ -6,5 +6,8 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY src/ src/
+COPY tests/ tests/
+COPY overrides.json .
+COPY pytest.ini .
 
 ENTRYPOINT ["python", "-m", "src.main"]

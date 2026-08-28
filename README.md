@@ -1,6 +1,6 @@
 # ITIS Schedule → iCal Generator
 
-CLI application that fetches the [KFU ITIS schedule](https://docs.google.com/spreadsheets/d/13CqvyFsOa5Z5LYCfMCz4IyAnuTIcjYqI0ARgt8-5MpQ) from Google Sheets and generates `.ics` (iCal) calendar files for every student group.
+CLI application that fetches the [KFU ITIS schedule](https://docs.google.com/spreadsheets/d/12m_Ze1NOnVvdVuSDY5bj0v4r24xLY5RhtuBxNjS26yQ) from Google Sheets and generates `.ics` (iCal) calendar files for every student group.
 
 ## Quick Start
 
@@ -34,20 +34,22 @@ You can override event parameters using a JSON file where keys are regular expre
 
 | Flag | Default | Description |
 |------|---------|-------------|
-| `--spreadsheet-id` | `13CqvyFsOa5Z5LYCfMCz4IyAnuTIcjYqI0ARgt8-5MpQ` | Google Sheets document ID |
+| `--spreadsheet-id` | `12m_Ze1NOnVvdVuSDY5bj0v4r24xLY5RhtuBxNjS26yQ` | Google Sheets document ID |
 | `--gid` | `0` | Sheet tab ID |
 | `--output-dir` | `./calendars` | Output directory for `.ics` files |
-| `--semester-start` | `2026-02-09` | Semester start date (`YYYY-MM-DD`) |
-| `--semester-end` | `2026-06-06` | Semester end date (`YYYY-MM-DD`) |
+| `--semester-start` | `2026-09-01` | Semester start date (`YYYY-MM-DD`) |
+| `--semester-end` | `2026-12-31` | Semester end date (`YYYY-MM-DD`) |
 | `--overrides` | | Path to JSON file with event overrides (regex keys) |
+| `--student-choices` | `student_choices.json` | Optional local overlay of per-student electives (skipped if the file is missing) |
 
 ## GitHub Actions
 
-The included workflow (`.github/workflows/generate.yml`) runs **daily at 09:00 Moscow time** and can also be triggered manually. It:
+The included workflow (`.github/workflows/generate.yml`) runs **every 5 hours** and can also be triggered manually. It:
 
 1. Builds the Docker image
-2. Generates `.ics` files for all groups
-3. Commits updated calendars back to the repository
+2. Runs tests
+3. Generates `.ics` files for all groups
+4. Publishes them to the `calendars` branch
 
 ## Project Structure
 
@@ -77,13 +79,13 @@ The included workflow (`.github/workflows/generate.yml`) runs **daily at 09:00 M
 After the workflow runs, each group's unified `.ics` file is available at:
 
 ```
-https://raw.githubusercontent.com/<owner>/<repo>/calendars/calendars/groups/unified/<group>.ics
+https://raw.githubusercontent.com/<owner>/<repo>/calendars/groups/unified/<group>.ics
 ```
 
 Student calendars are available at:
 
 ```
-https://raw.githubusercontent.com/<owner>/<repo>/calendars/calendars/students/unified/<group>_<student>-student.ics
+https://raw.githubusercontent.com/<owner>/<repo>/calendars/students/unified/<group>_<student>.ics
 ```
 
 You can add this URL as a calendar subscription in Google Calendar, Apple Calendar, or any iCal-compatible client.
