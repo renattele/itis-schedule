@@ -2,6 +2,8 @@
 
 CLI application that fetches the [KFU ITIS schedule](https://docs.google.com/spreadsheets/d/12m_Ze1NOnVvdVuSDY5bj0v4r24xLY5RhtuBxNjS26yQ) from Google Sheets and generates `.ics` (iCal) calendar files for every student group.
 
+Per-student calendars drop unchosen electives using the [4th-year course distribution](https://docs.google.com/spreadsheets/d/1ylZLNeuGEpb_7lVqtRlOfs6ngj_c977Zgt5XKZf_aSc) (main and humanitarian blocks; spring-semester columns are skipped).
+
 ## Quick Start
 
 ### Run with Docker
@@ -41,6 +43,8 @@ You can override event parameters using a JSON file where keys are regular expre
 | `--semester-end` | `2026-12-31` | Semester end date (`YYYY-MM-DD`) |
 | `--overrides` | | Path to JSON file with event overrides (regex keys) |
 | `--student-choices` | `student_choices.json` | Optional local overlay of per-student electives (skipped if the file is missing) |
+| `--choices-spreadsheet-id` | `1ylZLNeuGEpb_7lVqtRlOfs6ngj_c977Zgt5XKZf_aSc` | Google Sheets ID with the 4th-year elective distribution |
+| `--choices-gid` | all tabs | Sheet tab gid to load; pass multiple times. Default discovers every tab |
 
 ## GitHub Actions
 
@@ -61,6 +65,7 @@ The included workflow (`.github/workflows/generate.yml`) runs **every 5 hours** 
 │   ├── __init__.py
 │   ├── fetcher.py                   # Google Sheets CSV downloader
 │   ├── parser.py                    # Schedule CSV parser
+│   ├── electives.py                 # Elective distribution sync + matching
 │   ├── generator.py                 # iCal file generator
 │   └── main.py                      # CLI entry point
 └── calendars/

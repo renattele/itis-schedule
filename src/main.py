@@ -8,6 +8,7 @@ import pathlib
 import re
 from datetime import date
 
+from .electives import DEFAULT_CHOICES_SPREADSHEET_ID
 from .fetcher import fetch_csv, fetch_schedule
 from .generator import generate_ical
 from .parser import parse_schedule
@@ -64,6 +65,18 @@ def main(argv: list[str] | None = None) -> None:
         type=pathlib.Path,
         default=pathlib.Path("student_choices.json"),
         help="Optional JSON overlay of per-student electives (ignored if missing).",
+    )
+    parser.add_argument(
+        "--choices-spreadsheet-id",
+        default=DEFAULT_CHOICES_SPREADSHEET_ID,
+        help="Google Sheets ID with per-student elective distribution (default: %(default)s).",
+    )
+    parser.add_argument(
+        "--choices-gid",
+        action="append",
+        dest="choices_gids",
+        default=None,
+        help="Sheet tab gid to load (repeatable). Default: discover all tabs.",
     )
     args = parser.parse_args(argv)
 
@@ -145,8 +158,7 @@ def main(argv: list[str] | None = None) -> None:
         print(f"   ✅ {group} processed (without overrides)")
 
     # 4. Generate student calendars
-    CHOICES_SHEET_ID = "1bsaeOl8JQepHnEQggIo9fNzaCNyvFRtTlhqrYGP5YK4"
-    print(f"🔍 Fetching student choices from {CHOICES_SHEET_ID}…")
+    print(f"🔍 Fetching student choices from {args.choices_spreadsheet_id}…")
     try:
         from src.electives import (
             collect_elective_pool,
@@ -154,9 +166,12 @@ def main(argv: list[str] | None = None) -> None:
             load_local_choices,
             merge_local_choices,
             personal_lessons,
+            unmatched_choices,
         )
 
-        choices = fetch_choices(CHOICES_SHEET_ID)
+        choices = fetch_choices(
+            args.choices_spreadsheet_id, gids=args.choices_gids
+        )
         overlay = load_local_choices(args.student_choices)
         if overlay:
             choices = merge_local_choices(choices, overlay)
@@ -190,6 +205,14 @@ def main(argv: list[str] | None = None) -> None:
             return generated_students
 
         # Match electives against original subject names, then optionally rename.
+        unmatched = unmatched_choices(
+            choices, collect_elective_pool(schedule_without_overrides)
+        )
+        if unmatched:
+            print(f"   ⚠️ Unmatched elective titles ({len(unmatched)}):")
+            for title, count in sorted(unmatched.items(), key=lambda kv: (-kv[1], kv[0])):
+                print(f"      {count}× {title}")
+
         students_dir = students_root_dir
         generated_students = generate_student_calendars(
             schedule_without_overrides, students_dir, with_overrides=True
