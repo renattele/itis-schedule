@@ -61,6 +61,48 @@ _DAY_RE = re.compile(
 # Time slot pattern like "08.30-10.00" or "08:30-10:00".
 _TIME_RE = re.compile(r"(\d{2})[.:](\d{2})\s*-\s*(\d{2})[.:](\d{2})")
 
+# Packed elective lines mix several week/subgroup clauses, e.g.
+# "Психология управления, … 1-9 нед. гр.№4, с 10 нед. гр.№5".
+_SEGMENT_CUT_RE = re.compile(
+    r"""
+    [,;]\s*
+    (?=с\s+\d+\s*(?:по\s+\d+\s*)?нед)
+    """,
+    re.IGNORECASE | re.VERBOSE,
+)
+
+_ROOM_THEN_WEEK_RE = re.compile(
+    r"\b\d{3,4}(?=\s+с\s+\d+\s*(?:по\s+\d+\s*)?нед)",
+    re.IGNORECASE,
+)
+
+_GROUP_MARK_RE = re.compile(
+    r"(?:подгрупп[аы]|групп[аы]|гр\.?)\s*№?\s*\d+",
+    re.IGNORECASE,
+)
+
+_LECTURE_WEEK_RE = re.compile(
+    r"\bлек(?:ция|ции|ц)?\.?\s*\d+\s*нед",
+    re.IGNORECASE,
+)
+
+_COURSE_META_RE = re.compile(
+    r"""
+    \d+\s*-\s*\d+\s*нед\.?
+    | с\s+\d+\s*(?:по\s+\d+\s*)?нед\.?
+    | \d+\s*нед\.?
+    | \bлек(?:ция|ции|ц)?\.?\b
+    | \bпрак(?:тика)?\.?\b
+    | (?:под)?групп[аы]\s*№?\s*\d+
+    | \bгр\.?\s*№?\s*\d+
+    | \(\s*\d+\s*гр\.?\s*\)
+    | \b\d+\s*гр\.?
+    | \bвебинары?\b
+    | \(по выбору\)
+    """,
+    re.IGNORECASE | re.VERBOSE,
+)
+
 
 @dataclass(frozen=True)
 class Lesson:
@@ -103,6 +145,112 @@ def _strip_elective_header(line: str) -> str:
     return _ELECTIVE_HEADER_RE.sub("", line, count=1).lstrip(" :").strip()
 
 
+def _split_elective_segments(line: str) -> list[str]:
+    """Break a packed elective line into one week-range / one subgroup pieces."""
+    if not (line or "").strip():
+        return []
+    starts = [0]
+    week_clause_starts: list[int] = []
+    for match in _SEGMENT_CUT_RE.finditer(line):
+        starts.append(match.end())
+        week_clause_starts.append(match.end())
+    for match in _ROOM_THEN_WEEK_RE.finditer(line):
+        starts.append(match.end())
+        week_clause_starts.append(match.end())
+
+    group_marks = list(_GROUP_MARK_RE.finditer(line))
+    for index, mark in enumerate(group_marks):
+        before = line[: mark.start()]
+        sep = re.search(r"[,;]\s*$", before)
+        if index == 0 and not _LECTURE_WEEK_RE.search(before):
+            continue
+        if any(ws <= mark.start() <= ws + 48 for ws in week_clause_starts):
+            continue
+        if sep:
+            starts.append(sep.end())
+        elif index > 0:
+            starts.append(mark.start())
+
+    starts = sorted(set(starts))
+    parts: list[str] = []
+    for i, start in enumerate(starts):
+        end = starts[i + 1] if i + 1 < len(starts) else len(line)
+        if i + 1 < len(starts):
+            comma = _SEGMENT_CUT_RE.search(line, start, end)
+            if comma:
+                end = comma.start()
+        part = line[start:end].strip(" ,;")
+        if part:
+            parts.append(part)
+    return parts or [line.strip()]
+
+
+def _bare_course_title(subject: str) -> str:
+    """Course name with week/subgroup/lecture markers removed."""
+    cleaned = _COURSE_META_RE.sub(" ", subject or "")
+    cleaned = re.sub(r"[().]", " ", cleaned)
+    return re.sub(r"[\s,;:]+", " ", cleaned).strip(" ,;:-")
+
+
+def _subject_is_metadata(subject: str) -> bool:
+    return not _bare_course_title(subject)
+
+
+def _keep_group_markers_on_subject(subject: str, notes: str) -> tuple[str, str]:
+    """Move week/subgroup leftovers from notes onto the subject for matching."""
+    if not notes:
+        return subject, notes
+    if notes.casefold() in (subject or "").casefold():
+        return subject, notes
+    if re.search(
+        r"(?:под)?групп[аы]\s*№?\s*\d+|\bгр\.?\s*№?\s*\d+|\d+\s*нед",
+        notes,
+        re.IGNORECASE,
+    ):
+        return f"{subject} {notes}".strip(), ""
+    return subject, notes
+
+
+def _parse_elective_line(line: str) -> list[tuple[str, str, str, str]]:
+    """Parse one elective row, inheriting the course title across split segments."""
+    raw_items: list[tuple[str, str, str, str]] = []
+    for segment in _split_elective_segments(line):
+        for subject, instructor, room, notes in _split_single_line_lesson(segment):
+            if not subject:
+                continue
+            if _is_elective_header(subject) and not _strip_elective_header(subject):
+                continue
+            raw_items.append((subject, instructor, room, notes))
+    if not raw_items:
+        return []
+
+    bare = next(
+        (title for subject, *_rest in raw_items if (title := _bare_course_title(subject))),
+        "",
+    )
+    instructors = [instructor for _s, instructor, _r, _n in raw_items if instructor]
+    shared_instructor = instructors[0] if len(set(instructors)) == 1 else ""
+
+    entries: list[tuple[str, str, str, str]] = []
+    last_instructor = ""
+    for subject, instructor, room, notes in raw_items:
+        if not instructor:
+            instructor = last_instructor or shared_instructor
+        if _subject_is_metadata(subject):
+            if not bare:
+                continue
+            subject = f"{bare} {subject}".strip()
+        elif not _is_usable_subject(subject):
+            continue
+        subject, notes = _keep_group_markers_on_subject(subject, notes)
+        if instructor:
+            last_instructor = instructor
+        entries.append(
+            (subject, instructor, room, (notes + " (по выбору)").strip())
+        )
+    return entries
+
+
 def _parse_cell_text(raw: str) -> list[tuple[str, str, str, str]]:
     """Extract subject, instructor, room, and extra notes from a cell string.
 
@@ -130,11 +278,7 @@ def _parse_cell_text(raw: str) -> list[tuple[str, str, str, str]]:
         for line in item_lines:
             if _is_elective_header(line) and not _strip_elective_header(line):
                 continue
-            split_res = _split_single_line_lesson(line)
-            for s, i, r, n in split_res:
-                if not s or _is_elective_header(s) and not _strip_elective_header(s):
-                    continue
-                entries.append((s, i, r, (n + " (по выбору)").strip()))
+            entries.extend(_parse_elective_line(line))
         return entries
 
     if len(lines) == 1:
@@ -242,6 +386,12 @@ def _detect_lesson_weeks(subject: str, instructor: str, notes: str) -> str:
     """Detect even/odd parity or an explicit week range like '1-9 нед'."""
     text = f"{subject} {instructor} {notes}"
     low = text.lower()
+
+    from_to_m = re.search(r"с\s+(\d{1,2})\s+по\s+(\d{1,2})\s*нед", low)
+    if from_to_m:
+        start, end = int(from_to_m.group(1)), int(from_to_m.group(2))
+        if 1 <= start <= end <= 22:
+            return f"{start}-{end}"
 
     range_m = re.search(r"(\d{1,2})\s*-\s*(\d{1,2})\s*нед", low)
     if range_m:

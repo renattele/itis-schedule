@@ -60,6 +60,17 @@ def test_parse_humanitarian_columns():
     ]
 
 
+def test_parse_humanitarian_group_suffixes():
+    csv_text = """ФИО,Группа,Гуманитарный блок №1 (осенний семестр),Гуманитарный блок №2 (осенний семестр)
+Иванов Иван Иванович,11-303,Психология управления (1гр),Психология (3 гр)
+"""
+    students = parse_choices_csv(csv_text)
+    assert students[0].electives == [
+        "Психология управления (1гр)",
+        "Психология (3 гр)",
+    ]
+
+
 def test_merge_unions_electives_from_both_tabs():
     merged = merge_student_lists(
         [parse_choices_csv(MAIN_CSV), parse_choices_csv(HUM_CSV)]
@@ -171,6 +182,142 @@ def test_psychology_courses_stay_distinct():
     assert find_elective_match("Психология управления", pool) == [management]
     assert find_elective_match("Психология личной эффективности", pool) == [personal]
     assert find_elective_match("Психология", pool) == [plain]
+
+
+def test_humanitarian_subgroups_do_not_cross_match():
+    lecture = _lesson(
+        subject="Психология управления (1-9 нед.)",
+        instructor="Пучкова И.М.",
+        room="",
+        day=3,
+        time_start="10:10",
+        weeks="1-9",
+    )
+    group1 = _lesson(
+        subject="Психология управления с 10 нед. прак. гр.№1",
+        instructor="Зайнуллин А.Э.",
+        room="",
+        day=3,
+        time_start="10:10",
+        weeks="10-18",
+    )
+    group2 = _lesson(
+        subject="Психология управления, прак. (1-9нед.) гр.№2",
+        instructor="Зайнуллин А.Э.",
+        room="",
+        day=3,
+        time_start="15:50",
+        weeks="1-9",
+    )
+    group4 = _lesson(
+        subject="Психология управления 1-9 нед. гр.№4",
+        instructor="Зайнуллин А.Э.",
+        room="",
+        day=4,
+        time_start="13:50",
+        weeks="1-9",
+    )
+    pool = [lecture, group1, group2, group4]
+
+    g1 = find_elective_match("Психология управления (1гр)", pool)
+    assert lecture in g1
+    assert group1 in g1
+    assert group2 not in g1
+    assert group4 not in g1
+
+    g2 = find_elective_match("Психология управления (2гр)", pool)
+    assert lecture in g2
+    assert group2 in g2
+    assert group1 not in g2
+
+    g4 = find_elective_match("Психология управления (4гр)", pool)
+    assert lecture in g4
+    assert group4 in g4
+    assert group1 not in g4
+    assert group2 not in g4
+
+
+def test_psychology_plain_subgroups_stay_on_their_slot():
+    lecture = _lesson(
+        subject="Психология лек.9 нед.",
+        instructor="Устин П.Н.",
+        room="1408",
+        day=4,
+        time_start="10:10",
+        weeks="1-9",
+    )
+    group1 = _lesson(
+        subject="Психология с 10 нед.прак. гр.№1",
+        instructor="Румянцева Г.Д.",
+        room="",
+        day=4,
+        time_start="10:10",
+        weeks="10-18",
+    )
+    group2 = _lesson(
+        subject="Психология гр.№2 с 1 по 9 нед.прак",
+        instructor="Румянцева Г.Д.",
+        room="",
+        day=4,
+        time_start="08:30",
+        weeks="1-9",
+    )
+    pool = [lecture, group1, group2]
+    assert set(find_elective_match("Психология (1гр)", pool)) == {lecture, group1}
+    assert set(find_elective_match("Психология (2гр)", pool)) == {lecture, group2}
+    assert find_elective_match("Психология (3гр)", pool) == [lecture]
+
+
+def test_personal_efficiency_and_design_thinking_subgroups():
+    eff1 = _lesson(
+        subject="Психология личной эффективности, лек.9 нед.",
+        instructor="Добротворская С.Г.",
+        room="1405",
+        day=4,
+        time_start="10:10",
+        weeks="1-9",
+    )
+    eff1_prac = _lesson(
+        subject="Психология личной эффективности, группа №1 прак. с 10 нед.",
+        instructor="Добротворская С.Г.",
+        room="1405",
+        day=4,
+        time_start="10:10",
+        weeks="10-18",
+    )
+    eff2 = _lesson(
+        subject="Психология личной эффективности, группа №2 прак. с 10 нед.",
+        instructor="Добротворская С.Г.",
+        room="1405",
+        day=4,
+        time_start="08:30",
+        weeks="10-18",
+    )
+    design1 = _lesson(
+        subject="Разработка технической документации (Дизайн-мышление в ИТ-сфере), группа №1",
+        instructor="Лучкина Е.Ю.",
+        room="1110",
+        day=3,
+        time_start="17:30",
+    )
+    design2 = _lesson(
+        subject="Разработка технической документации (Дизайн-мышление в ИТ-сфере), группа №2",
+        instructor="Лучкина Е.Ю.",
+        room="1110",
+        day=3,
+        time_start="19:10",
+    )
+    pool = [eff1, eff1_prac, eff2, design1, design2]
+    assert set(find_elective_match("Психология личной эффективности (1гр)", pool)) == {
+        eff1,
+        eff1_prac,
+    }
+    assert set(find_elective_match("Психология личной эффективности (2гр)", pool)) == {
+        eff1,
+        eff2,
+    }
+    assert find_elective_match("Дизайн-мышление в ИТ-сфере - подгруппа №1", pool) == [design1]
+    assert find_elective_match("Дизайн-мышление в ИТ-сфере - подгруппа №2", pool) == [design2]
 
 
 def test_frontend_and_scripting_stay_distinct():

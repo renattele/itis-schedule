@@ -92,6 +92,7 @@ _GENERIC_TOKENS = {
     "прак",
     "практика",
     "группа",
+    "подгруппа",
     "нед",
     "недели",
 }
@@ -110,11 +111,24 @@ _NOISE_RE = re.compile(
     | \d+\s*нед\.?
     | \bлек(?:ция|ции|ц)?\.?\b
     | \bпрак(?:тика)?\.?\b
+    | (?:под)?групп[аы]\s*№?\s*\d+
     | \bгруппа\s*№?\s*\d+\b
     | \bгр\.?\s*№?\s*\d+\b
+    | \(\s*\d+\s*гр\.?\s*\)
+    | \b\d+\s*гр\.?\b
     | \bвебинары?\b
     | \bчасть\s*\d+\b
     | \bч\.?\s*\d+\b
+    """,
+    re.IGNORECASE | re.VERBOSE,
+)
+
+_SUBGROUP_RE = re.compile(
+    r"""
+    (?:под)?групп[аы]\s*№?\s*(\d+)
+    | \bгр\.?\s*№?\s*(\d+)\b
+    | \(\s*(\d+)\s*гр\.?\s*\)
+    | \b(\d+)\s*гр\.?\b
     """,
     re.IGNORECASE | re.VERBOSE,
 )
@@ -456,7 +470,7 @@ def _hit_count(needles: list[str], haystack: Set[str]) -> int:
 
 
 def _titles_match(choice: str, title: str) -> bool:
-    choice_norm = normalize_text(choice)
+    choice_norm = normalize_text(_NOISE_RE.sub(" ", choice))
     title_norm = normalize_text(_NOISE_RE.sub(" ", title))
     if not choice_norm or not title_norm:
         return False
@@ -482,6 +496,16 @@ def _titles_match(choice: str, title: str) -> bool:
     return title_hits == len(title_tokens) and choice_hits >= needed
 
 
+def subgroups_in(text: str) -> set[int]:
+    """Subgroup numbers mentioned as '(1гр)', 'гр.№2', 'группа №3', 'подгруппа №1'."""
+    found: set[int] = set()
+    for match in _SUBGROUP_RE.finditer(text or ""):
+        number = next((group for group in match.groups() if group), None)
+        if number:
+            found.add(int(number))
+    return found
+
+
 def find_elective_match(choice: str, available_lessons: List[Lesson]) -> List[Lesson]:
     """Find scheduled lessons matching the user's choice string."""
     if not choice:
@@ -489,6 +513,7 @@ def find_elective_match(choice: str, available_lessons: List[Lesson]) -> List[Le
 
     instructor_match = re.search(r"[–-]\s*([А-ЯЁ][а-яё]+)\s+[А-ЯЁ]\.", choice)
     instructor_surname = instructor_match.group(1).lower() if instructor_match else ""
+    choice_groups = subgroups_in(choice)
 
     matches = []
     for lesson in available_lessons:
@@ -500,6 +525,10 @@ def find_elective_match(choice: str, available_lessons: List[Lesson]) -> List[Le
         if instructor_surname:
             lesson_text = normalize_text(f"{lesson.subject} {lesson.instructor}")
             if instructor_surname not in lesson_text.split():
+                continue
+        if choice_groups:
+            lesson_groups = subgroups_in(lesson.subject)
+            if lesson_groups and not (choice_groups & lesson_groups):
                 continue
         matches.append(lesson)
     return matches

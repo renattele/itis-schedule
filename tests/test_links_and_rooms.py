@@ -4,7 +4,7 @@ from datetime import date
 
 from src.generator import generate_ical
 from src.main import _groups_from_spec, apply_online_links
-from src.parser import Lesson, _is_usable_subject, _parse_cell_text
+from src.parser import Lesson, _detect_lesson_weeks, _is_usable_subject, _parse_cell_text
 
 
 def _lesson(**kwargs) -> Lesson:
@@ -181,3 +181,92 @@ def test_multi_elective_cell_stays_multi_after_junk_filter():
         if _is_usable_subject(item[0].strip().rstrip(":").strip())
     ]
     assert len(usable) == 2
+
+
+def test_humanitarian_line_splits_shared_lecture_and_group1_practice():
+    parsed = _parse_cell_text(
+        "Дисциплина по выбору:\n"
+        "Психология управления (1-9 нед.) Пучкова И.М. (вебинары), "
+        "с 10 нед. прак. гр.№1 Зайнуллин А.Э. (вебинары)"
+    )
+    assert len(parsed) == 2
+    assert parsed[0][1] == "Пучкова И.М."
+    assert "гр.№1" not in parsed[0][0]
+    assert parsed[1][1] == "Зайнуллин А.Э."
+    assert "гр.№1" in parsed[1][0]
+    assert _detect_lesson_weeks(parsed[0][0], parsed[0][1], parsed[0][3]) == "1-9"
+    assert _detect_lesson_weeks(parsed[1][0], parsed[1][1], parsed[1][3]) == "10-18"
+
+
+def test_humanitarian_line_splits_groups_2_and_3():
+    parsed = _parse_cell_text(
+        "Дисциплина по выбору:\n"
+        "Психология управления, прак. (1-9нед.) гр.№2 Зайнуллин А.Э. , "
+        "с 10 нед.прак.гр.№3  (вебинары)"
+    )
+    assert len(parsed) == 2
+    assert "гр.№2" in parsed[0][0]
+    assert "гр.№3" in parsed[1][0]
+    assert parsed[0][1] == "Зайнуллин А.Э."
+    assert parsed[1][1] == "Зайнуллин А.Э."
+    assert _detect_lesson_weeks(parsed[0][0], parsed[0][1], parsed[0][3]) == "1-9"
+    assert _detect_lesson_weeks(parsed[1][0], parsed[1][1], parsed[1][3]) == "10-18"
+    assert parsed[1][0].lower().count("с 10 нед") == 1
+
+
+def test_humanitarian_line_splits_groups_4_and_5():
+    parsed = _parse_cell_text(
+        "Дисциплины по выбору:\n"
+        "Психология управления, Зайнуллин А.Э. 1-9 нед. гр.№4, с 10 нед. гр.№5 (вебинары)"
+    )
+    assert len(parsed) == 2
+    assert "гр.№4" in parsed[0][0]
+    assert "гр.№5" in parsed[1][0]
+    assert parsed[0][1] == parsed[1][1] == "Зайнуллин А.Э."
+    assert _detect_lesson_weeks(parsed[0][0], parsed[0][1], parsed[0][3]) == "1-9"
+    assert _detect_lesson_weeks(parsed[1][0], parsed[1][1], parsed[1][3]) == "10-18"
+    assert parsed[1][0].lower().count("с 10 нед") == 1
+
+
+def test_psychology_splits_group2_group3_and_lecture_practice():
+    parsed = _parse_cell_text(
+        "Дисциплины по выбору:\n"
+        "Психология гр.№2 с 1 по 9 нед.прак, гр.№3 с 10 нед.прак. Румянцева Г.Д. (вебинары)\n"
+        "Психология лек.9 нед. Устин П.Н. в 1408 с 10 нед.прак. гр.№1 Румянцева Г.Д. (вебинары)"
+    )
+    assert any("гр.№2" in s for s, _i, _r, _n in parsed)
+    assert any("гр.№3" in s for s, _i, _r, _n in parsed)
+    assert any("гр.№1" in s and i == "Румянцева Г.Д." for s, i, _r, _n in parsed)
+    assert any(i == "Устин П.Н." for _s, i, _r, _n in parsed)
+    weeks = {_detect_lesson_weeks(s, i, n) for s, i, _r, n in parsed}
+    assert "1-9" in weeks
+    assert "10-18" in weeks
+
+
+def test_personal_efficiency_splits_lecture_and_group1_practice():
+    parsed = _parse_cell_text(
+        "Дисциплины по выбору:\n"
+        "Психология личной эффективности, лек.9 нед., группа №1 прак. с 10 нед."
+        "Добротворская С.Г. в 1405"
+    )
+    assert len(parsed) == 2
+    assert "группа №1" not in parsed[0][0]
+    assert "группа №1" in parsed[1][0]
+    assert parsed[1][1] == "Добротворская С.Г."
+    assert parsed[1][2] == "1405"
+    assert _detect_lesson_weeks(parsed[0][0], parsed[0][1], parsed[0][3]) == "1-9"
+    assert _detect_lesson_weeks(parsed[1][0], parsed[1][1], parsed[1][3]) == "10-18"
+
+
+def test_design_thinking_keeps_single_subgroup_on_one_lesson():
+    parsed = _parse_cell_text(
+        "Дисциплины по выбору:\n"
+        "Разработка технической документации (Дизайн-мышление в ИТ-сфере), "
+        "группа №1 , Лучкина Е.Ю. в 1110 (10.09 не будет)"
+    )
+    assert len(parsed) == 1
+    subject, instructor, room, _notes = parsed[0]
+    assert instructor == "Лучкина Е.Ю."
+    assert room == "1110"
+    assert "группа №1" in subject
+    assert "Дизайн-мышление" in subject
