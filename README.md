@@ -1,11 +1,11 @@
 # ITIS Schedule → Календари (.ics)
 
+## 🌐 [renattele.github.io/itis-schedule](https://renattele.github.io/itis-schedule/) — найти группу и подписаться в 1 клик
+
 Генерирует `.ics`-календари из [расписания ИТИС (Google Sheets)](https://docs.google.com/spreadsheets/d/12m_Ze1NOnVvdVuSDY5bj0v4r24xLY5RhtuBxNjS26yQ) для каждой группы.
 Персональные календари студентов 4 курса выкидывают невыбранные элективы по [распределению КВ](https://docs.google.com/spreadsheets/d/1ylZLNeuGEpb_7lVqtRlOfs6ngj_c977Zgt5XKZf_aSc).
 
-> 🌐 **Проще всего — через сайт:** поиск по группе, кнопка «Копировать», проверка персональной ссылки.
-> Открыть: **https://renattele.github.io/itis-schedule/**
-> (Таблицы ниже — та же информация текстом, для копирования без сайта.)
+Таблицы ниже — та же информация текстом, для копирования без сайта.
 
 ## Как подписаться (1 минута)
 
