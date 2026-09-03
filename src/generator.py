@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import hashlib
 import re
-from datetime import date, datetime, time, timedelta
+from datetime import date, datetime, time, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 from icalendar import Calendar, Event
@@ -125,8 +125,11 @@ def generate_ical(
     cal = Calendar()
     cal.add("prodid", "-//ITIS Schedule Generator//EN")
     cal.add("version", "2.0")
+    cal.add("calscale", "GREGORIAN")
+    cal.add("method", "PUBLISH")
     cal.add("x-wr-calname", group_id)
     cal.add("x-wr-timezone", "Europe/Moscow")
+    now = datetime.now(timezone.utc)
 
     for lesson in lessons:
         h_start, m_start = map(int, lesson.time_start.split(":"))
@@ -148,6 +151,7 @@ def generate_ical(
 
         event = Event()
         event.add("uid", _uid(group_id, lesson))
+        event.add("dtstamp", now)
         event.add("dtstart", dt_start)
         event.add("dtend", dt_end)
         summary = lesson.subject
@@ -186,9 +190,10 @@ def generate_ical(
 
             rrule = {
                 "freq": "weekly",
+                # UNTIL must be UTC when DTSTART is timezone-aware (RFC 5545).
                 "until": datetime.combine(
                     last_date, time(23, 59, 59), tzinfo=TZ
-                ),
+                ).astimezone(timezone.utc),
             }
             event.add("rrule", rrule)
             for skip in skipped:

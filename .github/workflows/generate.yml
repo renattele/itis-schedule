@@ -37,6 +37,11 @@ jobs:
             --split-types \
             --overrides /app/overrides.json
 
+      - name: Refresh README and site snapshot
+        run: |
+          python3 src/sitegen.py --calendars-dir ./calendars
+          cp docs/index.html calendars/index.html
+
       - name: Set commit timestamp
         id: commit_ts
         run: echo "value=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_OUTPUT"
@@ -49,3 +54,11 @@ jobs:
           publish_branch: calendars
           force_orphan: true
           commit_message: "📅 Update schedule calendars [${{ steps.commit_ts.outputs.value }}]"
+
+      - name: Commit refreshed README and site snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md docs/index.html
+          git diff --cached --quiet || git commit -m "📝 Refresh README tables + site snapshot"
+          git push
