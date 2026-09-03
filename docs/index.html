@@ -128,7 +128,7 @@ dl:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" 
 const norm=s=>(s||"").trim().toLowerCase().replace(/ё/g,"е");
 const gurl=(g,k)=>`${BASE}/groups/${k}/${encodeURIComponent(g)}.ics`;
 const surl=(f,k)=>`${BASE}/students/${k}/${encodeURIComponent(f)}.ics`;
-const gcal=u=>"https://accounts.google.com/AccountChooser?continue="+encodeURIComponent("https://calendar.google.com/calendar/render?cid="+encodeURIComponent(u));
+const gcal=u=>"https://accounts.google.com/AccountChooser?continue="+encodeURIComponent("https://calendar.google.com/calendar/render?cid="+encodeURIComponent(u.replace(/^https:\/\//,"webcal://")));
 const ocal=(u,n,h="https://outlook.live.com/owa")=>h+"?path=/calendar/action/compose&rru=addsubscription&url="+encodeURIComponent(u)+"&name="+encodeURIComponent(n);
 const ocal365=(u,n)=>ocal(u,n,"https://outlook.office.com/owa");
 async function copy(t,b){
