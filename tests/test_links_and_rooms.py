@@ -4,7 +4,7 @@ from datetime import date
 
 from src.generator import generate_ical
 from src.main import _groups_from_spec, apply_online_links
-from src.parser import Lesson, _detect_lesson_weeks, _is_usable_subject, _parse_cell_text
+from src.parser import Lesson, _detect_lesson_type, _detect_lesson_weeks, _is_usable_subject, _parse_cell_text
 
 
 def _lesson(**kwargs) -> Lesson:
@@ -256,6 +256,20 @@ def test_personal_efficiency_splits_lecture_and_group1_practice():
     assert parsed[1][2] == "1405"
     assert _detect_lesson_weeks(parsed[0][0], parsed[0][1], parsed[0][3]) == "1-9"
     assert _detect_lesson_weeks(parsed[1][0], parsed[1][1], parsed[1][3]) == "10-18"
+
+
+def test_humanitarian_lecture_is_lecture_not_practice():
+    parsed = _parse_cell_text(
+        "Дисциплина по выбору:\n"
+        "Психология управления (1-9 нед.) Пучкова И.М. (вебинары), "
+        "с 10 нед. прак. гр.№1 Зайнуллин А.Э. (вебинары)"
+    )
+    assert len(parsed) == 2
+    # parse_schedule detects the type from the per-lesson line, not the
+    # whole cell: the "прак." of the sibling segment must not leak into
+    # the shared 1-9 нед. lecture, and "по выбору" alone is not a practice.
+    assert _detect_lesson_type(parsed[0][0], parsed[0][1], parsed[0][3], True) == "Лекц"
+    assert _detect_lesson_type(parsed[1][0], parsed[1][1], parsed[1][3], True) == "Прак"
 
 
 def test_design_thinking_keeps_single_subgroup_on_one_lesson():

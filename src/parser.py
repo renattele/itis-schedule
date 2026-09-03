@@ -370,7 +370,7 @@ def _detect_lesson_type(subject: str, instructor: str, notes: str, is_shared: bo
 
     if any(k in text for k in ["лекци", " лек.", " лек ", "(лек."]):
         return "Лекц"
-    if any(k in text for k in ["практик", " пр.", " пр ", "(пр.", "выбору"]):
+    if any(k in text for k in ["практик", "прак", " пр.", " пр ", "(пр."]):
         return "Прак"
 
     # Fallback based on sharing:
@@ -567,8 +567,11 @@ def parse_schedule(xlsx_bytes: bytes) -> dict[str, list[Lesson]]:
                 # Keep notes exactly as in the source calendar cell.
                 raw_notes = cell_val
                 # Week/start markers are per-lesson (the parsed line), not the
-                # whole cell — elective cells mix several options.
-                lesson_type = _detect_lesson_type(subject, instructor, raw_notes, is_shared)
+                # whole cell — elective cells mix several options. Same for
+                # the type: the whole cell leaks e.g. "прак." from a sibling
+                # practice into a shared lecture (Психология управления 1-9
+                # нед. Пучкова vs с 10 нед. прак. гр.№1 Зайнуллин).
+                lesson_type = _detect_lesson_type(subject, instructor, notes, is_shared)
                 weeks = _detect_lesson_weeks(subject, instructor, notes)
                 start_from = _detect_start_from(subject, instructor, notes)
 
