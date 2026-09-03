@@ -5,12 +5,16 @@ on:
     # Run every 5 hours
     - cron: "0 */5 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
 
 permissions:
   contents: write
 
 jobs:
   generate:
+    # Skip re-runs triggered by our own README refresh commits.
+    if: github.event_name != 'push' || !contains(github.event.head_commit.message, 'Refresh README tables')
     runs-on: ubuntu-latest
 
     steps:

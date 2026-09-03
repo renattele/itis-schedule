@@ -50,3 +50,14 @@ def test_uid_stable_without_dtstamp():
     a = _uid("11-501", _lesson())
     b = _uid("11-501", _lesson())
     assert a == b and a.endswith("@itis-schedule")
+
+
+def test_calname_override_keeps_uids():
+    from src.generator import generate_ical as gen
+
+    plain = gen("ITIS 11-501", [_lesson()], date(2026, 9, 1), date(2026, 12, 31)).decode()
+    renamed = gen("ITIS 11-501", [_lesson()], date(2026, 9, 1), date(2026, 12, 31), calname="ITIS").decode()
+    assert "X-WR-CALNAME:ITIS 11-501" in plain
+    assert "X-WR-CALNAME:ITIS\r\n" in renamed
+    uids = lambda t: sorted(ln for ln in t.splitlines() if ln.startswith("UID:"))
+    assert uids(plain) == uids(renamed)

@@ -107,6 +107,7 @@ def generate_ical(
     semester_start: date,
     semester_end: date,
     include_type: bool = True,
+    calname: str | None = None,
 ) -> bytes:
     """Create an iCal calendar for one group.
 
@@ -118,6 +119,9 @@ def generate_ical(
         semester_start: First day of the semester.
         semester_end: Last day of the semester.
         include_type: Whether to prepend [Type] to the summary.
+        calname: Display name (X-WR-CALNAME). Defaults to group_id.
+            Kept separate so the display name can change
+            without altering event UIDs.
 
     Returns:
         Serialised iCal bytes (UTF-8).
@@ -127,7 +131,7 @@ def generate_ical(
     cal.add("version", "2.0")
     cal.add("calscale", "GREGORIAN")
     cal.add("method", "PUBLISH")
-    cal.add("x-wr-calname", group_id)
+    cal.add("x-wr-calname", calname or group_id)
     cal.add("x-wr-timezone", "Europe/Moscow")
     now = datetime.now(timezone.utc)
 

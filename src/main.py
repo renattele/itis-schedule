@@ -112,17 +112,17 @@ def main(argv: list[str] | None = None) -> None:
     total_lessons = sum(len(v) for v in schedule.values())
     print(f"   Found {len(schedule)} groups, {total_lessons} total lessons")
 
-    def save_ical_safe(title: str, lessons: list, output_path: pathlib.Path, include_type: bool = True):
+    def save_ical_safe(title: str, lessons: list, output_path: pathlib.Path, include_type: bool = True, calname: str | None = None):
         if not lessons:
             return
-        ical_bytes = generate_ical(title, lessons, semester_start_date, semester_end_date, include_type=include_type)
+        ical_bytes = generate_ical(title, lessons, semester_start_date, semester_end_date, include_type=include_type, calname=calname or title)
         with open(output_path, "wb") as f:
             f.write(ical_bytes)
 
-    def process_calendar_set(name: str, lessons: list, base_dir: pathlib.Path):
+    def process_calendar_set(name: str, lessons: list, base_dir: pathlib.Path, unified_title: str | None = None):
         unified_dir = base_dir / "unified"
         unified_dir.mkdir(parents=True, exist_ok=True)
-        save_ical_safe(f"ITIS {name}", lessons, unified_dir / f"{safe_filename(name)}.ics")
+        save_ical_safe(f"ITIS {name}", lessons, unified_dir / f"{safe_filename(name)}.ics", calname=unified_title or f"ITIS {name}")
 
         lectures_dir = base_dir / "lectures"
         practices_dir = base_dir / "practices"
@@ -148,13 +148,13 @@ def main(argv: list[str] | None = None) -> None:
     
     print("📅 Generating group calendars…")
     for group, lessons in schedule.items():
-        process_calendar_set(group, lessons, groups_dir)
+        process_calendar_set(group, lessons, groups_dir, unified_title="ITIS")
         print(f"   ✅ {group} processed")
 
     groups_without_overrides_dir = groups_dir / "without_overrides"
     print("📅 Generating group calendars (without overrides)…")
     for group, lessons in schedule_without_overrides.items():
-        process_calendar_set(group, lessons, groups_without_overrides_dir)
+        process_calendar_set(group, lessons, groups_without_overrides_dir, unified_title="ITIS")
         print(f"   ✅ {group} processed (without overrides)")
 
     # 4. Generate student calendars
