@@ -82,7 +82,7 @@ _GROUP_MARK_RE = re.compile(
 )
 
 _LECTURE_WEEK_RE = re.compile(
-    r"\bлек(?:ция|ции|ц)?\.?\s*\d+\s*нед",
+    r"\bлек(?:ция|ции|ц)?\.?\s*\d+(?:\s*-\s*\d+)?\s*нед",
     re.IGNORECASE,
 )
 
@@ -318,6 +318,12 @@ def _split_single_line_lesson(line: str) -> list[tuple[str, str, str, str]]:
             notes = line[room_m.end():].strip(" ,;")
 
     subject = subject.strip().rstrip(",").strip()
+    # A room inside an auditorium marker like "(ауд.1405)" leaves a dangling
+    # "(" on the subject and ")." in the notes — drop the unbalanced tail.
+    if subject.count("(") > subject.count(")"):
+        subject = subject[: subject.rfind("(")].strip().rstrip(",").strip()
+    if notes and not notes.strip(" ().,;"):
+        notes = ""
     return [(subject, instructor.strip(), room.strip(), notes.strip())]
 
 

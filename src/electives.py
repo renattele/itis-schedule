@@ -95,6 +95,7 @@ _GENERIC_TOKENS = {
     "подгруппа",
     "нед",
     "недели",
+    "ауд",
 }
 
 _TOKEN_SYNONYMS: dict[str, set[str]] = {
@@ -117,6 +118,7 @@ _NOISE_RE = re.compile(
     | \(\s*\d+\s*гр\.?\s*\)
     | \b\d+\s*гр\.?\b
     | \bвебинары?\b
+    | \bауд\.?\b
     | \bчасть\s*\d+\b
     | \bч\.?\s*\d+\b
     """,
@@ -391,7 +393,7 @@ def _choice_tokens(choice: str) -> list[str]:
     return [
         t
         for t in normalize_text(choice).split()
-        if len(t) > 2 and t not in _GENERIC_TOKENS
+        if len(t) > 2 and t not in _GENERIC_TOKENS and not t.isdigit()
     ]
 
 
