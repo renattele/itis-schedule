@@ -1,0 +1,150 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS 11-308_Ислямов Александр Альберт
+ ович
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Лекц] Культурология
+DTSTART;TZID=Europe/Moscow:20260902T083000
+DTEND;TZID=Europe/Moscow:20260902T100000
+DTSTAMP:20260905T171133Z
+UID:5ca97d5b330df8c2814199c120914b3e434794ff@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T083000
+DESCRIPTION:Дисциплины по выбору: \nКультуроло
+ гия\, Сыченкова Л.А. в 47 ауд. ул.Лево-Булач
+ ная\,44  (список студентов)\nhttps://disk.360.yandex.ru/
+ i/IjCFQvyHzoSTlA
+LOCATION:https://disk.360.yandex.ru/i/IjCFQvyHzoSTlA
+URL:https://disk.360.yandex.ru/i/IjCFQvyHzoSTlA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Технологии искусственного ин
+ теллекта
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171133Z
+UID:d52f7e432544304732141b8eacc369e1e9ffe134@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Агафонов А.А.\, \nауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Проектный практикум по робото
+ технике. Ч1.
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171133Z
+UID:d04d01c00c31f16c2dce69fcf74c9bc33cacf89d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nФункциональное программир
+ ование (Blockchain)\, Хайруллин А.Ф. в 1304\nСкрип
+ тинг\, визуализация (Frontend)\, Зайцева Д.А. (в
+ ебинары)\nПроектный практикум по роботот
+ ехнике. Часть 1 (Robotics)\, Загиров А.И. в 1308 (в
+ ебинары)\nhttps://telemost.360.yandex.ru/j/1996926600
+LOCATION:https://telemost.360.yandex.ru/j/1996926600
+URL:https://telemost.360.yandex.ru/j/1996926600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологии искусственного ин
+ теллекта
+DTSTART;TZID=Europe/Moscow:20260905T101000
+DTEND;TZID=Europe/Moscow:20260905T114000
+DTSTAMP:20260905T171133Z
+UID:7f1ce8aad8dc413e791fbc416c26581f8cfb6367@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, \nВалишин И.А. \n1302по н.н.\,со 2-й нед п
+ о 5-ю нед. в 1604
+LOCATION:1604
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Проектный практикум по робото
+ технике. Ч1.
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171133Z
+UID:d429767a4e425b8169b70223a6849fdd872c7834@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nСкриптинг\, визуализация (Fro
+ ntend)\, Зайцева Д.А. (вебинары)\nФункциональ
+ ное программирование (Blockchain)\, Хайруллин 
+ А.Ф. в 1304\nПроектный практикум по роботот
+ ехнике. Часть 1 (Robotics)\, Загиров А.И. в 1308 (в
+ ебинары)\nhttps://telemost.360.yandex.ru/j/1996926600
+LOCATION:https://telemost.360.yandex.ru/j/1996926600
+URL:https://telemost.360.yandex.ru/j/1996926600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Теория систем и системный ана
+ лиз
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260905T171133Z
+UID:c5a8c4a6b37dcdc4f3fb5a1226530e9667411ea5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+  Еникеева З.А.\,\n 1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Теория систем и системный ана
+ лиз
+DTSTART;TZID=Europe/Moscow:20260914T155000
+DTEND;TZID=Europe/Moscow:20260914T172000
+DTSTAMP:20260905T171133Z
+UID:a40c88c4e333f24abfb462c86c0740b9b1f0d694@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261221T205959Z
+EXDATE;TZID=Europe/Moscow:20260921T155000
+EXDATE;TZID=Europe/Moscow:20261005T155000
+EXDATE;TZID=Europe/Moscow:20261019T155000
+EXDATE;TZID=Europe/Moscow:20261102T155000
+EXDATE;TZID=Europe/Moscow:20261116T155000
+EXDATE;TZID=Europe/Moscow:20261130T155000
+EXDATE;TZID=Europe/Moscow:20261214T155000
+DESCRIPTION:Теория систем и системный анализ\,
+  Еникеева З.А.\, \nнечетн.нед.\n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Разработка технической докум
+ ентации (Глобальные процессы в экономик
+ е и бизнесе)
+DTSTART;TZID=Europe/Moscow:20260903T135000
+DTEND;TZID=Europe/Moscow:20260903T152000
+DTSTAMP:20260905T171133Z
+UID:63b1e14eabfed3511d6b3086758d82afa9881a26@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплина по выбору: \nРазработка
+  технической документации (Глобальные п
+ роцессы в экономике и бизнесе)\, Галлямов
+ а Д.Х.  в 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Разработка технической докум
+ ентации (Глобальные процессы в экономик
+ е и бизнесе)
+DTSTART;TZID=Europe/Moscow:20260903T121000
+DTEND;TZID=Europe/Moscow:20260903T134000
+DTSTAMP:20260905T171133Z
+UID:abbebc2c0fddca67fa70b0cba9c0a1739eaeb42c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплина по выбору:\n Разработка
+  технической документации (Глобальные п
+ роцессы в экономике и бизнесе)\, Галлямов
+ а Д.Х.  в 1408
+LOCATION:1408
+END:VEVENT
+END:VCALENDAR

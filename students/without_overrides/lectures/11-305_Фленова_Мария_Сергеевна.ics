@@ -1,0 +1,117 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Технологии искусственного интеллек
+ та
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171132Z
+UID:ec54d791cdddd301d7db4c105ad156eb2efcea56@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Агафонов А.А.\, \nауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Психология личной эффективности\, л
+ екции 1-9 нед
+DTSTART;TZID=Europe/Moscow:20260904T101000
+DTEND;TZID=Europe/Moscow:20260904T114000
+DTSTAMP:20260905T171132Z
+UID:488f95e47149108a2373da0c8cb0ec093357d5df@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261030T205959Z
+DESCRIPTION:Дисциплины по выбору: \nПсихология
+  личной эффективности\, лекции 1-9 нед (ауд
+ .1405).\, группа №1 прак. с 10 нед.Добротворск
+ ая С.Г. в 1405\nТатарский язык в профессиона
+ льной коммуникации\, Кузьмина Х.Х.\, в 1409 с
+ писок студентов\nСоциология\, лек.9 нед.Иш
+ кинеева Ф.Ф. в 1308\, с 10 нед. прак.Закиров А. 
+ в 1308 список студентов \nПсихология лек.9 н
+ ед. Устин П.Н. (вебинары) с 10 нед.прак. гр.№
+ 1 Румянцева Г.Д. (вебинары)
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Психология управления (1-9 нед.)
+DTSTART;TZID=Europe/Moscow:20260903T101000
+DTEND;TZID=Europe/Moscow:20260903T114000
+DTSTAMP:20260905T171132Z
+UID:8c1a211a6d3bbea799c8a883bd4d801122106507@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПсихология 
+ управления (1-9 нед.) Пучкова И.М. (вебинары
+ )\, с 10 нед. прак. гр.№1 Зайнуллин А.Э. (веби
+ нары)\nhttps://telemost.yandex.ru/j/17069658637666
+LOCATION:https://telemost.yandex.ru/j/17069658637666
+URL:https://telemost.yandex.ru/j/17069658637666
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Психология управления 1-9 нед. гр.№4
+DTSTART;TZID=Europe/Moscow:20260904T135000
+DTEND;TZID=Europe/Moscow:20260904T152000
+DTSTAMP:20260905T171132Z
+UID:caad8b42d70ec9f71040bc6d5ae7d0c3cf10cdef@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261030T205959Z
+DESCRIPTION:Дисциплины по выбору:\nКонфликтол
+ огия лек. 9 нед. Иванов А.В. \, с 10 нед прак. 
+ Иванов Г.А. (вебинары)\nПсихология управл
+ ения\, Зайнуллин А.Э. 1-9 нед. гр.№4\, с 10 нед.
+  гр.№5 (вебинары)\nПолитология\, Остроумов
+  А.И. лек. 1-9 нед. прак.с 10 нед.в 1303 (список с
+ тудентов)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория систем и системный анализ
+DTSTART;TZID=Europe/Moscow:20260914T155000
+DTEND;TZID=Europe/Moscow:20260914T172000
+DTSTAMP:20260905T171132Z
+UID:05c35cf0ef3a47bb7613e1b05e3a5f6920f30bfa@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261221T205959Z
+EXDATE;TZID=Europe/Moscow:20260921T155000
+EXDATE;TZID=Europe/Moscow:20261005T155000
+EXDATE;TZID=Europe/Moscow:20261019T155000
+EXDATE;TZID=Europe/Moscow:20261102T155000
+EXDATE;TZID=Europe/Moscow:20261116T155000
+EXDATE;TZID=Europe/Moscow:20261130T155000
+EXDATE;TZID=Europe/Moscow:20261214T155000
+DESCRIPTION:Теория систем и системный анализ\,
+  Еникеева З.А.\, \nнечетн.нед.\n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Разработка технической документаци
+ и (Глобальные процессы в экономике и биз
+ несе)
+DTSTART;TZID=Europe/Moscow:20260903T135000
+DTEND;TZID=Europe/Moscow:20260903T152000
+DTSTAMP:20260905T171132Z
+UID:17add961d262676fc63ad29ed4a0003760d5fdfc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплина по выбору: \nРазработка
+  технической документации (Глобальные п
+ роцессы в экономике и бизнесе)\, Галлямов
+ а Д.Х.  в 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Разработка технической документаци
+ и (Глобальные процессы в экономике и биз
+ несе)
+DTSTART;TZID=Europe/Moscow:20260903T121000
+DTEND;TZID=Europe/Moscow:20260903T134000
+DTSTAMP:20260905T171132Z
+UID:f8d7f0d26129bea93f55436f37fbe54f79bcc1fd@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплина по выбору:\n Разработка
+  технической документации (Глобальные п
+ роцессы в экономике и бизнесе)\, Галлямов
+ а Д.Х.  в 1408
+LOCATION:1408
+END:VEVENT
+END:VCALENDAR

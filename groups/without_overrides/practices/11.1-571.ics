@@ -1,0 +1,104 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Проектная практика
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171123Z
+UID:f77e06c254599983bfc0cbabd33c1d72addde6c5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Проектная практика   Валиуллин Р.М
+ . https://my.mts-link.ru/j/82090677/24077043831\nhttps://my.mts-link.ru/j/
+ 82090677/24077043831
+LOCATION:https://my.mts-link.ru/j/82090677/24077043831
+URL:https://my.mts-link.ru/j/82090677/24077043831
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Современные технологии разработки 
+ цифровых продуктов
+DTSTART;TZID=Europe/Moscow:20260901T173000
+DTEND;TZID=Europe/Moscow:20260901T190000
+DTSTAMP:20260905T171123Z
+UID:e9e32d2439611b3ad664866ea878d8cad6ce9067@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Современные технологии разработк
+ и цифровых продуктов Коростелева Д.М. https
+ ://my.mts-link.ru/j/81830937/24010981182\nhttps://my.mts-link.ru/j/8183093
+ 7/24010981182
+LOCATION:https://my.mts-link.ru/j/81830937/24010981182
+URL:https://my.mts-link.ru/j/81830937/24010981182
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Оркестрация контейнеров
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171123Z
+UID:21604b118661a072ad0a9a9253bc99cc11ada891@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплина по выбору: Оркестрация
+  контейнеров Федоров А. (со 2-й нед.)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Виртуализация контейнеризация
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171123Z
+UID:26d4ec2b79c685f080511cf0d38b0a77ab3c0c8d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплина по выбору: Виртуализац
+ ия контейнеризация Буравцов Е.В  https://telemo
+ st.yandex.ru/j/28387080623093\nhttps://telemost.yandex.ru/j/28387080623093
+LOCATION:https://telemost.yandex.ru/j/28387080623093
+URL:https://telemost.yandex.ru/j/28387080623093
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Обеспечение информационной безопас
+ ности в модели SeeOps
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260905T171123Z
+UID:dd7de3ce4bb396445e7b7acae0a409b27971cc53@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Обеспечение информационной безоп
+ асности в модели SeeOps  Корнилов Г.С. https://tel
+ emost.yandex.ru/j/80051976797519\nhttps://telemost.yandex.ru/j/80051976797
+ 519
+LOCATION:https://telemost.yandex.ru/j/80051976797519
+URL:https://telemost.yandex.ru/j/80051976797519
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Инфраструктура как код
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171123Z
+UID:9f3dac06db89cf8fbb6245c8aaaa36af8c2a850a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплина по выбору: Инфраструкт
+ ура как код Валиуллин Р.М. https://my.mts-link.ru/j/82
+ 090677/24077265921\nhttps://my.mts-link.ru/j/82090677/24077265921
+LOCATION:https://my.mts-link.ru/j/82090677/24077265921
+URL:https://my.mts-link.ru/j/82090677/24077265921
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Развертывание и поддержка модулей м
+ ашинного обучения (MLOPS)
+DTSTART;TZID=Europe/Moscow:20260904T135000
+DTEND;TZID=Europe/Moscow:20260904T152000
+DTSTAMP:20260905T171123Z
+UID:3acbb3f27948879a64cb433505da34e87a6d65ed@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Развертывание и поддержка модуле
+ й машинного обучения (MLOPS) Нурутдинова А.
+ Р. https://a.teleboss.ru/room/EQvuIfulG9\nhttps://a.teleboss.ru/room/EQvu
+ IfulG9
+LOCATION:https://a.teleboss.ru/room/EQvuIfulG9
+URL:https://a.teleboss.ru/room/EQvuIfulG9
+END:VEVENT
+END:VCALENDAR

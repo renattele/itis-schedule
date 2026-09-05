@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS 11-311_Быков Кирилл Максимович
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Лекц] Методология науки
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260905T171130Z
+UID:6b3684ee28659c61005f82c6848af006323d96f5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Методология научной деятельности
+ \,\nЕлизаров А.М.\n(вебинары)\nhttps://telemost.360.yand
+ ex.ru/j/5262847742
+LOCATION:https://telemost.360.yandex.ru/j/5262847742
+URL:https://telemost.360.yandex.ru/j/5262847742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Методология науки
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171130Z
+UID:27c1245f57f39149a4dd9f001ba552048650e773@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Методология научной деятельности
+ \,\nКостюк Д.И.\n(вебинары)\nhttps://telemost.360.yandex.r
+ u/j/5863748109
+LOCATION:https://telemost.360.yandex.ru/j/5863748109
+URL:https://telemost.360.yandex.ru/j/5863748109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] ИИ
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260905T171130Z
+UID:7581a3c67fc3ca6bacb3436effa9065386521f36@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\nМухамеджанов А.И.\n(вебинары)\nhttps://tel
+ emost.360.yandex.ru/j/7067270198
+LOCATION:https://telemost.360.yandex.ru/j/7067270198
+URL:https://telemost.360.yandex.ru/j/7067270198
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] ИИ
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171130Z
+UID:dbbf34d48aff63a7472733c6d770176bd6fcba45@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\,\nМухамеджанов А.И.\n(вебинары)\nhttps://t
+ elemost.360.yandex.ru/j/7067270198
+LOCATION:https://telemost.360.yandex.ru/j/7067270198
+URL:https://telemost.360.yandex.ru/j/7067270198
+END:VEVENT
+END:VCALENDAR

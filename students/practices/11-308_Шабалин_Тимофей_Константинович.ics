@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Психология личной эффективности\,пр
+ актика группа №2  с 10 нед.
+DTSTART;TZID=Europe/Moscow:20261106T083000
+DTEND;TZID=Europe/Moscow:20261106T100000
+DTSTAMP:20260905T171130Z
+UID:6162f57a641541b4217434be8044633064f52e55@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору: \nПсихология
+  личной эффективности\,практика группа 
+ №2  с 10 нед.Добротворская С.Г. в 1405 \nПсихо
+ логия гр.№2 с 1 по 9 нед.прак\, гр.№3 с 10 нед.
+ прак. Румянцева Г.Д. (вебинары)
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ИИ
+DTSTART;TZID=Europe/Moscow:20260905T101000
+DTEND;TZID=Europe/Moscow:20260905T114000
+DTSTAMP:20260905T171130Z
+UID:ca2aab85e46bdcc007a72028065b0cbaae6c7c36@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, \nВалишин И.А. \n1302по н.н.\,со 2-й нед п
+ о 5-ю нед. в 1604
+LOCATION:1604
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория систем
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260905T171130Z
+UID:ebc98fbd2375b93d0f3381ea084147d4855eafbb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+  Еникеева З.А.\,\n 1509
+LOCATION:1509
+END:VEVENT
+END:VCALENDAR

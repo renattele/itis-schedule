@@ -1,0 +1,170 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS 11-308_Хафизов Рузиль Ринатович
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Лекц] ИИ
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171130Z
+UID:103aed8704e6143c4b9c1d20f15b8dbe473c2dd6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Агафонов А.А.\, \nауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Робототехника
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171130Z
+UID:23d22fcaf78e1ee0164c89324ca0628fb073b0c7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nФункциональное программир
+ ование (Blockchain)\, Хайруллин А.Ф. в 1304\nСкрип
+ тинг\, визуализация (Frontend)\, Зайцева Д.А. (в
+ ебинары)\nПроектный практикум по роботот
+ ехнике. Часть 1 (Robotics)\, Загиров А.И. в 1308 (в
+ ебинары)\nhttps://telemost.360.yandex.ru/j/1996926600
+LOCATION:https://telemost.360.yandex.ru/j/1996926600
+URL:https://telemost.360.yandex.ru/j/1996926600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] ИИ
+DTSTART;TZID=Europe/Moscow:20260905T101000
+DTEND;TZID=Europe/Moscow:20260905T114000
+DTSTAMP:20260905T171130Z
+UID:ab45637bf8e894ec724264a8e4a72541f81ef591@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, \nВалишин И.А. \n1302по н.н.\,со 2-й нед п
+ о 5-ю нед. в 1604
+LOCATION:1604
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Психология управления (1-9 нед.)
+DTSTART;TZID=Europe/Moscow:20260903T101000
+DTEND;TZID=Europe/Moscow:20260903T114000
+DTSTAMP:20260905T171130Z
+UID:bffc2694d86274ae5df821ecb00f271535f4bdc5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПсихология 
+ управления (1-9 нед.) Пучкова И.М. (вебинары
+ )\, с 10 нед. прак. гр.№1 Зайнуллин А.Э. (веби
+ нары)\nhttps://telemost.yandex.ru/j/17069658637666
+LOCATION:https://telemost.yandex.ru/j/17069658637666
+URL:https://telemost.yandex.ru/j/17069658637666
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Психология управления с 10 нед.
+  гр.№5 (вебинары)
+DTSTART;TZID=Europe/Moscow:20261106T135000
+DTEND;TZID=Europe/Moscow:20261106T152000
+DTSTAMP:20260905T171130Z
+UID:b3dbe53562e9196c461699d9a3ad1208796feb58@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору:\nКонфликтол
+ огия лек. 9 нед. Иванов А.В. \, с 10 нед прак. 
+ Иванов Г.А. (вебинары)\nПсихология управл
+ ения\, Зайнуллин А.Э. 1-9 нед. гр.№4\, с 10 нед.
+  гр.№5 (вебинары)\nПолитология\, Остроумов
+  А.И. лек. 1-9 нед. прак.с 10 нед.в 1303 (список с
+ тудентов)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Психология гр.№3 с 10 нед.прак.
+DTSTART;TZID=Europe/Moscow:20261106T083000
+DTEND;TZID=Europe/Moscow:20261106T100000
+DTSTAMP:20260905T171130Z
+UID:44638570d23f7c2a60635df9d1d12971b2c5914c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору: \nПсихология
+  личной эффективности\,практика группа 
+ №2  с 10 нед.Добротворская С.Г. в 1405 \nПсихо
+ логия гр.№2 с 1 по 9 нед.прак\, гр.№3 с 10 нед.
+ прак. Румянцева Г.Д. (вебинары)\nhttps://telemost.y
+ andex.ru/j/65393423127887
+LOCATION:https://telemost.yandex.ru/j/65393423127887
+URL:https://telemost.yandex.ru/j/65393423127887
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Робототехника
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171130Z
+UID:b7294151542efbc3a351b664fa4f507c941bdad1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nСкриптинг\, визуализация (Fro
+ ntend)\, Зайцева Д.А. (вебинары)\nФункциональ
+ ное программирование (Blockchain)\, Хайруллин 
+ А.Ф. в 1304\nПроектный практикум по роботот
+ ехнике. Часть 1 (Robotics)\, Загиров А.И. в 1308 (в
+ ебинары)\nhttps://telemost.360.yandex.ru/j/1996926600
+LOCATION:https://telemost.360.yandex.ru/j/1996926600
+URL:https://telemost.360.yandex.ru/j/1996926600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Теория систем
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260905T171130Z
+UID:ff4b7455c62237c270533082cfb339414a787e0c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+  Еникеева З.А.\,\n 1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Теория систем
+DTSTART;TZID=Europe/Moscow:20260914T155000
+DTEND;TZID=Europe/Moscow:20260914T172000
+DTSTAMP:20260905T171130Z
+UID:c8cbaa815dbbd53c9bffdb079ce96e8decbff27e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261221T205959Z
+EXDATE;TZID=Europe/Moscow:20260921T155000
+EXDATE;TZID=Europe/Moscow:20261005T155000
+EXDATE;TZID=Europe/Moscow:20261019T155000
+EXDATE;TZID=Europe/Moscow:20261102T155000
+EXDATE;TZID=Europe/Moscow:20261116T155000
+EXDATE;TZID=Europe/Moscow:20261130T155000
+EXDATE;TZID=Europe/Moscow:20261214T155000
+DESCRIPTION:Теория систем и системный анализ\,
+  Еникеева З.А.\, \nнечетн.нед.\n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Техническая документация
+DTSTART;TZID=Europe/Moscow:20260903T135000
+DTEND;TZID=Europe/Moscow:20260903T152000
+DTSTAMP:20260905T171130Z
+UID:d1f2e83014ff7419cfe3eef307821e422d3c9ef3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплина по выбору: \nРазработка
+  технической документации (Глобальные п
+ роцессы в экономике и бизнесе)\, Галлямов
+ а Д.Х.  в 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Техническая документация
+DTSTART;TZID=Europe/Moscow:20260903T121000
+DTEND;TZID=Europe/Moscow:20260903T134000
+DTSTAMP:20260905T171130Z
+UID:a92ad5f02cc55ef8822d832eba3faf44c198fef1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплина по выбору:\n Разработка
+  технической документации (Глобальные п
+ роцессы в экономике и бизнесе)\, Галлямов
+ а Д.Х.  в 1408
+LOCATION:1408
+END:VEVENT
+END:VCALENDAR

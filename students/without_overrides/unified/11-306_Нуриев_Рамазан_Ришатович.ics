@@ -1,0 +1,189 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS 11-306_Нуриев Рамазан Ришатович
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Лекц] Технологии искусственного ин
+ теллекта
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171133Z
+UID:e5eef9a2f9ce8b64de2d570276fe7e11a231803a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Агафонов А.А.\, \nауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Введение в облачные технологи
+ и (Технологическое предпринимательство 
+ и управление продуктами)
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171133Z
+UID:7e16007e992ad9d77f9712a171967df7603b108c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплины по выбору:\nОсобенност
+ и разработки мультимедийных приложений
+ \, Газизов Р.Р. в 1306\nРазработка техническ
+ ой документации (Дизайн-мышление в ИТ-сф
+ ере)\,  четн.неделя группа №1 \,нечетн.нед 
+ группа №2  Лучкина Е.Ю. в 1110 (10.09 не будет)\n
+ Введение в облачные технологии (Техноло
+ гическое предпринимательство и управле
+ ние продуктами)\, Семенова Ж.Г. в 1309
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Проектный практикум по робото
+ технике. Часть 1 (Robotics)
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171133Z
+UID:e17bc6d984837e324d0528a17ef93de95e6b949c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nФункциональное программир
+ ование (Blockchain)\, Хайруллин А.Ф. в 1304\nСкрип
+ тинг\, визуализация (Frontend)\, Зайцева Д.А. (в
+ ебинары)\nПроектный практикум по роботот
+ ехнике. Часть 1 (Robotics)\, Загиров А.И. в 1308 (в
+ ебинары)\nhttps://telemost.yandex.ru/j/00827622505908
+LOCATION:1308
+URL:https://telemost.yandex.ru/j/00827622505908
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Проектный практикум по робото
+ технике. Часть 1 (Robotics)
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171133Z
+UID:2daaed02d962805f866f0ca7c287219498ff82d3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nСкриптинг\, визуализация (Fro
+ ntend)\, Зайцева Д.А. (вебинары)\nФункциональ
+ ное программирование (Blockchain)\, Хайруллин 
+ А.Ф. в 1304\nПроектный практикум по роботот
+ ехнике. Часть 1 (Robotics)\, Загиров А.И. в 1308 (в
+ ебинары)\nhttps://telemost.yandex.ru/j/00827622505908
+LOCATION:1308
+URL:https://telemost.yandex.ru/j/00827622505908
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологии искусственного ин
+ теллекта
+DTSTART;TZID=Europe/Moscow:20260901T135000
+DTEND;TZID=Europe/Moscow:20260901T152000
+DTSTAMP:20260905T171133Z
+UID:5557d61994c2e66315a30eb74e3d9891759efb62@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, \nМухамеджанов А.И.\n1304
+LOCATION:1304
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Психология управления (1-9 нед.)
+DTSTART;TZID=Europe/Moscow:20260903T101000
+DTEND;TZID=Europe/Moscow:20260903T114000
+DTSTAMP:20260905T171133Z
+UID:28ee7458b29cdd6ae824e0c9bedab01bb3a80209@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПсихология 
+ управления (1-9 нед.) Пучкова И.М. (вебинары
+ )\, с 10 нед. прак. гр.№1 Зайнуллин А.Э. (веби
+ нары)\nhttps://telemost.yandex.ru/j/17069658637666
+LOCATION:https://telemost.yandex.ru/j/17069658637666
+URL:https://telemost.yandex.ru/j/17069658637666
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Теория систем и системный ана
+ лиз
+DTSTART;TZID=Europe/Moscow:20260901T121000
+DTEND;TZID=Europe/Moscow:20260901T134000
+DTSTAMP:20260905T171133Z
+UID:bd144d02a6795f424f950f32433bff4e80246f4d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+  Еникеева З.А.\n 1405
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Психология гр.№3 с 10 нед.прак.
+DTSTART;TZID=Europe/Moscow:20261106T083000
+DTEND;TZID=Europe/Moscow:20261106T100000
+DTSTAMP:20260905T171133Z
+UID:3f4667f0a420dd9d5bb08b76a8b2629ff4143293@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору: \nПсихология
+  личной эффективности\,практика группа 
+ №2  с 10 нед.Добротворская С.Г. в 1405 \nПсихо
+ логия гр.№2 с 1 по 9 нед.прак\, гр.№3 с 10 нед.
+ прак. Румянцева Г.Д. (вебинары)\nhttps://telemost.y
+ andex.ru/j/65393423127887
+LOCATION:https://telemost.yandex.ru/j/65393423127887
+URL:https://telemost.yandex.ru/j/65393423127887
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Теория систем и системный ана
+ лиз
+DTSTART;TZID=Europe/Moscow:20260914T155000
+DTEND;TZID=Europe/Moscow:20260914T172000
+DTSTAMP:20260905T171133Z
+UID:c0cc97f11f635f2aa71e7a633862195d7c914de0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261221T205959Z
+EXDATE;TZID=Europe/Moscow:20260921T155000
+EXDATE;TZID=Europe/Moscow:20261005T155000
+EXDATE;TZID=Europe/Moscow:20261019T155000
+EXDATE;TZID=Europe/Moscow:20261102T155000
+EXDATE;TZID=Europe/Moscow:20261116T155000
+EXDATE;TZID=Europe/Moscow:20261130T155000
+EXDATE;TZID=Europe/Moscow:20261214T155000
+DESCRIPTION:Теория систем и системный анализ\,
+  Еникеева З.А.\, \nнечетн.нед.\n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Психология управления 1-9 нед. 
+ гр.№4
+DTSTART;TZID=Europe/Moscow:20260904T135000
+DTEND;TZID=Europe/Moscow:20260904T152000
+DTSTAMP:20260905T171133Z
+UID:44209735ea00fbc818700894a6b53112e458f8f4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261030T205959Z
+DESCRIPTION:Дисциплины по выбору:\nКонфликтол
+ огия лек. 9 нед. Иванов А.В. \, с 10 нед прак. 
+ Иванов Г.А. (вебинары)\nПсихология управл
+ ения\, Зайнуллин А.Э. 1-9 нед. гр.№4\, с 10 нед.
+  гр.№5 (вебинары)\nПолитология\, Остроумов
+  А.И. лек. 1-9 нед. прак.с 10 нед.в 1303 (список с
+ тудентов)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] введение в облачные технологи
+ и (Технологическое предпринимательство 
+ и управление продуктами)
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260905T171133Z
+UID:5e587e5beb07829491c659c08260dd0bc14c2a8b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплины по выбору:\nОсобенност
+ и разработки мультимедийных приложений
+ \, Газизов Р.Р. в 1306\nРазработка техническ
+ ой документации (Дизайн-мышление в ИТ-сф
+ ере)\, четн.неделя группа №1\,нечетн.нед г
+ руппа №2 Лучкина Е.Ю. в 1110 (10.09 не будет) \nв
+ ведение в облачные технологии (Технолог
+ ическое предпринимательство и управлен
+ ие продуктами)\, Семенова Ж.Г. в 1309
+LOCATION:1309
+END:VEVENT
+END:VCALENDAR

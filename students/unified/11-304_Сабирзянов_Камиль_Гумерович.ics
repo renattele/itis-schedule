@@ -1,0 +1,166 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS 11-304_Сабирзянов Камиль Гумеров
+ ич
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Теория систем
+DTSTART;TZID=Europe/Moscow:20260907T121000
+DTEND;TZID=Europe/Moscow:20260907T134000
+DTSTAMP:20260905T171128Z
+UID:ebcd92e9491f7b2a305949f36312e1f61f146ed5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+ \nЛипачев Е.К. \n 1311
+LOCATION:1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Культурология
+DTSTART;TZID=Europe/Moscow:20260902T083000
+DTEND;TZID=Europe/Moscow:20260902T100000
+DTSTAMP:20260905T171128Z
+UID:e8c29e5fd84eb0444b1d9884c18f3cec221b7733@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T083000
+DESCRIPTION:Дисциплины по выбору: \nКультуроло
+ гия\, Сыченкова Л.А. в 47 ауд. ул.Лево-Булач
+ ная\,44  (список студентов)\nhttps://disk.360.yandex.ru/
+ i/IjCFQvyHzoSTlA
+LOCATION:https://disk.360.yandex.ru/i/IjCFQvyHzoSTlA
+URL:https://disk.360.yandex.ru/i/IjCFQvyHzoSTlA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Теория систем
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171128Z
+UID:f3a5f75c877d94847bf28eec3ca9221c26b8a3e6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261026T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+  Липачев Е.К.\, \n1-9 нед.\n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] ИИ
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20260905T171128Z
+UID:4f33df01788f03f9051514a7f2f21501c6215761@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Агафонов А.А.\,\n ауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Конфликтология лек. 9 нед.
+DTSTART;TZID=Europe/Moscow:20260904T135000
+DTEND;TZID=Europe/Moscow:20260904T152000
+DTSTAMP:20260905T171128Z
+UID:0f0e546aecde513eb6afee459e183c08189bf476@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261030T205959Z
+DESCRIPTION:Дисциплины по выбору:\nКонфликтол
+ огия лек. 9 нед. Иванов А.В. \, с 10 нед прак. 
+ Иванов Г.А. (вебинары)\nПсихология управл
+ ения\, Зайнуллин А.Э. 1-9 нед. гр.№4\, с 10 нед.
+  гр.№5 (вебинары)\nПолитология\, Остроумов
+  А.И. лек. 1-9 нед. прак.с 10 нед.в 1303 (список с
+ тудентов)\nhttps://telemost.360.yandex.ru/j/9475070249
+LOCATION:https://telemost.360.yandex.ru/j/9475070249
+URL:https://telemost.360.yandex.ru/j/9475070249
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Робототехника
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171128Z
+UID:5ac2c628d754f4283f04dd49dcf67b1d114b2200@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nФункциональное программир
+ ование (Blockchain)\, Хайруллин А.Ф. в 1304\nСкрип
+ тинг\, визуализация (Frontend)\, Зайцева Д.А. (в
+ ебинары)\nПроектный практикум по роботот
+ ехнике. Часть 1 (Robotics)\, Загиров А.И. в 1308 (в
+ ебинары)\nhttps://telemost.360.yandex.ru/j/1996926600
+LOCATION:https://telemost.360.yandex.ru/j/1996926600
+URL:https://telemost.360.yandex.ru/j/1996926600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Конфликтология с 10 нед прак.
+DTSTART;TZID=Europe/Moscow:20261106T135000
+DTEND;TZID=Europe/Moscow:20261106T152000
+DTSTAMP:20260905T171128Z
+UID:a88e4eb8db826b29cd1b35f7eb2a87415dce3d8d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору:\nКонфликтол
+ огия лек. 9 нед. Иванов А.В. \, с 10 нед прак. 
+ Иванов Г.А. (вебинары)\nПсихология управл
+ ения\, Зайнуллин А.Э. 1-9 нед. гр.№4\, с 10 нед.
+  гр.№5 (вебинары)\nПолитология\, Остроумов
+  А.И. лек. 1-9 нед. прак.с 10 нед.в 1303 (список с
+ тудентов)\nhttps://telemost.360.yandex.ru/j/9475070249
+LOCATION:https://telemost.360.yandex.ru/j/9475070249
+URL:https://telemost.360.yandex.ru/j/9475070249
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] ИИ
+DTSTART;TZID=Europe/Moscow:20260901T155000
+DTEND;TZID=Europe/Moscow:20260901T172000
+DTSTAMP:20260905T171128Z
+UID:239890e44b6ccc765144b782f83d737696187d83@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Макаров Р.В.  1508
+LOCATION:1508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Робототехника
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171128Z
+UID:b8044e79240380e66cbd9acaf6b25b1c120fef0a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nСкриптинг\, визуализация (Fro
+ ntend)\, Зайцева Д.А. (вебинары)\nФункциональ
+ ное программирование (Blockchain)\, Хайруллин 
+ А.Ф. в 1304\nПроектный практикум по роботот
+ ехнике. Часть 1 (Robotics)\, Загиров А.И. в 1308 (в
+ ебинары)\nhttps://telemost.360.yandex.ru/j/1996926600
+LOCATION:https://telemost.360.yandex.ru/j/1996926600
+URL:https://telemost.360.yandex.ru/j/1996926600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Техническая документация
+DTSTART;TZID=Europe/Moscow:20260903T135000
+DTEND;TZID=Europe/Moscow:20260903T152000
+DTSTAMP:20260905T171128Z
+UID:6d342f8f6e0ee8ca05a03b4b32e03a2356f9bc8f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплина по выбору: \nРазработка
+  технической документации (Глобальные п
+ роцессы в экономике и бизнесе)\, Галлямов
+ а Д.Х.  в 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Техническая документация
+DTSTART;TZID=Europe/Moscow:20260903T121000
+DTEND;TZID=Europe/Moscow:20260903T134000
+DTSTAMP:20260905T171128Z
+UID:ee26d41c465212387fabf3c472f968c9565bf2b9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплина по выбору:\n Разработка
+  технической документации (Глобальные п
+ роцессы в экономике и бизнесе)\, Галлямов
+ а Д.Х.  в 1408
+LOCATION:1408
+END:VEVENT
+END:VCALENDAR

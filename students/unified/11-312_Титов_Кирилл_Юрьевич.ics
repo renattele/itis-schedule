@@ -1,0 +1,74 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS 11-312_Титов Кирилл Юрьевич
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Методология науки
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171130Z
+UID:5a110aaf524b6c9e2e00e2e92d1ddefd74d381b6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Методология научной деятельности
+ \,\nКостюк Д.И.\n(вебинары)\nhttps://telemost.360.yandex.r
+ u/j/5863748109
+LOCATION:https://telemost.360.yandex.ru/j/5863748109
+URL:https://telemost.360.yandex.ru/j/5863748109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Методология науки
+DTSTART;TZID=Europe/Moscow:20260904T191000
+DTEND;TZID=Europe/Moscow:20260904T204000
+DTSTAMP:20260905T171130Z
+UID:a042bbff37aef521d0436560163c8771664e73e7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Методология научной деятельности
+ \,\nКостюк Д.И.\n(вебинары)\nhttps://telemost.360.yandex.r
+ u/j/5863748109
+LOCATION:https://telemost.360.yandex.ru/j/5863748109
+URL:https://telemost.360.yandex.ru/j/5863748109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] ИИ
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171130Z
+UID:1aba2ce34dfab11cd204ec88ecad52888f7d13fb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\,\nМухамеджанов А.И.\n(вебинары)\nhttps://t
+ elemost.360.yandex.ru/j/7067270198
+LOCATION:https://telemost.360.yandex.ru/j/7067270198
+URL:https://telemost.360.yandex.ru/j/7067270198
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] ИИ
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171130Z
+UID:ff20b06066ab75b5f326ab8abd0ee2a27e96550e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Технологии искусственного интелл
+ екта\,\nМухамеджанов А.И.\n(вебинары)\nhttps://t
+ elemost.360.yandex.ru/j/7067270198
+LOCATION:https://telemost.360.yandex.ru/j/7067270198
+URL:https://telemost.360.yandex.ru/j/7067270198
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Методология науки
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260905T171130Z
+UID:a9d903c6e6787a0f5db81a904fe67818563e2a5b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Методология научной деятельности
+ \,\nЕлизаров А.М.\n(вебинары)\nhttps://telemost.360.yand
+ ex.ru/j/5262847742
+LOCATION:https://telemost.360.yandex.ru/j/5262847742
+URL:https://telemost.360.yandex.ru/j/5262847742
+END:VEVENT
+END:VCALENDAR

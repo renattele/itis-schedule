@@ -1,0 +1,261 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Гуманитарные дисциплины
+DTSTART;TZID=Europe/Moscow:20260914T083000
+DTEND;TZID=Europe/Moscow:20260914T100000
+DTSTAMP:20260905T171120Z
+UID:1d8b74a12af61ea315f2252971a72382a155deb3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:История России прак. \nФазлиев А.М. 
+ \n (ЦОР)\n(вебинары)\n 1308\n(с 14 сентября)\nhttps://
+ edu.kpfu.ru/course/view.php?id=6090
+LOCATION:1308
+URL:https://edu.kpfu.ru/course/view.php?id=6090
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Дискретная математика
+DTSTART;TZID=Europe/Moscow:20260907T101000
+DTEND;TZID=Europe/Moscow:20260907T114000
+DTSTAMP:20260905T171120Z
+UID:b24e821e480e2a38cffc401458982b500c684111@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Компьютерная математика\,\nпрак. Х
+ арин Н.В.\n(вебинары)\n 1308\nhttps://telemost.360.yandex.ru
+ /j/7870677654
+LOCATION:1308
+URL:https://telemost.360.yandex.ru/j/7870677654
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Физическая культура и спорт (10
+ :00-11:30)
+DTSTART;TZID=Europe/Moscow:20260901T101000
+DTEND;TZID=Europe/Moscow:20260901T114000
+DTSTAMP:20260905T171120Z
+UID:b32d7e120de3d67d8aafcd4206b76c51cb311ea8@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Физическая культура и спорт (10:00-11:
+ 30)\n(вебинары)\nhttps://telemost.360.yandex.ru/j/5518277117
+LOCATION:https://telemost.360.yandex.ru/j/5518277117
+URL:https://telemost.360.yandex.ru/j/5518277117
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Математика
+DTSTART;TZID=Europe/Moscow:20260901T121000
+DTEND;TZID=Europe/Moscow:20260901T134000
+DTSTAMP:20260905T171120Z
+UID:fa8a5913811cf285b338f67ab83d2fd1de9dc6cd@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Математический анализ для IT\,\nМух
+ амеджанова С.А.\n (ЦОР)\n(вебинары)\n 1305\nhttps:/
+ /edu.kpfu.ru/course/view.php?id=5260
+LOCATION:1305
+URL:https://edu.kpfu.ru/course/view.php?id=5260
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Основы российской государств
+ енности
+DTSTART;TZID=Europe/Moscow:20260901T135000
+DTEND;TZID=Europe/Moscow:20260901T152000
+DTSTAMP:20260905T171120Z
+UID:1ba8609b838837584cbd5d27d97155facaf87bf3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261027T205959Z
+DESCRIPTION:Основы российской государственно
+ сти\, \nлек. (1-9 нед.)\nСолдатова Н.О.\n(вебина
+ ры)\n 1303\nhttps://telemost.360.yandex.ru/j/7179417654
+LOCATION:1303
+URL:https://telemost.360.yandex.ru/j/7179417654
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы российской государств
+ енности
+DTSTART;TZID=Europe/Moscow:20260901T155000
+DTEND;TZID=Europe/Moscow:20260901T172000
+DTSTAMP:20260905T171120Z
+UID:afdbca93638b74591024d0f92a1e6e294bb88b47@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Основы российской государственно
+ сти\, \nпрак.\nСолдатова Н.О. \n(вебинары)\n1110
+ \nhttps://telemost.360.yandex.ru/j/0643259638
+LOCATION:1110
+URL:https://telemost.360.yandex.ru/j/0643259638
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Информатика и программирован
+ ие
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260905T171120Z
+UID:0d222c1f7098d2c341019844345ec8e4a1a845ca@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Информатика и программирование\,\n
+ прак.\,\nВалишин И.А.\n(вебинары)\n1405\nhttps://tele
+ most.360.yandex.ru/j/3216848546
+LOCATION:1405
+URL:https://telemost.360.yandex.ru/j/3216848546
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Гуманитарные дисциплины
+DTSTART;TZID=Europe/Moscow:20260916T083000
+DTEND;TZID=Europe/Moscow:20260916T100000
+DTSTAMP:20260905T171120Z
+UID:d1ac9f8051a4956d63f807865481b94bb6f30e61@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T083000
+DESCRIPTION:История России лек. \nФазлиев А.М. \n
+  (ЦОР)\n(вебинары)\n1110\n(с 16 сентября)\nhttps://edu
+ .kpfu.ru/course/view.php?id=6090
+LOCATION:1110
+URL:https://edu.kpfu.ru/course/view.php?id=6090
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Математика
+DTSTART;TZID=Europe/Moscow:20260902T121000
+DTEND;TZID=Europe/Moscow:20260902T134000
+DTSTAMP:20260905T171120Z
+UID:63fd6218b1d1b8335671965e35e5a254e32f63c7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T121000
+DESCRIPTION:Математический анализ для IT\,\nМух
+ амеджанова С.А.\n (ЦОР)\n\n1110\nhttps://edu.kpfu.ru/course
+ /view.php?id=5260
+LOCATION:1110
+URL:https://edu.kpfu.ru/course/view.php?id=5260
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Языки
+DTSTART;TZID=Europe/Moscow:20260902T135000
+DTEND;TZID=Europe/Moscow:20260902T152000
+DTSTAMP:20260905T171120Z
+UID:1ba9f47c459284ff26736937bd4cea2a20b255e2@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T135000
+DESCRIPTION:Иностранный язык\,\nФайзуллина Р.А.
+  (ЦОР)\n1301\nСпиридонов А.В.\nв 1303 (список)\nhttp
+ s://edu.kpfu.ru/course/view.php?id=6763
+LOCATION:1303
+URL:https://edu.kpfu.ru/course/view.php?id=6763
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Языки
+DTSTART;TZID=Europe/Moscow:20260902T155000
+DTEND;TZID=Europe/Moscow:20260902T172000
+DTSTAMP:20260905T171120Z
+UID:a4a0508aacf2e17923dd74e65aee204100b0a9f1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T155000
+DESCRIPTION:Иностранный язык\,\nФайзуллина Р.А.
+  (ЦОР)\n\n1304\nhttps://edu.kpfu.ru/course/view.php?id=6763
+LOCATION:1304
+URL:https://edu.kpfu.ru/course/view.php?id=6763
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Языки
+DTSTART;TZID=Europe/Moscow:20260903T135000
+DTEND;TZID=Europe/Moscow:20260903T152000
+DTSTAMP:20260905T171120Z
+UID:79cd9e599d602e1dafed81fa21a12a2e9eaa5086@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Иностранный язык\,\nСпиридонов А.В.
+ \n(вебинары)\nв 1305\nсписок студентов\nhttps://te
+ lemost.360.yandex.ru/j/9596121217
+LOCATION:1305
+URL:https://telemost.360.yandex.ru/j/9596121217
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Языки
+DTSTART;TZID=Europe/Moscow:20260903T155000
+DTEND;TZID=Europe/Moscow:20260903T172000
+DTSTAMP:20260905T171120Z
+UID:91fc1e54597d4ae7d3c4704832281ec2ddff401e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Иностранный язык\,\nСпиридонов А.В.
+ \n(вебинары)\nв 1306\nсписок студентов\nhttps://te
+ lemost.360.yandex.ru/j/9596121217
+LOCATION:1306
+URL:https://telemost.360.yandex.ru/j/9596121217
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Информатика и программирован
+ ие
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171120Z
+UID:56be4a673d2fc2b09b2da4f194fbd6abb32c1664@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Информатика и программирование\,\n
+ прак.\,\nВалишин И.А.\n(вебинары)\n1409\nhttps://tele
+ most.360.yandex.ru/j/3216848546
+LOCATION:1409
+URL:https://telemost.360.yandex.ru/j/3216848546
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Информатика и программирован
+ ие
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171120Z
+UID:60b1ded96594ea79a810a2dd3622cef010fdb7a2@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Информатика и программирование\,\n
+ прак.\,подгр.№1\nВалишин И.А.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Физическая культура и спорт (10
+ :00-11:30)
+DTSTART;TZID=Europe/Moscow:20260904T101000
+DTEND;TZID=Europe/Moscow:20260904T114000
+DTSTAMP:20260905T171120Z
+UID:5500ead344ed0dd3e13730c1a24c1d95287f685e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Физическая культура и спорт (10:00-11:
+ 30)\n(ЦОР)\nhttps://edu.kpfu.ru/course/view.php?id=6123
+LOCATION:https://edu.kpfu.ru/course/view.php?id=6123
+URL:https://edu.kpfu.ru/course/view.php?id=6123
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Дискретная математика
+DTSTART;TZID=Europe/Moscow:20260904T121000
+DTEND;TZID=Europe/Moscow:20260904T134000
+DTSTAMP:20260905T171120Z
+UID:89cca8b83e7000000cbc7f8d8a3c6a5dae19b09b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Компьютерная математика\,\nСаченк
+ ов О.А.\nлек. (ЦОР)\n(вебинары)\n1408\nhttps://edu.kpfu.
+ ru/course/view.php?id=6737
+LOCATION:1408
+URL:https://edu.kpfu.ru/course/view.php?id=6737
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Языки
+DTSTART;TZID=Europe/Moscow:20260904T135000
+DTEND;TZID=Europe/Moscow:20260904T152000
+DTSTAMP:20260905T171120Z
+UID:be9f782dd1a92b7ff7b8f3ebab8b18217b5b2c58@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Иностранный язык\,\nФайзуллина Р.А.
+  (ЦОР)\n(вебинары)\n1409\nhttps://edu.kpfu.ru/course/view.php?i
+ d=6763
+LOCATION:1409
+URL:https://edu.kpfu.ru/course/view.php?id=6763
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Информатика и программирован
+ ие
+DTSTART;TZID=Europe/Moscow:20260904T155000
+DTEND;TZID=Europe/Moscow:20260904T172000
+DTSTAMP:20260905T171120Z
+UID:c9115a4ab37c2557d45e8805059171b7e6b72032@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Информатика и программирование\,\n
+ Абрамский М.М. \n (ЦОР)\n(вебинары)\n1409\nhttps://e
+ du.kpfu.ru/course/view.php?id=6075
+LOCATION:1409
+URL:https://edu.kpfu.ru/course/view.php?id=6075
+END:VEVENT
+END:VCALENDAR

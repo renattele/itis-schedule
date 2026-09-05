@@ -1,0 +1,185 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS 11-303_Хаметшин Ренат Рашидович
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] ИИ
+DTSTART;TZID=Europe/Moscow:20260907T121000
+DTEND;TZID=Europe/Moscow:20260907T134000
+DTSTAMP:20260905T171127Z
+UID:144939b2e7af60b15e42945a3a63daa6f0125c54@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Газизов А.М. 1307
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Облачные технологии
+DTSTART;TZID=Europe/Moscow:20260905T121000
+DTEND;TZID=Europe/Moscow:20260905T134000
+DTSTAMP:20260905T171127Z
+UID:6b65c89402ef608a8a483841780928bb078672f4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Дисциплина по выбору: \nВведение в 
+ облачные технологии\, Валиуллин Р.М. (веб
+ инары) в 1311\nhttps://my.mts-link.ru/j/82090677/23990321542
+LOCATION:1311
+URL:https://my.mts-link.ru/j/82090677/23990321542
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Теория систем
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171127Z
+UID:e80f0d144d963c1f434feaff58eaa7b3464b5981@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261026T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+  Липачев Е.К.\, \n1-9 нед.\n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] ИИ
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20260905T171127Z
+UID:a0507fdae0f18abc330735caa2381126e58635a8@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Агафонов А.А.\,\n ауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Психология личной эффективно
+ сти
+DTSTART;TZID=Europe/Moscow:20260904T101000
+DTEND;TZID=Europe/Moscow:20260904T114000
+DTSTAMP:20260905T171127Z
+UID:50beac6e817edbadd7590b67e528f62e0358049d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261030T205959Z
+DESCRIPTION:Дисциплины по выбору: \nПсихология
+  личной эффективности\, лекции 1-9 нед (ауд
+ .1405).\, группа №1 прак. с 10 нед.Добротворск
+ ая С.Г. в 1405\nТатарский язык в профессиона
+ льной коммуникации\, Кузьмина Х.Х.\, в 1409 с
+ писок студентов\nСоциология\, лек.9 нед.Иш
+ кинеева Ф.Ф. в 1308\, с 10 нед. прак.Закиров А. 
+ в 1308 список студентов \nПсихология лек.9 н
+ ед. Устин П.Н. (вебинары) с 10 нед.прак. гр.№
+ 1 Румянцева Г.Д. (вебинары)
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Облачные технологии
+DTSTART;TZID=Europe/Moscow:20260905T135000
+DTEND;TZID=Europe/Moscow:20260905T152000
+DTSTAMP:20260905T171127Z
+UID:50045b8e08e479587b187be0f4bc6b71866e2cff@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Дисциплина по выбору:\nВведение в 
+ облачные технологии\, Валиуллин Р.М. (веб
+ инары) в 1311\nhttps://my.mts-link.ru/j/82090677/23990321542
+LOCATION:1311
+URL:https://my.mts-link.ru/j/82090677/23990321542
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Теория систем
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260905T171127Z
+UID:602475807ec9c97f3cc3d7bc6e3b9d86c64fc3d2@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+  \nЛипачев Е.К.\n 1311
+LOCATION:1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Психология личной эффективно
+ сти группа №1 прак. с 10 нед.
+DTSTART;TZID=Europe/Moscow:20261106T101000
+DTEND;TZID=Europe/Moscow:20261106T114000
+DTSTAMP:20260905T171127Z
+UID:4ad4b4f6dc74925af8f76ac01817595fbbc36be1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору: \nПсихология
+  личной эффективности\, лекции 1-9 нед (ауд
+ .1405).\, группа №1 прак. с 10 нед.Добротворск
+ ая С.Г. в 1405\nТатарский язык в профессиона
+ льной коммуникации\, Кузьмина Х.Х.\, в 1409 с
+ писок студентов\nСоциология\, лек.9 нед.Иш
+ кинеева Ф.Ф. в 1308\, с 10 нед. прак.Закиров А. 
+ в 1308 список студентов \nПсихология лек.9 н
+ ед. Устин П.Н. (вебинары) с 10 нед.прак. гр.№
+ 1 Румянцева Г.Д. (вебинары)
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Блокчейн
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171127Z
+UID:bc47bf5c1fcba41be047063b0cf7bb80ab82aae0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nСкриптинг\, визуализация (Fro
+ ntend)\, Зайцева Д.А. (вебинары)\nФункциональ
+ ное программирование (Blockchain)\, Хайруллин 
+ А.Ф. в 1304\nПроектный практикум по роботот
+ ехнике. Часть 1 (Robotics)\, Загиров А.И. в 1308 (в
+ ебинары)
+LOCATION:1304
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Психология управления\, прак. (
+ 1-9нед.) гр.№2
+DTSTART;TZID=Europe/Moscow:20260903T155000
+DTEND;TZID=Europe/Moscow:20260903T172000
+DTSTAMP:20260905T171127Z
+UID:f5653912badef208e768d283e4d52b42a4ac6dba@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПсихология 
+ управления\, прак. (1-9нед.) гр.№2 Зайнуллин
+  А.Э. \, с 10 нед.прак.гр.№3  (вебинары) \nПрав
+ овые основы информатизации\, Никитин Д.В.
+  в 1412 (список студентов)\nhttps://telemost.yandex.ru/j/6
+ 9303139806404
+LOCATION:https://telemost.yandex.ru/j/69303139806404
+URL:https://telemost.yandex.ru/j/69303139806404
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Психология управления (1-9 нед.)
+DTSTART;TZID=Europe/Moscow:20260903T101000
+DTEND;TZID=Europe/Moscow:20260903T114000
+DTSTAMP:20260905T171127Z
+UID:31409660743ca64b84b2c78e07f2912be8945814@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПсихология 
+ управления (1-9 нед.) Пучкова И.М. (вебинары
+ )\, с 10 нед. прак. гр.№1 Зайнуллин А.Э. (веби
+ нары)\nhttps://telemost.yandex.ru/j/17069658637666
+LOCATION:https://telemost.yandex.ru/j/17069658637666
+URL:https://telemost.yandex.ru/j/17069658637666
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Блокчейн
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171127Z
+UID:bdc8231fdefe1570dddbc6e8e3d341643600fe84@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nФункциональное программир
+ ование (Blockchain)\, Хайруллин А.Ф. в 1304\nСкрип
+ тинг\, визуализация (Frontend)\, Зайцева Д.А. (в
+ ебинары)\nПроектный практикум по роботот
+ ехнике. Часть 1 (Robotics)\, Загиров А.И. в 1308 (в
+ ебинары)
+LOCATION:1304
+END:VEVENT
+END:VCALENDAR

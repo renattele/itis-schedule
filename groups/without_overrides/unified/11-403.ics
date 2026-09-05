@@ -1,0 +1,819 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Интеллектуальный анализ данн
+ ых
+DTSTART;TZID=Europe/Moscow:20260907T121000
+DTEND;TZID=Europe/Moscow:20260907T134000
+DTSTAMP:20260905T171122Z
+UID:464dd054045fcb868fcbc6c784faa26939d7be1f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Интеллектуальный анализ данных\,\n
+ Еникеева З.А.\n 1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Интеллектуальный анализ данн
+ ых
+DTSTART;TZID=Europe/Moscow:20260907T135000
+DTEND;TZID=Europe/Moscow:20260907T152000
+DTSTAMP:20260905T171122Z
+UID:9914f6815192b41f269d1de8dd8d694398a79eef@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Интеллектуальный анализ данных\,  
+ \nЕникеева З.А.\, \n218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Разработка приложений дополн
+ енной реальности на Unity
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20260905T171122Z
+UID:d9e81b24e66cd2a4693b36d5628de1be44d11ecc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплина по выбору:\nРазработка 
+ приложений дополненной реальности на Unit
+ y\, Костюк Д.И. в 1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Разработка приложений дополн
+ енной реальности на Unity
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171122Z
+UID:40b97368fac378ddb1ec953c5543db2dd88462c5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплина по выбору:\nРазработка 
+ приложений дополненной реальности на Unit
+ y\, Костюк Д.И. в 1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Жизненный цикл разработки про
+ граммного обеспечения
+DTSTART;TZID=Europe/Moscow:20260901T135000
+DTEND;TZID=Europe/Moscow:20260901T152000
+DTSTAMP:20260905T171122Z
+UID:960d92bf08a0cc5844765de4fa9ac61f82cfebce@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Жизненный цикл разработки програ
+ ммного обеспечения\,\nМухаметханов И.Р.\, 
+ \n1305
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Жизненный цикл разработки про
+ граммного обеспечения
+DTSTART;TZID=Europe/Moscow:20260901T155000
+DTEND;TZID=Europe/Moscow:20260901T172000
+DTSTAMP:20260905T171122Z
+UID:7aa1c34765003bd768872e34ed8748d89ce7809c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261027T205959Z
+DESCRIPTION:Жизненный цикл разработки програ
+ ммного обеспечения\, \nКугуракова В.В.\, 1-9 
+ нед. \n 1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Основы робототехники.Часть 1
+DTSTART;TZID=Europe/Moscow:20260902T083000
+DTEND;TZID=Europe/Moscow:20260902T100000
+DTSTAMP:20260905T171122Z
+UID:97dcac795a86cb257d3a29b0fe083b6ffb729854@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T083000
+DESCRIPTION:Дисциплины по выбору:\nОсновы робо
+ тотехники.Часть 1\, Чеботарева Э.В. в 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Основы робототехники.Часть 1
+DTSTART;TZID=Europe/Moscow:20260902T101000
+DTEND;TZID=Europe/Moscow:20260902T114000
+DTSTAMP:20260905T171122Z
+UID:bc754be6ff9d5969afbcf777a045112877d3cced@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T101000
+DESCRIPTION:Дисциплины по выбору:\nОсновы робо
+ тотехники.Часть 1\, Чеботарева Э.В. в 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Элективные курсы по физическо
+ й культуре и спорту  УНИКС\, 12:00 - 13:30
+DTSTART;TZID=Europe/Moscow:20260902T121000
+DTEND;TZID=Europe/Moscow:20260902T134000
+DTSTAMP:20260905T171122Z
+UID:ed452e3d1df53d823bfc3736ca0d6d5e3ff9ba96@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T121000
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС\, 12:00 - 13:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Вычислительные системы\, сети 
+ и телекоммуникации
+DTSTART;TZID=Europe/Moscow:20260902T155000
+DTEND;TZID=Europe/Moscow:20260902T172000
+DTSTAMP:20260905T171122Z
+UID:c873a092f10d546571e08eb77db483f1c5217396@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T155000
+DESCRIPTION:Вычислительные системы\, сети и те
+ лекоммуникации\,\nМаксютин С.В. \n108 ауд.
+LOCATION:108
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Веб-разработка.Дополнительны
+ е главы (PHP)
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171122Z
+UID:54d76d0dc2cf3ede14043a5c9a8e795841f869a1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю. в 1114 \nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А.(в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303  \n
+ Разработка мобильных приложений. Доп.гл
+ авы Android\, Зарипова Д.И. (вебинары)\nВеб-раз
+ работка.Доп.главы(Интернет вещей)\, Чупин
+  М.М. в 1309
+LOCATION:1508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Исследование данных(конкретн
+ ая математика)
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171122Z
+UID:fac085599fff00b6b70fd988b6c9cd2713b05f2f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю. в 1114 \nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А.(в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303  \n
+ Разработка мобильных приложений. Доп.гл
+ авы Android\, Зарипова Д.И. (вебинары)\nВеб-раз
+ работка.Доп.главы(Интернет вещей)\, Чупин
+  М.М. в 1309
+LOCATION:1114
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Веб-разработка.Дополнительны
+ е главы (Django)
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171122Z
+UID:ebe01747892703147145922dfb72b6f8a9c44438@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю. в 1114 \nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А.(в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303  \n
+ Разработка мобильных приложений. Доп.гл
+ авы Android\, Зарипова Д.И. (вебинары)\nВеб-раз
+ работка.Доп.главы(Интернет вещей)\, Чупин
+  М.М. в 1309\nhttps://telemost.yandex.ru/j/12710857011048
+LOCATION:https://telemost.yandex.ru/j/12710857011048
+URL:https://telemost.yandex.ru/j/12710857011048
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Технологии Java
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171122Z
+UID:bbbeb8d04738d68ae02b279a6575b46e7df4b138@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю. в 1114 \nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А.(в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303  \n
+ Разработка мобильных приложений. Доп.гл
+ авы Android\, Зарипова Д.И. (вебинары)\nВеб-раз
+ работка.Доп.главы(Интернет вещей)\, Чупин
+  М.М. в 1309
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Технологии .NET
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171122Z
+UID:6876293259b4ae4a2a44c6da2de1a05a186dad51@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю. в 1114 \nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А.(в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303  \n
+ Разработка мобильных приложений. Доп.гл
+ авы Android\, Зарипова Д.И. (вебинары)\nВеб-раз
+ работка.Доп.главы(Интернет вещей)\, Чупин
+  М.М. в 1309\nhttps://telemost.yandex.ru/j/51442180542498
+LOCATION:https://telemost.yandex.ru/j/51442180542498
+URL:https://telemost.yandex.ru/j/51442180542498
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Веб-разработка.Доп.главы(GoLang)
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171122Z
+UID:b1781ef87af4ee81ab6ca66c050b9c1e1792c888@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю. в 1114 \nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А.(в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303  \n
+ Разработка мобильных приложений. Доп.гл
+ авы Android\, Зарипова Д.И. (вебинары)\nВеб-раз
+ работка.Доп.главы(Интернет вещей)\, Чупин
+  М.М. в 1309\nhttps://telemost.360.yandex.ru/j/2548197188
+LOCATION:https://telemost.360.yandex.ru/j/2548197188
+URL:https://telemost.360.yandex.ru/j/2548197188
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Разработка мобильных приложе
+ ний. Доп.главы Android
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171122Z
+UID:d60ae49afd154d3f88f1afb997db6839e2f89252@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю. в 1114 \nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А.(в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303  \n
+ Разработка мобильных приложений. Доп.гл
+ авы Android\, Зарипова Д.И. (вебинары)\nВеб-раз
+ работка.Доп.главы(Интернет вещей)\, Чупин
+  М.М. в 1309
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Разработка мобильных приложе
+ ний. Доп.главы IOS
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171122Z
+UID:205a16cdfa0df8ddf2cfb32fb62eb9364b46cfe2@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю. в 1114 \nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А.(в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303  \n
+ Разработка мобильных приложений. Доп.гл
+ авы Android\, Зарипова Д.И. (вебинары)\nВеб-раз
+ работка.Доп.главы(Интернет вещей)\, Чупин
+  М.М. в 1309
+LOCATION:1303
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Разработка мобильных приложе
+ ний. Доп.главы Android
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171122Z
+UID:096c257cfeaf301bbccfcaed7e7a6975b261b8c0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю. в 1114 \nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А.(в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303  \n
+ Разработка мобильных приложений. Доп.гл
+ авы Android\, Зарипова Д.И. (вебинары)\nВеб-раз
+ работка.Доп.главы(Интернет вещей)\, Чупин
+  М.М. в 1309\nhttps://telemost.yandex.ru/j/38211869977471
+LOCATION:https://telemost.yandex.ru/j/38211869977471
+URL:https://telemost.yandex.ru/j/38211869977471
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Веб-разработка.Доп.главы(Инте
+ рнет вещей)
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171122Z
+UID:22eb8afeb77d0ab29b1d9c7f9d9ef6a4f2a54c5d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю. в 1114 \nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А.(в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303  \n
+ Разработка мобильных приложений. Доп.гл
+ авы Android\, Зарипова Д.И. (вебинары)\nВеб-раз
+ работка.Доп.главы(Интернет вещей)\, Чупин
+  М.М. в 1309
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Веб-разработка.Дополнительны
+ е главы (PHP)
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171122Z
+UID:acb7aa7c660aaf54bc0a89fb82640a7190b82daf@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю.  в 1114\nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А. (в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303 \nР
+ азработка мобильных приложений. Доп.гла
+ вы Android\, Зарипова Д.И. (вебинары)\nВеб-разр
+ аботка.Доп.главы(Интернет вещей)\, Чупин 
+ М.М. в 1309
+LOCATION:1508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Исследование данных(конкретн
+ ая математика)
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171122Z
+UID:65e855570a2a25750d715d3c9a3e48f78d5e3574@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю.  в 1114\nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А. (в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303 \nР
+ азработка мобильных приложений. Доп.гла
+ вы Android\, Зарипова Д.И. (вебинары)\nВеб-разр
+ аботка.Доп.главы(Интернет вещей)\, Чупин 
+ М.М. в 1309
+LOCATION:1114
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Веб-разработка.Дополнительны
+ е главы (Django)
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171122Z
+UID:fb3e652b8339f49b464261f649e543cc4baaabbf@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю.  в 1114\nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А. (в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303 \nР
+ азработка мобильных приложений. Доп.гла
+ вы Android\, Зарипова Д.И. (вебинары)\nВеб-разр
+ аботка.Доп.главы(Интернет вещей)\, Чупин 
+ М.М. в 1309\nhttps://telemost.yandex.ru/j/12710857011048
+LOCATION:https://telemost.yandex.ru/j/12710857011048
+URL:https://telemost.yandex.ru/j/12710857011048
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Технологии Java
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171122Z
+UID:df5a55efe575850b00d06c2cf20db72f422fc629@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю.  в 1114\nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А. (в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303 \nР
+ азработка мобильных приложений. Доп.гла
+ вы Android\, Зарипова Д.И. (вебинары)\nВеб-разр
+ аботка.Доп.главы(Интернет вещей)\, Чупин 
+ М.М. в 1309
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Технологии .NET
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171122Z
+UID:d5057674796480edfd3d8120bba531ef876e8009@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю.  в 1114\nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А. (в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303 \nР
+ азработка мобильных приложений. Доп.гла
+ вы Android\, Зарипова Д.И. (вебинары)\nВеб-разр
+ аботка.Доп.главы(Интернет вещей)\, Чупин 
+ М.М. в 1309\nhttps://telemost.yandex.ru/j/51442180542498
+LOCATION:https://telemost.yandex.ru/j/51442180542498
+URL:https://telemost.yandex.ru/j/51442180542498
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Веб-разработка.Доп.главы(GoLang)
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171122Z
+UID:1e6f57062d0ceb89a969d07ade00712a2cca1581@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю.  в 1114\nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А. (в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303 \nР
+ азработка мобильных приложений. Доп.гла
+ вы Android\, Зарипова Д.И. (вебинары)\nВеб-разр
+ аботка.Доп.главы(Интернет вещей)\, Чупин 
+ М.М. в 1309\nhttps://telemost.360.yandex.ru/j/2548197188
+LOCATION:https://telemost.360.yandex.ru/j/2548197188
+URL:https://telemost.360.yandex.ru/j/2548197188
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Разработка мобильных приложе
+ ний. Доп.главы Android
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171122Z
+UID:37fbe2a8fc05fcb424a012f61f3ea98a8ce528b9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю.  в 1114\nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А. (в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303 \nР
+ азработка мобильных приложений. Доп.гла
+ вы Android\, Зарипова Д.И. (вебинары)\nВеб-разр
+ аботка.Доп.главы(Интернет вещей)\, Чупин 
+ М.М. в 1309
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Разработка мобильных приложе
+ ний. Доп.главы IOS
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171122Z
+UID:846249ba7f98a7e19a5834ab67630795da60369c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю.  в 1114\nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А. (в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303 \nР
+ азработка мобильных приложений. Доп.гла
+ вы Android\, Зарипова Д.И. (вебинары)\nВеб-разр
+ аботка.Доп.главы(Интернет вещей)\, Чупин 
+ М.М. в 1309
+LOCATION:1303
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Разработка мобильных приложе
+ ний. Доп.главы Android
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171122Z
+UID:993dbd9604ab1cf0b69aba5bec2f180eee6abe17@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю.  в 1114\nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А. (в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303 \nР
+ азработка мобильных приложений. Доп.гла
+ вы Android\, Зарипова Д.И. (вебинары)\nВеб-разр
+ аботка.Доп.главы(Интернет вещей)\, Чупин 
+ М.М. в 1309\nhttps://telemost.yandex.ru/j/38211869977471
+LOCATION:https://telemost.yandex.ru/j/38211869977471
+URL:https://telemost.yandex.ru/j/38211869977471
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Веб-разработка.Доп.главы(Инте
+ рнет вещей)
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171122Z
+UID:066c2bc0a12b92fc454d6907c5442352224cf458@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nВеб-разрабо
+ тка.Дополнительные главы (PHP)\, Кошарский 
+ И.Е. в 1508\nИсследование данных(конкретная
+  математика)\, Лернер Э.Ю.  в 1114\nВеб-разраб
+ отка.Дополнительные главы (Django)\, Дуброве
+ ц В. (вебинары)\nТехнологии Java\, Фасхутдин
+ ов А.Н. в 1308\nТехнологии .NET\, Адмакин Д.А. (в
+ ебинары)\nВеб-разработка.Доп.главы(GoLang)\, 
+ Ахметов Д.Ю. (вебинары)\nРазработка мобил
+ ьных приложений. Доп.главы Android\, Шайхраз
+ иев Н.К. в 1305 \nРазработка мобильных прило
+ жений. Доп.главы IOS\, Табаченко А.Г. в 1303 \nР
+ азработка мобильных приложений. Доп.гла
+ вы Android\, Зарипова Д.И. (вебинары)\nВеб-разр
+ аботка.Доп.главы(Интернет вещей)\, Чупин 
+ М.М. в 1309
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] БЖД
+DTSTART;TZID=Europe/Moscow:20260903T101000
+DTEND;TZID=Europe/Moscow:20260903T114000
+DTSTAMP:20260905T171122Z
+UID:5066c022e5bb673fd6792fe8cf07e72ec836b77c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:БЖД\n1 подгруппа\nЛабор 1-5н – Мансу
+ р Нур \nв 1110\nЛабор 6-9н\n– в СЦ (Карла Маркс
+ а\, 74а)/\n2 подгруппа–\nЛабор 1-4н в СЦ (Карла
+  Маркса\, 74а)\nЛабор 6-10н  Мансур Нур\nауд.1110
+ \n1 и 2 подгруппы 11-15н практ.\nМансур Нур\n в 
+ 1110\nhttps://disk.360.yandex.ru/i/ToKHzNX-ChjNXQ
+LOCATION:1110
+URL:https://disk.360.yandex.ru/i/ToKHzNX-ChjNXQ
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Вычислительные системы\, сети 
+ и телекоммуникации
+DTSTART;TZID=Europe/Moscow:20260903T121000
+DTEND;TZID=Europe/Moscow:20260903T134000
+DTSTAMP:20260905T171122Z
+UID:62ab136fab7305cc2f164be45442b083733741f0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Вычислительные системы\, сети и те
+ лекоммуникации\,\nМаксютин С.В. \n1405
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Теория информации и кодирован
+ ия
+DTSTART;TZID=Europe/Moscow:20260903T135000
+DTEND;TZID=Europe/Moscow:20260903T152000
+DTSTAMP:20260905T171122Z
+UID:8f42c7febf02ca8a2ac9503f28849359bf9d441c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Теория информации и кодирования\,
+ \nСалимов Ф.И.\n1409
+LOCATION:1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] БЖД\, лекции 1-4 нед.
+DTSTART;TZID=Europe/Moscow:20260903T155000
+DTEND;TZID=Europe/Moscow:20260903T172000
+DTSTAMP:20260905T171122Z
+UID:887f793682f56c38f808617e80c7394b27ab3c32@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260924T205959Z
+DESCRIPTION:БЖД\, лекции 1-4 нед.\, Зиятдинова А.И
+ . (в эл.форме)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Параллельное программировани
+ е
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260905T171122Z
+UID:a1476996f92ad69ac9006aeded5d727fbb5bf214@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Параллельное программирование\,\n
+ Хабибуллин Р.А.\n1304
+LOCATION:1304
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологическая (проектно-тех
+ нологическая) практика (по распределени
+ ю) 9 нед.
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171122Z
+UID:2f9e374e456b2ecb0b2302c45add0b9da7b59b7e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика (по распределению) 9 
+ нед.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологическая (проектно-тех
+ нологическая) практика (по распределени
+ ю) 1-9 нед.
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171122Z
+UID:cefdf0f7af83f509815bf44c07ccee349584d53b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика (по распределению) 1-9
+  нед.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Операционные системы
+DTSTART;TZID=Europe/Moscow:20260904T135000
+DTEND;TZID=Europe/Moscow:20260904T152000
+DTSTAMP:20260905T171122Z
+UID:7b81c48735662f323cf8416e9e317465f968d573@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Операционные системы\,\nМаксютин С
+ .В.\n1305
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Теория информации и кодирован
+ ия
+DTSTART;TZID=Europe/Moscow:20260904T155000
+DTEND;TZID=Europe/Moscow:20260904T172000
+DTSTAMP:20260905T171122Z
+UID:5b542879d44096a00822907c51a13fb51bbe1de7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Теория информации и кодирования\, 
+ Салимов Ф.И.\, \nауд.108
+LOCATION:108
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Операционные системы
+DTSTART;TZID=Europe/Moscow:20260904T173000
+DTEND;TZID=Europe/Moscow:20260904T190000
+DTSTAMP:20260905T171122Z
+UID:d9de43628285fafde6a379d38fc2ca7f68360412@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Операционные системы\, Валиуллин 
+ Р.М.\, \nауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Параллельное програмирование
+DTSTART;TZID=Europe/Moscow:20260912T101000
+DTEND;TZID=Europe/Moscow:20260912T114000
+DTSTAMP:20260905T171122Z
+UID:3439bbecbdad38213cf7492646fc0ebb07616767@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261031T205959Z
+DESCRIPTION:Параллельное програмирование\n(1-9 
+ нед.)\nШемахин А.Ю.\nауд.109\nс 12 сентября
+LOCATION:109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Элективные курсы по физическо
+ й культуре и спорту  УНИКС
+DTSTART;TZID=Europe/Moscow:20260905T121000
+DTEND;TZID=Europe/Moscow:20260905T134000
+DTSTAMP:20260905T171122Z
+UID:20c363fe2b93e7fa10b2a39314387d74ae2885cd@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС   \n12:00 - 13:30
+END:VEVENT
+END:VCALENDAR

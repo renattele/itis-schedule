@@ -1,0 +1,87 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Проектный практикум по робототехни
+ ке. Часть 1 (Robotics)
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171133Z
+UID:97acc2e574e74b2502e81625bc4dcd3af3c346d9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nФункциональное программир
+ ование (Blockchain)\, Хайруллин А.Ф. в 1304\nСкрип
+ тинг\, визуализация (Frontend)\, Зайцева Д.А. (в
+ ебинары)\nПроектный практикум по роботот
+ ехнике. Часть 1 (Robotics)\, Загиров А.И. в 1308 (в
+ ебинары)\nhttps://telemost.yandex.ru/j/00827622505908
+LOCATION:1308
+URL:https://telemost.yandex.ru/j/00827622505908
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Проектный практикум по робототехни
+ ке. Часть 1 (Robotics)
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171133Z
+UID:38be17bcc64a33b0e2060c1a0e50fcaae2253955@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nСкриптинг\, визуализация (Fro
+ ntend)\, Зайцева Д.А. (вебинары)\nФункциональ
+ ное программирование (Blockchain)\, Хайруллин 
+ А.Ф. в 1304\nПроектный практикум по роботот
+ ехнике. Часть 1 (Robotics)\, Загиров А.И. в 1308 (в
+ ебинары)\nhttps://telemost.yandex.ru/j/00827622505908
+LOCATION:1308
+URL:https://telemost.yandex.ru/j/00827622505908
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Технологии искусственного интеллек
+ та
+DTSTART;TZID=Europe/Moscow:20260901T135000
+DTEND;TZID=Europe/Moscow:20260901T152000
+DTSTAMP:20260905T171133Z
+UID:d987df7c855a62d82ed353427a0566956e781535@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, \nМухамеджанов А.И.\n1304
+LOCATION:1304
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория систем и системный анализ
+DTSTART;TZID=Europe/Moscow:20260901T121000
+DTEND;TZID=Europe/Moscow:20260901T134000
+DTSTAMP:20260905T171133Z
+UID:c583f24f700b6922ea8c895e0c0a18708c1df825@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+  Еникеева З.А.\n 1405
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Психология гр.№3 с 10 нед.прак.
+DTSTART;TZID=Europe/Moscow:20261106T083000
+DTEND;TZID=Europe/Moscow:20261106T100000
+DTSTAMP:20260905T171133Z
+UID:bc7356fbcb859f2379249daff1dffb01efe46ffa@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору: \nПсихология
+  личной эффективности\,практика группа 
+ №2  с 10 нед.Добротворская С.Г. в 1405 \nПсихо
+ логия гр.№2 с 1 по 9 нед.прак\, гр.№3 с 10 нед.
+ прак. Румянцева Г.Д. (вебинары)\nhttps://telemost.y
+ andex.ru/j/65393423127887
+LOCATION:https://telemost.yandex.ru/j/65393423127887
+URL:https://telemost.yandex.ru/j/65393423127887
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Культурология
+DTSTART;TZID=Europe/Moscow:20260902T083000
+DTEND;TZID=Europe/Moscow:20260902T100000
+DTSTAMP:20260905T171128Z
+UID:bd06bab15dca273f322a0d5f40fffdc23ba93904@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T083000
+DESCRIPTION:Дисциплины по выбору: \nКультуроло
+ гия\, Сыченкова Л.А. в 47 ауд. ул.Лево-Булач
+ ная\,44  (список студентов)\nhttps://disk.360.yandex.ru/
+ i/IjCFQvyHzoSTlA
+LOCATION:https://disk.360.yandex.ru/i/IjCFQvyHzoSTlA
+URL:https://disk.360.yandex.ru/i/IjCFQvyHzoSTlA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория систем
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171128Z
+UID:dd80bc6e58a016e18aecaeefdf3e0e0944194090@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261026T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+  Липачев Е.К.\, \n1-9 нед.\n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ИИ
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20260905T171128Z
+UID:a4a6d2a4e177649ab4c27208e7ee40fa01c774d4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Агафонов А.А.\,\n ауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Дополнительные главы дискретной ма
+ тематики
+DTSTART;TZID=Europe/Moscow:20260904T173000
+DTEND;TZID=Europe/Moscow:20260904T190000
+DTSTAMP:20260905T171128Z
+UID:1043fba03b3d5ad5a90b20897e69fab748fd7da1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору:\nДополнител
+ ьные главы дискретной математики\, Лерне
+ р Э.Ю. в 1408\nСкриптинг\, визуализация\, Кос
+ тюк Д.И. в 1309\nФункциональное программиро
+ вание (Erlang)\, Фролов Д.Д. в 1509\nФункциональ
+ ное программирование (Промышленная разр
+ аботка\, эксплуатация и надежность прогр
+ аммных систем SRE (Функциональное програм
+ мирование) Фахрутдинов С.Р.  (вебинары)
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Мультимедиа
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260905T171128Z
+UID:e9deebf86d7d6c0be8e8aa990f478e80573203ea@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплины по выбору:\nОсобенност
+ и разработки мультимедийных приложений
+ \, Газизов Р.Р. в 1306\nРазработка техническ
+ ой документации (Дизайн-мышление в ИТ-сф
+ ере)\, четн.неделя группа №1\,нечетн.нед г
+ руппа №2 Лучкина Е.Ю. в 1110 (10.09 не будет) \nв
+ ведение в облачные технологии (Технолог
+ ическое предпринимательство и управлен
+ ие продуктами)\, Семенова Ж.Г. в 1309
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Конфликтология лек. 9 нед.
+DTSTART;TZID=Europe/Moscow:20260904T135000
+DTEND;TZID=Europe/Moscow:20260904T152000
+DTSTAMP:20260905T171128Z
+UID:1166a79a485d36712ac004fabefb93f4f89d14d8@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261030T205959Z
+DESCRIPTION:Дисциплины по выбору:\nКонфликтол
+ огия лек. 9 нед. Иванов А.В. \, с 10 нед прак. 
+ Иванов Г.А. (вебинары)\nПсихология управл
+ ения\, Зайнуллин А.Э. 1-9 нед. гр.№4\, с 10 нед.
+  гр.№5 (вебинары)\nПолитология\, Остроумов
+  А.И. лек. 1-9 нед. прак.с 10 нед.в 1303 (список с
+ тудентов)\nhttps://telemost.360.yandex.ru/j/9475070249
+LOCATION:https://telemost.360.yandex.ru/j/9475070249
+URL:https://telemost.360.yandex.ru/j/9475070249
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Дополнительные главы дискретной ма
+ тематики
+DTSTART;TZID=Europe/Moscow:20260904T191000
+DTEND;TZID=Europe/Moscow:20260904T204000
+DTSTAMP:20260905T171128Z
+UID:07876b26e737acbf967b210801e65f07ea8c8a71@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору:\nФункционал
+ ьное программирование (Erlang)\, Фролов Д.Д. 
+ в 1509\nДополнительные главы дискретной ма
+ тематики\, Лернер Э.Ю. в 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Мультимедиа
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171128Z
+UID:fff2f528d6a9c8a4f161d3adecfb5d1937808411@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплины по выбору:\nОсобенност
+ и разработки мультимедийных приложений
+ \, Газизов Р.Р. в 1306\nРазработка техническ
+ ой документации (Дизайн-мышление в ИТ-сф
+ ере)\,  четн.неделя группа №1 \,нечетн.нед 
+ группа №2  Лучкина Е.Ю. в 1110 (10.09 не будет)\n
+ Введение в облачные технологии (Техноло
+ гическое предпринимательство и управле
+ ние продуктами)\, Семенова Ж.Г. в 1309
+LOCATION:1306
+END:VEVENT
+END:VCALENDAR

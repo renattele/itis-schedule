@@ -1,0 +1,166 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS 11-304_Кирилин Алексей Александр
+ ович
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Теория систем и системный ана
+ лиз
+DTSTART;TZID=Europe/Moscow:20260907T121000
+DTEND;TZID=Europe/Moscow:20260907T134000
+DTSTAMP:20260905T171132Z
+UID:a8460aad70ae6d7cdcdb55e16c5e9aa3b031f001@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+ \nЛипачев Е.К. \n 1311
+LOCATION:1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Культурология
+DTSTART;TZID=Europe/Moscow:20260902T083000
+DTEND;TZID=Europe/Moscow:20260902T100000
+DTSTAMP:20260905T171132Z
+UID:6c1a8be8f3ba2b1e9383ac54ebe73818cc8ae4d5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T083000
+DESCRIPTION:Дисциплины по выбору: \nКультуроло
+ гия\, Сыченкова Л.А. в 47 ауд. ул.Лево-Булач
+ ная\,44  (список студентов)\nhttps://disk.360.yandex.ru/
+ i/IjCFQvyHzoSTlA
+LOCATION:https://disk.360.yandex.ru/i/IjCFQvyHzoSTlA
+URL:https://disk.360.yandex.ru/i/IjCFQvyHzoSTlA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Теория систем и системный ана
+ лиз
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171132Z
+UID:71080f46fbd45824e167171bda7642ec28b8a90a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261026T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+  Липачев Е.К.\, \n1-9 нед.\n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Технологии искусственного ин
+ теллекта
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20260905T171132Z
+UID:6ca9268849effd0ecda850eec42b340ca9145a0d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Агафонов А.А.\,\n ауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Разработка технической докум
+ ентации (Дизайн-мышление в ИТ-сфере)\, чет
+ н.неделя группа №1\,нечетн.нед
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260905T171132Z
+UID:b0000efdf77c04680426bd96a1efa0dddd512feb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261224T205959Z
+EXDATE;TZID=Europe/Moscow:20260910T173000
+EXDATE;TZID=Europe/Moscow:20260924T173000
+EXDATE;TZID=Europe/Moscow:20261008T173000
+EXDATE;TZID=Europe/Moscow:20261022T173000
+EXDATE;TZID=Europe/Moscow:20261105T173000
+EXDATE;TZID=Europe/Moscow:20261119T173000
+EXDATE;TZID=Europe/Moscow:20261203T173000
+EXDATE;TZID=Europe/Moscow:20261217T173000
+DESCRIPTION:Дисциплины по выбору:\nОсобенност
+ и разработки мультимедийных приложений
+ \, Газизов Р.Р. в 1306\nРазработка техническ
+ ой документации (Дизайн-мышление в ИТ-сф
+ ере)\, четн.неделя группа №1\,нечетн.нед г
+ руппа №2 Лучкина Е.Ю. в 1110 (10.09 не будет) \nв
+ ведение в облачные технологии (Технолог
+ ическое предпринимательство и управлен
+ ие продуктами)\, Семенова Ж.Г. в 1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологии искусственного ин
+ теллекта
+DTSTART;TZID=Europe/Moscow:20260901T155000
+DTEND;TZID=Europe/Moscow:20260901T172000
+DTSTAMP:20260905T171132Z
+UID:66abb1d5118ec080662d32b66911254a052b6493@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Макаров Р.В.  1508
+LOCATION:1508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Скриптинг\, визуализация (Frontend
+ )
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171132Z
+UID:0ed33b741fc07173be40998286928f9e4eebd6e9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nФункциональное программир
+ ование (Blockchain)\, Хайруллин А.Ф. в 1304\nСкрип
+ тинг\, визуализация (Frontend)\, Зайцева Д.А. (в
+ ебинары)\nПроектный практикум по роботот
+ ехнике. Часть 1 (Robotics)\, Загиров А.И. в 1308 (в
+ ебинары)\nhttps://t.me/+PrB9E2UA0rwxODYy
+LOCATION:https://t.me/+PrB9E2UA0rwxODYy
+URL:https://t.me/+PrB9E2UA0rwxODYy
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Разработка технической докум
+ ентации (Дизайн-мышление в ИТ-сфере)\,  че
+ тн.неделя группа №1 \,нечетн.нед
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171132Z
+UID:8cedc04b0e9b61c77d507d022037bba792309d05@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261224T205959Z
+EXDATE;TZID=Europe/Moscow:20260910T191000
+EXDATE;TZID=Europe/Moscow:20260924T191000
+EXDATE;TZID=Europe/Moscow:20261008T191000
+EXDATE;TZID=Europe/Moscow:20261022T191000
+EXDATE;TZID=Europe/Moscow:20261105T191000
+EXDATE;TZID=Europe/Moscow:20261119T191000
+EXDATE;TZID=Europe/Moscow:20261203T191000
+EXDATE;TZID=Europe/Moscow:20261217T191000
+DESCRIPTION:Дисциплины по выбору:\nОсобенност
+ и разработки мультимедийных приложений
+ \, Газизов Р.Р. в 1306\nРазработка техническ
+ ой документации (Дизайн-мышление в ИТ-сф
+ ере)\,  четн.неделя группа №1 \,нечетн.нед 
+ группа №2  Лучкина Е.Ю. в 1110 (10.09 не будет)\n
+ Введение в облачные технологии (Техноло
+ гическое предпринимательство и управле
+ ние продуктами)\, Семенова Ж.Г. в 1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Скриптинг\, визуализация (Frontend
+ )
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171132Z
+UID:e3cfd79adeedf4e0b0f410145b64048e06414d76@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nСкриптинг\, визуализация (Fro
+ ntend)\, Зайцева Д.А. (вебинары)\nФункциональ
+ ное программирование (Blockchain)\, Хайруллин 
+ А.Ф. в 1304\nПроектный практикум по роботот
+ ехнике. Часть 1 (Robotics)\, Загиров А.И. в 1308 (в
+ ебинары)\nhttps://t.me/+PrB9E2UA0rwxODYy
+LOCATION:https://t.me/+PrB9E2UA0rwxODYy
+URL:https://t.me/+PrB9E2UA0rwxODYy
+END:VEVENT
+END:VCALENDAR

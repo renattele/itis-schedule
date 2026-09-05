@@ -1,0 +1,111 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Избранные главы обработки текстов н
+ а естественном языке
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20260905T171123Z
+UID:abff5544629a402718bdc632c7b01ee30bc60b1e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Избранные главы обработки тексто
+ в на естественном языке Хаялеева И. https://t
+ elemost.360.yandex.ru/j/0601793278\nhttps://telemost.360.yandex.ru/j/06017
+ 93278
+LOCATION:360
+URL:https://telemost.360.yandex.ru/j/0601793278
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Оценка рисков и экономической эффек
+ тивности применения искусственного инт
+ еллекта
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260905T171123Z
+UID:132c35f4a1d4fb9f6af82d0bd9fad619b2118fc7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Оценка рисков и экономической эфф
+ ективности применения искусственного и
+ нтеллекта Лукьяничева Е.О. https://my.mts-link.ru/j/
+ 91499745/787051350/stream-new/825718755\nhttps://my.mts-link.ru/j/91499745
+ /787051350/stream-new/825718755
+LOCATION:https://my.mts-link.ru/j/91499745/787051350/stream-new/825718755
+URL:https://my.mts-link.ru/j/91499745/787051350/stream-new/825718755
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Социальные и антропологические воп
+ росы искусственного интеллекта
+DTSTART;TZID=Europe/Moscow:20260901T173000
+DTEND;TZID=Europe/Moscow:20260901T190000
+DTSTAMP:20260905T171123Z
+UID:80ee03afac573e0aaa38f2c4a679725dd76b5cb6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Социальные и антропологические в
+ опросы искусственного интеллекта Котля
+ р П.С. https://telemost.360.yandex.ru/j/1450720678\nhttps://telemost.36
+ 0.yandex.ru/j/1450720678
+LOCATION:360
+URL:https://telemost.360.yandex.ru/j/1450720678
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Избранные главы компьютерного зрен
+ ия
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260905T171123Z
+UID:1dc7370e29e52205316a4522256aab0856f25958@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260908T205959Z
+DESCRIPTION:Избранные главы компьютерного зр
+ ения Тощев А.С.со 2 нед\nhttps://kpfu.mts-link.ru/j/834101
+ 97/1518935588\nhttps://kpfu.mts-link.ru/j/83410197/1518935588
+LOCATION:https://kpfu.mts-link.ru/j/83410197/1518935588
+URL:https://kpfu.mts-link.ru/j/83410197/1518935588
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Технологии и инфраструктуры работы 
+ с хранилищами данных
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171123Z
+UID:b1f40b241357a3f0cb42666fb17cd68c1b451c75@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Технологии и инфраструктуры рабо
+ ты с хранилищами данных Батыров И.И. https://
+ telemost.yandex.ru/j/5224892651\nhttps://telemost.yandex.ru/j/5224892651
+LOCATION:https://telemost.yandex.ru/j/5224892651
+URL:https://telemost.yandex.ru/j/5224892651
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Машинное понимание
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171123Z
+UID:8437166c502ecdffd15f2e983210acc84e5b4fd2@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Машинное понимание Таланов М.О .http
+ s://telemost.360.yandex.ru/j/6984063080\nhttps://telemost.360.yandex.ru/j/
+ 6984063080
+LOCATION:360
+URL:https://telemost.360.yandex.ru/j/6984063080
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Проектная практика
+DTSTART;TZID=Europe/Moscow:20260903T155000
+DTEND;TZID=Europe/Moscow:20260903T172000
+DTSTAMP:20260905T171123Z
+UID:375fc11e858749c02812229bbf1434e5c934a3a3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Проектная практика Фатхутдинова 
+ И.И. https://kpfu.mts-link.ru/j/116527817/99483909\nhttps://kpfu.mts-lin
+ k.ru/j/116527817/99483909
+LOCATION:https://kpfu.mts-link.ru/j/116527817/99483909
+URL:https://kpfu.mts-link.ru/j/116527817/99483909
+END:VEVENT
+END:VCALENDAR

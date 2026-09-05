@@ -1,0 +1,90 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Групповая динамика и коммуникации в
+  ком.разработке\, лек.
+DTSTART;TZID=Europe/Moscow:20260907T121000
+DTEND;TZID=Europe/Moscow:20260907T134000
+DTSTAMP:20260905T171122Z
+UID:3d6ecc6bd9582d64732ea1a7bc626904cced0b74@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Групповая динамика и коммуникаци
+ и в ком.разработке\, лек.\nКамалова А.А. \n(Ц
+ ОР)\n(вебинары)\n1409\n7 сентября Не будет\nhttps
+ ://edu.kpfu.ru/course/view.php?id=7128
+LOCATION:1409
+URL:https://edu.kpfu.ru/course/view.php?id=7128
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Групповая динамика и коммуникации в
+  ком.разработке\, лек.
+DTSTART;TZID=Europe/Moscow:20260907T135000
+DTEND;TZID=Europe/Moscow:20260907T152000
+DTSTAMP:20260905T171122Z
+UID:d4d7cd76d94f1e6d319496a404d52653a5ff9bd1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Групповая динамика и коммуникаци
+ и в ком.разработке\, лек.\nКамалова А.А. \n(Ц
+ ОР)\n(вебинары)\n1409\n7 сентября Не будет\nhttps
+ ://edu.kpfu.ru/course/view.php?id=7128
+LOCATION:1409
+URL:https://edu.kpfu.ru/course/view.php?id=7128
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:БЖД
+DTSTART;TZID=Europe/Moscow:20260903T083000
+DTEND;TZID=Europe/Moscow:20260903T100000
+DTSTAMP:20260905T171122Z
+UID:8cc36c7f02912912d15dc0915dff057c3c26bca5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:БЖД\nЛекция 1-4н- \nБиктемирова Элла 
+ Ильдаровна\n(вебинары)\nв 1310\nhttps://telemost.360.ya
+ ndex.ru/j/6983240473
+LOCATION:1310
+URL:https://telemost.360.yandex.ru/j/6983240473
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Компьютерные сети
+DTSTART;TZID=Europe/Moscow:20260903T121000
+DTEND;TZID=Europe/Moscow:20260903T134000
+DTSTAMP:20260905T171122Z
+UID:9a57c24a570abf54eeecf9d249573493cb0f8d45@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Компьютерные сети\,\nМулюков Р.И.\nл
+ ек. в 1412\n\n (ЦОР)\n(вебинары)\nhttps://edu.kpfu.ru/course
+ /view.php?id=7125
+LOCATION:1412
+URL:https://edu.kpfu.ru/course/view.php?id=7125
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Программная инженерия
+DTSTART;TZID=Europe/Moscow:20260904T155000
+DTEND;TZID=Europe/Moscow:20260904T172000
+DTSTAMP:20260905T171122Z
+UID:fc5b87c7fe02d181a7c910f6094de9488d60cf8c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261030T205959Z
+DESCRIPTION:Программная инженерия\, \nКоростел
+ ева Д.М.\n(1-9 нед.) лек. \n(ЦОР)\n(вебинары)\n1302
+ \nhttps://edu.kpfu.ru/course/view.php?id=6748
+LOCATION:1302
+URL:https://edu.kpfu.ru/course/view.php?id=6748
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информационная безопасность\, лек.
+DTSTART;TZID=Europe/Moscow:20260905T083000
+DTEND;TZID=Europe/Moscow:20260905T100000
+DTSTAMP:20260905T171122Z
+UID:1bf271763bf7440863b2c5a695d1c8d9f4095a8a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Информационная безопасность\, лек
+ .\nМулюков Р.И.\,  1405 \n(вебинары)\nhttps://telemost.36
+ 0.yandex.ru/j/1507748037
+LOCATION:1405
+URL:https://telemost.360.yandex.ru/j/1507748037
+END:VEVENT
+END:VCALENDAR

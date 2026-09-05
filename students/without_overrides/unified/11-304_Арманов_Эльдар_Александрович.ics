@@ -1,0 +1,171 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS 11-304_Арманов Эльдар Александро
+ вич
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Теория систем и системный ана
+ лиз
+DTSTART;TZID=Europe/Moscow:20260907T121000
+DTEND;TZID=Europe/Moscow:20260907T134000
+DTSTAMP:20260905T171131Z
+UID:8b5f5ac1ab201c6a33c079cd5b74a140e85aa5ef@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+ \nЛипачев Е.К. \n 1311
+LOCATION:1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Введение в облачные технологи
+ и
+DTSTART;TZID=Europe/Moscow:20260905T121000
+DTEND;TZID=Europe/Moscow:20260905T134000
+DTSTAMP:20260905T171131Z
+UID:eea1f98f5ef1692b8713dca111c56d190d5eacdc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Дисциплина по выбору: \nВведение в 
+ облачные технологии\, Валиуллин Р.М. (веб
+ инары) в 1311\nhttps://my.mts-link.ru/j/82090677/23990321542
+LOCATION:1311
+URL:https://my.mts-link.ru/j/82090677/23990321542
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Теория систем и системный ана
+ лиз
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171131Z
+UID:83a5218ce20ea124fbbee96ae3ba8ad64e73d005@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261026T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+  Липачев Е.К.\, \n1-9 нед.\n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Технологии искусственного ин
+ теллекта
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20260905T171131Z
+UID:b919c45400efce92a68d8d9a4f790eaeab978b06@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Агафонов А.А.\,\n ауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Психология управления с 10 нед.
+ прак.гр.№3  (вебинары)
+DTSTART;TZID=Europe/Moscow:20261105T155000
+DTEND;TZID=Europe/Moscow:20261105T172000
+DTSTAMP:20260905T171131Z
+UID:654d80f7e25bee67b8c38f73e198fac76661a82f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПсихология 
+ управления\, прак. (1-9нед.) гр.№2 Зайнуллин
+  А.Э. \, с 10 нед.прак.гр.№3  (вебинары) \nПрав
+ овые основы информатизации\, Никитин Д.В.
+  в 1412 (список студентов)\nhttps://telemost.yandex.ru/j/6
+ 9303139806404
+LOCATION:https://telemost.yandex.ru/j/69303139806404
+URL:https://telemost.yandex.ru/j/69303139806404
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Введение в облачные технологи
+ и
+DTSTART;TZID=Europe/Moscow:20260905T135000
+DTEND;TZID=Europe/Moscow:20260905T152000
+DTSTAMP:20260905T171131Z
+UID:d3cefaa25879c686ad55acc0aa87c6a39921aa43@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Дисциплина по выбору:\nВведение в 
+ облачные технологии\, Валиуллин Р.М. (веб
+ инары) в 1311\nhttps://my.mts-link.ru/j/82090677/23990321542
+LOCATION:1311
+URL:https://my.mts-link.ru/j/82090677/23990321542
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологии искусственного ин
+ теллекта
+DTSTART;TZID=Europe/Moscow:20260901T155000
+DTEND;TZID=Europe/Moscow:20260901T172000
+DTSTAMP:20260905T171131Z
+UID:4f1fde13513f085d22f84f2374a48bfcd7c2c61c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Макаров Р.В.  1508
+LOCATION:1508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Функциональное программирова
+ ние (Blockchain)
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171131Z
+UID:ce899f46805e8d4064afd11886a5d577a720a8bb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nСкриптинг\, визуализация (Fro
+ ntend)\, Зайцева Д.А. (вебинары)\nФункциональ
+ ное программирование (Blockchain)\, Хайруллин 
+ А.Ф. в 1304\nПроектный практикум по роботот
+ ехнике. Часть 1 (Robotics)\, Загиров А.И. в 1308 (в
+ ебинары)
+LOCATION:1304
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Психология управления (1-9 нед.)
+DTSTART;TZID=Europe/Moscow:20260903T101000
+DTEND;TZID=Europe/Moscow:20260903T114000
+DTSTAMP:20260905T171131Z
+UID:b5dbf5e196dedcb3356e480df9c6305a528e75d6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПсихология 
+ управления (1-9 нед.) Пучкова И.М. (вебинары
+ )\, с 10 нед. прак. гр.№1 Зайнуллин А.Э. (веби
+ нары)\nhttps://telemost.yandex.ru/j/17069658637666
+LOCATION:https://telemost.yandex.ru/j/17069658637666
+URL:https://telemost.yandex.ru/j/17069658637666
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Психология гр.№2 с 1 по 9 нед.пр
+ ак
+DTSTART;TZID=Europe/Moscow:20260904T083000
+DTEND;TZID=Europe/Moscow:20260904T100000
+DTSTAMP:20260905T171131Z
+UID:5beff0d55140aaf0053e0a6f502aa7b926b0e510@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261030T205959Z
+DESCRIPTION:Дисциплины по выбору: \nПсихология
+  личной эффективности\,практика группа 
+ №2  с 10 нед.Добротворская С.Г. в 1405 \nПсихо
+ логия гр.№2 с 1 по 9 нед.прак\, гр.№3 с 10 нед.
+ прак. Румянцева Г.Д. (вебинары)\nhttps://telemost.y
+ andex.ru/j/65393423127887
+LOCATION:https://telemost.yandex.ru/j/65393423127887
+URL:https://telemost.yandex.ru/j/65393423127887
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Функциональное программирова
+ ние (Blockchain)
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171131Z
+UID:c0961c24c7a7fc504d79ffeb478a5eb375912639@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nФункциональное программир
+ ование (Blockchain)\, Хайруллин А.Ф. в 1304\nСкрип
+ тинг\, визуализация (Frontend)\, Зайцева Д.А. (в
+ ебинары)\nПроектный практикум по роботот
+ ехнике. Часть 1 (Robotics)\, Загиров А.И. в 1308 (в
+ ебинары)
+LOCATION:1304
+END:VEVENT
+END:VCALENDAR

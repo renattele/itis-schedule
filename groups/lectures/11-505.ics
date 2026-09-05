@@ -1,0 +1,500 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Введение в фулстек-разработку (Fullstack
+  Web Development)
+DTSTART;TZID=Europe/Moscow:20260907T083000
+DTEND;TZID=Europe/Moscow:20260907T100000
+DTSTAMP:20260905T171120Z
+UID:a4e5702d6993ca30ddc2dda3df6a4f49e6489b08@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплины по выбору:\n\nВведение в
+  фулстек-разработку (Fullstack Web Development)\, Фат
+ тахов А.Д. в 1508
+LOCATION:1508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в фулстек-разработку (Fullstack
+  Web Development)
+DTSTART;TZID=Europe/Moscow:20260907T101000
+DTEND;TZID=Europe/Moscow:20260907T114000
+DTSTAMP:20260905T171120Z
+UID:848b6257975fab77365eb16679311599465497e1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплины по выбору:\n\nВведение в
+  фулстек-разработку (Fullstack Web Development)\, Фат
+ тахов А.Д. в 1508
+LOCATION:1508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20260905T171120Z
+UID:564557cd5990e89173668f3d62c0737b85070b18@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту \, 16:00 - 17:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в корпоративную разработк
+ у (Java)
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171120Z
+UID:95f9cefbf52051fc3ba2ec323e4b7c65ddbeabb2@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплины по выбору:\nВведение в 
+ корпоративную разработку (Java)\, Хасанов А
+ .Р. (онлайн)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Экономика\, лекции\, четн. нед.
+DTSTART;TZID=Europe/Moscow:20260908T121000
+DTEND;TZID=Europe/Moscow:20260908T134000
+DTSTAMP:20260905T171120Z
+UID:0eeb8723044c29ee5b48011593d5b490bed751ea@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+EXDATE;TZID=Europe/Moscow:20260915T121000
+EXDATE;TZID=Europe/Moscow:20260929T121000
+EXDATE;TZID=Europe/Moscow:20261013T121000
+EXDATE;TZID=Europe/Moscow:20261027T121000
+EXDATE;TZID=Europe/Moscow:20261110T121000
+EXDATE;TZID=Europe/Moscow:20261124T121000
+EXDATE;TZID=Europe/Moscow:20261208T121000
+EXDATE;TZID=Europe/Moscow:20261222T121000
+DESCRIPTION:Экономика\, лекции\, четн. нед. Бага
+ утдинова Н.Г.\,\n ауд. 109
+LOCATION:109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в  корпоративную разработк
+ у (Java)
+DTSTART;TZID=Europe/Moscow:20260901T173000
+DTEND;TZID=Europe/Moscow:20260901T190000
+DTSTAMP:20260905T171120Z
+UID:dd5acd5bad3399588f900c33ddcc8b641121c41f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплины по выбору:\nВведение в  
+ корпоративную разработку (Java)\, Кондрать
+ ев А.А. в 1409 \nВведение в фронтенд-разрабо
+ тку\, Морозова А.Э. в 1307\nВведение в разраб
+ отку мобильных приложений (Android)\, Фасхет
+ динов Р.Р. в 1308\nВведение в корпоративную 
+ разработку .NET\, Живова Е.Б. в 1110\nВведение 
+ в бэкенд-разработку Django\,  Дубровец В.О. в 
+ 1509\nВведение в разработку игровых прилож
+ ений (Введение в разработку приложений в
+  Unity)\, Хафизов М.Р. в 1408\nВведение в програ
+ ммирование на С++\, Аббясов Б.Р. в 1301
+LOCATION:1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в фронтенд-разработку
+DTSTART;TZID=Europe/Moscow:20260901T173000
+DTEND;TZID=Europe/Moscow:20260901T190000
+DTSTAMP:20260905T171120Z
+UID:2cbfd54f4464d70acee13e87baa1da6b26d4d7bb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплины по выбору:\nВведение в  
+ корпоративную разработку (Java)\, Кондрать
+ ев А.А. в 1409 \nВведение в фронтенд-разрабо
+ тку\, Морозова А.Э. в 1307\nВведение в разраб
+ отку мобильных приложений (Android)\, Фасхет
+ динов Р.Р. в 1308\nВведение в корпоративную 
+ разработку .NET\, Живова Е.Б. в 1110\nВведение 
+ в бэкенд-разработку Django\,  Дубровец В.О. в 
+ 1509\nВведение в разработку игровых прилож
+ ений (Введение в разработку приложений в
+  Unity)\, Хафизов М.Р. в 1408\nВведение в програ
+ ммирование на С++\, Аббясов Б.Р. в 1301
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в разработку мобильных при
+ ложений (Android)
+DTSTART;TZID=Europe/Moscow:20260901T173000
+DTEND;TZID=Europe/Moscow:20260901T190000
+DTSTAMP:20260905T171120Z
+UID:e996a512a12fe74b2c26147dfc2413e2c7255807@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплины по выбору:\nВведение в  
+ корпоративную разработку (Java)\, Кондрать
+ ев А.А. в 1409 \nВведение в фронтенд-разрабо
+ тку\, Морозова А.Э. в 1307\nВведение в разраб
+ отку мобильных приложений (Android)\, Фасхет
+ динов Р.Р. в 1308\nВведение в корпоративную 
+ разработку .NET\, Живова Е.Б. в 1110\nВведение 
+ в бэкенд-разработку Django\,  Дубровец В.О. в 
+ 1509\nВведение в разработку игровых прилож
+ ений (Введение в разработку приложений в
+  Unity)\, Хафизов М.Р. в 1408\nВведение в програ
+ ммирование на С++\, Аббясов Б.Р. в 1301
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в корпоративную разработк
+ у .NET
+DTSTART;TZID=Europe/Moscow:20260901T173000
+DTEND;TZID=Europe/Moscow:20260901T190000
+DTSTAMP:20260905T171120Z
+UID:57669692e3edc1b4d5edf3d88bb76a678952e648@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплины по выбору:\nВведение в  
+ корпоративную разработку (Java)\, Кондрать
+ ев А.А. в 1409 \nВведение в фронтенд-разрабо
+ тку\, Морозова А.Э. в 1307\nВведение в разраб
+ отку мобильных приложений (Android)\, Фасхет
+ динов Р.Р. в 1308\nВведение в корпоративную 
+ разработку .NET\, Живова Е.Б. в 1110\nВведение 
+ в бэкенд-разработку Django\,  Дубровец В.О. в 
+ 1509\nВведение в разработку игровых прилож
+ ений (Введение в разработку приложений в
+  Unity)\, Хафизов М.Р. в 1408\nВведение в програ
+ ммирование на С++\, Аббясов Б.Р. в 1301
+LOCATION:1110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в бэкенд-разработку Django
+DTSTART;TZID=Europe/Moscow:20260901T173000
+DTEND;TZID=Europe/Moscow:20260901T190000
+DTSTAMP:20260905T171120Z
+UID:93ed8f1b69b772b4943b2ad81c3ef8d4f1901ea6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплины по выбору:\nВведение в  
+ корпоративную разработку (Java)\, Кондрать
+ ев А.А. в 1409 \nВведение в фронтенд-разрабо
+ тку\, Морозова А.Э. в 1307\nВведение в разраб
+ отку мобильных приложений (Android)\, Фасхет
+ динов Р.Р. в 1308\nВведение в корпоративную 
+ разработку .NET\, Живова Е.Б. в 1110\nВведение 
+ в бэкенд-разработку Django\,  Дубровец В.О. в 
+ 1509\nВведение в разработку игровых прилож
+ ений (Введение в разработку приложений в
+  Unity)\, Хафизов М.Р. в 1408\nВведение в програ
+ ммирование на С++\, Аббясов Б.Р. в 1301
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в разработку игровых прило
+ жений (Введение в разработку приложений 
+ в Unity)
+DTSTART;TZID=Europe/Moscow:20260901T173000
+DTEND;TZID=Europe/Moscow:20260901T190000
+DTSTAMP:20260905T171120Z
+UID:4076637e85923104347844c3e356101f9fff2a65@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплины по выбору:\nВведение в  
+ корпоративную разработку (Java)\, Кондрать
+ ев А.А. в 1409 \nВведение в фронтенд-разрабо
+ тку\, Морозова А.Э. в 1307\nВведение в разраб
+ отку мобильных приложений (Android)\, Фасхет
+ динов Р.Р. в 1308\nВведение в корпоративную 
+ разработку .NET\, Живова Е.Б. в 1110\nВведение 
+ в бэкенд-разработку Django\,  Дубровец В.О. в 
+ 1509\nВведение в разработку игровых прилож
+ ений (Введение в разработку приложений в
+  Unity)\, Хафизов М.Р. в 1408\nВведение в програ
+ ммирование на С++\, Аббясов Б.Р. в 1301
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:С++
+DTSTART;TZID=Europe/Moscow:20260901T173000
+DTEND;TZID=Europe/Moscow:20260901T190000
+DTSTAMP:20260905T171120Z
+UID:e07621e779b5acfd830dba6b85b5d13adf12e543@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплины по выбору:\nВведение в  
+ корпоративную разработку (Java)\, Кондрать
+ ев А.А. в 1409 \nВведение в фронтенд-разрабо
+ тку\, Морозова А.Э. в 1307\nВведение в разраб
+ отку мобильных приложений (Android)\, Фасхет
+ динов Р.Р. в 1308\nВведение в корпоративную 
+ разработку .NET\, Живова Е.Б. в 1110\nВведение 
+ в бэкенд-разработку Django\,  Дубровец В.О. в 
+ 1509\nВведение в разработку игровых прилож
+ ений (Введение в разработку приложений в
+  Unity)\, Хафизов М.Р. в 1408\nВведение в програ
+ ммирование на С++\, Аббясов Б.Р. в 1301
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в  корпоративную разработк
+ у (Java)
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260905T171120Z
+UID:a3851a4f9a0868578cc6bc10b3028eda247526d3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплины по выбору:\nВведение в  
+ корпоративную разработку (Java)\, Кондрать
+ ев А.А. в 1409 \nВведение в фронтенд-разрабо
+ тку\, Морозова А.Э. в 1307\nВведение в разраб
+ отку мобильных приложений (Android)\, Фасхет
+ динов Р.Р. в 1308\nВведение в корпоративную 
+ разработку .NET\, Живова Е.Б. в 1110\nВведение 
+ в бэкенд-разработку Django\,  Дубровец В.О. в 
+ 1509 \nВведение в разработку игровых прило
+ жений (Введение в разработку приложений 
+ в Unity)\, Хафизов М.Р. в 1408\nВведение в прогр
+ аммирование на С++\, Аббясов Б.Р. в 1301
+LOCATION:1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в фронтенд-разработку
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260905T171120Z
+UID:fcda764bd01c9ce4bbe3f96c311a6c557aca8978@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплины по выбору:\nВведение в  
+ корпоративную разработку (Java)\, Кондрать
+ ев А.А. в 1409 \nВведение в фронтенд-разрабо
+ тку\, Морозова А.Э. в 1307\nВведение в разраб
+ отку мобильных приложений (Android)\, Фасхет
+ динов Р.Р. в 1308\nВведение в корпоративную 
+ разработку .NET\, Живова Е.Б. в 1110\nВведение 
+ в бэкенд-разработку Django\,  Дубровец В.О. в 
+ 1509 \nВведение в разработку игровых прило
+ жений (Введение в разработку приложений 
+ в Unity)\, Хафизов М.Р. в 1408\nВведение в прогр
+ аммирование на С++\, Аббясов Б.Р. в 1301
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в разработку мобильных при
+ ложений (Android)
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260905T171120Z
+UID:f7d5269c178699cb87eb24f86101bf4ef774c9b9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплины по выбору:\nВведение в  
+ корпоративную разработку (Java)\, Кондрать
+ ев А.А. в 1409 \nВведение в фронтенд-разрабо
+ тку\, Морозова А.Э. в 1307\nВведение в разраб
+ отку мобильных приложений (Android)\, Фасхет
+ динов Р.Р. в 1308\nВведение в корпоративную 
+ разработку .NET\, Живова Е.Б. в 1110\nВведение 
+ в бэкенд-разработку Django\,  Дубровец В.О. в 
+ 1509 \nВведение в разработку игровых прило
+ жений (Введение в разработку приложений 
+ в Unity)\, Хафизов М.Р. в 1408\nВведение в прогр
+ аммирование на С++\, Аббясов Б.Р. в 1301
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в корпоративную разработк
+ у .NET
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260905T171120Z
+UID:0a7e2afc8f0bacea40b147231450555678d0849e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплины по выбору:\nВведение в  
+ корпоративную разработку (Java)\, Кондрать
+ ев А.А. в 1409 \nВведение в фронтенд-разрабо
+ тку\, Морозова А.Э. в 1307\nВведение в разраб
+ отку мобильных приложений (Android)\, Фасхет
+ динов Р.Р. в 1308\nВведение в корпоративную 
+ разработку .NET\, Живова Е.Б. в 1110\nВведение 
+ в бэкенд-разработку Django\,  Дубровец В.О. в 
+ 1509 \nВведение в разработку игровых прило
+ жений (Введение в разработку приложений 
+ в Unity)\, Хафизов М.Р. в 1408\nВведение в прогр
+ аммирование на С++\, Аббясов Б.Р. в 1301
+LOCATION:1110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в бэкенд-разработку Django
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260905T171120Z
+UID:89a1441686fd2cb1220c65f9a879fdc29a963128@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплины по выбору:\nВведение в  
+ корпоративную разработку (Java)\, Кондрать
+ ев А.А. в 1409 \nВведение в фронтенд-разрабо
+ тку\, Морозова А.Э. в 1307\nВведение в разраб
+ отку мобильных приложений (Android)\, Фасхет
+ динов Р.Р. в 1308\nВведение в корпоративную 
+ разработку .NET\, Живова Е.Б. в 1110\nВведение 
+ в бэкенд-разработку Django\,  Дубровец В.О. в 
+ 1509 \nВведение в разработку игровых прило
+ жений (Введение в разработку приложений 
+ в Unity)\, Хафизов М.Р. в 1408\nВведение в прогр
+ аммирование на С++\, Аббясов Б.Р. в 1301
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в разработку игровых прило
+ жений (Введение в разработку приложений 
+ в Unity)
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260905T171120Z
+UID:d71719c104d59bf9b0654091a116b18393303a39@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплины по выбору:\nВведение в  
+ корпоративную разработку (Java)\, Кондрать
+ ев А.А. в 1409 \nВведение в фронтенд-разрабо
+ тку\, Морозова А.Э. в 1307\nВведение в разраб
+ отку мобильных приложений (Android)\, Фасхет
+ динов Р.Р. в 1308\nВведение в корпоративную 
+ разработку .NET\, Живова Е.Б. в 1110\nВведение 
+ в бэкенд-разработку Django\,  Дубровец В.О. в 
+ 1509 \nВведение в разработку игровых прило
+ жений (Введение в разработку приложений 
+ в Unity)\, Хафизов М.Р. в 1408\nВведение в прогр
+ аммирование на С++\, Аббясов Б.Р. в 1301
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:С++
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260905T171120Z
+UID:b558b7a1bc2a79577f605f3af4b1f2a21efdc3eb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплины по выбору:\nВведение в  
+ корпоративную разработку (Java)\, Кондрать
+ ев А.А. в 1409 \nВведение в фронтенд-разрабо
+ тку\, Морозова А.Э. в 1307\nВведение в разраб
+ отку мобильных приложений (Android)\, Фасхет
+ динов Р.Р. в 1308\nВведение в корпоративную 
+ разработку .NET\, Живова Е.Б. в 1110\nВведение 
+ в бэкенд-разработку Django\,  Дубровец В.О. в 
+ 1509 \nВведение в разработку игровых прило
+ жений (Введение в разработку приложений 
+ в Unity)\, Хафизов М.Р. в 1408\nВведение в прогр
+ аммирование на С++\, Аббясов Б.Р. в 1301
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260902T101000
+DTEND;TZID=Europe/Moscow:20260902T114000
+DTSTAMP:20260905T171120Z
+UID:a93b8f4632e0b793d042d55fc8340b3309ffb725@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T101000
+DESCRIPTION:Иностранный язык: Бибик Е.А. в 1301\, 
+ Булина Е.Н. в 1302\, Муфазалова Н.И. в 1303\, Таг
+ иров Р.М. в 1304\, Шарифуллина Э.А. в 1305\, Гати
+ ятуллина Г.М. в 1412
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260902T121000
+DTEND;TZID=Europe/Moscow:20260902T134000
+DTSTAMP:20260905T171120Z
+UID:f09f94705a9aa817d8cae5134372be0d81aabeaf@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T121000
+DESCRIPTION:Иностранный язык: Бибик Е.А. в 1301\, 
+ Булина Е.Н. в 1302\, Муфазалова Н.И. в 1303\, Таг
+ иров Р.М. в 1304\, Шарифуллина Э.А. в 1305\, Гати
+ ятуллина Г.М. в 1412
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Базы данных
+DTSTART;TZID=Europe/Moscow:20260903T121000
+DTEND;TZID=Europe/Moscow:20260903T134000
+DTSTAMP:20260905T171120Z
+UID:f90644c5e3ed4ef3ad49a70b9c120c063c75ea54@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Базы данных\, лекции\, Хайруллин А.
+ Ф.\, ауд. 109
+LOCATION:109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы правоведения и противодейст
+ вия коррупции\, четн.нед.
+DTSTART;TZID=Europe/Moscow:20260910T135000
+DTEND;TZID=Europe/Moscow:20260910T152000
+DTSTAMP:20260905T171120Z
+UID:a74fe90fdeacb30b98a2484066ad731a38f1ebe3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+EXDATE;TZID=Europe/Moscow:20260917T135000
+EXDATE;TZID=Europe/Moscow:20261001T135000
+EXDATE;TZID=Europe/Moscow:20261015T135000
+EXDATE;TZID=Europe/Moscow:20261029T135000
+EXDATE;TZID=Europe/Moscow:20261112T135000
+EXDATE;TZID=Europe/Moscow:20261126T135000
+EXDATE;TZID=Europe/Moscow:20261210T135000
+EXDATE;TZID=Europe/Moscow:20261224T135000
+DESCRIPTION:Основы правоведения и противодей
+ ствия коррупции\, четн.нед.\, Никитин Д.В.\,
+  \nауд. 108
+LOCATION:108
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260903T155000
+DTEND;TZID=Europe/Moscow:20260903T172000
+DTSTAMP:20260905T171120Z
+UID:2ba41c17664c9061213decde71bf964ac796e8e6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС   \n16:00 - 17:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение  в корпоративную разработк
+ у (Java)
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260905T171120Z
+UID:e80eb68c337f02a0fca7c6b37af1febeafc4b732@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплины по выбору:\nВведение  в 
+ корпоративную разработку (Java)\, Хасанов А
+ .Р. в 1508 (в 18:00)
+LOCATION:1508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математика
+DTSTART;TZID=Europe/Moscow:20260904T101000
+DTEND;TZID=Europe/Moscow:20260904T114000
+DTSTAMP:20260905T171120Z
+UID:30a7f6672d881fdc88ee4b31b47146b828e270fd@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Теория вероятностей и математиче
+ ская статистика\, Григорьева И.С.\, ауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260904T121000
+DTEND;TZID=Europe/Moscow:20260904T134000
+DTSTAMP:20260905T171120Z
+UID:04abb450e6248b09e1eb14ca5320203638c7e351@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Иностранный язык в профессиональ
+ ной сфере: Бибик Е.А. в 1301\, Булина Е.Н. в 1302
+ \, Муфазалова Н.И. в 1303\, Тагиров Р.М. в 1304\, 
+ Шарифуллина Э.А. в 1305\, Гатиятуллина Г.М.(4.
+ 09 онлайн) в 1412
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы разработки информационных с
+ истем (Java) лек.
+DTSTART;TZID=Europe/Moscow:20260904T135000
+DTEND;TZID=Europe/Moscow:20260904T152000
+DTSTAMP:20260905T171120Z
+UID:b9f4d3dedc9f594e3bea79d20fec839b6836662a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Основы разработки информационных
+  систем (Java) лек.\, Ференец А.А.\,  ауд. 109\n(4 с
+ ентября не будет)
+LOCATION:109
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,124 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Профессиональный инструментарий ра
+ зработки интерактивных медиа
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20260905T171121Z
+UID:12abb57d7e816472cd9dbe7074ccd0c024112a12@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПрофессион
+ альный инструментарий разработки интер
+ активных медиа \nБольшаков Э.С. \n1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория нарратива: культурные реалии
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171121Z
+UID:943aac36fc36697ffc614c66becf614c61986a9d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплина по выбору: \nТеория нар
+ ратива: культурные реалии \nСолдатова Н.О
+ . \n1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Особенности композиции в искусстве 
+ Востока и Запада
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260905T171121Z
+UID:a36fc8703d5ea26ee4aee1eabef2edb369cd0646@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплина по выбору: \nОсобенност
+ и композиции в искусстве Востока и Запад
+ а  \nЮринов В.Ю. \n1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Проектная практика
+DTSTART;TZID=Europe/Moscow:20260901T135000
+DTEND;TZID=Europe/Moscow:20260901T152000
+DTSTAMP:20260905T171121Z
+UID:8f869542d2b1ce1d43fb1e200bf637141c852ff8@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Проектная практика Кугуракова В.В
+ .в 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Нарративный дизайн
+DTSTART;TZID=Europe/Moscow:20260901T155000
+DTEND;TZID=Europe/Moscow:20260901T172000
+DTSTAMP:20260905T171121Z
+UID:cc02edd5c3cf9a80198eae7fd58cfb0930344291@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Нарративный дизайн Большаков Э.С.
+ в 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Трехмерное моделирование
+DTSTART;TZID=Europe/Moscow:20260903T155000
+DTEND;TZID=Europe/Moscow:20260903T172000
+DTSTAMP:20260905T171121Z
+UID:2885d425db544b4fb77a36202a21f4d5167dd3c7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Трехмерное моделирование Газизов
+  Р.Р. в 1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Игровые интерфейсы
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260905T171121Z
+UID:9d00e8b7d213e18c95acd4a1dffc14ae5e58bc82@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Игровые интерфейсы \nЯрко Е. в 1408 ( 3
+ .09 переносится на 10.09 раз.)
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Профессиональный инструментарий ра
+ зработки интерактивных медиа
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171121Z
+UID:ff783da7703e4a7e253f445498a761eda50433d5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПрофессион
+ альный инструментарий разработки интер
+ активных медиа \nБольшаков Э.С. \n1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Построение процесса разработки про
+ граммного обеспечения
+DTSTART;TZID=Europe/Moscow:20260904T135000
+DTEND;TZID=Europe/Moscow:20260904T152000
+DTSTAMP:20260905T171121Z
+UID:0d46ac96aa45af7f3bd45e60cd88e83c1f4064ac@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Построение процесса разработки п
+ рограммного обеспечения Хафизов М.Р. в а
+ уд.1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Технологии виртуальной и дополненн
+ ой реальности
+DTSTART;TZID=Europe/Moscow:20260904T155000
+DTEND;TZID=Europe/Moscow:20260904T172000
+DTSTAMP:20260905T171121Z
+UID:98e6bbf363de9f2c4692cebf44d5d7dbf6fe0b28@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Технологии виртуальной и дополне
+ нной реальности Кугуракова В.В. в 1408
+LOCATION:1408
+END:VEVENT
+END:VCALENDAR

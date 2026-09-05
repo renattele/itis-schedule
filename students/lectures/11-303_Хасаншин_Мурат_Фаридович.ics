@@ -1,0 +1,105 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Облачные технологии
+DTSTART;TZID=Europe/Moscow:20260908T173000
+DTEND;TZID=Europe/Moscow:20260908T190000
+DTSTAMP:20260905T171127Z
+UID:ef790b4fd4e9a3313fcab0fe411c374cbedbbe79@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплина по выбору:\n\nВведение в
+  облачные технологии (Анализ данных в не
+ фтегазовой сфере) \, Шевченко Д.В. в 1305 (с 8 
+ сентября)\nФункциональное программирова
+ ние (Промышленная разработка\, эксплуата
+ ция и надежность программных систем SRE (Ф
+ ункциональное программирование) Фахрут
+ динов С.Р.  (вебинары)
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Функциональное программирование
+DTSTART;TZID=Europe/Moscow:20260904T191000
+DTEND;TZID=Europe/Moscow:20260904T204000
+DTSTAMP:20260905T171127Z
+UID:2d15769e16d284562bab6d12c3d64f01fac7f1a9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору:\nФункционал
+ ьное программирование (Erlang)\, Фролов Д.Д. 
+ в 1509\nДополнительные главы дискретной ма
+ тематики\, Лернер Э.Ю. в 1408
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория систем
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171127Z
+UID:dd80bc6e58a016e18aecaeefdf3e0e0944194090@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261026T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+  Липачев Е.К.\, \n1-9 нед.\n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ИИ
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20260905T171127Z
+UID:a4a6d2a4e177649ab4c27208e7ee40fa01c774d4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Агафонов А.А.\,\n ауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Функциональное программирование
+DTSTART;TZID=Europe/Moscow:20260904T173000
+DTEND;TZID=Europe/Moscow:20260904T190000
+DTSTAMP:20260905T171127Z
+UID:9dbe85c9c9eca6d775653f0a6ae02c2c13347508@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору:\nДополнител
+ ьные главы дискретной математики\, Лерне
+ р Э.Ю. в 1408\nСкриптинг\, визуализация\, Кос
+ тюк Д.И. в 1309\nФункциональное программиро
+ вание (Erlang)\, Фролов Д.Д. в 1509\nФункциональ
+ ное программирование (Промышленная разр
+ аботка\, эксплуатация и надежность прогр
+ аммных систем SRE (Функциональное програм
+ мирование) Фахрутдинов С.Р.  (вебинары)
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Психология управления (1-9 нед.)
+DTSTART;TZID=Europe/Moscow:20260903T101000
+DTEND;TZID=Europe/Moscow:20260903T114000
+DTSTAMP:20260905T171127Z
+UID:8c1a211a6d3bbea799c8a883bd4d801122106507@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПсихология 
+ управления (1-9 нед.) Пучкова И.М. (вебинары
+ )\, с 10 нед. прак. гр.№1 Зайнуллин А.Э. (веби
+ нары)\nhttps://telemost.yandex.ru/j/17069658637666
+LOCATION:https://telemost.yandex.ru/j/17069658637666
+URL:https://telemost.yandex.ru/j/17069658637666
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Облачные технологии
+DTSTART;TZID=Europe/Moscow:20260908T191000
+DTEND;TZID=Europe/Moscow:20260908T204000
+DTSTAMP:20260905T171127Z
+UID:3a43cebe7eb02615d625158966925eaf76f83f4d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплина по выбору:\n\nВведение в
+  облачные технологии (Анализ данных в не
+ фтегазовой сфере)\, Шевченко Д.В. в 1305 (с 8 
+ сентября)
+LOCATION:1305
+END:VEVENT
+END:VCALENDAR

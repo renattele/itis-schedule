@@ -1,0 +1,174 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS 11-307_Кривошеев Тимур Эмилевич
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Лекц] Технологии искусственного ин
+ теллекта
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171133Z
+UID:6478ddd359c441c3bef74c9ec28d7ba19399cfb6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Агафонов А.А.\, \nауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Введение в облачные технологи
+ и (Анализ данных в нефтегазовой сфере)
+DTSTART;TZID=Europe/Moscow:20260908T173000
+DTEND;TZID=Europe/Moscow:20260908T190000
+DTSTAMP:20260905T171133Z
+UID:1df76433483404b34d17099d7a5cf5deba0cc50a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплина по выбору:\n\nВведение в
+  облачные технологии (Анализ данных в не
+ фтегазовой сфере) \, Шевченко Д.В. в 1305 (с 8 
+ сентября)\nФункциональное программирова
+ ние (Промышленная разработка\, эксплуата
+ ция и надежность программных систем SRE (Ф
+ ункциональное программирование) Фахрут
+ динов С.Р.  (вебинары)
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Дополнительные главы дискрет
+ ной математики
+DTSTART;TZID=Europe/Moscow:20260904T173000
+DTEND;TZID=Europe/Moscow:20260904T190000
+DTSTAMP:20260905T171133Z
+UID:538700a354026143fb44f9ebb6cb89546ed5a000@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору:\nДополнител
+ ьные главы дискретной математики\, Лерне
+ р Э.Ю. в 1408\nСкриптинг\, визуализация\, Кос
+ тюк Д.И. в 1309\nФункциональное программиро
+ вание (Erlang)\, Фролов Д.Д. в 1509\nФункциональ
+ ное программирование (Промышленная разр
+ аботка\, эксплуатация и надежность прогр
+ аммных систем SRE (Функциональное програм
+ мирование) Фахрутдинов С.Р.  (вебинары)
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологии искусственного ин
+ теллекта
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260905T171133Z
+UID:1de112ba191e1c68b5b288793c5887b6f6448009@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, \nВалишин И.А. \n1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Психология управления с 10 нед.
+  гр.№5 (вебинары)
+DTSTART;TZID=Europe/Moscow:20261106T135000
+DTEND;TZID=Europe/Moscow:20261106T152000
+DTSTAMP:20260905T171133Z
+UID:9a261272660fa3e4fc00b70f187956ea5f4e592d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору:\nКонфликтол
+ огия лек. 9 нед. Иванов А.В. \, с 10 нед прак. 
+ Иванов Г.А. (вебинары)\nПсихология управл
+ ения\, Зайнуллин А.Э. 1-9 нед. гр.№4\, с 10 нед.
+  гр.№5 (вебинары)\nПолитология\, Остроумов
+  А.И. лек. 1-9 нед. прак.с 10 нед.в 1303 (список с
+ тудентов)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Психология гр.№3 с 10 нед.прак.
+DTSTART;TZID=Europe/Moscow:20261106T083000
+DTEND;TZID=Europe/Moscow:20261106T100000
+DTSTAMP:20260905T171133Z
+UID:bd0c5249ce994a50a906fdff73d14cbade1794e2@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору: \nПсихология
+  личной эффективности\,практика группа 
+ №2  с 10 нед.Добротворская С.Г. в 1405 \nПсихо
+ логия гр.№2 с 1 по 9 нед.прак\, гр.№3 с 10 нед.
+ прак. Румянцева Г.Д. (вебинары)\nhttps://telemost.y
+ andex.ru/j/65393423127887
+LOCATION:https://telemost.yandex.ru/j/65393423127887
+URL:https://telemost.yandex.ru/j/65393423127887
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Теория систем и системный ана
+ лиз
+DTSTART;TZID=Europe/Moscow:20260914T155000
+DTEND;TZID=Europe/Moscow:20260914T172000
+DTSTAMP:20260905T171133Z
+UID:dd8c6f932c87218bcf016ed94e4246ee0f4459cf@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261221T205959Z
+EXDATE;TZID=Europe/Moscow:20260921T155000
+EXDATE;TZID=Europe/Moscow:20261005T155000
+EXDATE;TZID=Europe/Moscow:20261019T155000
+EXDATE;TZID=Europe/Moscow:20261102T155000
+EXDATE;TZID=Europe/Moscow:20261116T155000
+EXDATE;TZID=Europe/Moscow:20261130T155000
+EXDATE;TZID=Europe/Moscow:20261214T155000
+DESCRIPTION:Теория систем и системный анализ\,
+  Еникеева З.А.\, \nнечетн.нед.\n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Психология управления (1-9 нед.)
+DTSTART;TZID=Europe/Moscow:20260903T101000
+DTEND;TZID=Europe/Moscow:20260903T114000
+DTSTAMP:20260905T171133Z
+UID:9e1a51cb60f99143b7624d9dfd14d5948ce5163c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПсихология 
+ управления (1-9 нед.) Пучкова И.М. (вебинары
+ )\, с 10 нед. прак. гр.№1 Зайнуллин А.Э. (веби
+ нары)\nhttps://telemost.yandex.ru/j/17069658637666
+LOCATION:https://telemost.yandex.ru/j/17069658637666
+URL:https://telemost.yandex.ru/j/17069658637666
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Теория систем и системный ана
+ лиз
+DTSTART;TZID=Europe/Moscow:20260901T135000
+DTEND;TZID=Europe/Moscow:20260901T152000
+DTSTAMP:20260905T171133Z
+UID:58a197ef84fe6e7ba07cff1c47fea663f3336dab@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+ \n Еникеева З.А. \nв 1508
+LOCATION:1508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Дополнительные главы дискрет
+ ной математики
+DTSTART;TZID=Europe/Moscow:20260904T191000
+DTEND;TZID=Europe/Moscow:20260904T204000
+DTSTAMP:20260905T171133Z
+UID:0dfc232904addf407ccbce24b79c384d0cc606e0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору:\nФункционал
+ ьное программирование (Erlang)\, Фролов Д.Д. 
+ в 1509\nДополнительные главы дискретной ма
+ тематики\, Лернер Э.Ю. в 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Введение в облачные технологи
+ и (Анализ данных в нефтегазовой сфере)
+DTSTART;TZID=Europe/Moscow:20260908T191000
+DTEND;TZID=Europe/Moscow:20260908T204000
+DTSTAMP:20260905T171133Z
+UID:c8e98a599ede285d7fb13cdc205d45f92131a69e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплина по выбору:\n\nВведение в
+  облачные технологии (Анализ данных в не
+ фтегазовой сфере)\, Шевченко Д.В. в 1305 (с 8 
+ сентября)
+LOCATION:1305
+END:VEVENT
+END:VCALENDAR

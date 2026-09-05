@@ -1,0 +1,115 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Теория информации и кодирования
+DTSTART;TZID=Europe/Moscow:20260907T101000
+DTEND;TZID=Europe/Moscow:20260907T114000
+DTSTAMP:20260905T171122Z
+UID:1814654e925a4422b07c4c90090c0301c7ebade1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Теория информации и кодирования\,
+ \nСалимов Ф.И.\n 1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Вычислительные системы\, сети и теле
+ коммуникации
+DTSTART;TZID=Europe/Moscow:20260907T121000
+DTEND;TZID=Europe/Moscow:20260907T134000
+DTSTAMP:20260905T171122Z
+UID:6381fa1210c8fa86eeaca27e8562f7169c930831@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Вычислительные системы\, сети и те
+ лекоммуникации\,\nМаксютин С.В. \n 1309
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:БЖД
+DTSTART;TZID=Europe/Moscow:20260901T121000
+DTEND;TZID=Europe/Moscow:20260901T134000
+DTSTAMP:20260905T171122Z
+UID:11fbf2f777fef7fc7f7338e5624f899b54979cda@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260929T205959Z
+DESCRIPTION:БЖД\nпракт. 1-5нед.\,\nлаб. 6-10 нед.\, \nХ
+ исамиева Л.И.\nауд. в 1301\nлаб. 11-14 нед. в Сим.
+ центре (ул.Карла Маркса 74а)
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Интеллектуальный анализ данных
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260905T171122Z
+UID:8a7c72e650909a80bfb2ffc66f53013057a5680a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Интеллектуальный анализ данных\,\n
+ Еникеева З.А. \n 1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Технологическая (проектно-технолог
+ ическая) практика (по распределению) 9 не
+ д.
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171122Z
+UID:e96086a77f4034ec5ec7509bba1842df8fac584d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика (по распределению) 9 
+ нед.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Технологическая (проектно-технолог
+ ическая) практика (по распределению) 1-9 н
+ ед.
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171122Z
+UID:6a501171108a88fdbf8653c2920b9d4a32d1c493@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика (по распределению) 1-9
+  нед.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Жизненный цикл разработки программ
+ ного обеспечения
+DTSTART;TZID=Europe/Moscow:20260904T101000
+DTEND;TZID=Europe/Moscow:20260904T114000
+DTSTAMP:20260905T171122Z
+UID:e1c8f0b7f164304604f9329b9cb63f6055e881fc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Жизненный цикл разработки програ
+ ммного обеспечения\,\nМухаметханов И.Р.\, 
+ \n1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Операционные системы
+DTSTART;TZID=Europe/Moscow:20260904T121000
+DTEND;TZID=Europe/Moscow:20260904T134000
+DTSTAMP:20260905T171122Z
+UID:e44deeeb837aab38be9445644af5a7d6100e5d22@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Операционные системы\,\nМаксютин С
+ .В.\n 1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Параллельное программирование
+DTSTART;TZID=Europe/Moscow:20260904T191000
+DTEND;TZID=Europe/Moscow:20260904T204000
+DTSTAMP:20260905T171122Z
+UID:93a23efddaddcdc3d57b3e6655a9767dd652ac24@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Параллельное программирование\,\n
+ Хабибуллин Р.А.\n1306
+LOCATION:1306
+END:VEVENT
+END:VCALENDAR

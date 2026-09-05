@@ -1,0 +1,124 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Компьютерные сети
+DTSTART;TZID=Europe/Moscow:20260901T083000
+DTEND;TZID=Europe/Moscow:20260901T100000
+DTSTAMP:20260905T171121Z
+UID:c2b40f49dc454d0020d94f12dfbe2dd0225ace46@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Компьютерные сети\,\nМаксютин С.В. 
+ \n(ЦОР\, вебинары)\nhttps://clck.ru/3NqE6Q
+LOCATION:https://clck.ru/3NqE6Q
+URL:https://clck.ru/3NqE6Q
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математика и программирование для DS
+DTSTART;TZID=Europe/Moscow:20260902T083000
+DTEND;TZID=Europe/Moscow:20260902T100000
+DTSTAMP:20260905T171121Z
+UID:38d05710b0d572a6919b453e55979d9cc7c29a08@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T083000
+DESCRIPTION:Математика и программирование дл
+ я DS\,\nШангареева С.К. (ЦОР\, вебинары)\nhttps://
+ telemost.yandex.ru/j/76534601317710
+LOCATION:https://telemost.yandex.ru/j/76534601317710
+URL:https://telemost.yandex.ru/j/76534601317710
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Программная инженерия
+DTSTART;TZID=Europe/Moscow:20260902T155000
+DTEND;TZID=Europe/Moscow:20260902T172000
+DTSTAMP:20260905T171121Z
+UID:a3e1a41e21804dabd041fc0da57fda7f8d4c7dc5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T155000
+DESCRIPTION:Программная инженерия\, практ.\nКо
+ ростелева Д.М. (ЦОР\, вебинары)\nhttps://my.mts-link
+ .ru/j/81830937/24011264020/session/23411773659
+LOCATION:https://my.mts-link.ru/j/81830937/24011264020/session/23411773659
+URL:https://my.mts-link.ru/j/81830937/24011264020/session/23411773659
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Групповая динамика и коммуникации в
+  ком.разработке\, практ
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260905T171121Z
+UID:e02da1236e0d689daf3f83496cfcd0ad084909b0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Групповая динамика и коммуникаци
+ и в ком.разработке\, практ\, \nГузельбаева 
+ Г.Я. (ЦОР\, вебинары)\nhttps://my.mts-link.ru/j/125267863/307
+ 4233799
+LOCATION:https://my.mts-link.ru/j/125267863/3074233799
+URL:https://my.mts-link.ru/j/125267863/3074233799
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Технологическая практика
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171121Z
+UID:bcac9cd2724ddad8904c1ea1b265b75255e16b14@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика \n(по распределению) 9
+  нед.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Технологическая практика
+DTSTART;TZID=Europe/Moscow:20260917T191000
+DTEND;TZID=Europe/Moscow:20260917T204000
+DTSTAMP:20260905T171121Z
+UID:5c2e02fcda430a942435401392c124e6d8379c39@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика  (по распределению) с
+  3 недели
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:БЖД
+DTSTART;TZID=Europe/Moscow:20261009T135000
+DTEND;TZID=Europe/Moscow:20261009T152000
+DTSTAMP:20260905T171121Z
+UID:ec763899d7c2ef1134b65c576df10970b7644233@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261204T205959Z
+DESCRIPTION:БЖД\nПрактика 1-5н \nв элект форме \n6-
+ 14 нед.лаб.\n(ЦОРе) \nХисамиева Л.И.\nhttps://telemos
+ t.yandex.ru/j/57547977131835
+LOCATION:https://telemost.yandex.ru/j/57547977131835
+URL:https://telemost.yandex.ru/j/57547977131835
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Системная аналитика
+DTSTART;TZID=Europe/Moscow:20260904T155000
+DTEND;TZID=Europe/Moscow:20260904T172000
+DTSTAMP:20260905T171121Z
+UID:4f41064f222b9fe4414fa257af4feaf181bcee2c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260911T205959Z
+DESCRIPTION:Системная аналитика\,\nБаранова А.
+ В. (вебинары)\nсо 2 недели\nhttps://telemost.yandex.ru/j/
+ 28547167181155
+LOCATION:https://telemost.yandex.ru/j/28547167181155
+URL:https://telemost.yandex.ru/j/28547167181155
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Инфобез
+DTSTART;TZID=Europe/Moscow:20260904T191000
+DTEND;TZID=Europe/Moscow:20260904T204000
+DTSTAMP:20260905T171121Z
+UID:5053ba32177a54725ddcfe0b57efb1c14ffc4efe@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Информационная безопасность\,\nВа
+ лишин И.А. (вебинары)\nhttps://my.mts-link.ru/j/44062887/12
+ 07306511
+LOCATION:https://my.mts-link.ru/j/44062887/1207306511
+URL:https://my.mts-link.ru/j/44062887/1207306511
+END:VEVENT
+END:VCALENDAR

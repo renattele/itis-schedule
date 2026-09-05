@@ -1,0 +1,121 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологии и инфраструктуры р
+ аботы с хранилищами данных
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20260905T171121Z
+UID:160a0df7dc176215d8e553ecc18b476651140dad@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии и инфраструктуры рабо
+ ты с хранилищами данных Хайруллин А.Ф. в 1
+ 508 ( со 2-й нед.)
+LOCATION:1508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Оценка рисков и экономической
+  эффективности применения искусственно
+ го интеллекта
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171121Z
+UID:f995830396d437b579278210dff841b2da2fc65e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Оценка рисков и экономической эфф
+ ективности применения искусственного и
+ нтеллекта Лукьяничева Е.О.в 1303 https://my.mts-lin
+ k.ru/j/91499745/787051350/stream-new/825718755\nhttps://my.mts-link.ru/j/9
+ 1499745/787051350/stream-new/825718755
+LOCATION:1303
+URL:https://my.mts-link.ru/j/91499745/787051350/stream-new/825718755
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Избранные главы компьютерног
+ о зрения
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260905T171121Z
+UID:fb3250b5a50d7746ed4ac9205ae8a547f0101e9b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Избранные главы компьютерного зр
+ ения Тощев А.С.в 1303 https://kpfu.mts-link.ru/j/83410197/1518
+ 935588\nhttps://kpfu.mts-link.ru/j/83410197/1518935588
+LOCATION:1303
+URL:https://kpfu.mts-link.ru/j/83410197/1518935588
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Социальные и антропологическ
+ ие вопросы искусственного интеллекта
+DTSTART;TZID=Europe/Moscow:20260901T173000
+DTEND;TZID=Europe/Moscow:20260901T190000
+DTSTAMP:20260905T171121Z
+UID:884876b0c5e992c40af65652882fc7d6726318b9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Социальные и антропологические в
+ опросы искусственного интеллекта Солда
+ това Н.О. в ауд.1404 https://telemost.360.yandex.ru/j/0916869746
+ \nhttps://telemost.360.yandex.ru/j/0916869746
+LOCATION:1404
+URL:https://telemost.360.yandex.ru/j/0916869746
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Машинное понимание
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260905T171121Z
+UID:c0f495931a235eb171a4f38ba3c897ba722d13a4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260908T205959Z
+DESCRIPTION:Машинное понимание Староверов В.С
+ . в 1404 ( со 2 нед.)
+LOCATION:1404
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Избранные главы обработки тек
+ стов на естественном языке
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171121Z
+UID:bc7eae4177a314440e0271e1f5fafc9b5f8edc44@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Избранные главы обработки тексто
+ в на естественном языке Хаялеева И.в1310  ht
+ tps://telemost.360.yandex.ru/j/0601793278\nhttps://telemost.360.yandex.ru/
+ j/0601793278
+LOCATION:360
+URL:https://telemost.360.yandex.ru/j/0601793278
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологии и инфраструктуры р
+ аботы с хранилищами данных
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171121Z
+UID:b859a345e1ef275b10cbd2717353b49f38eb364c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Технологии и инфраструктуры рабо
+ ты с хранилищами данных Хайруллин А.Ф. в 1
+ 412 ( со 2-й нед.)
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Проектная практика
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260905T171121Z
+UID:747ab1032ef96ded64e51a6e59c55ad073f0098c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Проектная практика Фатхутдинова 
+ И.И. в 1404 https://kpfu.mts-link.ru/j/116527817/99483909\nhttps://kpfu
+ .mts-link.ru/j/116527817/99483909
+LOCATION:1404
+URL:https://kpfu.mts-link.ru/j/116527817/99483909
+END:VEVENT
+END:VCALENDAR

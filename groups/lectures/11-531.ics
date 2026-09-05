@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Экономика
+DTSTART;TZID=Europe/Moscow:20261103T121000
+DTEND;TZID=Europe/Moscow:20261103T134000
+DTSTAMP:20260905T171120Z
+UID:e309c2f239e5d97597fd5349ca63c7be533d7945@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Экономика\,\nМокичев С.Д.\,  (ЦОР)\n(ве
+ бинары)\n9 нед. лек.\, с 10 нед. прак.\n1409\nhttps://
+ edu.kpfu.ru/course/view.php?id=7122
+LOCATION:1409
+URL:https://edu.kpfu.ru/course/view.php?id=7122
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы разработки информационных с
+ истем\, лек.
+DTSTART;TZID=Europe/Moscow:20260901T135000
+DTEND;TZID=Europe/Moscow:20260901T152000
+DTSTAMP:20260905T171120Z
+UID:a0116f48e7c6ea6cdac7b6cd4268c16f7c242c73@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Основы разработки информационных
+  систем\, лек. \nЛеухин А.Д. (ЦОР)\n(вебинары)
+ \n1302\nhttps://edu.kpfu.ru/course/view.php?id=6094
+LOCATION:1302
+URL:https://edu.kpfu.ru/course/view.php?id=6094
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Базы данных
+DTSTART;TZID=Europe/Moscow:20260902T135000
+DTEND;TZID=Europe/Moscow:20260902T152000
+DTSTAMP:20260905T171120Z
+UID:a37da9a45795e09ab911827ff5c577cf22f42d38@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T135000
+DESCRIPTION:Базы данных\,\nлек.\nХайруллин А.Ф.\n(
+ вебинары)\n1408\nhttps://telemost.360.yandex.ru/j/6988312543
+LOCATION:1408
+URL:https://telemost.360.yandex.ru/j/6988312543
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы профилактики и противодейст
+ вия терроризму и экстремизму
+DTSTART;TZID=Europe/Moscow:20260904T135000
+DTEND;TZID=Europe/Moscow:20260904T152000
+DTSTAMP:20260905T171120Z
+UID:08738fbe717283a4df85cfdbee525e76509b7a1a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260925T205959Z
+DESCRIPTION:Основы профилактики и противодей
+ ствия терроризму и экстремизму\,\nСагдат
+ уллина А.К.\n1-4 нед. лек.\, прак. 5-9 нед.\, (ЦОР
+ )/ (вебинары)\n 1110\nhttps://edu.kpfu.ru/course/view.php?id=7120
+LOCATION:1110
+URL:https://edu.kpfu.ru/course/view.php?id=7120
+END:VEVENT
+END:VCALENDAR

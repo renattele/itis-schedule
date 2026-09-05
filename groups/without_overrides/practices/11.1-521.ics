@@ -1,0 +1,173 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Управление рисками
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171123Z
+UID:0642bf7997073518d4c2bc404d1adc85615c4329@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплина по выбору: \nУправление
+  рисками \nИбатулин Н.Н. \n1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы цифровой экономики
+DTSTART;TZID=Europe/Moscow:20260901T173000
+DTEND;TZID=Europe/Moscow:20260901T190000
+DTSTAMP:20260905T171123Z
+UID:30f03b4493e5eba2bcb88230904434ecf3285809@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплина по выбору:\nОсновы цифр
+ овой экономики \nГригорян К.А.\, ауд. 1306\, н.
+ н. со 2-й нед.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы цифровой экономики
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260905T171123Z
+UID:4726540be66f972f2c1e5398b641a31f0b7a29fa@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплина по выбору:\nОсновы цифр
+ овой экономики \nГригорян К.А.\, ауд. 1306\, н.
+ н. со 2-й нед.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Современные технологии разработки 
+ цифровых продуктов
+DTSTART;TZID=Europe/Moscow:20260909T173000
+DTEND;TZID=Europe/Moscow:20260909T190000
+DTSTAMP:20260905T171123Z
+UID:ef2343b9be7d38b996c03631720fc2f51b1e724f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20260916T173000
+EXDATE;TZID=Europe/Moscow:20260930T173000
+EXDATE;TZID=Europe/Moscow:20261014T173000
+EXDATE;TZID=Europe/Moscow:20261028T173000
+EXDATE;TZID=Europe/Moscow:20261104T173000
+EXDATE;TZID=Europe/Moscow:20261111T173000
+EXDATE;TZID=Europe/Moscow:20261125T173000
+EXDATE;TZID=Europe/Moscow:20261209T173000
+EXDATE;TZID=Europe/Moscow:20261223T173000
+DESCRIPTION:Современные технологии разработк
+ и цифровых продуктов Григорян К.А. со 2-й 
+ нед.\n1306 н.н. / Инструменты проектирования
+  и разработки информационных систем Вал
+ иуллин Р.М.\n1509 ч.н.
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Современные технологии разработки 
+ цифровых продуктов
+DTSTART;TZID=Europe/Moscow:20260909T191000
+DTEND;TZID=Europe/Moscow:20260909T204000
+DTSTAMP:20260905T171123Z
+UID:d18637af537eb38b9a12f2c6df802469bf3797c2@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20260916T191000
+EXDATE;TZID=Europe/Moscow:20260930T191000
+EXDATE;TZID=Europe/Moscow:20261014T191000
+EXDATE;TZID=Europe/Moscow:20261028T191000
+EXDATE;TZID=Europe/Moscow:20261104T191000
+EXDATE;TZID=Europe/Moscow:20261111T191000
+EXDATE;TZID=Europe/Moscow:20261125T191000
+EXDATE;TZID=Europe/Moscow:20261209T191000
+EXDATE;TZID=Europe/Moscow:20261223T191000
+DESCRIPTION:Современные технологии разработк
+ и цифровых продуктов Григорян К.А. со 2-й 
+ нед.\n1306 н.н. / Инструменты проектирования
+  и разработки информационных систем Вал
+ иуллин Р.М.\n1509 ч.н.
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Методы верификации и тестирования п
+ рограммных систем
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260905T171123Z
+UID:f301a0f7f5a5f0659e2ad74024faa44cc2ece45f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплины по выбору:\nМетоды вери
+ фикации и тестирования программных сист
+ ем Родионова А.В.\, ауд. 1307 н.н.\nАнализ и уп
+ равление требованиями Сабирзянов Р.Р.\, а
+ уд. 1412 ч.н.
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Анализ и управление требованиями
+DTSTART;TZID=Europe/Moscow:20260910T173000
+DTEND;TZID=Europe/Moscow:20260910T190000
+DTSTAMP:20260905T171123Z
+UID:c390c8ef514046fc82bb4c4530d12d40afff62e9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+EXDATE;TZID=Europe/Moscow:20260917T173000
+EXDATE;TZID=Europe/Moscow:20261001T173000
+EXDATE;TZID=Europe/Moscow:20261015T173000
+EXDATE;TZID=Europe/Moscow:20261029T173000
+EXDATE;TZID=Europe/Moscow:20261112T173000
+EXDATE;TZID=Europe/Moscow:20261126T173000
+EXDATE;TZID=Europe/Moscow:20261210T173000
+EXDATE;TZID=Europe/Moscow:20261224T173000
+DESCRIPTION:Дисциплины по выбору:\nМетоды вери
+ фикации и тестирования программных сист
+ ем Родионова А.В.\, ауд. 1307 н.н.\nАнализ и уп
+ равление требованиями Сабирзянов Р.Р.\, а
+ уд. 1412 ч.н.
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Методы верификации и тестирования п
+ рограммных систем
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171123Z
+UID:3ee9ec0fc101c64791ba1f2e1b9407a9397aacab@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплины по выбору:\nМетоды вери
+ фикации и тестирования программных сист
+ ем Родионова А.В.\, ауд. 1307 н.н.\nАнализ и уп
+ равление требованиями Сабирзянов Р.Р.\, а
+ уд. 1412 ч.н.
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Анализ и управление требованиями
+DTSTART;TZID=Europe/Moscow:20260910T191000
+DTEND;TZID=Europe/Moscow:20260910T204000
+DTSTAMP:20260905T171123Z
+UID:d3b895631662e1942a0ac6d00997f2a7a2e48e0c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+EXDATE;TZID=Europe/Moscow:20260917T191000
+EXDATE;TZID=Europe/Moscow:20261001T191000
+EXDATE;TZID=Europe/Moscow:20261015T191000
+EXDATE;TZID=Europe/Moscow:20261029T191000
+EXDATE;TZID=Europe/Moscow:20261112T191000
+EXDATE;TZID=Europe/Moscow:20261126T191000
+EXDATE;TZID=Europe/Moscow:20261210T191000
+EXDATE;TZID=Europe/Moscow:20261224T191000
+DESCRIPTION:Дисциплины по выбору:\nМетоды вери
+ фикации и тестирования программных сист
+ ем Родионова А.В.\, ауд. 1307 н.н.\nАнализ и уп
+ равление требованиями Сабирзянов Р.Р.\, а
+ уд. 1412 ч.н.
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Проектная практика
+DTSTART;TZID=Europe/Moscow:20260904T173000
+DTEND;TZID=Europe/Moscow:20260904T190000
+DTSTAMP:20260905T171123Z
+UID:1cdd81b69b299e2af9e6157b08c51e48565da134@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Проектная практика Голицына И.Н. в
+  1405
+LOCATION:1405
+END:VEVENT
+END:VCALENDAR

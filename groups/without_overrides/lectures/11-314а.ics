@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Методология научной деятельности
+DTSTART;TZID=Europe/Moscow:20260905T135000
+DTEND;TZID=Europe/Moscow:20260905T152000
+DTSTAMP:20260905T171123Z
+UID:61fd96013b4bd4af70f7ef40ad3ff5400e09e450@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261031T205959Z
+DESCRIPTION:Методология научной деятельности
+ \,\n(1-9 нед.) лек.\nАбрамский М.М.\n(вебинары)\n
+ 1409\nhttps://telemost.360.yandex.ru/j/7023464513
+LOCATION:1409
+URL:https://telemost.360.yandex.ru/j/7023464513
+END:VEVENT
+END:VCALENDAR

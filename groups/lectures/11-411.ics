@@ -1,0 +1,213 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Инфобез
+DTSTART;TZID=Europe/Moscow:20260907T121000
+DTEND;TZID=Europe/Moscow:20260907T134000
+DTSTAMP:20260905T171121Z
+UID:27065c773f2af9614a47d466c3996697121d05fd@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Информационная безопасность\,\nМу
+ люков Р.И.\n(вебинары) (ЦОР\, )\nhttps://my.mts-link.ru/
+ j/44062887/1207306511
+LOCATION:https://my.mts-link.ru/j/44062887/1207306511
+URL:https://my.mts-link.ru/j/44062887/1207306511
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы корпоративной разработки. Ча
+ сть 1
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171121Z
+UID:bb182d439c2e618758d55e61957869c4cb2660a9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплины по выбору:\nОсновы корп
+ оративной разработки. Часть 1\, Сидиков М.
+ Р. (вебинары)\n7 сентября не будет\nДополни
+ тельные главы веб-разработки. Часть 1\nИс
+ ламов М.И. (вебинары)\nhttps://telemost.yandex.ru/j/8808051
+ 3990013
+LOCATION:https://telemost.yandex.ru/j/88080513990013
+URL:https://telemost.yandex.ru/j/88080513990013
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:7 сентября не будет
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171121Z
+UID:2f86d9ffa4a082eeb50318ad71e56cdc0d7b02b8@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплины по выбору:\nОсновы корп
+ оративной разработки. Часть 1\, Сидиков М.
+ Р. (вебинары)\n7 сентября не будет\nДополни
+ тельные главы веб-разработки. Часть 1\nИс
+ ламов М.И. (вебинары)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Дополнительные главы веб-разработк
+ и. Часть 1
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171121Z
+UID:ab021d2e863932031e7fbb9c938583b339af9f84@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплины по выбору:\nОсновы корп
+ оративной разработки. Часть 1\, Сидиков М.
+ Р. (вебинары)\n7 сентября не будет\nДополни
+ тельные главы веб-разработки. Часть 1\nИс
+ ламов М.И. (вебинары)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы корпоративной разработки. Ча
+ сть 1
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260905T171121Z
+UID:1eeb433c700f5a3c4356c01d014876e9df0054bd@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплины по выбору:\nОсновы корп
+ оративной разработки. Часть 1\, Сидиков М.
+ Р. (вебинары)\n7 сентября не будет\nДополни
+ тельные главы веб-разработки. Часть 1\nИс
+ ламов М.И. (вебинары)\nhttps://telemost.yandex.ru/j/8808051
+ 3990013
+LOCATION:https://telemost.yandex.ru/j/88080513990013
+URL:https://telemost.yandex.ru/j/88080513990013
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:7 сентября не будет
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260905T171121Z
+UID:54d2ba735066e37c7a6a6b003cf9139f69171215@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплины по выбору:\nОсновы корп
+ оративной разработки. Часть 1\, Сидиков М.
+ Р. (вебинары)\n7 сентября не будет\nДополни
+ тельные главы веб-разработки. Часть 1\nИс
+ ламов М.И. (вебинары)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Дополнительные главы веб-разработк
+ и. Часть 1
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260905T171121Z
+UID:a704989f9d0739de405cdf79173a552141f88379@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплины по выбору:\nОсновы корп
+ оративной разработки. Часть 1\, Сидиков М.
+ Р. (вебинары)\n7 сентября не будет\nДополни
+ тельные главы веб-разработки. Часть 1\nИс
+ ламов М.И. (вебинары)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Компьютерные сети
+DTSTART;TZID=Europe/Moscow:20260901T101000
+DTEND;TZID=Europe/Moscow:20260901T114000
+DTSTAMP:20260905T171121Z
+UID:68e500ce198dbed59ebfe3438b20a6c078cbc7c7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Компьютерные сети\,\nМаксютин С.В. (
+ ЦОР\, вебинары)\nhttps://clck.ru/3NqE6Q
+LOCATION:https://clck.ru/3NqE6Q
+URL:https://clck.ru/3NqE6Q
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Системная аналитика
+DTSTART;TZID=Europe/Moscow:20260908T155000
+DTEND;TZID=Europe/Moscow:20260908T172000
+DTSTAMP:20260905T171121Z
+UID:23a2baebb95ce641dbbbc0ca6ac6e3e6c698386e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261103T205959Z
+DESCRIPTION:Системная аналитика\,\nБаранова А.
+ В.\n(2-10 нед.) (вебинары)\nhttps://telemost.yandex.ru/j/28547
+ 167181155
+LOCATION:https://telemost.yandex.ru/j/28547167181155
+URL:https://telemost.yandex.ru/j/28547167181155
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математика и программирование для DS
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260905T171121Z
+UID:2f2f8a982748db2dc11fa3bd6989df40f1455d09@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Математика и программирование дл
+ я DS\,\nШангареева С.К. (ЦОР\, вебинары)\nhttps://
+ telemost.yandex.ru/j/76534601317710
+LOCATION:https://telemost.yandex.ru/j/76534601317710
+URL:https://telemost.yandex.ru/j/76534601317710
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260902T121000
+DTEND;TZID=Europe/Moscow:20260902T134000
+DTSTAMP:20260905T171121Z
+UID:20341a2dda8d2d10a1a95c5a354af095c22d60cb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T121000
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту\, 12:00 - 13:30\, (ЦОР)\nhttps://edu.kpfu.
+ ru/course/view.php?id=5573
+LOCATION:https://edu.kpfu.ru/course/view.php?id=5573
+URL:https://edu.kpfu.ru/course/view.php?id=5573
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Программная инженерия
+DTSTART;TZID=Europe/Moscow:20260902T135000
+DTEND;TZID=Europe/Moscow:20260902T152000
+DTSTAMP:20260905T171121Z
+UID:0bfaa81b4d52170c2cf4b8b9a11bb5f7f335f074@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261028T205959Z
+DESCRIPTION:Программная инженерия\, (1-9 нед.)ле
+ к\nКоростелева Д.М.\n (ЦОР\, вебинары)\nhttps://m
+ y.mts-link.ru/j/81830937/24011264020/session/23411773659
+LOCATION:https://my.mts-link.ru/j/81830937/24011264020/session/23411773659
+URL:https://my.mts-link.ru/j/81830937/24011264020/session/23411773659
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Групповая динамика и коммуникации в
+  ком.разработке\, лек.
+DTSTART;TZID=Europe/Moscow:20260903T135000
+DTEND;TZID=Europe/Moscow:20260903T152000
+DTSTAMP:20260905T171121Z
+UID:7291c7d42ca6d5f0313e4065ffe347f09de0f864@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Групповая динамика и коммуникаци
+ и в ком.разработке\, лек.\nГузельбаева Г.Я.
+  (ЦОР\, вебинар)\nhttps://my.mts-link.ru/j/125267863/3074233799
+LOCATION:https://my.mts-link.ru/j/125267863/3074233799
+URL:https://my.mts-link.ru/j/125267863/3074233799
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:БЖД\, лекции
+DTSTART;TZID=Europe/Moscow:20260904T121000
+DTEND;TZID=Europe/Moscow:20260904T134000
+DTSTAMP:20260905T171121Z
+UID:13e7ad58af26479783d1b65d477ffe48dd8c808a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260925T205959Z
+DESCRIPTION:БЖД\, лекции \n1-4 нед.\nХисамиева Л.И.
+  (ЦОР\, вебинары)\nhttps://telemost.yandex.ru/j/57547977131835
+LOCATION:https://telemost.yandex.ru/j/57547977131835
+URL:https://telemost.yandex.ru/j/57547977131835
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260905T121000
+DTEND;TZID=Europe/Moscow:20260905T134000
+DTSTAMP:20260905T171121Z
+UID:06cdb0fff8dde308d9076eda4f3df5a9de4868a6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту\, \n12:00 - 13:30 (ЦОР)\nhttps://edu.kpfu.
+ ru/course/view.php?id=5573
+LOCATION:https://edu.kpfu.ru/course/view.php?id=5573
+URL:https://edu.kpfu.ru/course/view.php?id=5573
+END:VEVENT
+END:VCALENDAR

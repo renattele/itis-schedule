@@ -1,0 +1,115 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Жизненный цикл разработки программ
+ ного обеспечения
+DTSTART;TZID=Europe/Moscow:20260907T083000
+DTEND;TZID=Europe/Moscow:20260907T100000
+DTSTAMP:20260905T171121Z
+UID:d5c67802196b043c076cb935711494f4e2adbf88@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Жизненный цикл разработки програ
+ ммного обеспечения\,\nМухаметханов И.Р.\n14
+ 09
+LOCATION:1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Параллельное программирование
+DTSTART;TZID=Europe/Moscow:20260901T083000
+DTEND;TZID=Europe/Moscow:20260901T100000
+DTSTAMP:20260905T171121Z
+UID:b83646f0ba807da267138df4dd35cb3464fab38f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Параллельное программирование\,\n
+ Жарков В.В.\n1405
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:БЖД
+DTSTART;TZID=Europe/Moscow:20260901T101000
+DTEND;TZID=Europe/Moscow:20260901T114000
+DTSTAMP:20260905T171121Z
+UID:76e6264b7175d31f6fc17edde3431c91c6642194@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:БЖД\n1 подгруппа\nЛабор 1-5н – Мансу
+ р Нур \nауд.в 1301\nЛабор 6-9н\n– в СЦ (Карла Ма
+ ркса\,74а)/\n2 подгруппа–\nЛабор 1-4н в СЦ (Ка
+ рла Маркса\, 74а)\nЛабор 6-10н  Мансур Нур\nау
+ д. в 1301\n1 и 2 подгруппы 11-15н практ.\nМансур 
+ Нур\nауд. в 1301\nhttps://disk.360.yandex.ru/i/kyOPyM9sb-Nq6g
+LOCATION:1301
+URL:https://disk.360.yandex.ru/i/kyOPyM9sb-Nq6g
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Операционные системы
+DTSTART;TZID=Europe/Moscow:20260903T083000
+DTEND;TZID=Europe/Moscow:20260903T100000
+DTSTAMP:20260905T171121Z
+UID:1bdc9e09e167516a260f43a18e3caad3e75ac969@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Операционные системы\,\nЕлкин И.В. 
+ \n1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Интеллектуальный анализ данных
+DTSTART;TZID=Europe/Moscow:20260903T101000
+DTEND;TZID=Europe/Moscow:20260903T114000
+DTSTAMP:20260905T171121Z
+UID:acc606258373087e19f7db685a785890f8ffc384@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Интеллектуальный анализ данных\,\n
+ Еникеева З.А. \n 1409
+LOCATION:1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Вычислительные системы\, сети и теле
+ коммуникации
+DTSTART;TZID=Europe/Moscow:20260903T135000
+DTEND;TZID=Europe/Moscow:20260903T152000
+DTSTAMP:20260905T171121Z
+UID:94889b44ac2b80f183a350835a8f4899958c4110@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Вычислительные системы\, сети и те
+ лекоммуникации\,\nМаксютин С.В. \n 1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Технологическая практика
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171121Z
+UID:bcac9cd2724ddad8904c1ea1b265b75255e16b14@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика (по распределению) 9 
+ нед.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Технологическая практика
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171121Z
+UID:bcac9cd2724ddad8904c1ea1b265b75255e16b14@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика (по распределению) 1-9
+  нед.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория информации и кодирования
+DTSTART;TZID=Europe/Moscow:20260904T135000
+DTEND;TZID=Europe/Moscow:20260904T152000
+DTSTAMP:20260905T171121Z
+UID:aec5cde0f87bcdec163b212a54fdfa0f0d28a7a9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Теория информации и кодирования\,
+ \nСалимов Ф.И.\n 1509
+LOCATION:1509
+END:VEVENT
+END:VCALENDAR

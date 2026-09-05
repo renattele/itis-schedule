@@ -1,0 +1,151 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Управление рисками
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260905T171121Z
+UID:902e256437624de5cebfb27b009bcabb7359b486@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплина по выбору: \nУправление
+  рисками \nИбатулин Н.Н. \n1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы цифровой экономики
+DTSTART;TZID=Europe/Moscow:20260901T173000
+DTEND;TZID=Europe/Moscow:20260901T190000
+DTSTAMP:20260905T171121Z
+UID:65829e1336e8a3252bdd909147c37f4592320b70@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплина по выбору:\nОсновы цифр
+ овой экономики \nГригорян К.А.\, ауд. 1306\, ч.
+ .н.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы цифровой экономики
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260905T171121Z
+UID:753132881b4d2da0e9e381a4e5095ca745325522@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплина по выбору:\nОсновы цифр
+ овой экономики \nГригорян К.А.\, ауд. 1306\, ч.
+ н.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Современные технологии разра
+ ботки цифровых продуктов
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171121Z
+UID:6201301629c1bd4c55ed6f75587f51d88c6f3ffe@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Современные технологии разработк
+ и цифровых продуктов Григорян К.А.\n1306 ч.н
+ . / Инструменты проектирования и разрабо
+ тки информационных систем Валиуллин Р.М.
+ \n1509 н.н.
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Современные технологии разра
+ ботки цифровых продуктов
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171121Z
+UID:6185d99abfa84debe8d2f813fd641c4402bfa081@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Современные технологии разработк
+ и цифровых продуктов Григорян К.А.\n1306 ч.н
+ . / Инструменты проектирования и разрабо
+ тки информационных систем Валиуллин Р.М.
+ \n1509 н.н.
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Методы верификации и тестиров
+ ания программных систем
+DTSTART;TZID=Europe/Moscow:20260910T173000
+DTEND;TZID=Europe/Moscow:20260910T190000
+DTSTAMP:20260905T171121Z
+UID:29b01c0e93dd7fa6733c0d388484c73b3fed3a5b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+EXDATE;TZID=Europe/Moscow:20260917T173000
+EXDATE;TZID=Europe/Moscow:20261001T173000
+EXDATE;TZID=Europe/Moscow:20261015T173000
+EXDATE;TZID=Europe/Moscow:20261029T173000
+EXDATE;TZID=Europe/Moscow:20261112T173000
+EXDATE;TZID=Europe/Moscow:20261126T173000
+EXDATE;TZID=Europe/Moscow:20261210T173000
+EXDATE;TZID=Europe/Moscow:20261224T173000
+DESCRIPTION:Дисциплины по выбору:\nМетоды вери
+ фикации и тестирования программных сист
+ ем Родионова А.В.\, ауд. 1307 ч.н.\nАнализ и уп
+ равление требованиями Сабирзянов Р.Р.\, а
+ уд. 1412 н.н.
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Анализ и управление требовани
+ ями
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260905T171121Z
+UID:b77e71bbb4e8e76282d06e4678e471850752ae38@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплины по выбору:\nМетоды вери
+ фикации и тестирования программных сист
+ ем Родионова А.В.\, ауд. 1307 ч.н.\nАнализ и уп
+ равление требованиями Сабирзянов Р.Р.\, а
+ уд. 1412 н.н.
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Методы верификации и тестиров
+ ания программных систем
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171121Z
+UID:ff0edf160c7fe08ca20d0c26a6c983a61cb29629@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплины по выбору:\nМетоды вери
+ фикации и тестирования программных сист
+ ем Родионова А.В.\, ауд. 1307 н.н.\nАнализ и уп
+ равление требованиями Сабирзянов Р.Р.\, а
+ уд. 1412 н.н.
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Анализ и управление требовани
+ ями
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171121Z
+UID:a6e50c08a04a24400b496aed9c874fab58dd8a0a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплины по выбору:\nМетоды вери
+ фикации и тестирования программных сист
+ ем Родионова А.В.\, ауд. 1307 н.н.\nАнализ и уп
+ равление требованиями Сабирзянов Р.Р.\, а
+ уд. 1412 н.н.
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Проектная практика
+DTSTART;TZID=Europe/Moscow:20260904T191000
+DTEND;TZID=Europe/Moscow:20260904T204000
+DTSTAMP:20260905T171121Z
+UID:4993d146f2a60b8be8228498ffe83d1f7b416348@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Проектная практика Голицына И.Н. в
+  1405
+LOCATION:1405
+END:VEVENT
+END:VCALENDAR

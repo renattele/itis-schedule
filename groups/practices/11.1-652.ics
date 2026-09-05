@@ -1,0 +1,94 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Математические основы искусственно
+ го интеллекта
+DTSTART;TZID=Europe/Moscow:20260901T135000
+DTEND;TZID=Europe/Moscow:20260901T152000
+DTSTAMP:20260905T171121Z
+UID:b8cf67a0f665541ba3f60c2026c0484b6f61d827@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Математические основы искусствен
+ ного интеллекта\, Агафонов А.А. ауд. 1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Программирование для задач искусст
+ венного интеллекта
+DTSTART;TZID=Europe/Moscow:20260901T155000
+DTEND;TZID=Europe/Moscow:20260901T172000
+DTSTAMP:20260905T171121Z
+UID:fe3b78dfe7dcfc7fe724d8a453efb947f4a76aff@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Программирование для задач искус
+ ственного интеллекта \nАгафонов А.А.\, ауд
+ . 1412
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в искусственный интеллект
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260905T171121Z
+UID:3567c14d9e970ec57c3575b8117cb60dda1a3808@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260908T205959Z
+DESCRIPTION:Введение в искусственный интелле
+ кт \nТаланов М.О. прак.по ч.н.\nлекц.по н.н.\, 
+ со 2 недели\nhttps://meet.google.com/uyb-cwkv-emc\nhttps://meet.go
+ ogle.com/uyb-cwkv-emc
+LOCATION:https://meet.google.com/uyb-cwkv-emc
+URL:https://meet.google.com/uyb-cwkv-emc
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория систем
+DTSTART;TZID=Europe/Moscow:20260910T173000
+DTEND;TZID=Europe/Moscow:20260910T190000
+DTSTAMP:20260905T171121Z
+UID:ebd2634175dbd912edff5d30beef322dd64a5066@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+EXDATE;TZID=Europe/Moscow:20260917T173000
+EXDATE;TZID=Europe/Moscow:20261001T173000
+EXDATE;TZID=Europe/Moscow:20261015T173000
+EXDATE;TZID=Europe/Moscow:20261029T173000
+EXDATE;TZID=Europe/Moscow:20261112T173000
+EXDATE;TZID=Europe/Moscow:20261126T173000
+EXDATE;TZID=Europe/Moscow:20261210T173000
+EXDATE;TZID=Europe/Moscow:20261224T173000
+DESCRIPTION:Теория систем и системный анализ 
+ Зуев Д.С.\n \nн.н. лекц.\, ч.н. практ. \n1305
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260904T173000
+DTEND;TZID=Europe/Moscow:20260904T190000
+DTSTAMP:20260905T171121Z
+UID:2651dec01352b4b9dc88ff414871defa0f33d1da@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) ауд. 1404\, Воронина Д.И. 4.09 он
+ лайн https://telemost.yandex.ru/j/51121620730386\nhttps://telemost.yan
+ dex.ru/j/51121620730386
+LOCATION:https://telemost.yandex.ru/j/51121620730386
+URL:https://telemost.yandex.ru/j/51121620730386
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260904T191000
+DTEND;TZID=Europe/Moscow:20260904T204000
+DTSTAMP:20260905T171121Z
+UID:e5afc270a6e54378a1fd315d36667fbdfdb849dd@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) ауд. 1404\, Воронина Д.И. https://t
+ elemost.yandex.ru/j/51121620730386\nhttps://telemost.yandex.ru/j/511216207
+ 30386
+LOCATION:https://telemost.yandex.ru/j/51121620730386
+URL:https://telemost.yandex.ru/j/51121620730386
+END:VEVENT
+END:VCALENDAR

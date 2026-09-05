@@ -1,0 +1,178 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Компьютерные сети\, прак.
+DTSTART;TZID=Europe/Moscow:20260901T121000
+DTEND;TZID=Europe/Moscow:20260901T134000
+DTSTAMP:20260905T171121Z
+UID:792c4ca44cea688e1e1d472f7464121090188ab9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Компьютерные сети\, прак.\nМулюков 
+ Р.И.\n(ЦОР)\n(вебинары)\n1304\nhttps://edu.kpfu.ru/course/vie
+ w.php?id=7125
+LOCATION:1304
+URL:https://edu.kpfu.ru/course/view.php?id=7125
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Системная аналитика
+DTSTART;TZID=Europe/Moscow:20260901T135000
+DTEND;TZID=Europe/Moscow:20260901T152000
+DTSTAMP:20260905T171121Z
+UID:c9fb24de71c34c6651261a66038edde0012c87fb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Системная аналитика\, \n практ.\nФар
+ рахова Л.Р.\n(вебинары)\nауд.\nсо 2й недели\nh
+ ttps://telemost.360.yandex.ru/j/5160976261
+LOCATION:https://telemost.360.yandex.ru/j/5160976261
+URL:https://telemost.360.yandex.ru/j/5160976261
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ДГ веб-разработки. Часть 2
+DTSTART;TZID=Europe/Moscow:20260901T173000
+DTEND;TZID=Europe/Moscow:20260901T190000
+DTSTAMP:20260905T171121Z
+UID:4b3e582c26faba5a8c57b2f7739de2f478e2469a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплина по выбору:\nДГ веб-разр
+ аботки. Часть 2 \, \nИсламов М.И.\n(вебинары)
+ \nhttps://my.mts-link.ru/j/82526569/23996731460
+LOCATION:https://my.mts-link.ru/j/82526569/23996731460
+URL:https://my.mts-link.ru/j/82526569/23996731460
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ДГ веб-разработки. Часть 2
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260905T171121Z
+UID:4ea8b07899ff2a92df559e209edc94bc95e8f6c9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплина по выбору:\nДГ веб-разр
+ аботки. Часть 2 \, \nИсламов М.И.\n(вебинары)
+ \nhttps://my.mts-link.ru/j/82526569/23996731460
+LOCATION:https://my.mts-link.ru/j/82526569/23996731460
+URL:https://my.mts-link.ru/j/82526569/23996731460
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260902T121000
+DTEND;TZID=Europe/Moscow:20260902T134000
+DTSTAMP:20260905T171121Z
+UID:2e21203cc3cbffa3e2995ce00d4844185f498f37@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T121000
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту 12:00 - 13:30     \n(ЦОР)\n(вебинар
+ ы)\nhttps://edu.kpfu.ru/course/view.php?id=5573
+LOCATION:https://edu.kpfu.ru/course/view.php?id=5573
+URL:https://edu.kpfu.ru/course/view.php?id=5573
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:БЖД
+DTSTART;TZID=Europe/Moscow:20260903T101000
+DTEND;TZID=Europe/Moscow:20260903T114000
+DTSTAMP:20260905T171121Z
+UID:bb3fd214543d3f94c5a68e324b5f7900dceba9f8@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:БЖД\nПрактика 1-5н  в ауд.1310\nЛабор 6-1
+ 0н в 1310\nБиктемирова Э.И\nЛабор 11-14н\n в СЦ (
+ Карла Маркса\, 74а)\n(вебинары)\nhttps://telemost.360.
+ yandex.ru/j/2757612440
+LOCATION:1310
+URL:https://telemost.360.yandex.ru/j/2757612440
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математика и программирование для DS
+DTSTART;TZID=Europe/Moscow:20260903T135000
+DTEND;TZID=Europe/Moscow:20260903T152000
+DTSTAMP:20260905T171121Z
+UID:e649071501182991f9c158c4fd552fbb6f9df94c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Математика и программирование дл
+ я DS\nМухамеджанов А.И.\n1302 (ЦОР)\n(вебинары)
+ \nhttps://edu.kpfu.ru/course/view.php?id=7130
+LOCATION:1302
+URL:https://edu.kpfu.ru/course/view.php?id=7130
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математика и программирование для DS
+DTSTART;TZID=Europe/Moscow:20260903T155000
+DTEND;TZID=Europe/Moscow:20260903T172000
+DTSTAMP:20260905T171121Z
+UID:ae37a9c1bc0a1f06e6b2207db5934b3e539f6df7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Математика и программирование дл
+ я DS\nМухамеджанов А.И.\n1302 (ЦОР)\n(вебинары)
+ \nhttps://edu.kpfu.ru/course/view.php?id=7130
+LOCATION:1302
+URL:https://edu.kpfu.ru/course/view.php?id=7130
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Технологическая
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171121Z
+UID:f207cac623041e82864e0e32b16f4d5aa69b6a32@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Технологическая (проектно-\nтехно
+ логическая) практика\n (по распределению)
+  \n9 нед.                      \n(вебинары)\nhttps://telemost.3
+ 60.yandex.ru/j/3563796439
+LOCATION:https://telemost.360.yandex.ru/j/3563796439
+URL:https://telemost.360.yandex.ru/j/3563796439
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Технологическая практика
+DTSTART;TZID=Europe/Moscow:20260917T191000
+DTEND;TZID=Europe/Moscow:20260917T204000
+DTSTAMP:20260905T171121Z
+UID:5c2e02fcda430a942435401392c124e6d8379c39@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Технологическая (проектно-технол
+ огическая) практика  (по распределению) с
+  3 недели
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Программная инженерия
+DTSTART;TZID=Europe/Moscow:20260904T173000
+DTEND;TZID=Europe/Moscow:20260904T190000
+DTSTAMP:20260905T171121Z
+UID:9b01a745f9336813f6e5f9879aec1011f65d87f0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Программная инженерия\, \nКоростел
+ ева Д.М.\n1302 (ЦОР)\n(вебинары)\nhttps://telemost.360.yan
+ dex.ru/j/8360952646
+LOCATION:1302
+URL:https://telemost.360.yandex.ru/j/8360952646
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Инфобез
+DTSTART;TZID=Europe/Moscow:20260905T101000
+DTEND;TZID=Europe/Moscow:20260905T114000
+DTSTAMP:20260905T171121Z
+UID:e81ab97a62faad6d2b3b3dbce664baef96d5b4dd@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Информационная безопасность\,пра
+ к.\nМулюков Р.И.\,  1405 \n(вебинары)\nhttps://my.mts-li
+ nk.ru/j/44062887/1207306511
+LOCATION:1405
+URL:https://my.mts-link.ru/j/44062887/1207306511
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260905T121000
+DTEND;TZID=Europe/Moscow:20260905T134000
+DTSTAMP:20260905T171121Z
+UID:2478dfbe0b2aadf6cd6782826a07d2a6d9acbdb4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту 12:00 - 13:30     \n(ЦОР)\n(вебинар
+ ы)\nhttps://edu.kpfu.ru/course/view.php?id=5573
+LOCATION:https://edu.kpfu.ru/course/view.php?id=5573
+URL:https://edu.kpfu.ru/course/view.php?id=5573
+END:VEVENT
+END:VCALENDAR

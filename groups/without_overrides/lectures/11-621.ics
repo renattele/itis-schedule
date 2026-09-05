@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Физическая культура и спорт
+DTSTART;TZID=Europe/Moscow:20260901T101000
+DTEND;TZID=Europe/Moscow:20260901T114000
+DTSTAMP:20260905T171122Z
+UID:b9d8924d11fb244ce5613d8dc51a45613e8f9ec7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Физическая культура и спорт\, Фоми
+ на Е.В.\nлекции в эл.форме (ЦОР)\nhttps://edu.kpfu.ru
+ /course/view.php?id=6580
+LOCATION:https://edu.kpfu.ru/course/view.php?id=6580
+URL:https://edu.kpfu.ru/course/view.php?id=6580
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математический анализ для ИT
+DTSTART;TZID=Europe/Moscow:20260901T121000
+DTEND;TZID=Europe/Moscow:20260901T134000
+DTSTAMP:20260905T171122Z
+UID:0f82d0ee97ad50e36594c0e2688ab0188563d454@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Математический анализ для ИT\,\nлек
+ . Гарипов И.Б.\n1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информатика и программирование
+DTSTART;TZID=Europe/Moscow:20260902T155000
+DTEND;TZID=Europe/Moscow:20260902T172000
+DTSTAMP:20260905T171122Z
+UID:92a0f65f50ddeeaa39f36b601d4a758f447de351@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T155000
+DESCRIPTION:Информатика и программирование\,\n
+ Еникеев К.Ш.\nлек.\n1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Компьютерная математика
+DTSTART;TZID=Europe/Moscow:20260903T101000
+DTEND;TZID=Europe/Moscow:20260903T114000
+DTSTAMP:20260905T171122Z
+UID:a55e46ea567e71f7b1699458778a9262ac53c281@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Компьютерная математика\, \nлек.\nГ
+ ерасимов О.В.\n (ЦОР\, вебинары)\nhttps://telemost.36
+ 0.yandex.ru/j/2778402653
+LOCATION:https://telemost.360.yandex.ru/j/2778402653
+URL:https://telemost.360.yandex.ru/j/2778402653
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физическая культура и спорт
+DTSTART;TZID=Europe/Moscow:20260904T101000
+DTEND;TZID=Europe/Moscow:20260904T114000
+DTSTAMP:20260905T171122Z
+UID:7528f6f690f6343b9abe5531dce95c58442e0acd@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Физическая культура и спорт\, Фоми
+ на Е.В.\nлекции в эл.форме (ЦОР)\nhttps://edu.kpfu.ru
+ /course/view.php?id=6580
+LOCATION:https://edu.kpfu.ru/course/view.php?id=6580
+URL:https://edu.kpfu.ru/course/view.php?id=6580
+END:VEVENT
+END:VCALENDAR

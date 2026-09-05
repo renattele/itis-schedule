@@ -1,0 +1,231 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Лекц] Конфликтология
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20260905T171123Z
+UID:cbbf36b7281374b95e97a68ec53eb86d8dabf927@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплина по выбору:\nКонфликтол
+ огия\,\n1-9 нед.лек.\, с 10 нед.прак.\nМахмутов
+ а Р.Г.\n(вебинары)\nhttps://telemost.yandex.ru/j/07165234252182
+LOCATION:https://telemost.yandex.ru/j/07165234252182
+URL:https://telemost.yandex.ru/j/07165234252182
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Технологии искусственного ин
+ теллекта
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171123Z
+UID:e0f4a2156b7b3649b25a0104767e30e0f0cde3aa@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\,\nМухамеджанов А.И.\n(вебинары)\nhttps://t
+ elemost.360.yandex.ru/j/7067270198
+LOCATION:https://telemost.360.yandex.ru/j/7067270198
+URL:https://telemost.360.yandex.ru/j/7067270198
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Кроссплатформенная разработк
+ а
+DTSTART;TZID=Europe/Moscow:20260901T173000
+DTEND;TZID=Europe/Moscow:20260901T190000
+DTSTAMP:20260905T171123Z
+UID:df9789496df8ad1ba250ee315401b2759286eea1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплина по выбору:\n Кроссплатф
+ орменная разработка\nЕвстратова Д.Д.\, \n(в
+ ебинары)\nОсновы Linux \nРезников Я.Я. (вебин
+ ары)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Основы Linux
+DTSTART;TZID=Europe/Moscow:20260901T173000
+DTEND;TZID=Europe/Moscow:20260901T190000
+DTSTAMP:20260905T171123Z
+UID:978fec4f1c62ba0434b0f2fbc4c316484b3c48c0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплина по выбору:\n Кроссплатф
+ орменная разработка\nЕвстратова Д.Д.\, \n(в
+ ебинары)\nОсновы Linux \nРезников Я.Я. (вебин
+ ары)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Кроссплатформенная разработк
+ а
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260905T171123Z
+UID:970bb2d2c581621d0f4bbef76ab96a31cc97d53d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплина по выбору:\n Кроссплатф
+ орменная разработка\nЕвстратова Д.Д.\, \n(в
+ ебинары)\nОсновы Linux \nРезников Я.Я. (вебин
+ ары)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Основы Linux
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260905T171123Z
+UID:6b255e4cc1f3719b90122da754fb0f899f0768ef@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплина по выбору:\n Кроссплатф
+ орменная разработка\nЕвстратова Д.Д.\, \n(в
+ ебинары)\nОсновы Linux \nРезников Я.Я. (вебин
+ ары)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Дополнительные главы обработ
+ ки данных
+DTSTART;TZID=Europe/Moscow:20260902T135000
+DTEND;TZID=Europe/Moscow:20260902T152000
+DTSTAMP:20260905T171123Z
+UID:6c5a696e8076e476ade86292889dc78b922ae103@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T135000
+DESCRIPTION:Дисциплина по выбору:\nДополнител
+ ьные главы обработки данных\,\nБудревич А
+ .Д.\n(вебинары)\nФункциональное программи
+ рование\, Михайлова Ю.А.\n(вебинары)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Функциональное программирова
+ ние
+DTSTART;TZID=Europe/Moscow:20260902T135000
+DTEND;TZID=Europe/Moscow:20260902T152000
+DTSTAMP:20260905T171123Z
+UID:ed6a87ad824e53c4fcea5c8f86f94c365ef71655@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T135000
+DESCRIPTION:Дисциплина по выбору:\nДополнител
+ ьные главы обработки данных\,\nБудревич А
+ .Д.\n(вебинары)\nФункциональное программи
+ рование\, Михайлова Ю.А.\n(вебинары)\nhttps://te
+ lemost.360.yandex.ru/j/0856310414
+LOCATION:https://telemost.360.yandex.ru/j/0856310414
+URL:https://telemost.360.yandex.ru/j/0856310414
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Дополнительные главы обработ
+ ки данных
+DTSTART;TZID=Europe/Moscow:20260902T155000
+DTEND;TZID=Europe/Moscow:20260902T172000
+DTSTAMP:20260905T171123Z
+UID:dc0bc9f6e63f841981c5dae09a98e0f9a21e3788@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T155000
+DESCRIPTION:Дисциплина по выбору:\nДополнител
+ ьные главы обработки данных\,\nБудревич А
+ .Д.\n(вебинары)\nФункциональное программи
+ рование\, Михайлова Ю.А.\n(вебинары)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Функциональное программирова
+ ние
+DTSTART;TZID=Europe/Moscow:20260902T155000
+DTEND;TZID=Europe/Moscow:20260902T172000
+DTSTAMP:20260905T171123Z
+UID:744c1005d04fd794eee54d015c4b81ad19da8754@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T155000
+DESCRIPTION:Дисциплина по выбору:\nДополнител
+ ьные главы обработки данных\,\nБудревич А
+ .Д.\n(вебинары)\nФункциональное программи
+ рование\, Михайлова Ю.А.\n(вебинары)\nhttps://te
+ lemost.360.yandex.ru/j/0856310414
+LOCATION:https://telemost.360.yandex.ru/j/0856310414
+URL:https://telemost.360.yandex.ru/j/0856310414
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологии искусственного ин
+ теллекта
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171123Z
+UID:64391948a63c7732dde918c6a85275afebeb7643@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Технологии искусственного интелл
+ екта\,\nМухамеджанов А.И.\n(вебинары)\nhttps://t
+ elemost.360.yandex.ru/j/7067270198
+LOCATION:https://telemost.360.yandex.ru/j/7067270198
+URL:https://telemost.360.yandex.ru/j/7067270198
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Психология
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171123Z
+UID:56d6d54dc8f6f8380eca56987d31a4bc90d06358@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплина по выбору:\nПсихология
+ \,\nс 10 нед.прак. Зайнуллин А.Э.\n(вебинары)\n
+ https://telemost.yandex.ru/j/69303139806404
+LOCATION:https://telemost.yandex.ru/j/69303139806404
+URL:https://telemost.yandex.ru/j/69303139806404
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Методология научной деятельн
+ ости
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260905T171123Z
+UID:68abf699f6ce1581733402c296314e8c90da3b14@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Методология научной деятельности
+ \,\nЕлизаров А.М.\n(вебинары)\nhttps://telemost.360.yand
+ ex.ru/j/5262847742
+LOCATION:https://telemost.360.yandex.ru/j/5262847742
+URL:https://telemost.360.yandex.ru/j/5262847742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Методология научной деятельн
+ ости
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171123Z
+UID:4592e39aed08434f3d591c8a065f0de4ef425e4c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Методология научной деятельности
+ \,\nКостюк Д.И.\n(вебинары)\nhttps://telemost.360.yandex.r
+ u/j/5863748109
+LOCATION:https://telemost.360.yandex.ru/j/5863748109
+URL:https://telemost.360.yandex.ru/j/5863748109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Психология
+DTSTART;TZID=Europe/Moscow:20260904T155000
+DTEND;TZID=Europe/Moscow:20260904T172000
+DTSTAMP:20260905T171123Z
+UID:3862117fcaee679cd03ad1749caa6a5ea4199318@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПсихология
+ \,\n1-9 нед. лек. Юсупов М.Г.\n(вебинары)\nhttps://t
+ elemost.yandex.ru/j/96188989149114
+LOCATION:https://telemost.yandex.ru/j/96188989149114
+URL:https://telemost.yandex.ru/j/96188989149114
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Методология научной деятельн
+ ости
+DTSTART;TZID=Europe/Moscow:20260904T191000
+DTEND;TZID=Europe/Moscow:20260904T204000
+DTSTAMP:20260905T171123Z
+UID:736055e4ac85d7093fb9a9f41ccf1da34ed8db88@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Методология научной деятельности
+ \,\nКостюк Д.И.\n(вебинары)\nhttps://telemost.360.yandex.r
+ u/j/5863748109
+LOCATION:https://telemost.360.yandex.ru/j/5863748109
+URL:https://telemost.360.yandex.ru/j/5863748109
+END:VEVENT
+END:VCALENDAR

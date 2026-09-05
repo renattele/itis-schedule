@@ -1,0 +1,127 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Социология
+DTSTART;TZID=Europe/Moscow:20260907T083000
+DTEND;TZID=Europe/Moscow:20260907T100000
+DTSTAMP:20260905T171123Z
+UID:c0637807d102b8d0dd69c50d34e11c4e6691b9dd@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплина по выбору:\nСоциология
+ \, Фахретдинова Л.М.\n(вебинары)\n 1405\nhttps://tel
+ emost.360.yandex.ru/j/4568632197
+LOCATION:https://telemost.360.yandex.ru/j/4568632197
+URL:https://telemost.360.yandex.ru/j/4568632197
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Психология управления
+DTSTART;TZID=Europe/Moscow:20260907T101000
+DTEND;TZID=Europe/Moscow:20260907T114000
+DTSTAMP:20260905T171123Z
+UID:7a798a98a364c442e068f59101c700c7bb07e575@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПсихология 
+ управления\,\nШакирова Г.Ф.\n(вебинары)\n 1310
+ \nhttps://telemost.360.yandex.ru/j/9490209468
+LOCATION:https://telemost.360.yandex.ru/j/9490209468
+URL:https://telemost.360.yandex.ru/j/9490209468
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Кроссплатформенная разработка
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260905T171123Z
+UID:8e8c5c9c93433d927a7b206aca92b687a8d57ee5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплина по выбору:\nКроссплатф
+ орменная разработка\, \nКурносов О.В.\n(веб
+ инары)\nhttps://telemost.360.yandex.ru/j/06586399067822
+LOCATION:https://telemost.360.yandex.ru/j/06586399067822
+URL:https://telemost.360.yandex.ru/j/06586399067822
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Кроссплатформенная разработка
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171123Z
+UID:f4e0e31148ad7397c11fa303112b39918d23c183@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплина по выбору:\nКроссплатф
+ орменная разработка\, \nКурносов О.В.\n(веб
+ инары)\nhttps://telemost.360.yandex.ru/j/06586399067822
+LOCATION:https://telemost.360.yandex.ru/j/06586399067822
+URL:https://telemost.360.yandex.ru/j/06586399067822
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Функциональное программирование
+DTSTART;TZID=Europe/Moscow:20260904T173000
+DTEND;TZID=Europe/Moscow:20260904T190000
+DTSTAMP:20260905T171123Z
+UID:d63bfabc7540aa1d7120e1d462abf2859931ac27@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплина по выбору:\nФункционал
+ ьное программирование\,\nМихайлова Ю.А.\n(
+ вебинары)\nhttps://telemost.360.yandex.ru/j/7087010075
+LOCATION:https://telemost.360.yandex.ru/j/7087010075
+URL:https://telemost.360.yandex.ru/j/7087010075
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Функциональное программирование
+DTSTART;TZID=Europe/Moscow:20260904T191000
+DTEND;TZID=Europe/Moscow:20260904T204000
+DTSTAMP:20260905T171123Z
+UID:11acd9af1a921f8362091f21fe98163c4bf10f6e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплина по выбору:\nФункционал
+ ьное программирование\,\nМихайлова Ю.А.\n(
+ вебинары)\nhttps://telemost.360.yandex.ru/j/7087010075
+LOCATION:https://telemost.360.yandex.ru/j/7087010075
+URL:https://telemost.360.yandex.ru/j/7087010075
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Технологии искусственного интеллек
+ та
+DTSTART;TZID=Europe/Moscow:20260905T101000
+DTEND;TZID=Europe/Moscow:20260905T114000
+DTSTAMP:20260905T171123Z
+UID:a0762308b17ef968e38f46fff30ef13b2b8bd725@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\,\nМухамеджанов А.И.  \n(вебинары)\n1110\nh
+ ttps://telemost.360.yandex.ru/j/9486403716
+LOCATION:1110
+URL:https://telemost.360.yandex.ru/j/9486403716
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Технологии искусственного интеллек
+ та
+DTSTART;TZID=Europe/Moscow:20260905T121000
+DTEND;TZID=Europe/Moscow:20260905T134000
+DTSTAMP:20260905T171123Z
+UID:112288313642a391afa23608769e01c4c1b86632@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\,\nМухамеджанов А.И.  \n(вебинары)\n1110\nh
+ ttps://telemost.360.yandex.ru/j/9486403716
+LOCATION:1110
+URL:https://telemost.360.yandex.ru/j/9486403716
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Методология научной деятельности
+DTSTART;TZID=Europe/Moscow:20260905T155000
+DTEND;TZID=Europe/Moscow:20260905T172000
+DTSTAMP:20260905T171123Z
+UID:b2211c17b0cbb4712867fb4364ed286cf38b3d97@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Методология научной деятельности
+ \,\n Фахретдинова Д.И.(вебинары)\n1409\nс нояб
+ ря\nhttps://telemost.360.yandex.ru/j/7023464513
+LOCATION:1409
+URL:https://telemost.360.yandex.ru/j/7023464513
+END:VEVENT
+END:VCALENDAR

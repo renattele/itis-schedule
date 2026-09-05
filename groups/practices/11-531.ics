@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20260905T171120Z
+UID:a1606269f1c8c9abf0293f9c68dee26689638e6d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту\,\n16:00-17:30 \n(ЦОР) \n(вебинары
+ )\nhttps://edu.kpfu.ru/course/view.php?id=5573
+LOCATION:https://edu.kpfu.ru/course/view.php?id=5573
+URL:https://edu.kpfu.ru/course/view.php?id=5573
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в разработку мобильных при
+ ложений
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171120Z
+UID:dc8e6de55bc0d1b66b77670bd9e3e09b5d5c1f10@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплина по выбору:\nВведение в 
+ разработку мобильных приложений\, Сапар
+ ина В.Т.\n(вебинары)\nhttps://telemost.yandex.ru/j/7220965439
+ 3508
+LOCATION:https://telemost.yandex.ru/j/72209654393508
+URL:https://telemost.yandex.ru/j/72209654393508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в разработку мобильных при
+ ложений
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260905T171120Z
+UID:445f157f7c32a3bae85651e15f98c693c5a47417@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплина по выбору:\nВведение в 
+ разработку мобильных приложений\, Сапар
+ ина В.Т.\n(вебинары)\nhttps://telemost.yandex.ru/j/7220965439
+ 3508
+LOCATION:https://telemost.yandex.ru/j/72209654393508
+URL:https://telemost.yandex.ru/j/72209654393508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260901T101000
+DTEND;TZID=Europe/Moscow:20260901T114000
+DTSTAMP:20260905T171120Z
+UID:0c3edbd422534b8b0acfd246289c86da1e2dadf0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Иностранный язык\,\nМохамед Марико
+  \n(вебинары)\n1305\nhttps://telemost.360.yandex.ru/j/9282530670
+LOCATION:1305
+URL:https://telemost.360.yandex.ru/j/9282530670
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы правоведения и противодейст
+ вия коррупции
+DTSTART;TZID=Europe/Moscow:20261103T155000
+DTEND;TZID=Europe/Moscow:20261103T172000
+DTSTAMP:20260905T171120Z
+UID:afc33544b7ac1e926ed84a9d07b247d3f2f104f1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Основы правоведения и противодей
+ ствия коррупции\,\nКраснов Э.В.\,  (ЦОР)\n(ве
+ бинары)\n9 нед. лек\, с 10 нед. практ.\n1303\nhttps:/
+ /edu.kpfu.ru/course/view.php?id=1113
+LOCATION:1303
+URL:https://edu.kpfu.ru/course/view.php?id=1113
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260902T101000
+DTEND;TZID=Europe/Moscow:20260902T114000
+DTSTAMP:20260905T171120Z
+UID:0e4554022cf6cad9822a9ab9c42460d86eaaa9ea@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T101000
+DESCRIPTION:Иностранный язык\,\nМохамед Марико
+   \n(вебинары)\n1309\nhttps://telemost.360.yandex.ru/j/9282530670
+LOCATION:1309
+URL:https://telemost.360.yandex.ru/j/9282530670
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260902T121000
+DTEND;TZID=Europe/Moscow:20260902T134000
+DTSTAMP:20260905T171120Z
+UID:ab16070acea3590e4c1b516adac7ca8ac4d7c77a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T121000
+DESCRIPTION:Иностранный язык\,\nМохамед Марико
+   \n(вебинары)\n1309\nhttps://telemost.360.yandex.ru/j/9282530670
+LOCATION:1309
+URL:https://telemost.360.yandex.ru/j/9282530670
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Базы данных
+DTSTART;TZID=Europe/Moscow:20260902T155000
+DTEND;TZID=Europe/Moscow:20260902T172000
+DTSTAMP:20260905T171120Z
+UID:9db6b857f27b0ac0d67a369a8ec95966dba82f5d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T155000
+DESCRIPTION:Базы данных\,\nпрак.\nХайруллин А.Ф.
+ \n(вебинары)\n1408\nhttps://telemost.360.yandex.ru/j/1837872727
+LOCATION:1408
+URL:https://telemost.360.yandex.ru/j/1837872727
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физкультура (УНИКС)
+DTSTART;TZID=Europe/Moscow:20260903T155000
+DTEND;TZID=Europe/Moscow:20260903T172000
+DTSTAMP:20260905T171120Z
+UID:7e64fa3bf577ef686b0c071b6ec45abde3792ebe@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту\,\n16:00-17:30 \n(ЦОР) \n(вебинары
+ )\nhttps://edu.kpfu.ru/course/view.php?id=5573
+LOCATION:https://edu.kpfu.ru/course/view.php?id=5573
+URL:https://edu.kpfu.ru/course/view.php?id=5573
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы разработки информационных с
+ истем\, практ.
+DTSTART;TZID=Europe/Moscow:20260904T155000
+DTEND;TZID=Europe/Moscow:20260904T172000
+DTSTAMP:20260905T171120Z
+UID:7309fc9a1d11a7c60459a04f680c4aaf03296079@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Основы разработки информационных
+  систем\, практ.\nЛеухин А.Д.\n (ЦОР)\n(вебина
+ ры)\n1110\nhttps://edu.kpfu.ru/course/view.php?id=6094
+LOCATION:1110
+URL:https://edu.kpfu.ru/course/view.php?id=6094
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы разработки информационных с
+ истем\, практ.
+DTSTART;TZID=Europe/Moscow:20260904T173000
+DTEND;TZID=Europe/Moscow:20260904T190000
+DTSTAMP:20260905T171120Z
+UID:2cbb53bda0fc0c094e8f173a9f9c9511dc17a888@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Основы разработки информационных
+  систем\, практ.\nЛеухин А.Д.\n (ЦОР)\n(вебина
+ ры)\n1110\nhttps://edu.kpfu.ru/course/view.php?id=6094
+LOCATION:1110
+URL:https://edu.kpfu.ru/course/view.php?id=6094
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в бэкенд-разработку
+DTSTART;TZID=Europe/Moscow:20260905T101000
+DTEND;TZID=Europe/Moscow:20260905T114000
+DTSTAMP:20260905T171120Z
+UID:c3f548644ac3056694b02bec680a8c72f1c173ff@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Дисциплина по выбору:\nВведение в 
+ бэкенд-разработку\, Теренин Д.М. \n(вебина
+ ры)\nhttps://telemost.360.yandex.ru/j/3177358803?ncrnd=65481
+LOCATION:https://telemost.360.yandex.ru/j/3177358803?ncrnd=65481
+URL:https://telemost.360.yandex.ru/j/3177358803?ncrnd=65481
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в бэкенд-разработку
+DTSTART;TZID=Europe/Moscow:20260905T121000
+DTEND;TZID=Europe/Moscow:20260905T134000
+DTSTAMP:20260905T171120Z
+UID:70f23109c5df06e59f2c26d394dab09c587e00a8@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Дисциплина по выбору:\nВведение в 
+ бэкенд-разработку\, Теренин Д.М. \n(вебина
+ ры)\nhttps://telemost.360.yandex.ru/j/3177358803?ncrnd=65481
+LOCATION:https://telemost.360.yandex.ru/j/3177358803?ncrnd=65481
+URL:https://telemost.360.yandex.ru/j/3177358803?ncrnd=65481
+END:VEVENT
+END:VCALENDAR

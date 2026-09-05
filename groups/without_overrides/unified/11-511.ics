@@ -1,0 +1,276 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Теория вероятностей и математ
+ ическая статистика
+DTSTART;TZID=Europe/Moscow:20260907T135000
+DTEND;TZID=Europe/Moscow:20260907T152000
+DTSTAMP:20260905T171122Z
+UID:a721921bb4988d8bb00a8a8127bccd1d4231136a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Теория вероятностей и математиче
+ ская статистика\,\nКаштанова Е.К.\nподгр.№
+ 1\n 1305\nhttps://disk.360.yandex.ru/i/QMifiKfDXasqIg
+LOCATION:1305
+URL:https://disk.360.yandex.ru/i/QMifiKfDXasqIg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Элективные курсы по физическо
+ й культуре и спорту \, 16:00 - 17:30
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20260905T171122Z
+UID:2ed35e4b34ecc20807071405e30fec0238fc35c7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту \, 16:00 - 17:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Дополнительные главы алгорит
+ мов и структур данных
+DTSTART;TZID=Europe/Moscow:20260901T083000
+DTEND;TZID=Europe/Moscow:20260901T100000
+DTSTAMP:20260905T171122Z
+UID:a4425652426e826a13be6b0f60e5ffa027a659e9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дополнительные главы алгоритмов 
+ и структур данных\,\nБудревич А.Д.\n1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Дополнительные главы алгорит
+ мов и структур данных
+DTSTART;TZID=Europe/Moscow:20260901T101000
+DTEND;TZID=Europe/Moscow:20260901T114000
+DTSTAMP:20260905T171122Z
+UID:3c6a7402cb665bc0fa654bd37d4a8377c917794e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дополнительные главы алгоритмов 
+ и структур данных\,\nБудревич А.Д.\n1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Экономика\, лекции\, нечетн. не
+ д.
+DTSTART;TZID=Europe/Moscow:20260901T121000
+DTEND;TZID=Europe/Moscow:20260901T134000
+DTSTAMP:20260905T171122Z
+UID:c770a0a2f1028f9d62d09ee4aee2e6acb028f05f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261222T205959Z
+EXDATE;TZID=Europe/Moscow:20260908T121000
+EXDATE;TZID=Europe/Moscow:20260922T121000
+EXDATE;TZID=Europe/Moscow:20261006T121000
+EXDATE;TZID=Europe/Moscow:20261020T121000
+EXDATE;TZID=Europe/Moscow:20261103T121000
+EXDATE;TZID=Europe/Moscow:20261117T121000
+EXDATE;TZID=Europe/Moscow:20261201T121000
+EXDATE;TZID=Europe/Moscow:20261215T121000
+DESCRIPTION:Экономика\, лекции\, нечетн. нед.\, Б
+ агаутдинова Н.Г.\, \nауд.109
+LOCATION:109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Иностранный язык в профессион
+ альной сфере
+DTSTART;TZID=Europe/Moscow:20260902T083000
+DTEND;TZID=Europe/Moscow:20260902T100000
+DTSTAMP:20260905T171122Z
+UID:cb9aaee86af190b2463370f940d765fe3d51efc7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T083000
+DESCRIPTION:Иностранный язык в профессиональ
+ ной сфере: Бибик Е.А. в 1301\, Булина Е.Н. в 1302
+ \, Муфазалова Н.И. в 1303\, Тагиров Р.М. в 1304\, 
+ Шарифуллина Э.А. в 1305\, Гатиятуллина Г.М. в
+  1412
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Теория вероятностей и математ
+ ическая статистика
+DTSTART;TZID=Europe/Moscow:20260902T101000
+DTEND;TZID=Europe/Moscow:20260902T114000
+DTSTAMP:20260905T171122Z
+UID:abfb4af93324125faaeefded3cbb417ef43229f9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T101000
+DESCRIPTION:Теория вероятностей и математиче
+ ская статистика\,\nКаштанова Е.К.\nподгр.№
+ 2 \n 1110\nhttps://disk.360.yandex.ru/i/eBPtrf39bWw7Xw
+LOCATION:1110
+URL:https://disk.360.yandex.ru/i/eBPtrf39bWw7Xw
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Экономика
+DTSTART;TZID=Europe/Moscow:20260902T121000
+DTEND;TZID=Europe/Moscow:20260902T134000
+DTSTAMP:20260905T171122Z
+UID:4cf68d71bc8aec80e7092f18bce7493d264dd2e3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261223T205959Z
+EXDATE;TZID=Europe/Moscow:20260909T121000
+EXDATE;TZID=Europe/Moscow:20260923T121000
+EXDATE;TZID=Europe/Moscow:20261007T121000
+EXDATE;TZID=Europe/Moscow:20261021T121000
+EXDATE;TZID=Europe/Moscow:20261104T121000
+EXDATE;TZID=Europe/Moscow:20261118T121000
+EXDATE;TZID=Europe/Moscow:20261202T121000
+EXDATE;TZID=Europe/Moscow:20261216T121000
+DESCRIPTION:Экономика\, \nнечетн.нед.\nБагаутди
+ нова Н.Г.\n1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Введение в разработку информа
+ ционных систем
+DTSTART;TZID=Europe/Moscow:20260903T101000
+DTEND;TZID=Europe/Moscow:20260903T114000
+DTSTAMP:20260905T171122Z
+UID:a77be1398b5fecc8782ae808552a942b03f0e54d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Введение в разработку информацио
+ нных систем\,\,\nЛеухин А.Д.\nв 1311
+LOCATION:1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Основы правоведения и противо
+ действия коррупции
+DTSTART;TZID=Europe/Moscow:20260903T135000
+DTEND;TZID=Europe/Moscow:20260903T152000
+DTSTAMP:20260905T171122Z
+UID:59e5d7af4a46eb17ebaf17c4388b5479c955f18d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261224T205959Z
+EXDATE;TZID=Europe/Moscow:20260910T135000
+EXDATE;TZID=Europe/Moscow:20260924T135000
+EXDATE;TZID=Europe/Moscow:20261008T135000
+EXDATE;TZID=Europe/Moscow:20261022T135000
+EXDATE;TZID=Europe/Moscow:20261105T135000
+EXDATE;TZID=Europe/Moscow:20261119T135000
+EXDATE;TZID=Europe/Moscow:20261203T135000
+EXDATE;TZID=Europe/Moscow:20261217T135000
+DESCRIPTION:Основы правоведения и противодей
+ ствия коррупции\, Никитин Д.В. нечетн.нед.
+ \, \nауд.  108
+LOCATION:108
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Элективные курсы по физическо
+ й культуре и спорту  УНИКС
+DTSTART;TZID=Europe/Moscow:20260903T155000
+DTEND;TZID=Europe/Moscow:20260903T172000
+DTSTAMP:20260905T171122Z
+UID:19ff72ae21c182291182c6344af8e4f45f1f39b3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Элективные курсы по физической ку
+ льтуре и спорту  УНИКС   \n16:00 - 17:30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260904T083000
+DTEND;TZID=Europe/Moscow:20260904T100000
+DTSTAMP:20260905T171122Z
+UID:5c6e67ab1e7520cf0c6f2c18e841ecc77c2f6aa1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Иностранный язык:  Бибик Е.А. в 1301\, 
+ Булина Е.Н. в 1302\, Муфазалова Н.И. в 1303\, Таг
+ иров Р.М. в 1304\, Шарифуллина Э.А. в 1305\, Гати
+ ятуллина Г.М.(4.09 онлайн) в 1412
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Иностранный язык
+DTSTART;TZID=Europe/Moscow:20260904T101000
+DTEND;TZID=Europe/Moscow:20260904T114000
+DTSTAMP:20260905T171122Z
+UID:822b002618daff57481a0994aeb26229f9b73034@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Иностранный язык: Бибик Е.А. в 1301\, 
+ Булина Е.Н. в 1302\, Муфазалова Н.И. в 1303\, Таг
+ иров Р.М. в 1304\, Шарифуллина Э.А. в 1305\, Гати
+ ятуллина Г.М. в 1412
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Теория вероятностей и математ
+ ическая статистика
+DTSTART;TZID=Europe/Moscow:20260904T121000
+DTEND;TZID=Europe/Moscow:20260904T134000
+DTSTAMP:20260905T171122Z
+UID:8d617a8d26842d6afa58cfe6787f0768c4496442@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Теория вероятностей и математиче
+ ская статистика\, Григорьева И.С.\, ауд. 109
+LOCATION:109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Базы данных
+DTSTART;TZID=Europe/Moscow:20260911T135000
+DTEND;TZID=Europe/Moscow:20260911T152000
+DTSTAMP:20260905T171122Z
+UID:35b9be739833666804e3acff12078c27b58c0f9d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Базы данных\, \nМангушева А.Р. \n1307\n(
+ с 11 сентября)
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Базы данных\, лекции
+DTSTART;TZID=Europe/Moscow:20260911T155000
+DTEND;TZID=Europe/Moscow:20260911T172000
+DTSTAMP:20260905T171122Z
+UID:7ca950bbe799bb78dfe0a48a26b2154e81e3ccc9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Базы данных\, лекции\, \nМангушева А
+ .Р. \nауд. 109\n(с 11 сентября)
+LOCATION:109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы правоведения и противо
+ действия коррупции
+DTSTART;TZID=Europe/Moscow:20260904T173000
+DTEND;TZID=Europe/Moscow:20260904T190000
+DTSTAMP:20260905T171122Z
+UID:50c115d1cb55a75e216d00b0fd3b68c081c653fc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+EXDATE;TZID=Europe/Moscow:20260911T173000
+EXDATE;TZID=Europe/Moscow:20260925T173000
+EXDATE;TZID=Europe/Moscow:20261009T173000
+EXDATE;TZID=Europe/Moscow:20261023T173000
+EXDATE;TZID=Europe/Moscow:20261106T173000
+EXDATE;TZID=Europe/Moscow:20261120T173000
+EXDATE;TZID=Europe/Moscow:20261204T173000
+EXDATE;TZID=Europe/Moscow:20261218T173000
+DESCRIPTION:Основы правоведения и противодей
+ ствия коррупции\, \nНикитин Д.В.\nнечетн.не
+ д.   \n1307
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Введение в разработку информа
+ ционных систем
+DTSTART;TZID=Europe/Moscow:20260905T121000
+DTEND;TZID=Europe/Moscow:20260905T134000
+DTSTAMP:20260905T171122Z
+UID:39d8593b5dc15b9438ce2bb9582e563a05ed4761@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Введение в разработку информацио
+ нных систем\,\nАбдурахманов А.Ш.\n1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Введение в разработку информа
+ ционных систем
+DTSTART;TZID=Europe/Moscow:20260905T135000
+DTEND;TZID=Europe/Moscow:20260905T152000
+DTSTAMP:20260905T171122Z
+UID:fa65d08827c41ae272b3dd0ec131a63461071578@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Введение в разработку информацио
+ нных систем\,\nАбдурахманов А.Ш.\n1308
+LOCATION:1308
+END:VEVENT
+END:VCALENDAR

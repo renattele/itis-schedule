@@ -1,0 +1,86 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Основы правоведения и противодейст
+ вия коррупции
+DTSTART;TZID=Europe/Moscow:20260908T101000
+DTEND;TZID=Europe/Moscow:20260908T114000
+DTSTAMP:20260905T171120Z
+UID:7d8da5944ea31041405bf2d55664ba6c61306e32@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+EXDATE;TZID=Europe/Moscow:20260915T101000
+EXDATE;TZID=Europe/Moscow:20260929T101000
+EXDATE;TZID=Europe/Moscow:20261013T101000
+EXDATE;TZID=Europe/Moscow:20261027T101000
+EXDATE;TZID=Europe/Moscow:20261110T101000
+EXDATE;TZID=Europe/Moscow:20261124T101000
+EXDATE;TZID=Europe/Moscow:20261208T101000
+EXDATE;TZID=Europe/Moscow:20261222T101000
+DESCRIPTION:Основы правоведения и противодей
+ ствия коррупции\,\nВалиуллин Д.А.\n(ЦОР\, ве
+ бинары)\nчетн.нед.\nhttps://telemost.360.yandex.ru/j/66321923
+ 98
+LOCATION:https://telemost.360.yandex.ru/j/6632192398
+URL:https://telemost.360.yandex.ru/j/6632192398
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы разработки информационных с
+ истем
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171120Z
+UID:4b18adbe89ceab593eb3871e330088f09e18fe6d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Основы разработки информационных
+  систем\,\nУсачева Е.С.\n(вебинары)\nhttps://telemo
+ st.yandex.ru/j/52058931525774
+LOCATION:https://telemost.yandex.ru/j/52058931525774
+URL:https://telemost.yandex.ru/j/52058931525774
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы разработки информационных с
+ истем
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171120Z
+UID:7ec83a6ae975c9dff49e83204e94d87aa0c5ac97@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Основы разработки информационных
+  систем\,\nУсачева Е.С.\n(вебинары)\nhttps://telemo
+ st.yandex.ru/j/52058931525774
+LOCATION:https://telemost.yandex.ru/j/52058931525774
+URL:https://telemost.yandex.ru/j/52058931525774
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Экономика
+DTSTART;TZID=Europe/Moscow:20260903T135000
+DTEND;TZID=Europe/Moscow:20260903T152000
+DTSTAMP:20260905T171120Z
+UID:c41dbb5e7e68085e61a8c45b552e84b3912f207e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Экономика\,\nБагаутдинова Н.Г.\n1-9 н
+ ед. (ЦОР\, вебинары)\nhttps://telemost.yandex.ru/j/8581896221
+ 2067
+LOCATION:https://telemost.yandex.ru/j/85818962212067
+URL:https://telemost.yandex.ru/j/85818962212067
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Базы данных
+DTSTART;TZID=Europe/Moscow:20260904T121000
+DTEND;TZID=Europe/Moscow:20260904T134000
+DTSTAMP:20260905T171120Z
+UID:ff9562d32cb3386569a4300365adac1e5b08ce0e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Базы данных\,\nМулюков Р.И.\n(вебина
+ ры)\nhttps://kpfu.mts-link.ru/j/44062887/1207306511
+LOCATION:https://kpfu.mts-link.ru/j/44062887/1207306511
+URL:https://kpfu.mts-link.ru/j/44062887/1207306511
+END:VEVENT
+END:VCALENDAR

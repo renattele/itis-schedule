@@ -1,0 +1,106 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Социальная робототехника
+DTSTART;TZID=Europe/Moscow:20260907T135000
+DTEND;TZID=Europe/Moscow:20260907T152000
+DTSTAMP:20260905T171121Z
+UID:a0c9144eba1d8d35d02d69bab421ffc0c11555f3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплина по выбору: \nСоциальная
+  робототехника \nЦой Т.Г. \n1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Проектная практика
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20260905T171121Z
+UID:6914f0fbfd0702b40d7d8aee43ee9d474bfe3018@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Проектная практика \nЦой Т.Г. \n1405
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Основы искусственного интелл
+ екта
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260905T171121Z
+UID:ac35d95e46e2dfc9e45875b1b691a1181d72a87e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Основы искусственного интеллекта
+  \nТаланов М.О.\n\nhttps://telemost.360.yandex.ru/j/6984063080\nh
+ ttps://telemost.360.yandex.ru/j/6984063080
+LOCATION:360
+URL:https://telemost.360.yandex.ru/j/6984063080
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Промышленная робототехника
+DTSTART;TZID=Europe/Moscow:20260901T155000
+DTEND;TZID=Europe/Moscow:20260901T172000
+DTSTAMP:20260905T171121Z
+UID:5d4f66464a9e7ab9a1cdcd9c2993f7e8f7d33e3c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплина по выбору: \nПромышленн
+ ая робототехника \nЧеботарева Э.В. \n1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Прикладные технологии в разра
+ ботке\, проектировании и эксплуатации ин
+ формационных систем
+DTSTART;TZID=Europe/Moscow:20260901T173000
+DTEND;TZID=Europe/Moscow:20260901T190000
+DTSTAMP:20260905T171121Z
+UID:1a48f20d780ab335879182b78519de55ec89d7ba@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПрикладные 
+ технологии в разработке\, проектировани
+ и и эксплуатации информационных систем 
+ \nЕремин А.Н. \nв 1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Автономные робототехнические
+  системы
+DTSTART;TZID=Europe/Moscow:20260902T135000
+DTEND;TZID=Europe/Moscow:20260902T152000
+DTSTAMP:20260905T171121Z
+UID:ed950e79ef899b22b61d2d01e7b17ca62b7c17c4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T135000
+DESCRIPTION:Дисциплина по выбору: \nАвтономные
+  робототехнические системы\nМагид Е.А.\, а
+ уд. 1405 н.н.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Автономные робототехнические
+  системы
+DTSTART;TZID=Europe/Moscow:20260902T155000
+DTEND;TZID=Europe/Moscow:20260902T172000
+DTSTAMP:20260905T171121Z
+UID:cf8a9feb36edcfa43b08b6453af77b25831c4755@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T155000
+DESCRIPTION:Дисциплина по выбору: \nАвтономные
+  робототехнические системы\nМагид Е.А.\, а
+ уд. 1405\, н.н.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Построение процесса разработ
+ ки программного обеспечения
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171121Z
+UID:b62f794766d851beab994b57ac732eeabee21549@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Построение процесса разработки п
+ рограммного обеспечения \nЕремин А.Н.\, ау
+ д. 1412
+LOCATION:1412
+END:VEVENT
+END:VCALENDAR

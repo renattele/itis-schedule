@@ -1,0 +1,81 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Жизненный цикл программного обеспе
+ чения
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260905T171123Z
+UID:ec25ba7c357d4340e29d063ce138c51b97fc0901@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Жизненный цикл программного обес
+ печения\, Мусина Г.В. в 1409  (2.09 в 17:30 онлайн)
+  https://telemost.360.yandex.ru/j/1398168633\nhttps://telemost.360.yandex.
+ ru/j/1398168633
+LOCATION:1409
+URL:https://telemost.360.yandex.ru/j/1398168633
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Проектный практикум
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260905T171123Z
+UID:d24e8b75bdeccd401dce5a682b37f710d6112d4c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Проектный практикум\, Ференец А.А. 
+ в 1408 ( 2.09 переносится на 9. 09 онлайн) https://my.
+ mts-link.ru/j/82091273/24051555152\nhttps://my.mts-link.ru/j/82091273/2405
+ 1555152
+LOCATION:1408
+URL:https://my.mts-link.ru/j/82091273/24051555152
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Методы анализа и построения информа
+ ционных систем  https://telemost.yandex.ru/j/24009093085018
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171123Z
+UID:975568e65ef98c694844535652378dff4e41e56e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Методы анализа и построения инфор
+ мационных систем  https://telemost.yandex.ru/j/240090930850
+ 18\nТаланов М.О. \nпо н.н.\nhttps://telemost.yandex.ru/j/2400
+ 9093085018
+LOCATION:https://telemost.yandex.ru/j/24009093085018
+URL:https://telemost.yandex.ru/j/24009093085018
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Методы анализа и построения информа
+ ционных систем
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171123Z
+UID:0f5fae6e6ca13289bfb7e4ed353347ba551e7c54@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Методы анализа и построения инфор
+ мационных систем \nТаланов М.О. \n(онлайн) 
+ н.н. https://telemost.yandex.ru/j/24009093085018\nhttps://telemost.yande
+ x.ru/j/24009093085018
+LOCATION:https://telemost.yandex.ru/j/24009093085018
+URL:https://telemost.yandex.ru/j/24009093085018
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в программную инженерию\, п
+ ракт.
+DTSTART;TZID=Europe/Moscow:20260905T101000
+DTEND;TZID=Europe/Moscow:20260905T114000
+DTSTAMP:20260905T171123Z
+UID:bf6783a411c8e223769835a65a4deee81a1f07a3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Введение в программную инженерию
+ \, практ. \nЧегодаев В.Г. \nн.н. 1310-1311
+LOCATION:1310-1311
+END:VEVENT
+END:VCALENDAR

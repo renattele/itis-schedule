@@ -1,0 +1,125 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] Профессиональный инструмента
+ рий разработки интерактивных медиа
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20260905T171123Z
+UID:c66bfd1420ad18ee9385bb9fa074dd4e70d93e25@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПрофессион
+ альный инструментарий разработки интер
+ активных медиа \nБольшаков Э.С. \n1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Теория нарратива: культурные 
+ реалии
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260905T171123Z
+UID:e402b2c741e24675a05078d5a1d1feb14d29856d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплина по выбору: \nТеория нар
+ ратива: культурные реалии \nСолдатова Н.О
+ . \n1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Особенности композиции в иску
+ сстве Востока и Запада
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260905T171123Z
+UID:ae2ad72c0377bbcbb4b53189eaf3a8811140f525@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Дисциплина по выбору: \nОсобенност
+ и композиции в искусстве Востока и Запад
+ а  \nЮринов В.Ю. \n1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Проектная практика
+DTSTART;TZID=Europe/Moscow:20260901T135000
+DTEND;TZID=Europe/Moscow:20260901T152000
+DTSTAMP:20260905T171123Z
+UID:aea29024a08655ec972fef255352e0c2572c9557@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Проектная практика Кугуракова В.В
+ .в 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Нарративный дизайн
+DTSTART;TZID=Europe/Moscow:20260901T155000
+DTEND;TZID=Europe/Moscow:20260901T172000
+DTSTAMP:20260905T171123Z
+UID:7e41323c631357662f54573dcb58c9f08dc2c6f7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Нарративный дизайн Большаков Э.С.
+ в 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Трехмерное моделирование
+DTSTART;TZID=Europe/Moscow:20260903T155000
+DTEND;TZID=Europe/Moscow:20260903T172000
+DTSTAMP:20260905T171123Z
+UID:2ca0883ef08034c44e697b27e649a313e27b1cae@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Трехмерное моделирование Газизов
+  Р.Р. в 1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Игровые интерфейсы
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260905T171123Z
+UID:c398919b8670782a94350e80c4cb97ed32f7f7b4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Игровые интерфейсы \nЯрко Е. в 1408 ( 3
+ .09 переносится на 10.09 раз.)
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Профессиональный инструмента
+ рий разработки интерактивных медиа
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260905T171123Z
+UID:a75022998db67166b95bd5c16322c0ace8287d70@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПрофессион
+ альный инструментарий разработки интер
+ активных медиа \nБольшаков Э.С. \n1409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Построение процесса разработ
+ ки программного обеспечения
+DTSTART;TZID=Europe/Moscow:20260904T135000
+DTEND;TZID=Europe/Moscow:20260904T152000
+DTSTAMP:20260905T171123Z
+UID:ecc9c48ec9ca826db45fc3f62514479317c1b974@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Построение процесса разработки п
+ рограммного обеспечения Хафизов М.Р. в а
+ уд.1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Технологии виртуальной и допо
+ лненной реальности
+DTSTART;TZID=Europe/Moscow:20260904T155000
+DTEND;TZID=Europe/Moscow:20260904T172000
+DTSTAMP:20260905T171123Z
+UID:f2b668394c85a8365b537a0c59d6a776ac74a00c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Технологии виртуальной и дополне
+ нной реальности Кугуракова В.В. в 1408
+LOCATION:1408
+END:VEVENT
+END:VCALENDAR
