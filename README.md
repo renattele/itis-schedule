@@ -15,7 +15,7 @@
 4. **Outlook:** кнопка Outlook на сайте, либо подписка по URL.
 
 <!-- UPDATED-START -->
-Календари обновляются каждые 5 часов. Таблицы ниже сгенерированы 2026-09-03 09:44 UTC из ветки `calendars` (65 групп, 238 персональных календарей).
+Календари обновляются каждые 5 часов. Таблицы ниже сгенерированы 2026-09-07 03:22 UTC из ветки `calendars` (65 групп, 194 персональных календарей).
 <!-- UPDATED-END -->
 
 ## Групповые календари
@@ -28,15 +28,15 @@
 | Группа | Ссылка для подписки (копируй) | Студентов |
 |--------|-------------------------------|-----------|
 | 11-301 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-301.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-301.ics) | 25 |
-| 11-302 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-302.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-302.ics) | 21 |
+| 11-302 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-302.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-302.ics) | 22 |
 | 11-303 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-303.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-303.ics) | 25 |
 | 11-304 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-304.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-304.ics) | 28 |
 | 11-305 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-305.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-305.ics) | 20 |
-| 11-306 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-306.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-306.ics) | 21 |
-| 11-307 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-307.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-307.ics) | 23 |
+| 11-306 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-306.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-306.ics) | 22 |
+| 11-307 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-307.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-307.ics) | 24 |
 | 11-308 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-308.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-308.ics) | 28 |
-| 11-311 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-311.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-311.ics) | 22 |
-| 11-312 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-312.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-312.ics) | 25 |
+| 11-311 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-311.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-311.ics) | — |
+| 11-312 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-312.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-312.ics) | — |
 | 11-314а | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-314%D0%B0.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-314%D0%B0.ics) | — |
 
 ### 2 курс
