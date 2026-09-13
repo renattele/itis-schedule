@@ -1,0 +1,195 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS 11-302_Дергунова Ирина Владимиро
+ вна
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] ИИ
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260913T100201Z
+UID:f0276f23c0a9dee8b1b930a7ba639260efdf4603@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Агафонов А.А.\,  1310
+LOCATION:1310
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Социология с 10 нед. прак.
+DTSTART;TZID=Europe/Moscow:20261106T101000
+DTEND;TZID=Europe/Moscow:20261106T114000
+DTSTAMP:20260913T100201Z
+UID:168bac38126a1d7c9834a0daa88af9f63fbf35c4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору: \nПсихология
+  личной эффективности\, лекции 1-9 нед (ауд
+ .1405).\, группа №1 прак. с 10 нед.Добротворск
+ ая С.Г. в 1405\nТатарский язык в профессиона
+ льной коммуникации\, Кузьмина Х.Х.\, в 1409 с
+ писок студентов\nСоциология\, лек.9 нед.Иш
+ кинеева Ф.Ф. в 1308\, с 10 нед. прак.Закиров А.
+ М. в 1308 список студентов \nПсихология лек.
+ 9 нед. Устин П.Н. (вебинары) с 10 нед.прак. гр
+ .№1 Румянцева Г.Д. (вебинары)
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Облачные технологии
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260913T100201Z
+UID:8986ae063267f4d899a0e0dbe18e041cb4c6cabd@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплины по выбору:\nОсобенност
+ и разработки мультимедийных приложений
+ \, Газизов Р.Р. в 1306\nРазработка техническ
+ ой документации (Дизайн-мышление в ИТ-сф
+ ере)\, четн.неделя группа №1\,нечетн.нед г
+ руппа №2 Лучкина Е.Ю. в 1110 (10.09 не будет) \nВ
+ ведение в облачные технологии (Технолог
+ ическое предпринимательство и управлен
+ ие продуктами)\, Семенова Ж.Г. в 1309 (17.09 онл
+ айн)
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Социология\, лек.9 нед.
+DTSTART;TZID=Europe/Moscow:20260904T101000
+DTEND;TZID=Europe/Moscow:20260904T114000
+DTSTAMP:20260913T100201Z
+UID:3cd9d2a4ebca5d58d5542acb88a2e3abee13ca9c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261030T205959Z
+DESCRIPTION:Дисциплины по выбору: \nПсихология
+  личной эффективности\, лекции 1-9 нед (ауд
+ .1405).\, группа №1 прак. с 10 нед.Добротворск
+ ая С.Г. в 1405\nТатарский язык в профессиона
+ льной коммуникации\, Кузьмина Х.Х.\, в 1409 с
+ писок студентов\nСоциология\, лек.9 нед.Иш
+ кинеева Ф.Ф. в 1308\, с 10 нед. прак.Закиров А.
+ М. в 1308 список студентов \nПсихология лек.
+ 9 нед. Устин П.Н. (вебинары) с 10 нед.прак. гр
+ .№1 Румянцева Г.Д. (вебинары)
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Конфликтология с 10 нед прак.
+DTSTART;TZID=Europe/Moscow:20261111T155000
+DTEND;TZID=Europe/Moscow:20261111T172000
+DTSTAMP:20260913T100201Z
+UID:08efbf561ad10635c51a33b01d591e09fb837de8@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+DESCRIPTION:Дисциплины по выбору:\nКонфликтол
+ огия лек. 9 нед. Иванов А.В. \, с 10 нед прак. 
+ Иванов Г.А. (вебинары) (список студентов)\n
+ https://telemost.360.yandex.ru/j/9475070249
+LOCATION:https://telemost.360.yandex.ru/j/9475070249
+URL:https://telemost.360.yandex.ru/j/9475070249
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Конфликтология лек. 9 нед.
+DTSTART;TZID=Europe/Moscow:20260902T155000
+DTEND;TZID=Europe/Moscow:20260902T172000
+DTSTAMP:20260913T100201Z
+UID:70deae559598efd49eb1987662fa86b0b07a008a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261028T205959Z
+DESCRIPTION:Дисциплины по выбору:\nКонфликтол
+ огия лек. 9 нед. Иванов А.В. \, с 10 нед прак. 
+ Иванов Г.А. (вебинары) (список студентов)\n
+ https://telemost.360.yandex.ru/j/9475070249
+LOCATION:https://telemost.360.yandex.ru/j/9475070249
+URL:https://telemost.360.yandex.ru/j/9475070249
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Облачные технологии
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260913T100201Z
+UID:e8744a68cb48609e3791e8570fdea7c2fd3a8a1e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплины по выбору:\nОсобенност
+ и разработки мультимедийных приложений
+ \, Газизов Р.Р. в 1306\nРазработка техническ
+ ой документации (Дизайн-мышление в ИТ-сф
+ ере)\,  четн.неделя группа №1 \,нечетн.нед 
+ группа №2  Лучкина Е.Ю. в 1110 (10.09 не будет)\n
+ Введение в облачные технологии (Техноло
+ гическое предпринимательство и управле
+ ние продуктами)\, Семенова Ж.Г. в 1309 (17.09 он
+ лайн)
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Теория систем
+DTSTART;TZID=Europe/Moscow:20260907T135000
+DTEND;TZID=Europe/Moscow:20260907T152000
+DTSTAMP:20260913T100201Z
+UID:fa7594ff63e2bb969f57060c981153d0778fe483@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+  \nМиннеахметов Р.Р.\n1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Скриптинг
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20260913T100201Z
+UID:d99303dd84553c32be9e27668f1bc869489f91a1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nФункциональное программир
+ ование (Blockchain)\, Хайруллин А.Ф. в 1304\nСкрип
+ тинг\, визуализация (Frontend)\, Зайцева Д.А. (в
+ ебинары)\nПроектный практикум по роботот
+ ехнике. Часть 1 (Robotics)\, Загиров А.И.  (вебин
+ ары)\nhttps://t.me/+PrB9E2UA0rwxODYy
+LOCATION:https://t.me/+PrB9E2UA0rwxODYy
+URL:https://t.me/+PrB9E2UA0rwxODYy
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Теория систем
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260913T100201Z
+UID:0cbf60ae1fc976c5b0e86a5b962aea266329255d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261026T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+  Липачев Е.К.\, \n1-9 нед.\n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Скриптинг
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260913T100201Z
+UID:aa90ed30a959b607b706ebce10497e64302141a8@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nСкриптинг\, визуализация (Fro
+ ntend)\, Зайцева Д.А. (вебинары)\nФункциональ
+ ное программирование (Blockchain)\, Хайруллин 
+ А.Ф. в 1304\nПроектный практикум по роботот
+ ехнике. Часть 1 (Robotics)\, Загиров А.И.  (вебин
+ ары)\nhttps://t.me/+PrB9E2UA0rwxODYy
+LOCATION:https://t.me/+PrB9E2UA0rwxODYy
+URL:https://t.me/+PrB9E2UA0rwxODYy
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] ИИ
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20260913T100201Z
+UID:f32cf4e4b35c20acdeb6094f63cf2854aa40a56a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Агафонов А.А.\,\n ауд. 218
+LOCATION:218
+END:VEVENT
+END:VCALENDAR

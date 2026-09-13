@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:ИИ
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260913T100203Z
+UID:e4ef59be05034b5b2b3d1b402dc527276a4798ae@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, \nВалишин И.А. \n1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Психология управления\,прак. 1-9 нед. 
+ гр.№4
+DTSTART;TZID=Europe/Moscow:20260904T135000
+DTEND;TZID=Europe/Moscow:20260904T152000
+DTSTAMP:20260913T100203Z
+UID:d720d48b72935b14bb269375ee6fc0add9cdf680@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261030T205959Z
+DESCRIPTION:Дисциплины по выбору:\nПсихология 
+ управления\,прак.  Зайнуллин А.Э. 1-9 нед. г
+ р.№4\, с 10 нед. гр.№5 (вебинары)\nПолитологи
+ я\, Остроумов А.И. лек. 1-9 нед. прак.с 10 нед.
+ в 1303 (список студентов)\nhttps://telemost.yandex.ru/j/69
+ 303139806404
+LOCATION:https://telemost.yandex.ru/j/69303139806404
+URL:https://telemost.yandex.ru/j/69303139806404
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория систем
+DTSTART;TZID=Europe/Moscow:20260901T135000
+DTEND;TZID=Europe/Moscow:20260901T152000
+DTSTAMP:20260913T100203Z
+UID:df68f4cb0b8f1cb33581b858f533ca85b58316b7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+ \n Еникеева З.А. \nв 1508
+LOCATION:1508
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,101 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Математические основы искусственно
+ го интеллекта
+DTSTART;TZID=Europe/Moscow:20260901T135000
+DTEND;TZID=Europe/Moscow:20260901T152000
+DTSTAMP:20260913T100156Z
+UID:b8cf67a0f665541ba3f60c2026c0484b6f61d827@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Математические основы искусствен
+ ного интеллекта\, Агафонов А.А. ауд. 1412 https
+ ://telemost.360.yandex.ru/j/8113725688 ( 8.09 онлайн)\nhttps://telem
+ ost.360.yandex.ru/j/8113725688
+LOCATION:1412
+URL:https://telemost.360.yandex.ru/j/8113725688
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Программирование для задач искусст
+ венного интеллекта https://telemost.
+DTSTART;TZID=Europe/Moscow:20260901T155000
+DTEND;TZID=Europe/Moscow:20260901T172000
+DTSTAMP:20260913T100156Z
+UID:6b77b83e09e1ae4467e55c493bd5f3e1166f7cf5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Программирование для задач искус
+ ственного интеллекта https://telemost.360.yandex.ru/j/8
+ 113725688\nАгафонов А.А.\, ауд. 1412\nhttps://telemost.360.ya
+ ndex.ru/j/8113725688
+LOCATION:1412
+URL:https://telemost.360.yandex.ru/j/8113725688
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в искусственный интеллект
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260913T100156Z
+UID:3567c14d9e970ec57c3575b8117cb60dda1a3808@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260908T205959Z
+DESCRIPTION:Введение в искусственный интелле
+ кт \nТаланов М.О. прак.по ч.н.\nлекц.по н.н.\, 
+ со 2 недели\nhttps://meet.google.com/uyb-cwkv-emc\nhttps://meet.go
+ ogle.com/uyb-cwkv-emc
+LOCATION:https://meet.google.com/uyb-cwkv-emc
+URL:https://meet.google.com/uyb-cwkv-emc
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория систем и системный анализ
+DTSTART;TZID=Europe/Moscow:20260910T173000
+DTEND;TZID=Europe/Moscow:20260910T190000
+DTSTAMP:20260913T100156Z
+UID:82fafa8f5774fa7c36d4625e0cae153d2f7edae7@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+EXDATE;TZID=Europe/Moscow:20260917T173000
+EXDATE;TZID=Europe/Moscow:20261001T173000
+EXDATE;TZID=Europe/Moscow:20261015T173000
+EXDATE;TZID=Europe/Moscow:20261029T173000
+EXDATE;TZID=Europe/Moscow:20261112T173000
+EXDATE;TZID=Europe/Moscow:20261126T173000
+EXDATE;TZID=Europe/Moscow:20261210T173000
+EXDATE;TZID=Europe/Moscow:20261224T173000
+DESCRIPTION:Теория систем и системный анализ 
+ Зуев Д.С.\n \nн.н. лекц.\, ч.н. практ. \n1305
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Профессиональный иностранный язык (
+ английский) ауд. 1404
+DTSTART;TZID=Europe/Moscow:20260904T173000
+DTEND;TZID=Europe/Moscow:20260904T190000
+DTSTAMP:20260913T100156Z
+UID:367f57b23b061ab55f72cdc9e646500434c498af@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) ауд. 1404\, Воронина Д.И.  https://
+ telemost.yandex.ru/j/51121620730386\nhttps://telemost.yandex.ru/j/51121620
+ 730386
+LOCATION:https://telemost.yandex.ru/j/51121620730386
+URL:https://telemost.yandex.ru/j/51121620730386
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Профессиональный иностранный язык (
+ английский) ауд. 1404
+DTSTART;TZID=Europe/Moscow:20260904T191000
+DTEND;TZID=Europe/Moscow:20260904T204000
+DTSTAMP:20260913T100156Z
+UID:737034ae6131ea1ece74c0c4b5548e3c3ae2885d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) ауд. 1404\, Воронина Д.И. https://t
+ elemost.yandex.ru/j/51121620730386\nhttps://telemost.yandex.ru/j/511216207
+ 30386
+LOCATION:https://telemost.yandex.ru/j/51121620730386
+URL:https://telemost.yandex.ru/j/51121620730386
+END:VEVENT
+END:VCALENDAR

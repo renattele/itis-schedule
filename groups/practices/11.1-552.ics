@@ -1,0 +1,110 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Технологии и инфраструктуры работы 
+ с хранилищами данных
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20260913T100155Z
+UID:ce35581a2a0f420c9e1ada6e7ebc6c5b3cf1bea3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии и инфраструктуры рабо
+ ты с хранилищами данных Хайруллин А.Ф. в 1
+ 508 \n(вебинары)\nhttps://telemost.360.yandex.ru/j/0309820857
+LOCATION:1508
+URL:https://telemost.360.yandex.ru/j/0309820857
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Оценка рисков и экономической эффек
+ тивности применения искусственного инт
+ еллекта
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260913T100155Z
+UID:2774399213fb95a40c16f9836c92bed0d840d237@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Оценка рисков и экономической эфф
+ ективности применения искусственного и
+ нтеллекта Лукьяничева Е.О.в 1303 https://my.mts-lin
+ k.ru/j/91499745/787051350/stream-new/825718755\nhttps://my.mts-link.ru/j/9
+ 1499745/787051350/stream-new/825718755
+LOCATION:1303
+URL:https://my.mts-link.ru/j/91499745/787051350/stream-new/825718755
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Избранные главы компьютерного зрен
+ ия
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260913T100155Z
+UID:7b6571415117e4fdb3f64836d6074b39f39994ef@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Избранные главы компьютерного зр
+ ения Тощев А.С.в 1303 https://kpfu.mts-link.ru/j/83410197/1518
+ 935588\nhttps://kpfu.mts-link.ru/j/83410197/1518935588
+LOCATION:1303
+URL:https://kpfu.mts-link.ru/j/83410197/1518935588
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Социальные и антропологические воп
+ росы искусственного интеллекта
+DTSTART;TZID=Europe/Moscow:20260901T173000
+DTEND;TZID=Europe/Moscow:20260901T190000
+DTSTAMP:20260913T100155Z
+UID:3a4c9f8e08f4c45676cdfe1620d9318e34f4ae50@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Социальные и антропологические в
+ опросы искусственного интеллекта Солда
+ това Н.О. в ауд.1303 https://telemost.360.yandex.ru/j/0916869746
+ \nhttps://telemost.360.yandex.ru/j/0916869746
+LOCATION:1303
+URL:https://telemost.360.yandex.ru/j/0916869746
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Машинное понимание
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20260913T100155Z
+UID:d93d2cd60a7fef06fe897cad0cda6349f0d8e3b3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20260908T205959Z
+DESCRIPTION:Машинное понимание Староверов В.С
+ . в 1303 ( со 2 нед.)\n(вебинары)\nhttps://telemost.360.yand
+ ex.ru/j/9020489285
+LOCATION:1303
+URL:https://telemost.360.yandex.ru/j/9020489285
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Избранные главы обработки текстов н
+ а естественном языке
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20260913T100155Z
+UID:c54a77b99976caede6f806176cf5464d3bfb9d82@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Избранные главы обработки тексто
+ в на естественном языке Хаялеева И.в1310  ht
+ tps://telemost.360.yandex.ru/j/0601793278 ( 23/09 перенос в ауд
+ .1404 раз)\nhttps://telemost.360.yandex.ru/j/0601793278
+LOCATION:360
+URL:https://telemost.360.yandex.ru/j/0601793278
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Проектная практика
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260913T100155Z
+UID:a215cfe31263fff3eda7c0701650e05f59474f9b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Проектная практика Фатхутдинова 
+ И.И. в 1404 https://kpfu.mts-link.ru/j/116527817/99483909\nhttps://kpfu
+ .mts-link.ru/j/116527817/99483909
+LOCATION:1404
+URL:https://kpfu.mts-link.ru/j/116527817/99483909
+END:VEVENT
+END:VCALENDAR

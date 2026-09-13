@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Теория систем
+DTSTART;TZID=Europe/Moscow:20260914T155000
+DTEND;TZID=Europe/Moscow:20260914T172000
+DTSTAMP:20260913T100203Z
+UID:aa77d561cae8cde0ba5078a6451b3dfc0f239d5e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261221T205959Z
+EXDATE;TZID=Europe/Moscow:20260921T155000
+EXDATE;TZID=Europe/Moscow:20261005T155000
+EXDATE;TZID=Europe/Moscow:20261019T155000
+EXDATE;TZID=Europe/Moscow:20261102T155000
+EXDATE;TZID=Europe/Moscow:20261116T155000
+EXDATE;TZID=Europe/Moscow:20261130T155000
+EXDATE;TZID=Europe/Moscow:20261214T155000
+DESCRIPTION:Теория систем и системный анализ\,
+  Еникеева З.А.\, \nнечетн.нед.\n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Конфликтология лек. 9 нед.
+DTSTART;TZID=Europe/Moscow:20260902T155000
+DTEND;TZID=Europe/Moscow:20260902T172000
+DTSTAMP:20260913T100203Z
+UID:dc04e3528572a3eef341fe82791a378e67aa00b8@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261028T205959Z
+DESCRIPTION:Дисциплины по выбору:\nКонфликтол
+ огия лек. 9 нед. Иванов А.В. \, с 10 нед прак. 
+ Иванов Г.А. (вебинары) (список студентов)\n
+ https://telemost.360.yandex.ru/j/9475070249
+LOCATION:https://telemost.360.yandex.ru/j/9475070249
+URL:https://telemost.360.yandex.ru/j/9475070249
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Психология личной эффективности
+DTSTART;TZID=Europe/Moscow:20260904T101000
+DTEND;TZID=Europe/Moscow:20260904T114000
+DTSTAMP:20260913T100203Z
+UID:1a1c39b9343ddda788df0915b59f4701c345991e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261030T205959Z
+DESCRIPTION:Дисциплины по выбору: \nПсихология
+  личной эффективности\, лекции 1-9 нед (ауд
+ .1405).\, группа №1 прак. с 10 нед.Добротворск
+ ая С.Г. в 1405\nТатарский язык в профессиона
+ льной коммуникации\, Кузьмина Х.Х.\, в 1409 с
+ писок студентов\nСоциология\, лек.9 нед.Иш
+ кинеева Ф.Ф. в 1308\, с 10 нед. прак.Закиров А.
+ М. в 1308 список студентов \nПсихология лек.
+ 9 нед. Устин П.Н. (вебинары) с 10 нед.прак. гр
+ .№1 Румянцева Г.Д. (вебинары)
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ИИ
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260913T100203Z
+UID:a47178fcdf243d02933c8537af2158895a19c2ef@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Агафонов А.А.\, \nауд. 218
+LOCATION:218
+END:VEVENT
+END:VCALENDAR

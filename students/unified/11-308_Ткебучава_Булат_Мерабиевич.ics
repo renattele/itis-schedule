@@ -1,0 +1,170 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS 11-308_Ткебучава Булат Мерабиеви
+ ч
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Прак] ИИ
+DTSTART;TZID=Europe/Moscow:20260905T101000
+DTEND;TZID=Europe/Moscow:20260905T114000
+DTSTAMP:20260913T100204Z
+UID:c81e22ae410ac1ba68b59c131ae5fe63551c1757@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, \nВалишин И.А. \n1305
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Теория систем
+DTSTART;TZID=Europe/Moscow:20260914T155000
+DTEND;TZID=Europe/Moscow:20260914T172000
+DTSTAMP:20260913T100204Z
+UID:08eae176186f6995ea04c7912cb486d777069c6b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261221T205959Z
+EXDATE;TZID=Europe/Moscow:20260921T155000
+EXDATE;TZID=Europe/Moscow:20261005T155000
+EXDATE;TZID=Europe/Moscow:20261019T155000
+EXDATE;TZID=Europe/Moscow:20261102T155000
+EXDATE;TZID=Europe/Moscow:20261116T155000
+EXDATE;TZID=Europe/Moscow:20261130T155000
+EXDATE;TZID=Europe/Moscow:20261214T155000
+DESCRIPTION:Теория систем и системный анализ\,
+  Еникеева З.А.\, \nнечетн.нед.\n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Теория систем
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20260913T100204Z
+UID:145082f9d6e77b98b68982b63bd3370c8fe68bed@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+  Еникеева З.А.\,\n 1509
+LOCATION:1509
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Конфликтология с 10 нед прак.
+DTSTART;TZID=Europe/Moscow:20261111T155000
+DTEND;TZID=Europe/Moscow:20261111T172000
+DTSTAMP:20260913T100204Z
+UID:ce787de3ce547e1fe4235f8276d0dba25217d7b2@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+DESCRIPTION:Дисциплины по выбору:\nКонфликтол
+ огия лек. 9 нед. Иванов А.В. \, с 10 нед прак. 
+ Иванов Г.А. (вебинары) (список студентов)\n
+ https://telemost.360.yandex.ru/j/9475070249
+LOCATION:https://telemost.360.yandex.ru/j/9475070249
+URL:https://telemost.360.yandex.ru/j/9475070249
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Конфликтология лек. 9 нед.
+DTSTART;TZID=Europe/Moscow:20260902T155000
+DTEND;TZID=Europe/Moscow:20260902T172000
+DTSTAMP:20260913T100204Z
+UID:27bc4c3a6052f8913dd6e858d1b845211d3e3039@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261028T205959Z
+DESCRIPTION:Дисциплины по выбору:\nКонфликтол
+ огия лек. 9 нед. Иванов А.В. \, с 10 нед прак. 
+ Иванов Г.А. (вебинары) (список студентов)\n
+ https://telemost.360.yandex.ru/j/9475070249
+LOCATION:https://telemost.360.yandex.ru/j/9475070249
+URL:https://telemost.360.yandex.ru/j/9475070249
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Культурология
+DTSTART;TZID=Europe/Moscow:20260902T083000
+DTEND;TZID=Europe/Moscow:20260902T100000
+DTSTAMP:20260913T100204Z
+UID:0d7e7762b66dc5655c37819ef151f6633a8f6cbe@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T083000
+DESCRIPTION:Дисциплины по выбору: \nКультуроло
+ гия\, Сыченкова Л.А. в 47 ауд. ул.Лево-Булач
+ ная\,44  (список студентов)\nhttps://disk.360.yandex.ru/
+ i/IjCFQvyHzoSTlA
+LOCATION:https://disk.360.yandex.ru/i/IjCFQvyHzoSTlA
+URL:https://disk.360.yandex.ru/i/IjCFQvyHzoSTlA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Скриптинг
+DTSTART;TZID=Europe/Moscow:20260904T155000
+DTEND;TZID=Europe/Moscow:20260904T172000
+DTSTAMP:20260913T100204Z
+UID:2512c7918e73fb59c1a903f35cf409488471de53@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору:\nСкриптинг\, 
+ визуализация\, Костюк Д.И. в 1305
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Скриптинг
+DTSTART;TZID=Europe/Moscow:20260904T173000
+DTEND;TZID=Europe/Moscow:20260904T190000
+DTSTAMP:20260913T100204Z
+UID:9af4983f5791800583813ca4570676d30a784518@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору:\nДополнител
+ ьные главы дискретной математики\, Лерне
+ р Э.Ю. в 1408\nСкриптинг\, визуализация\, Кос
+ тюк Д.И. в 1309\nФункциональное программиро
+ вание (Erlang)\, Фролов Д.Д. в 1509\nФункциональ
+ ное программирование (Промышленная разр
+ аботка\, эксплуатация и надежность прогр
+ аммных систем SRE (Функциональное програм
+ мирование) Фахрутдинов С.Р.  (вебинары)
+LOCATION:1309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Мультимедиа
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20260913T100204Z
+UID:fc4d83831070af39933755da28c3ae7f2ca065bb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплины по выбору:\nОсобенност
+ и разработки мультимедийных приложений
+ \, Газизов Р.Р. в 1306\nРазработка техническ
+ ой документации (Дизайн-мышление в ИТ-сф
+ ере)\, четн.неделя группа №1\,нечетн.нед г
+ руппа №2 Лучкина Е.Ю. в 1110 (10.09 не будет) \nВ
+ ведение в облачные технологии (Технолог
+ ическое предпринимательство и управлен
+ ие продуктами)\, Семенова Ж.Г. в 1309 (17.09 онл
+ айн)
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] ИИ
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20260913T100204Z
+UID:2e7945e5de0d7efe1896caf73a8c2479f4af7b9d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Агафонов А.А.\, \nауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Мультимедиа
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20260913T100204Z
+UID:1b46895697711f86249138a815c4db01eba16e55@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплины по выбору:\nОсобенност
+ и разработки мультимедийных приложений
+ \, Газизов Р.Р. в 1306\nРазработка техническ
+ ой документации (Дизайн-мышление в ИТ-сф
+ ере)\,  четн.неделя группа №1 \,нечетн.нед 
+ группа №2  Лучкина Е.Ю. в 1110 (10.09 не будет)\n
+ Введение в облачные технологии (Техноло
+ гическое предпринимательство и управле
+ ние продуктами)\, Семенова Ж.Г. в 1309 (17.09 он
+ лайн)
+LOCATION:1306
+END:VEVENT
+END:VCALENDAR
