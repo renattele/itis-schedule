@@ -15,7 +15,7 @@
 4. **Outlook:** кнопка Outlook на сайте, либо подписка по URL.
 
 <!-- UPDATED-START -->
-Календари обновляются каждые 5 часов. Таблицы ниже сгенерированы 2026-10-26 10:48 UTC из ветки `calendars` (65 групп, 240 персональных календарей).
+Календари обновляются каждые 5 часов. Таблицы ниже сгенерированы 2026-10-30 11:12 UTC из ветки `calendars` (65 групп, 241 персональных календарей).
 <!-- UPDATED-END -->
 
 ## Групповые календари
@@ -31,7 +31,7 @@
 | 11-302 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-302.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-302.ics) | 22 |
 | 11-303 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-303.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-303.ics) | 25 |
 | 11-304 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-304.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-304.ics) | 28 |
-| 11-305 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-305.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-305.ics) | 20 |
+| 11-305 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-305.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-305.ics) | 21 |
 | 11-306 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-306.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-306.ics) | 22 |
 | 11-307 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-307.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-307.ics) | 23 |
 | 11-308 | [`https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-308.ics`](https://cdn.jsdelivr.net/gh/renattele/itis-schedule@calendars/groups/unified/11-308.ics) | 28 |
