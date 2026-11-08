@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import io
 import re
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 
 import openpyxl
 
@@ -104,6 +104,14 @@ _COURSE_META_RE = re.compile(
 )
 
 
+# "с 9 ноября перенос на 17:30 ауд.1310" — permanent move to a new time/room.
+_RESCHEDULE_RE = re.compile(
+    r"с\s+(\d{1,2})\s+(" + "|".join(_MONTH_NAMES) + r")\s+перенос\s+на\s+"
+    r"(\d{1,2})[:.](\d{2})(?:\s*(?:ауд\.?|в)\s*(\d{3,4}))?",
+    re.IGNORECASE,
+)
+
+
 @dataclass(frozen=True)
 class Lesson:
     """A single lesson entry."""
@@ -119,6 +127,14 @@ class Lesson:
     type: str = ""  # "Лекц", "Прак" or empty
     weeks: str = "all"  # "all", "even", "odd", or a range like "1-9" / "10-18"
     start_from: str = ""  # optional "MM-DD" — skip occurrences before this date
+    until: str = ""  # optional "MM-DD" — skip occurrences on/after this date
+
+
+def _shift_time(end: str, start: str, new_start: str) -> str:
+    """End time for a lesson moved to *new_start*, keeping its duration."""
+    to_min = lambda t: int(t.split(":")[0]) * 60 + int(t.split(":")[1])
+    m = to_min(new_start) + to_min(end) - to_min(start)
+    return f"{m // 60:02d}:{m % 60:02d}"
 
 
 def _normalize_day(text: str) -> str:
@@ -562,9 +578,13 @@ def parse_schedule(xlsx_bytes: bytes) -> dict[str, list[Lesson]]:
                         is_shared = True
                         break
 
+            # Parse without the move clause so its room doesn't replace the
+            # original one; the moved copy is emitted below.
+            move = _RESCHEDULE_RE.search(cell_val)
+            parse_text = cell_val[:move.start()] + cell_val[move.end():] if move else cell_val
             results = [
                 (subject.strip().rstrip(":").strip(), instructor, room, notes)
-                for subject, instructor, room, notes in _parse_cell_text(cell_val)
+                for subject, instructor, room, notes in _parse_cell_text(parse_text)
             ]
             usable = [item for item in results if _is_usable_subject(item[0])]
             n_entries = len(usable)
@@ -587,21 +607,30 @@ def parse_schedule(xlsx_bytes: bytes) -> dict[str, list[Lesson]]:
                 # can keep the hyperlink; the links tab fills the rest.
                 lesson_link = cell_link if n_entries == 1 else ""
 
-                schedule[gid].append(
-                    Lesson(
-                        day=current_day,
-                        time_start=time_start,
-                        time_end=time_end,
-                        subject=subject,
-                        instructor=instructor,
-                        room=room,
-                        notes=raw_notes,
-                        link=lesson_link,
-                        type=lesson_type,
-                        weeks=weeks,
-                        start_from=start_from,
-                    )
+                lesson = Lesson(
+                    day=current_day,
+                    time_start=time_start,
+                    time_end=time_end,
+                    subject=subject,
+                    instructor=instructor,
+                    room=room,
+                    notes=raw_notes,
+                    link=lesson_link,
+                    type=lesson_type,
+                    weeks=weeks,
+                    start_from=start_from,
                 )
+                if move:
+                    move_date = f"{_MONTH_NAMES[move.group(2).lower()]:02d}-{int(move.group(1)):02d}"
+                    schedule[gid].append(replace(lesson, until=move_date))
+                    lesson = replace(
+                        lesson,
+                        time_start=f"{int(move.group(3)):02d}:{move.group(4)}",
+                        time_end=_shift_time(time_end, time_start, f"{move.group(3)}:{move.group(4)}"),
+                        room=move.group(5) or room,
+                        start_from=move_date,
+                    )
+                schedule[gid].append(lesson)
 
     for gid, lessons in schedule.items():
         seen: set[tuple] = set()

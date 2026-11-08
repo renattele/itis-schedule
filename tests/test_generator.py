@@ -61,3 +61,32 @@ def test_calname_override_keeps_uids():
     assert "X-WR-CALNAME:ITIS\r\n" in renamed
     uids = lambda t: sorted(ln for ln in t.splitlines() if ln.startswith("UID:"))
     assert uids(plain) == uids(renamed)
+
+
+def test_permanent_move_splits_into_before_and_after():
+    import io
+
+    import openpyxl
+
+    from src.parser import parse_schedule
+
+    wb = openpyxl.Workbook()
+    ws = wb.active
+    ws["C2"] = "11-303"
+    ws["A3"] = "* ПОНЕДЕЛЬНИК *"
+    ws["B3"] = "12.10-13.40"
+    ws["C3"] = (
+        "Технологии искусственного интеллекта, Газизов А.М. 1307\n"
+        "с 9 ноября перенос на 17:30 ауд.1310"
+    )
+    buf = io.BytesIO()
+    wb.save(buf)
+    before, after = parse_schedule(buf.getvalue())["11-303"]
+    assert (before.time_start, before.room, before.until) == ("12:10", "1307", "11-09")
+    assert (after.time_start, after.time_end, after.room, after.start_from) == (
+        "17:30", "19:00", "1310", "11-09",
+    )
+    ics = generate_ical("11-303", [before, after], date(2026, 9, 1), date(2026, 12, 31)).decode()
+    assert "DTSTART;TZID=Europe/Moscow:20260907T121000" in ics
+    assert "UNTIL=20261102" in ics
+    assert "DTSTART;TZID=Europe/Moscow:20261109T173000" in ics

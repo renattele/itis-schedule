@@ -23,7 +23,7 @@ def _uid(group: str, lesson: Lesson) -> str:
     """Generate a deterministic UID for an event."""
     raw = (
         f"{group}|{lesson.day}|{lesson.time_start}|{lesson.time_end}|"
-        f"{lesson.subject}|{lesson.instructor}|{lesson.room}|{lesson.weeks}|{lesson.start_from}"
+        f"{lesson.subject}|{lesson.instructor}|{lesson.room}|{lesson.weeks}|{lesson.start_from}{lesson.until}"
     )
     return hashlib.sha1(raw.encode()).hexdigest() + "@itis-schedule"
 
@@ -79,6 +79,10 @@ def _occurrence_dates(
     start_from = _resolve_start_from(semester_start, lesson.start_from)
     if start_from:
         first = max(first, _first_weekday(start_from, lesson.day))
+
+    until = _resolve_start_from(semester_start, lesson.until)
+    if until:
+        semester_end = min(semester_end, until - timedelta(days=1))
 
     weeks_spec = _parse_weeks_spec(lesson.weeks)
     dates: list[date] = []
