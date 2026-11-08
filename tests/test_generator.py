@@ -63,7 +63,8 @@ def test_calname_override_keeps_uids():
     assert uids(plain) == uids(renamed)
 
 
-def test_permanent_move_splits_into_before_and_after():
+def _cell_lessons(text: str, group: str = "11-303") -> list[Lesson]:
+    """Lessons *group* gets from a one-cell sheet (Monday 12:10-13:40)."""
     import io
 
     import openpyxl
@@ -73,15 +74,25 @@ def test_permanent_move_splits_into_before_and_after():
     wb = openpyxl.Workbook()
     ws = wb.active
     ws["C2"] = "11-303"
+    ws["D2"] = "11-304"
     ws["A3"] = "* ПОНЕДЕЛЬНИК *"
     ws["B3"] = "12.10-13.40"
-    ws["C3"] = (
+    ws["C3"] = text
+    ws.merge_cells("C3:D3")
+    buf = io.BytesIO()
+    wb.save(buf)
+    return parse_schedule(buf.getvalue())[group]
+
+
+def _short(lesson: Lesson) -> tuple:
+    return (lesson.subject, lesson.time_start, lesson.room, lesson.skip, lesson.only)
+
+
+def test_permanent_move_splits_into_before_and_after():
+    before, after = _cell_lessons(
         "Технологии искусственного интеллекта, Газизов А.М. 1307\n"
         "с 9 ноября перенос на 17:30 ауд.1310"
     )
-    buf = io.BytesIO()
-    wb.save(buf)
-    before, after = parse_schedule(buf.getvalue())["11-303"]
     assert (before.time_start, before.room, before.until) == ("12:10", "1307", "11-09")
     assert (after.time_start, after.time_end, after.room, after.start_from) == (
         "17:30", "19:00", "1310", "11-09",
@@ -90,3 +101,41 @@ def test_permanent_move_splits_into_before_and_after():
     assert "DTSTART;TZID=Europe/Moscow:20260907T121000" in ics
     assert "UNTIL=20261102" in ics
     assert "DTSTART;TZID=Europe/Moscow:20261109T173000" in ics
+
+
+def test_one_off_changes():
+    cases = {
+        "БД, Зубков М.В. ауд. 109\n9 ноября не будет с переносом на 18 ноября в 17:30 онлайн": [
+            ("БД", "12:10", "109", ("11-09",), ()),
+            ("БД", "17:30", "онлайн", (), ("11-18",)),
+        ],
+        "БД, Зубков М.В. 1304\n(7.11 онлайн)": [
+            ("БД", "12:10", "1304", ("11-07",), ()),
+            ("БД", "12:10", "онлайн", (), ("11-07",)),
+        ],
+        "БД, Зубков М.В. 1304 (11.11 не будет) https://telemost.360.yandex.ru/j/1": [
+            ("БД", "12:10", "1304", ("11-11",), ()),
+        ],
+        "БД, Зубков М.В. 1304\n21 ноября": [("БД", "12:10", "1304", (), ("11-21",))],
+        "БД, Зубков М.В. (16.09, 7.10)": [
+            ("БД", "12:10", "", (), ("09-16",)),
+            ("БД", "12:10", "", (), ("10-07",)),
+        ],
+    }
+    for text, expected in cases.items():
+        assert sorted(_short(x) for x in _cell_lessons(text)) == sorted(expected), text
+
+
+def test_group_and_glued_blocks():
+    text = (
+        "ОС, Максютин С.В. 1-9 нед. 1310\n"
+        "11-304 ТИК, Салимов Ф.И. 12 ноября в ауд.1509\n\n"
+        "Продвинутый Linux, Камалетдинов И.Р. в ауд.1302"
+    )
+    assert [_short(x) for x in _cell_lessons(text)] == [
+        ("ОС", "12:10", "1310", (), ()),
+        ("Продвинутый Linux", "12:10", "1302", (), ()),
+    ]
+    assert ("ТИК", "12:10", "1509", (), ("11-12",)) in [
+        _short(x) for x in _cell_lessons(text, "11-304")
+    ]

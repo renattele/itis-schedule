@@ -24,6 +24,7 @@ def _uid(group: str, lesson: Lesson) -> str:
     raw = (
         f"{group}|{lesson.day}|{lesson.time_start}|{lesson.time_end}|"
         f"{lesson.subject}|{lesson.instructor}|{lesson.room}|{lesson.weeks}|{lesson.start_from}{lesson.until}"
+        + (f"|{lesson.only}" if lesson.only else "")
     )
     return hashlib.sha1(raw.encode()).hexdigest() + "@itis-schedule"
 
@@ -75,6 +76,10 @@ def _occurrence_dates(
     semester_end: date,
 ) -> list[date]:
     """List of dates on which *lesson* actually happens."""
+    if lesson.only:
+        dates = {_resolve_start_from(semester_start, d) for d in lesson.only}
+        return sorted(d for d in dates if d and semester_start <= d <= semester_end)
+    skip = {_resolve_start_from(semester_start, d) for d in lesson.skip}
     first = _first_weekday(semester_start, lesson.day)
     start_from = _resolve_start_from(semester_start, lesson.start_from)
     if start_from:
@@ -88,7 +93,7 @@ def _occurrence_dates(
     dates: list[date] = []
     current = first
     while current <= semester_end:
-        if current >= semester_start and current not in _HOLIDAYS:
+        if current >= semester_start and current not in _HOLIDAYS | skip:
             week_num = _week_number(semester_start, current)
             include = False
             if weeks_spec == "all":

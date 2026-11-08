@@ -8,6 +8,8 @@ from dataclasses import dataclass, replace
 
 import openpyxl
 
+from . import changes
+
 # "Дисциплина/Дисциплины по выбору" plus OCR/typo variants (e.g. "Дисөиплины").
 _ELECTIVE_HEADER_RE = re.compile(r"дис\w*\s+по\s+выбору", re.IGNORECASE)
 _WEBINAR_ONLY_RE = re.compile(r"\(?вебинары?\)?", re.IGNORECASE)
@@ -17,24 +19,9 @@ _INSTR_RE = re.compile(r"([А-ЯЁ][а-яё]+\s+[А-ЯЁ]\.[А-ЯЁ]?\.?)")
 
 # Room numbers, optionally prefixed with "ауд." / "в".
 _ROOM_RE = re.compile(
-    r"(?:ауд\.?\s*)?(?:\bв\s+)?\b(\d{3,4}(?:-\d{3,4})?)\b",
+    r"(?:ауд\.?\s*)?(?:\bв\s+)?(?<!\d-)\b(\d{3,4}(?:-\d{3,4})?)\b",
     re.IGNORECASE,
 )
-
-_MONTH_NAMES: dict[str, int] = {
-    "января": 1,
-    "февраля": 2,
-    "марта": 3,
-    "апреля": 4,
-    "мая": 5,
-    "июня": 6,
-    "июля": 7,
-    "августа": 8,
-    "сентября": 9,
-    "октября": 10,
-    "ноября": 11,
-    "декабря": 12,
-}
 
 # Maps Cyrillic day-of-week markers found in the spreadsheet to Python
 # weekday indices (0 = Monday … 6 = Sunday).
@@ -104,14 +91,6 @@ _COURSE_META_RE = re.compile(
 )
 
 
-# "с 9 ноября перенос на 17:30 ауд.1310" — permanent move to a new time/room.
-_RESCHEDULE_RE = re.compile(
-    r"с\s+(\d{1,2})\s+(" + "|".join(_MONTH_NAMES) + r")\s+перенос\s+на\s+"
-    r"(\d{1,2})[:.](\d{2})(?:\s*(?:ауд\.?|в)\s*(\d{3,4}))?",
-    re.IGNORECASE,
-)
-
-
 @dataclass(frozen=True)
 class Lesson:
     """A single lesson entry."""
@@ -128,13 +107,8 @@ class Lesson:
     weeks: str = "all"  # "all", "even", "odd", or a range like "1-9" / "10-18"
     start_from: str = ""  # optional "MM-DD" — skip occurrences before this date
     until: str = ""  # optional "MM-DD" — skip occurrences on/after this date
-
-
-def _shift_time(end: str, start: str, new_start: str) -> str:
-    """End time for a lesson moved to *new_start*, keeping its duration."""
-    to_min = lambda t: int(t.split(":")[0]) * 60 + int(t.split(":")[1])
-    m = to_min(new_start) + to_min(end) - to_min(start)
-    return f"{m // 60:02d}:{m % 60:02d}"
+    skip: tuple[str, ...] = ()  # "MM-DD" dates when the lesson doesn't happen
+    only: tuple[str, ...] = ()  # if set, the lesson happens on these "MM-DD" only
 
 
 def _normalize_day(text: str) -> str:
@@ -434,12 +408,12 @@ def _detect_lesson_weeks(subject: str, instructor: str, notes: str) -> str:
         if 2 <= n <= 18:
             return f"1-{n}"
 
-    if any(k in low for k in ["нечетн", "нечет", "неч."]):
-        return "odd"
+    odd = any(k in low for k in ["нечетн", "нечет", "неч."]) or bool(re.search(r"\bн\.н\b", low))
     # Avoid matching "четв" (Thursday) / "четвёрг".
-    if re.search(r"\bчетн|\bчет\.|\bч\.н\b|\bчн\b", low):
-        return "even"
-
+    even = bool(re.search(r"\bчетн|\bчет\.|\bч\.н\b|\bчн\b", low))
+    # "лекц. по н.н., прак. по ч.н." — every week.
+    if odd != even:
+        return "odd" if odd else "even"
     return "all"
 
 
@@ -447,14 +421,82 @@ def _detect_start_from(subject: str, instructor: str, notes: str) -> str:
     """Parse 'с 8 сентября' into an MM-DD string, or empty."""
     text = f"{subject} {instructor} {notes}".lower()
     m = re.search(
-        r"с\s+(\d{1,2})\s+(" + "|".join(_MONTH_NAMES) + r")",
+        r"с\s+(\d{1,2}\s+)?(" + "|".join(changes.MONTHS) + r")",
         text,
     )
     if not m:
-        return ""
-    day = int(m.group(1))
-    month = _MONTH_NAMES[m.group(2)]
+        # "(с 23.09)" — not "с 10.11 практика" (a type change).
+        m = re.search(r"с\s+(\d{1,2})\.(\d{1,2})\.?\s*(?:[.)]|$)", text, re.MULTILINE)
+        return f"{int(m.group(2)):02d}-{int(m.group(1)):02d}" if m else ""
+    day = int(m.group(1) or 1)
+    month = changes.MONTHS[m.group(2)]
     return f"{month:02d}-{day:02d}"
+
+
+def _cell_lessons(
+    cell_val: str,
+    cell_link: str,
+    gid: str,
+    day: int,
+    time_start: str,
+    time_end: str,
+    is_shared: bool,
+) -> list[Lesson]:
+    """Lessons one group really has from one cell, date changes applied."""
+    # "c 10 ноября" with a Latin "c" happens.
+    text = re.sub(r"(?<![A-Za-z])c(?=\s+\d)", "с", cell_val)
+    # Webinar URLs: "telemost.360.yandex.ru" is not room 360.
+    text = re.sub(r"https?://\S+", " ", text)
+    main, blocks = changes.split_blocks(text)
+    units = [(main, None, [])] + [b for b in blocks if b[1] in (None, "", gid)]
+    out: list[Lesson] = []
+    for unit, group, only in units:
+        clauses: list = []
+        if only or (group and "нед" not in unit):
+            # A block for some dates only: "11-400 ОС, Максютин С.В. 10.11 в 909".
+            only = only or changes.dates_in(unit)
+            unit = changes.strip_dates(unit)
+        else:
+            unit, clauses = changes.extract(unit)
+        items = []
+        for subject, instructor, room, notes in _parse_cell_text(unit):
+            marks, (subject, instructor, notes) = changes.take_marks(
+                subject.strip().rstrip(":").strip(), instructor, notes,
+            )
+            if _is_usable_subject(subject):
+                items.append((subject, instructor, room, notes, marks))
+        orphans = set(range(len(clauses))) - {i for *_, marks in items for i in marks}
+
+        for subject, instructor, room, notes, marks in items:
+            # Week/start markers are per-lesson (the parsed line), not the
+            # whole cell — elective cells mix several options. Same for
+            # the type: the whole cell leaks e.g. "прак." from a sibling
+            # practice into a shared lecture (Психология управления 1-9
+            # нед. Пучкова vs с 10 нед. прак. гр.№1 Зайнуллин).
+            if room and "физфак" in unit:
+                room += " физфак"
+            lesson = Lesson(
+                day=day,
+                time_start=time_start,
+                time_end=time_end,
+                subject=subject,
+                instructor=instructor,
+                room=room,
+                # Keep notes exactly as in the source calendar cell.
+                notes=cell_val,
+                # A merged cell has at most one hyperlink. Copying it onto
+                # every elective in the cell attaches e.g. a robotics webinar
+                # to an in-person blockchain class in 1304. Single-entry cells
+                # can keep the hyperlink; the links tab fills the rest.
+                link=cell_link if len(items) == 1 else "",
+                type=_detect_lesson_type(subject, instructor, notes, is_shared),
+                weeks=_detect_lesson_weeks(subject, instructor, notes),
+                start_from=_detect_start_from(subject, instructor, notes),
+                only=tuple(only),
+            )
+            own = [clauses[i] for i in sorted(marks | orphans)]
+            out.extend(changes.apply(lesson, own))
+    return out
 
 
 def parse_schedule(xlsx_bytes: bytes) -> dict[str, list[Lesson]]:
@@ -578,65 +620,22 @@ def parse_schedule(xlsx_bytes: bytes) -> dict[str, list[Lesson]]:
                         is_shared = True
                         break
 
-            # Parse without the move clause so its room doesn't replace the
-            # original one; the moved copy is emitted below.
-            move = _RESCHEDULE_RE.search(cell_val)
-            parse_text = cell_val[:move.start()] + cell_val[move.end():] if move else cell_val
-            results = [
-                (subject.strip().rstrip(":").strip(), instructor, room, notes)
-                for subject, instructor, room, notes in _parse_cell_text(parse_text)
-            ]
-            usable = [item for item in results if _is_usable_subject(item[0])]
-            n_entries = len(usable)
-            for subject, instructor, room, notes in usable:
-
-                # Keep notes exactly as in the source calendar cell.
-                raw_notes = cell_val
-                # Week/start markers are per-lesson (the parsed line), not the
-                # whole cell — elective cells mix several options. Same for
-                # the type: the whole cell leaks e.g. "прак." from a sibling
-                # practice into a shared lecture (Психология управления 1-9
-                # нед. Пучкова vs с 10 нед. прак. гр.№1 Зайнуллин).
-                lesson_type = _detect_lesson_type(subject, instructor, notes, is_shared)
-                weeks = _detect_lesson_weeks(subject, instructor, notes)
-                start_from = _detect_start_from(subject, instructor, notes)
-
-                # A merged cell has at most one hyperlink. Copying it onto
-                # every elective in the cell attaches e.g. a robotics webinar
-                # to an in-person blockchain class in 1304. Single-entry cells
-                # can keep the hyperlink; the links tab fills the rest.
-                lesson_link = cell_link if n_entries == 1 else ""
-
-                lesson = Lesson(
-                    day=current_day,
-                    time_start=time_start,
-                    time_end=time_end,
-                    subject=subject,
-                    instructor=instructor,
-                    room=room,
-                    notes=raw_notes,
-                    link=lesson_link,
-                    type=lesson_type,
-                    weeks=weeks,
-                    start_from=start_from,
-                )
-                if move:
-                    move_date = f"{_MONTH_NAMES[move.group(2).lower()]:02d}-{int(move.group(1)):02d}"
-                    schedule[gid].append(replace(lesson, until=move_date))
-                    lesson = replace(
-                        lesson,
-                        time_start=f"{int(move.group(3)):02d}:{move.group(4)}",
-                        time_end=_shift_time(time_end, time_start, f"{move.group(3)}:{move.group(4)}"),
-                        room=move.group(5) or room,
-                        start_from=move_date,
-                    )
-                schedule[gid].append(lesson)
+            schedule[gid].extend(_cell_lessons(
+                cell_val, cell_link, gid, current_day, time_start, time_end, is_shared,
+            ))
 
     for gid, lessons in schedule.items():
         seen: set[tuple] = set()
         unique: list[Lesson] = []
+        # One date per one-off lesson, so a transfer listed both at its source
+        # and at its destination cell shows up once.
+        lessons = [replace(l, only=(d,)) for l in lessons for d in l.only] + [
+            l for l in lessons if not l.only
+        ]
         for lesson in lessons:
-            key = (
+            instr = _INSTR_RE.search(lesson.instructor)
+            key = ("only", lesson.only, lesson.time_start, lesson.subject.casefold(),
+                   instr.group(1) if instr else lesson.instructor) if lesson.only else (
                 lesson.day,
                 lesson.time_start,
                 lesson.time_end,
