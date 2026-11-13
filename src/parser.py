@@ -466,6 +466,9 @@ def _cell_lessons(
             if _is_usable_subject(subject):
                 items.append((subject, instructor, room, notes, marks))
         orphans = set(range(len(clauses))) - {i for *_, marks in items for i in marks}
+        # "11-303 ИИ, Газизов (с 10 нед.)" inside a stream lecture's merged
+        # cell is that one group's own class, i.e. a practice.
+        shared = is_shared and not (group and not only)
 
         for subject, instructor, room, notes, marks in items:
             # Week/start markers are per-lesson (the parsed line), not the
@@ -489,7 +492,7 @@ def _cell_lessons(
                 # to an in-person blockchain class in 1304. Single-entry cells
                 # can keep the hyperlink; the links tab fills the rest.
                 link=cell_link if len(items) == 1 else "",
-                type=_detect_lesson_type(subject, instructor, notes, is_shared),
+                type=_detect_lesson_type(subject, instructor, notes, shared),
                 weeks=_detect_lesson_weeks(subject, instructor, notes),
                 start_from=_detect_start_from(subject, instructor, notes),
                 only=tuple(only),

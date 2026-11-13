@@ -139,3 +139,12 @@ def test_group_and_glued_blocks():
     assert ("ТИК", "12:10", "1509", (), ("11-12",)) in [
         _short(x) for x in _cell_lessons(text, "11-304")
     ]
+
+
+def test_group_block_in_lecture_cell_is_practice():
+    lecture, own = _cell_lessons(
+        "Теория систем и системный анализ, Липачев Е.К., \n1-9 нед.(1310-1311)\n"
+        "11-303 Технологии искусственного интеллекта, Газизов А.М. (с 10 нед.)\n ауд.1310"
+    )
+    assert (lecture.type, lecture.weeks) == ("Лекц", "1-9")
+    assert (own.subject, own.type, own.weeks) == ("Технологии искусственного интеллекта", "Прак", "10-18")
