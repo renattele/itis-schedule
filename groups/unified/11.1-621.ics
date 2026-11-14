@@ -1,0 +1,463 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20261030T101000
+DTEND;TZID=Europe/Moscow:20261030T135000
+DTSTAMP:20261114T052012Z
+UID:364b0c03e29aad81686e26ab32f7fa51fc9d6d2a@itis-schedule
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Гурьянов И.О.\, гр. №1 в ауд
+ . 1412 ( 26.10 не будет с переносом на 30.10 с 10:10-1
+ 3:50)
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20261105T114000
+DTEND;TZID=Europe/Moscow:20261105T152000
+DTSTAMP:20261114T052012Z
+UID:78328000e38227b5bd3dc801106dccaaf21f9cf8@itis-schedule
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Гурьянов И.О.\, гр. №2 в ауд
+ . 1412 ( 26.10 не будет с переносом на 05.11 с 11:40-1
+ 5:20)
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20261030T173000
+DTEND;TZID=Europe/Moscow:20261030T190000
+DTSTAMP:20261114T052012Z
+UID:ddb71ef9c37c0fa09e80464ddb6f34311c135c4a@itis-schedule
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Гурьянова К.А.\, гр.№3\, ауд
+ . 1412 (18.09 переносится на 30.10 в 17.30 онлайн http
+ s://telemost.yandex.ru/j/71139599878738\nhttps://telemost.yandex.ru/j/7113
+ 9599878738
+LOCATION:онлайн
+URL:https://telemost.yandex.ru/j/71139599878738
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20261030T191000
+DTEND;TZID=Europe/Moscow:20261030T204000
+DTSTAMP:20261114T052012Z
+UID:ffdf3a9e9ad241daf2a4146273411a9b4b366d4e@itis-schedule
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Гурьянова К.А.\, гр.№3\, ауд
+ . 1412 (18.09 переносится на 30.10 в 19.10 онлайн http
+ s://telemost.yandex.ru/j/71139599878738\nhttps://telemost.yandex.ru/j/7113
+ 9599878738
+LOCATION:онлайн
+URL:https://telemost.yandex.ru/j/71139599878738
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20261017T173000
+DTEND;TZID=Europe/Moscow:20261017T190000
+DTSTAMP:20261114T052012Z
+UID:dc3b2686433c106d4fe51e49557d51903ae5356c@itis-schedule
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Павлова Ю..\, гр.№4\, ауд. 1412
+  (18.09 переносится на 17.10 в 17:30 онлайн) https://t
+ elemost.360.yandex.ru/j/9250981742\nhttps://telemost.360.yandex.ru/j/92509
+ 81742
+LOCATION:онлайн
+URL:https://telemost.360.yandex.ru/j/9250981742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20261017T191000
+DTEND;TZID=Europe/Moscow:20261017T204000
+DTSTAMP:20261114T052012Z
+UID:a458ca9f878e7a3999859818a264b9fc6bac7d79@itis-schedule
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Павлова Ю.\, гр.№4\, ауд. 1412 
+ (18.09 переносится на 17.10 в 19.10 онлайн) https://te
+ lemost.360.yandex.ru/j/9250981742\nhttps://telemost.360.yandex.ru/j/925098
+ 1742
+LOCATION:онлайн
+URL:https://telemost.360.yandex.ru/j/9250981742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Введение в программную инжене
+ рию
+DTSTART;TZID=Europe/Moscow:20261114T083000
+DTEND;TZID=Europe/Moscow:20261114T100000
+DTSTAMP:20261114T052012Z
+UID:492dec4633aab7adeec0d62abb55246526d54ab9@itis-schedule
+DESCRIPTION:Введение в программную инженерию 
+ Чегодаев В.Г. лекция\, 9 нед.\, ауд. 1310-1311 (19.0
+ 9 переносится на 14.11 в 8:30 в ауд. 1310-1311)
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Введение в программную инжене
+ рию\, практ.
+DTSTART;TZID=Europe/Moscow:20261128T083000
+DTEND;TZID=Europe/Moscow:20261128T100000
+DTSTAMP:20261114T052012Z
+UID:4f720ce1c60c97787b6fa3ac7372066853b12ca3@itis-schedule
+DESCRIPTION:Введение в программную инженерию
+ \, практ. \nЧегодаев В.Г. \nн.н. 1310-1311 ( 7.11 пер
+ еносится на 28.11 в 8.30 в ауд.1310-1311)
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260907T135000
+DTEND;TZID=Europe/Moscow:20260907T152000
+DTSTAMP:20261114T052012Z
+UID:fb42fdfa3caa082e787994866593258f1d4c4771@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+EXDATE;TZID=Europe/Moscow:20261026T135000
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Гурьянов И.О.\, гр. №1 в ауд
+ . 1412 ( 26.10 не будет с переносом на 30.10 с 10:10-1
+ 3:50)
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20261114T052012Z
+UID:65aaa6a805dba031f138f5912ca4b982ee999bcf@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+EXDATE;TZID=Europe/Moscow:20261026T155000
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Гурьянов И.О.\, гр. №1 в ауд
+ . 1412 ( 26.10 не будет с переносом на 30.10 с 10:10-1
+ 3:50)
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20261114T052012Z
+UID:f8f6317fd2017bc17ab5181b3d959fe3c08e625f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+EXDATE;TZID=Europe/Moscow:20261026T173000
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Гурьянов И.О.\, гр. №2 в ауд
+ . 1412 ( 26.10 не будет с переносом на 05.11 с 11:40-1
+ 5:20)
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260907T191000
+DTEND;TZID=Europe/Moscow:20260907T204000
+DTSTAMP:20261114T052012Z
+UID:19b5beabc53e4a224b64f20149741dcf2816a464@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+EXDATE;TZID=Europe/Moscow:20261026T191000
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Гурьянов И.О.\, гр. №2 в ауд
+ . 1412 ( 26.10 не будет с переносом на 05.11 с 11:40-1
+ 5:20)
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Теория систем
+DTSTART;TZID=Europe/Moscow:20260901T173000
+DTEND;TZID=Europe/Moscow:20260901T190000
+DTSTAMP:20261114T052012Z
+UID:179be882744fe2f779c479043347cc8cf3fa6374@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261027T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+  лекции\, Липачев Е.К.\, 9 нед.\, ауд. 1310-1311 ( с
+  10.11 практика)
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Теория систем
+DTSTART;TZID=Europe/Moscow:20260901T191000
+DTEND;TZID=Europe/Moscow:20260901T204000
+DTSTAMP:20261114T052012Z
+UID:e8355e519b82350117c96461283e4ad25d934083@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261027T205959Z
+EXDATE;TZID=Europe/Moscow:20260908T191000
+EXDATE;TZID=Europe/Moscow:20260922T191000
+EXDATE;TZID=Europe/Moscow:20261006T191000
+EXDATE;TZID=Europe/Moscow:20261020T191000
+DESCRIPTION:Теория систем и системный анализ\,
+  лекции\, Липачев Е.К.\, по н.н.\, ауд. 1310-1311 ( 
+ с 10.11 перенос на вторник в 17:30 в ауд. 1310-1311)
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Теория систем
+DTSTART;TZID=Europe/Moscow:20261110T173000
+DTEND;TZID=Europe/Moscow:20261110T190000
+DTSTAMP:20261114T052012Z
+UID:44b33745fc6240313f2e02bd8a83fa5929752bfd@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261222T205959Z
+EXDATE;TZID=Europe/Moscow:20261117T173000
+EXDATE;TZID=Europe/Moscow:20261201T173000
+EXDATE;TZID=Europe/Moscow:20261215T173000
+DESCRIPTION:Теория систем и системный анализ\,
+  лекции\, Липачев Е.К.\, по н.н.\, ауд. 1310-1311 ( 
+ с 10.11 перенос на вторник в 17:30 в ауд. 1310-1311)
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Жизненный цикл программного о
+ беспечения
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20261114T052012Z
+UID:fefce54d0bac388b3797a84dfe7e451c08360e68@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Жизненный цикл программного обес
+ печения\, Мусина Г.В. в 1311   https://telemost.360.yandex
+ .ru/j/1398168633\nhttps://telemost.360.yandex.ru/j/1398168633
+LOCATION:1311
+URL:https://telemost.360.yandex.ru/j/1398168633
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Проектная работа
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20261114T052012Z
+UID:212112cc159e3f5c9fb1d74e976d51eea8598819@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Проектный практикум\, Ференец А.А. 
+ в 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Методы анализа и построения и
+ нформационных систем
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20261114T052012Z
+UID:c8738febe8f204de42ed7fc8143ed7dc804a1f70@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Методы анализа и построения инфор
+ мационных систем \nТаланов М.О. лекц.\n9 не
+ д.  https://telemost.yandex.ru/j/24009093085018\nhttps://telemost.yandex.
+ ru/j/24009093085018
+LOCATION:https://telemost.yandex.ru/j/24009093085018
+URL:https://telemost.yandex.ru/j/24009093085018
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Методы анализа и построения и
+ нформационных систем
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20261114T052012Z
+UID:71afa6a00d662a023dd5254aa5c0555312c68e5b@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261224T205959Z
+EXDATE;TZID=Europe/Moscow:20260910T191000
+EXDATE;TZID=Europe/Moscow:20260924T191000
+EXDATE;TZID=Europe/Moscow:20261008T191000
+EXDATE;TZID=Europe/Moscow:20261022T191000
+EXDATE;TZID=Europe/Moscow:20261105T191000
+EXDATE;TZID=Europe/Moscow:20261119T191000
+EXDATE;TZID=Europe/Moscow:20261203T191000
+EXDATE;TZID=Europe/Moscow:20261217T191000
+DESCRIPTION:Методы анализа и построения инфор
+ мационных систем  https://telemost.yandex.ru/j/240090930850
+ 18\nТаланов М.О. \nпо н.н.\nhttps://telemost.yandex.ru/j/2400
+ 9093085018
+LOCATION:https://telemost.yandex.ru/j/24009093085018
+URL:https://telemost.yandex.ru/j/24009093085018
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260904T135000
+DTEND;TZID=Europe/Moscow:20260904T152000
+DTSTAMP:20261114T052012Z
+UID:a3d75b85b4f4162de7794d0277fcaa237552d2d6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+EXDATE;TZID=Europe/Moscow:20260918T135000
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Гурьянова К.А.\, гр.№3\, ауд
+ . 1412 (18.09 переносится на 30.10 в 17.30 онлайн http
+ s://telemost.yandex.ru/j/71139599878738\nhttps://telemost.yandex.ru/j/7113
+ 9599878738
+LOCATION:1412
+URL:https://telemost.yandex.ru/j/71139599878738
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260904T155000
+DTEND;TZID=Europe/Moscow:20260904T172000
+DTSTAMP:20261114T052012Z
+UID:b00c880d4d3183ef4fd7272a246927e2da7ae050@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+EXDATE;TZID=Europe/Moscow:20260918T155000
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Гурьянова К.А.\, гр.№3\, ауд
+ . 1412 (18.09 переносится на 30.10 в 19.10 онлайн http
+ s://telemost.yandex.ru/j/71139599878738\nhttps://telemost.yandex.ru/j/7113
+ 9599878738
+LOCATION:1412
+URL:https://telemost.yandex.ru/j/71139599878738
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260904T173000
+DTEND;TZID=Europe/Moscow:20260904T190000
+DTSTAMP:20261114T052012Z
+UID:a45bcd9d2b87d53fc398eb42efbdd8f26d3f3a44@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+EXDATE;TZID=Europe/Moscow:20260918T173000
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Павлова Ю..\, гр.№4\, ауд. 1412
+  (18.09 переносится на 17.10 в 17:30 онлайн) https://t
+ elemost.360.yandex.ru/j/9250981742\nhttps://telemost.360.yandex.ru/j/92509
+ 81742
+LOCATION:1412
+URL:https://telemost.360.yandex.ru/j/9250981742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260904T191000
+DTEND;TZID=Europe/Moscow:20260904T204000
+DTSTAMP:20261114T052012Z
+UID:83f8470652709907d66527245f511b56ae53078e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+EXDATE;TZID=Europe/Moscow:20260918T191000
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский)\, Павлова Ю.\, гр.№4\, ауд. 1412 
+ (18.09 переносится на 17.10 в 19.10 онлайн) https://te
+ lemost.360.yandex.ru/j/9250981742\nhttps://telemost.360.yandex.ru/j/925098
+ 1742
+LOCATION:1412
+URL:https://telemost.360.yandex.ru/j/9250981742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Введение в программную инжене
+ рию
+DTSTART;TZID=Europe/Moscow:20260905T083000
+DTEND;TZID=Europe/Moscow:20260905T100000
+DTSTAMP:20261114T052012Z
+UID:fae5d1ecb24e4b20cde79d195d93c962e90cb2e5@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261031T205959Z
+EXDATE;TZID=Europe/Moscow:20260919T083000
+DESCRIPTION:Введение в программную инженерию 
+ Чегодаев В.Г. лекция\, 9 нед.\, ауд. 1310-1311 (19.0
+ 9 переносится на 14.11 в 8:30 в ауд. 1310-1311)
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Введение в программную инжене
+ рию\, практ.
+DTSTART;TZID=Europe/Moscow:20260905T101000
+DTEND;TZID=Europe/Moscow:20260905T114000
+DTSTAMP:20261114T052012Z
+UID:90a67075e2d886a77cde7ab0d7c2f2fcd69655cb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+EXDATE;TZID=Europe/Moscow:20260912T101000
+EXDATE;TZID=Europe/Moscow:20260926T101000
+EXDATE;TZID=Europe/Moscow:20261010T101000
+EXDATE;TZID=Europe/Moscow:20261024T101000
+EXDATE;TZID=Europe/Moscow:20261107T101000
+EXDATE;TZID=Europe/Moscow:20261121T101000
+EXDATE;TZID=Europe/Moscow:20261205T101000
+EXDATE;TZID=Europe/Moscow:20261219T101000
+DESCRIPTION:Введение в программную инженерию
+ \, практ. \nЧегодаев В.Г. \nн.н. 1310-1311 ( 7.11 пер
+ еносится на 28.11 в 8.30 в ауд.1310-1311)
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260905T121000
+DTEND;TZID=Europe/Moscow:20260905T134000
+DTSTAMP:20261114T052012Z
+UID:32b320ae08d2cf14dcfe69a9d1124a8165d41a03@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+EXDATE;TZID=Europe/Moscow:20260912T121000
+EXDATE;TZID=Europe/Moscow:20260926T121000
+EXDATE;TZID=Europe/Moscow:20261010T121000
+EXDATE;TZID=Europe/Moscow:20261024T121000
+EXDATE;TZID=Europe/Moscow:20261107T121000
+EXDATE;TZID=Europe/Moscow:20261121T121000
+EXDATE;TZID=Europe/Moscow:20261205T121000
+EXDATE;TZID=Europe/Moscow:20261219T121000
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nКривошеева Н.Н.\, гр.№5 1412 (
+  7.11 не будет с переносом .)  https://telemost.360.yande
+ x.ru/j/0613232957\nhttps://telemost.360.yandex.ru/j/0613232957
+LOCATION:1412
+URL:https://telemost.360.yandex.ru/j/0613232957
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260905T135000
+DTEND;TZID=Europe/Moscow:20260905T152000
+DTSTAMP:20261114T052012Z
+UID:949b9248107bdf8edc04235e41fe9d64b66858fe@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+EXDATE;TZID=Europe/Moscow:20260912T135000
+EXDATE;TZID=Europe/Moscow:20260926T135000
+EXDATE;TZID=Europe/Moscow:20261010T135000
+EXDATE;TZID=Europe/Moscow:20261024T135000
+EXDATE;TZID=Europe/Moscow:20261107T135000
+EXDATE;TZID=Europe/Moscow:20261121T135000
+EXDATE;TZID=Europe/Moscow:20261205T135000
+EXDATE;TZID=Europe/Moscow:20261219T135000
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nКривошеева Н.Н.\, гр.№5 1412 (
+  7.11 не будет с переносом .)  https://telemost.360.yande
+ x.ru/j/0613232957\nhttps://telemost.360.yandex.ru/j/0613232957
+LOCATION:1412
+URL:https://telemost.360.yandex.ru/j/0613232957
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260905T155000
+DTEND;TZID=Europe/Moscow:20260905T172000
+DTSTAMP:20261114T052012Z
+UID:d5681eded32f66cf6a045e4c901add98a5bccfdc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+EXDATE;TZID=Europe/Moscow:20260912T155000
+EXDATE;TZID=Europe/Moscow:20260926T155000
+EXDATE;TZID=Europe/Moscow:20261010T155000
+EXDATE;TZID=Europe/Moscow:20261024T155000
+EXDATE;TZID=Europe/Moscow:20261107T155000
+EXDATE;TZID=Europe/Moscow:20261121T155000
+EXDATE;TZID=Europe/Moscow:20261205T155000
+EXDATE;TZID=Europe/Moscow:20261219T155000
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nКривошеева Н.Н. \nгр.№6 \n1412
+  ( 7.11 не будет с переносом .) https://telemost.360.yand
+ ex.ru/j/0613232957\nhttps://telemost.360.yandex.ru/j/0613232957
+LOCATION:1412
+URL:https://telemost.360.yandex.ru/j/0613232957
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Языки
+DTSTART;TZID=Europe/Moscow:20260905T173000
+DTEND;TZID=Europe/Moscow:20260905T190000
+DTSTAMP:20261114T052012Z
+UID:888fc6683f4ddfa52dbae8704479f3d7c5884905@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+EXDATE;TZID=Europe/Moscow:20260912T173000
+EXDATE;TZID=Europe/Moscow:20260926T173000
+EXDATE;TZID=Europe/Moscow:20261010T173000
+EXDATE;TZID=Europe/Moscow:20261024T173000
+EXDATE;TZID=Europe/Moscow:20261107T173000
+EXDATE;TZID=Europe/Moscow:20261121T173000
+EXDATE;TZID=Europe/Moscow:20261205T173000
+EXDATE;TZID=Europe/Moscow:20261219T173000
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nКривошеева Н.Н. \nгр.№6 \n1412
+  ( 7.11  не будет с переносом) https://telemost.360.yande
+ x.ru/j/0613232957\nhttps://telemost.360.yandex.ru/j/0613232957
+LOCATION:1412
+URL:https://telemost.360.yandex.ru/j/0613232957
+END:VEVENT
+END:VCALENDAR

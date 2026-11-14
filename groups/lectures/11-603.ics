@@ -1,0 +1,218 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Математика
+DTSTART;TZID=Europe/Moscow:20261124T155000
+DTEND;TZID=Europe/Moscow:20261124T172000
+DTSTAMP:20261114T052010Z
+UID:678c73d76b00fcbde92fcd7d45404bc3b419479f@itis-schedule
+DESCRIPTION:Информатика и программирование\, 
+ Абрамский М.М. \nауд.109 \n\n11-603 Математическ
+ ий анализ\, Скворцова Г.Ш. ауд.1412 (24 ноября
+ )
+LOCATION:1412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260902T083000
+DTEND;TZID=Europe/Moscow:20260902T100000
+DTSTAMP:20261114T052010Z
+UID:9d80cec488d8f8a4b71be6e16611a96489737bcb@itis-schedule
+DESCRIPTION:Русский язык и культура речи\, Гал
+ иуллина И.Р.\, \n(2.09\, 23.09\, 14.10\, 28.10\, 11.11\, 25.11\, 
+ 9.12)\n ауд.КЗВК гл.здание
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260923T083000
+DTEND;TZID=Europe/Moscow:20260923T100000
+DTSTAMP:20261114T052010Z
+UID:8d3e152f05e1e86ebc85e14c2661ae7918a16387@itis-schedule
+DESCRIPTION:Русский язык и культура речи\, Гал
+ иуллина И.Р.\, \n(2.09\, 23.09\, 14.10\, 28.10\, 11.11\, 25.11\, 
+ 9.12)\n ауд.КЗВК гл.здание
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20261014T083000
+DTEND;TZID=Europe/Moscow:20261014T100000
+DTSTAMP:20261114T052010Z
+UID:b6d9a364d6736cac49f5880d9b20fe89d969dda8@itis-schedule
+DESCRIPTION:Русский язык и культура речи\, Гал
+ иуллина И.Р.\, \n(2.09\, 23.09\, 14.10\, 28.10\, 11.11\, 25.11\, 
+ 9.12)\n ауд.КЗВК гл.здание
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20261028T083000
+DTEND;TZID=Europe/Moscow:20261028T100000
+DTSTAMP:20261114T052010Z
+UID:cb656fd0d0bf72b083d0e511ffbd5ff68e0c613b@itis-schedule
+DESCRIPTION:Русский язык и культура речи\, Гал
+ иуллина И.Р.\, \n(2.09\, 23.09\, 14.10\, 28.10\, 11.11\, 25.11\, 
+ 9.12)\n ауд.КЗВК гл.здание
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20261111T083000
+DTEND;TZID=Europe/Moscow:20261111T100000
+DTSTAMP:20261114T052010Z
+UID:353f915ba518421da9cfb9dfc7b9c5d26a799f2c@itis-schedule
+DESCRIPTION:Русский язык и культура речи\, Гал
+ иуллина И.Р.\, \n(2.09\, 23.09\, 14.10\, 28.10\, 11.11\, 25.11\, 
+ 9.12)\n ауд.КЗВК гл.здание
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20261125T083000
+DTEND;TZID=Europe/Moscow:20261125T100000
+DTSTAMP:20261114T052010Z
+UID:c6776f92f17307b4e1ba53e1affa133f2eedde03@itis-schedule
+DESCRIPTION:Русский язык и культура речи\, Гал
+ иуллина И.Р.\, \n(2.09\, 23.09\, 14.10\, 28.10\, 11.11\, 25.11\, 
+ 9.12)\n ауд.КЗВК гл.здание
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20261209T083000
+DTEND;TZID=Europe/Moscow:20261209T100000
+DTSTAMP:20261114T052010Z
+UID:da57b2122bc0fb9ecf63371047a602543bcbe7d7@itis-schedule
+DESCRIPTION:Русский язык и культура речи\, Гал
+ иуллина И.Р.\, \n(2.09\, 23.09\, 14.10\, 28.10\, 11.11\, 25.11\, 
+ 9.12)\n ауд.КЗВК гл.здание
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260907T083000
+DTEND;TZID=Europe/Moscow:20260907T100000
+DTSTAMP:20261114T052010Z
+UID:0663e221d8fbb2fd41bf50460ca82fcbce4885b9@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Иностранный язык в профессиональ
+ ной сфере: Коноплева Н.В. в 1301\, Мохамед Ма
+ рико в 1302\, Фатима Мохсени Ниари в 1303\, Мух
+ тарова Р.Й. в 1304\, \nФайзуллина Р.А. в 1305
+LOCATION:1305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Гуманитарные дисциплины
+DTSTART;TZID=Europe/Moscow:20260907T101000
+DTEND;TZID=Europe/Moscow:20260907T114000
+DTSTAMP:20261114T052010Z
+UID:091ebe3d6b6274a8f609f39feeb751cafd02a887@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:История России\, Новоселов А.Л. \nау
+ д. КЗВК гл.здание
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математика
+DTSTART;TZID=Europe/Moscow:20260907T121000
+DTEND;TZID=Europe/Moscow:20260907T134000
+DTSTAMP:20261114T052010Z
+UID:c935f0714cb44dbdd8551feed39327f442e24c46@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Алгебра и геометрия\, Арсланов М.М.
+  \nауд. 109
+LOCATION:109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физическая культура и спорт\, 10:00-11:30
+DTSTART;TZID=Europe/Moscow:20260901T101000
+DTEND;TZID=Europe/Moscow:20260901T114000
+DTSTAMP:20261114T052010Z
+UID:be6e7d7f1fb4fa0a8fa02e01bf7f74da7939c505@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Физическая культура и спорт\, 10:00-11
+ :30\,
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Дискретная математика
+DTSTART;TZID=Europe/Moscow:20260901T135000
+DTEND;TZID=Europe/Moscow:20260901T152000
+DTSTAMP:20261114T052010Z
+UID:ce8bcbf229af7e9f95e2d3ac5c8ae087af975c0d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Дискретная математика\, Калимулли
+ н И.Ш.\, \nауд. 109
+LOCATION:109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информатика и программирование
+DTSTART;TZID=Europe/Moscow:20260901T155000
+DTEND;TZID=Europe/Moscow:20260901T172000
+DTSTAMP:20261114T052010Z
+UID:47a58b5dc2b0e534900189250902c7619ee5b1c6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Информатика и программирование\, 
+ Абрамский М.М. \nауд.109 \n\n11-603 Математическ
+ ий анализ\, Скворцова Г.Ш. ауд.1412 (24 ноября
+ )
+LOCATION:109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математика
+DTSTART;TZID=Europe/Moscow:20260902T101000
+DTEND;TZID=Europe/Moscow:20260902T114000
+DTSTAMP:20261114T052010Z
+UID:8b65c65e47d1873cf65ce2cd6b8850c10833d97e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T101000
+DESCRIPTION:Математический анализ\, \nВалиахме
+ това Д.Н.\n ауд. 108
+LOCATION:108
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы российской государственност
+ и
+DTSTART;TZID=Europe/Moscow:20260902T155000
+DTEND;TZID=Europe/Moscow:20260902T172000
+DTSTAMP:20261114T052010Z
+UID:b761ebd746b40c8e5c873b214b6f96d9e5731470@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261028T205959Z
+DESCRIPTION:Основы российской государственно
+ сти\, \nДубровин В.Ю. (1-10 нед.)  \nауд. 1607
+LOCATION:1607
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260903T083000
+DTEND;TZID=Europe/Moscow:20260903T100000
+DTSTAMP:20261114T052010Z
+UID:96957cd402a229c5e5d92b37c12357ce60623a45@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Иностранный язык : Коноплева Н.В. в
+  1301\, Мохамед Марико в 1302\,  Фатима Мохсени
+  Ниари в 1303\, Мухтарова Р.Й. в 1304\, Файзулли
+ на Р.А. в 1305
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260903T101000
+DTEND;TZID=Europe/Moscow:20260903T114000
+DTSTAMP:20261114T052010Z
+UID:963005e179f7690f4ab9ba8529f4ee09af4c5b51@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Иностранный язык : Коноплева Н.В. в
+  1301\, Мохамед Марико в 1302\,  Фатима Мохсени
+  Ниари в 1303\, Мухтарова Р.Й. в 1304\, Файзулли
+ на Р.А. в 1305
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физическая культура и спорт\, 10:00-11:30
+DTSTART;TZID=Europe/Moscow:20260904T101000
+DTEND;TZID=Europe/Moscow:20260904T114000
+DTSTAMP:20261114T052010Z
+UID:9038ce1ffa536a9a39d7cd6938f9e4b04f413e15@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Физическая культура и спорт\, 10:00-11
+ :30\,
+END:VEVENT
+END:VCALENDAR

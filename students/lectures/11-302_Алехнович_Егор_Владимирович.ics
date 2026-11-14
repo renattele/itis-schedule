@@ -1,0 +1,112 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Техническая документация
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20261114T052018Z
+UID:96d39e66bdb82c99c21481c0865ed3c7ff918461@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплины по выбору:\nОсобенност
+ и разработки мультимедийных приложений
+ \, Костюк Д.И. в 1306\nРазработка техническо
+ й документации (Дизайн-мышление в ИТ-сфе
+ ре)\, четн.неделя группа №1\,нечетн.нед гр
+ уппа №2 Лучкина Е.Ю. в 1110 \nВведение в обла
+ чные технологии (Технологическое предпр
+ инимательство и управление продуктами)\,
+  Семенова Ж.Г. в 1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория систем
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20261114T052018Z
+UID:dd80bc6e58a016e18aecaeefdf3e0e0944194090@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261026T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+  Липачев Е.К.\, \n1-9 нед.(1310-1311)\n11-303 Технолог
+ ии искусственного интеллекта\, Газизов А
+ .М. (с 10 нед.)\n ауд.1310
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Техническая документация
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20261114T052018Z
+UID:8744e4198ea78c5b4e97a15bf9648251ec7f9731@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплины по выбору:\nОсобенност
+ и разработки мультимедийных приложений
+ \, Костюк Д.И. в 1306\nРазработка техническо
+ й документации (Дизайн-мышление в ИТ-сфе
+ ре)\,  четн.неделя группа №1 \,нечетн.нед г
+ руппа №2  Лучкина Е.Ю. в 1110 \nВведение в об
+ лачные технологии (Технологическое пред
+ принимательство и управление продуктам
+ и)\, Семенова Ж.Г. в 1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Блокчейн
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20261114T052018Z
+UID:8ad71117015b4957e34f4aa0e8161d17d1ba5250@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nФункциональное программир
+ ование (Blockchain)\, Хайруллин А.Ф. в 1304\nПроек
+ тный практикум по робототехнике. Часть 1 
+ (Robotics)\, Загиров А.И.  (вебинары)
+LOCATION:1304
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ИИ
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20261114T052018Z
+UID:a4a6d2a4e177649ab4c27208e7ee40fa01c774d4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Агафонов А.А.\,\n ауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Блокчейн
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20261114T052018Z
+UID:ff5626e5b20badf9ca7eee383f35bec1bf6e36dc@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Дисциплины по выбору:\nПроектный п
+ рактикум по робототехнике. Ч1.\, Апурин А.
+ А. (вебинары)\nФункциональное программир
+ ование (Blockchain)\, Хайруллин А.Ф. в 1304\nПроек
+ тный практикум по робототехнике. Часть 1 
+ (Robotics)\, Загиров А.И.  (вебинары)
+LOCATION:1304
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Психология управления (1-9 нед.)
+DTSTART;TZID=Europe/Moscow:20260903T101000
+DTEND;TZID=Europe/Moscow:20260903T114000
+DTSTAMP:20261114T052018Z
+UID:8c1a211a6d3bbea799c8a883bd4d801122106507@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПсихология 
+ управления (1-9 нед.) Пучкова И.М. (вебинары
+ )\, с 10 нед. прак. гр.№1 Зайнуллин А.Э. (веби
+ нары)\nhttps://telemost.yandex.ru/j/17069658637666
+LOCATION:https://telemost.yandex.ru/j/17069658637666
+URL:https://telemost.yandex.ru/j/17069658637666
+END:VEVENT
+END:VCALENDAR

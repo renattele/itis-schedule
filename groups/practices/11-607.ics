@@ -1,0 +1,175 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20261126T191000
+DTEND;TZID=Europe/Moscow:20261126T204000
+DTSTAMP:20261114T052010Z
+UID:5657f6df32e11685531dd19eb882e4af5c92c2cb@itis-schedule
+DESCRIPTION:Иностранный язык\,\nНекрасова И.Д.\n
+ 1308\nсписок студентов\n\n12\,19\,26 ноября онла
+ йн\nhttps://telemost.yandex.ru/j/73784713693658\nhttps://disk.360.yandex
+ .ru/d/o3terohwTPTbQA
+LOCATION:онлайн
+URL:https://disk.360.yandex.ru/d/o3terohwTPTbQA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информатика и программирование
+DTSTART;TZID=Europe/Moscow:20261114T101000
+DTEND;TZID=Europe/Moscow:20261114T114000
+DTSTAMP:20261114T052010Z
+UID:6938f3b5d087689fac97f3a4c56c55adf012bbfc@itis-schedule
+DESCRIPTION:Информатика и программирование\, 
+ \nподгр.№1 \nХорьяков А.П. \n 1308/\nИнформатик
+ а и программирование\, \nХайруллин А.Ф.\nпо
+ дгр.№2\n14 ноября онлайн
+LOCATION:онлайн
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информатика и программирование
+DTSTART;TZID=Europe/Moscow:20261114T121000
+DTEND;TZID=Europe/Moscow:20261114T134000
+DTSTAMP:20261114T052010Z
+UID:ab58959a8e03fdacf8775a54c0df523ffcdad407@itis-schedule
+DESCRIPTION:Информатика и программирование\, 
+ \nХайруллин А.Ф.\nподгр.№2\n14 ноября онлайн
+LOCATION:онлайн
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математика
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20261114T052010Z
+UID:8c1873a4a37dfc71f32d8e977bc8baa9398ea674@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Математический анализ\, \nЗубкова 
+ С.К. \n 1307
+LOCATION:1307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информатика и программирование
+DTSTART;TZID=Europe/Moscow:20260901T121000
+DTEND;TZID=Europe/Moscow:20260901T134000
+DTSTAMP:20261114T052010Z
+UID:1c3ef78402008ba1c2e4c82f4ad82a1353ac6c81@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Информатика и программирование\, 
+ \nХайруллин А.Ф.\nподгр.№2\n1405
+LOCATION:1405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Гуманитарные дисциплины
+DTSTART;TZID=Europe/Moscow:20260901T135000
+DTEND;TZID=Europe/Moscow:20260901T152000
+DTSTAMP:20261114T052010Z
+UID:c443a18dbaa5e47010c78b2291ff6e5279059b62@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261117T205959Z
+DESCRIPTION:История России\,\nКисленко А.О.\, \n(1-
+ 12 нед.)\n1310\nИнформатика и программирован
+ ие\, \nХайруллин А.Ф.\nподгр.№2 с 13 недели
+LOCATION:1310
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математика
+DTSTART;TZID=Europe/Moscow:20260901T155000
+DTEND;TZID=Europe/Moscow:20260901T172000
+DTSTAMP:20261114T052010Z
+UID:3a6aa3efc935b309f06c42070c89082fb74068f4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Алгебра и геометрия\,\nЗубкова С.К.
+ \n 1302
+LOCATION:1302
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Дискретная математика
+DTSTART;TZID=Europe/Moscow:20260903T083000
+DTEND;TZID=Europe/Moscow:20260903T100000
+DTSTAMP:20261114T052010Z
+UID:4ab386c1f72cd28315e69eb66f7ff2d86e448624@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дискретная математика \nЗубков М.В
+ . \n1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260903T101000
+DTEND;TZID=Europe/Moscow:20260903T114000
+DTSTAMP:20261114T052010Z
+UID:4b9ff4e2468e3a0dd2fc790f0c0e420dda396b8c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261119T205959Z
+EXDATE;TZID=Europe/Moscow:20261112T101000
+DESCRIPTION:Русский язык и культура речи\,\nМус
+ такова Т.П. \n(1-12 нед.) \n1306\n12 ноября не буде
+ т
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20261114T052010Z
+UID:3f2da6d37f73f2cc93dc10b85d44ba9f463c6c7c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+EXDATE;TZID=Europe/Moscow:20261126T191000
+DESCRIPTION:Иностранный язык\,\nНекрасова И.Д.\n
+ 1308\nсписок студентов\n\n12\,19\,26 ноября онла
+ йн\nhttps://telemost.yandex.ru/j/73784713693658\nhttps://disk.360.yandex
+ .ru/d/o3terohwTPTbQA
+LOCATION:1308
+URL:https://disk.360.yandex.ru/d/o3terohwTPTbQA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Основы российской государственност
+ и
+DTSTART;TZID=Europe/Moscow:20260904T121000
+DTEND;TZID=Europe/Moscow:20260904T134000
+DTSTAMP:20261114T052010Z
+UID:b3edd3fb202d36f28f6fea101c8296a06f788127@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Основы российской государственно
+ сти\,\nРамазанова Д.И.\n 1306
+LOCATION:1306
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информатика и программирование
+DTSTART;TZID=Europe/Moscow:20260905T083000
+DTEND;TZID=Europe/Moscow:20260905T100000
+DTSTAMP:20261114T052010Z
+UID:b4b33f18f724bae8fe9a394d8ad998c56417f823@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+DESCRIPTION:Информатика и программирование\, 
+ \nподгр.№1 \nХорьяков А.П. \n 1308
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информатика и программирование
+DTSTART;TZID=Europe/Moscow:20260905T101000
+DTEND;TZID=Europe/Moscow:20260905T114000
+DTSTAMP:20261114T052010Z
+UID:25b7beea025129b0305d1cf4a16b77145becb8d0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+EXDATE;TZID=Europe/Moscow:20261114T101000
+DESCRIPTION:Информатика и программирование\, 
+ \nподгр.№1 \nХорьяков А.П. \n 1308/\nИнформатик
+ а и программирование\, \nХайруллин А.Ф.\nпо
+ дгр.№2\n14 ноября онлайн
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Информатика и программирование
+DTSTART;TZID=Europe/Moscow:20260905T121000
+DTEND;TZID=Europe/Moscow:20260905T134000
+DTSTAMP:20261114T052010Z
+UID:1a338e8ee760b4026e2aad00420f4730e459fd96@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+EXDATE;TZID=Europe/Moscow:20261114T121000
+DESCRIPTION:Информатика и программирование\, 
+ \nХайруллин А.Ф.\nподгр.№2\n14 ноября онлайн
+END:VEVENT
+END:VCALENDAR

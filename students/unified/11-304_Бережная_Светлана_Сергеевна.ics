@@ -1,0 +1,180 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS 11-304_Бережная Светлана Сергеев
+ на
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:[Лекц] Техническая документация
+DTSTART;TZID=Europe/Moscow:20260903T173000
+DTEND;TZID=Europe/Moscow:20260903T190000
+DTSTAMP:20261114T052019Z
+UID:b4b1879a297bc5b789e7bb6e654fabfea4f4e1fd@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплины по выбору:\nОсобенност
+ и разработки мультимедийных приложений
+ \, Костюк Д.И. в 1306\nРазработка техническо
+ й документации (Дизайн-мышление в ИТ-сфе
+ ре)\, четн.неделя группа №1\,нечетн.нед гр
+ уппа №2 Лучкина Е.Ю. в 1110 \nВведение в обла
+ чные технологии (Технологическое предпр
+ инимательство и управление продуктами)\,
+  Семенова Ж.Г. в 1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Теория систем
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20261114T052019Z
+UID:d051427d3da0f49145b4f030944a88db16acb086@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261026T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+  Липачев Е.К.\, \n1-9 нед.(1310-1311)\n11-303 Технолог
+ ии искусственного интеллекта\, Газизов А
+ .М. (с 10 нед.)\n ауд.1310
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Техническая документация
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20261114T052019Z
+UID:4cc04a0aaf447909db5c6a3671c193a448b97d7c@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплины по выбору:\nОсобенност
+ и разработки мультимедийных приложений
+ \, Костюк Д.И. в 1306\nРазработка техническо
+ й документации (Дизайн-мышление в ИТ-сфе
+ ре)\,  четн.неделя группа №1 \,нечетн.нед г
+ руппа №2  Лучкина Е.Ю. в 1110 \nВведение в об
+ лачные технологии (Технологическое пред
+ принимательство и управление продуктам
+ и)\, Семенова Ж.Г. в 1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Социология\, лек.9 нед.
+DTSTART;TZID=Europe/Moscow:20260904T101000
+DTEND;TZID=Europe/Moscow:20260904T114000
+DTSTAMP:20261114T052019Z
+UID:be7802c21f39190ae4dc4bb8b0def2d77e399b24@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261030T205959Z
+EXDATE;TZID=Europe/Moscow:20260918T101000
+DESCRIPTION:Дисциплины по выбору: \nПсихология
+  личной эффективности\, лекции 1-9 нед (ауд
+ .1405).\, группа №1 прак. с 10 нед.Добротворск
+ ая С.Г. в 1405 (20.11 в 1408 раз)\nТатарский язык в
+  профессиональной коммуникации\, Кузьми
+ на Х.Х.\, в 1409 список студентов\nСоциологи
+ я\, лек.9 нед.Ишкинеева Ф.Ф. в 1308 (18.09 перено
+ с на 25.12 в 8:30 ауд.1306) \, с 10 нед. прак.Закиро
+ в А.М. в 1308 список студентов .\nПсихология 
+ лек.9 нед. Устин П.Н. (вебинары) с 10 нед.пра
+ к. гр.№1 Румянцева Г.Д. (вебинары)
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] ИИ
+DTSTART;TZID=Europe/Moscow:20260907T155000
+DTEND;TZID=Europe/Moscow:20260907T172000
+DTSTAMP:20261114T052019Z
+UID:a2c3d317f96234a69d62b264c00d05f200ce4bc0@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Агафонов А.А.\,\n ауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Социология с 10 нед. прак.
+DTSTART;TZID=Europe/Moscow:20261106T101000
+DTEND;TZID=Europe/Moscow:20261106T114000
+DTSTAMP:20261114T052019Z
+UID:6c0f837e8603ad62aeb6ba6e771fd143662a279d@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору: \nПсихология
+  личной эффективности\, лекции 1-9 нед (ауд
+ .1405).\, группа №1 прак. с 10 нед.Добротворск
+ ая С.Г. в 1405 (20.11 в 1408 раз)\nТатарский язык в
+  профессиональной коммуникации\, Кузьми
+ на Х.Х.\, в 1409 список студентов\nСоциологи
+ я\, лек.9 нед.Ишкинеева Ф.Ф. в 1308 (18.09 перено
+ с на 25.12 в 8:30 ауд.1306) \, с 10 нед. прак.Закиро
+ в А.М. в 1308 список студентов .\nПсихология 
+ лек.9 нед. Устин П.Н. (вебинары) с 10 нед.пра
+ к. гр.№1 Румянцева Г.Д. (вебинары)
+LOCATION:1308
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Психология управления с 10 нед.
+ прак.гр.№3 (вебинары)
+DTSTART;TZID=Europe/Moscow:20261105T155000
+DTEND;TZID=Europe/Moscow:20261105T172000
+DTSTAMP:20261114T052019Z
+UID:488c0081a51eea690add5d9a216306253eaa1cb4@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПсихология 
+ управления\, прак. (1-9нед.) гр.№2 Зайнуллин
+  А.Э. \, с 10 нед.прак.гр.№3  (вебинары) \nПрав
+ овые основы информатизации\, Никитин Д.В.
+  в 1412 (список студентов)\nhttps://telemost.yandex.ru/j/6
+ 9303139806404
+LOCATION:https://telemost.yandex.ru/j/69303139806404
+URL:https://telemost.yandex.ru/j/69303139806404
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] Теория систем
+DTSTART;TZID=Europe/Moscow:20260907T121000
+DTEND;TZID=Europe/Moscow:20260907T134000
+DTSTAMP:20261114T052019Z
+UID:22a2eab273a9c59fb5f667cccd4d5545ba005dcb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Теория систем и системный анализ\,
+ \nМиннеахметов Р.Р.\n 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Психология управления (1-9 нед.)
+DTSTART;TZID=Europe/Moscow:20260903T101000
+DTEND;TZID=Europe/Moscow:20260903T114000
+DTSTAMP:20261114T052019Z
+UID:c3e1848b06daf4a5b9209727d6a66cac315507cb@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261029T205959Z
+DESCRIPTION:Дисциплина по выбору:\nПсихология 
+ управления (1-9 нед.) Пучкова И.М. (вебинары
+ )\, с 10 нед. прак. гр.№1 Зайнуллин А.Э. (веби
+ нары)\nhttps://telemost.yandex.ru/j/17069658637666
+LOCATION:https://telemost.yandex.ru/j/17069658637666
+URL:https://telemost.yandex.ru/j/17069658637666
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Прак] ИИ
+DTSTART;TZID=Europe/Moscow:20260901T155000
+DTEND;TZID=Europe/Moscow:20260901T172000
+DTSTAMP:20261114T052019Z
+UID:fcbe1c8e4179ce17ee60a5ed7683c7dcdd280cb3@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261229T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Макаров Р.В.  \n1508
+LOCATION:1508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Лекц] Социология\, лек.9 нед.
+DTSTART;TZID=Europe/Moscow:20261225T083000
+DTEND;TZID=Europe/Moscow:20261225T100000
+DTSTAMP:20261114T052019Z
+UID:a781f2316a5074d63b4c6e03d912625b505726ae@itis-schedule
+DESCRIPTION:Дисциплины по выбору: \nПсихология
+  личной эффективности\, лекции 1-9 нед (ауд
+ .1405).\, группа №1 прак. с 10 нед.Добротворск
+ ая С.Г. в 1405 (20.11 в 1408 раз)\nТатарский язык в
+  профессиональной коммуникации\, Кузьми
+ на Х.Х.\, в 1409 список студентов\nСоциологи
+ я\, лек.9 нед.Ишкинеева Ф.Ф. в 1308 (18.09 перено
+ с на 25.12 в 8:30 ауд.1306) \, с 10 нед. прак.Закиро
+ в А.М. в 1308 список студентов .\nПсихология 
+ лек.9 нед. Устин П.Н. (вебинары) с 10 нед.пра
+ к. гр.№1 Румянцева Г.Д. (вебинары)
+LOCATION:1306
+END:VEVENT
+END:VCALENDAR

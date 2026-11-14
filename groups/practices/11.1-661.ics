@@ -1,0 +1,199 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Практики
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Введение в программную инженерию\, п
+ ракт.
+DTSTART;TZID=Europe/Moscow:20261121T083000
+DTEND;TZID=Europe/Moscow:20261121T100000
+DTSTAMP:20261114T052012Z
+UID:da79985543ac0f33137f7ddadf3fac35677126a6@itis-schedule
+DESCRIPTION:Введение в программную инженерию
+ \, практ. \nЧегодаев В.Г. \nч.н. 1310-1311 ( 7.11 пер
+ еносится на21.11 в 8.30 в ауд.1310-1311)
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20261003T173000
+DTEND;TZID=Europe/Moscow:20261003T190000
+DTSTAMP:20261114T052012Z
+UID:dafc938760c54f13e4f59d30fb455b4e36022a29@itis-schedule
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nКривошеева Н.Н. \nгр.№6\n1412 
+ ( 19.09 перенос на 03.10 в 17:30 онлайн) ( 7.11  не бу
+ дет с переносом)  https://telemost.360.yandex.ru/j/0613232957
+ \nhttps://telemost.360.yandex.ru/j/0613232957
+LOCATION:онлайн
+URL:https://telemost.360.yandex.ru/j/0613232957
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20261003T191000
+DTEND;TZID=Europe/Moscow:20261003T204000
+DTSTAMP:20261114T052012Z
+UID:882cd14e795e86940b87f478f5467c7458305e17@itis-schedule
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nКривошеева Н.Н.\, гр.№6\, 1412
+  ( 19.09 перенос на 03.10 в 19:10 онлайн) (7.11 не бу
+ дет с переносом) https://telemost.360.yandex.ru/j/0613232957
+ \nhttps://telemost.360.yandex.ru/j/0613232957
+LOCATION:онлайн
+URL:https://telemost.360.yandex.ru/j/0613232957
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Экономическое мышление в цифровом м
+ ире
+DTSTART;TZID=Europe/Moscow:20260902T155000
+DTEND;TZID=Europe/Moscow:20260902T172000
+DTSTAMP:20261114T052012Z
+UID:1564abbebee84b3010d2f479f4b4a123cdd463bd@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T155000
+DESCRIPTION:Экономическое мышление в цифрово
+ м мире Галлямова Д.Х.\nв 1301
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Практикум по цифровым технологиям
+DTSTART;TZID=Europe/Moscow:20260902T173000
+DTEND;TZID=Europe/Moscow:20260902T190000
+DTSTAMP:20261114T052012Z
+UID:d52b32aa27281ddb59f911016b076ca1d35b9c31@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T173000
+DESCRIPTION:Практикум по цифровым технология
+ м\,Мифтахов А.И.  ауд. 1301
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Международные финансы в цифровую эп
+ оху
+DTSTART;TZID=Europe/Moscow:20260902T191000
+DTEND;TZID=Europe/Moscow:20260902T204000
+DTSTAMP:20261114T052012Z
+UID:37c0b86598bd0e5bf8cf1a8fa56afe714b08ead1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261230T205959Z
+EXDATE;TZID=Europe/Moscow:20261104T191000
+DESCRIPTION:Международные финансы в цифровую 
+ эпоху Гайнуллин Р.З.   \, ауд. 1301
+LOCATION:1301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в программную инженерию\, п
+ ракт.
+DTSTART;TZID=Europe/Moscow:20260912T101000
+DTEND;TZID=Europe/Moscow:20260912T114000
+DTSTAMP:20261114T052012Z
+UID:24c4780e1f65ebb6e687fa2f0a24258188b51a17@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261219T205959Z
+EXDATE;TZID=Europe/Moscow:20260919T101000
+EXDATE;TZID=Europe/Moscow:20261003T101000
+EXDATE;TZID=Europe/Moscow:20261017T101000
+EXDATE;TZID=Europe/Moscow:20261031T101000
+EXDATE;TZID=Europe/Moscow:20261107T101000
+EXDATE;TZID=Europe/Moscow:20261114T101000
+EXDATE;TZID=Europe/Moscow:20261128T101000
+EXDATE;TZID=Europe/Moscow:20261212T101000
+DESCRIPTION:Введение в программную инженерию
+ \, практ. \nЧегодаев В.Г. \nч.н. 1310-1311 ( 7.11 пер
+ еносится на21.11 в 8.30 в ауд.1310-1311)
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260905T121000
+DTEND;TZID=Europe/Moscow:20260905T134000
+DTSTAMP:20261114T052012Z
+UID:5fcc5d263a78438e9d4424f92de08f7b4098045f@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+EXDATE;TZID=Europe/Moscow:20260912T121000
+EXDATE;TZID=Europe/Moscow:20260926T121000
+EXDATE;TZID=Europe/Moscow:20261010T121000
+EXDATE;TZID=Europe/Moscow:20261024T121000
+EXDATE;TZID=Europe/Moscow:20261107T121000
+EXDATE;TZID=Europe/Moscow:20261121T121000
+EXDATE;TZID=Europe/Moscow:20261205T121000
+EXDATE;TZID=Europe/Moscow:20261219T121000
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nКривошеева Н.Н.\, гр.№ 5\, 141
+ 2 (7.11 не будет с  переносом https://telemost.360.yandex
+ .ru/j/0613232957\nhttps://telemost.360.yandex.ru/j/0613232957
+LOCATION:1412
+URL:https://telemost.360.yandex.ru/j/0613232957
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260905T135000
+DTEND;TZID=Europe/Moscow:20260905T152000
+DTSTAMP:20261114T052012Z
+UID:c3796e4baf1be767b05f7c3c7885028e2b2c110a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+EXDATE;TZID=Europe/Moscow:20260912T135000
+EXDATE;TZID=Europe/Moscow:20260926T135000
+EXDATE;TZID=Europe/Moscow:20261010T135000
+EXDATE;TZID=Europe/Moscow:20261024T135000
+EXDATE;TZID=Europe/Moscow:20261107T135000
+EXDATE;TZID=Europe/Moscow:20261121T135000
+EXDATE;TZID=Europe/Moscow:20261205T135000
+EXDATE;TZID=Europe/Moscow:20261219T135000
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nКривошеева Н.Н. \nгр.№5 \n1412
+  ( 7.11 не будет с  переносом) https://telemost.360.yande
+ x.ru/j/0613232957\nhttps://telemost.360.yandex.ru/j/0613232957
+LOCATION:1412
+URL:https://telemost.360.yandex.ru/j/0613232957
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260905T155000
+DTEND;TZID=Europe/Moscow:20260905T172000
+DTSTAMP:20261114T052012Z
+UID:e63788c82b6e35e08417c03305452f76efd44599@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+EXDATE;TZID=Europe/Moscow:20260912T155000
+EXDATE;TZID=Europe/Moscow:20260919T155000
+EXDATE;TZID=Europe/Moscow:20260926T155000
+EXDATE;TZID=Europe/Moscow:20261010T155000
+EXDATE;TZID=Europe/Moscow:20261024T155000
+EXDATE;TZID=Europe/Moscow:20261107T155000
+EXDATE;TZID=Europe/Moscow:20261121T155000
+EXDATE;TZID=Europe/Moscow:20261205T155000
+EXDATE;TZID=Europe/Moscow:20261219T155000
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nКривошеева Н.Н. \nгр.№6\n1412 
+ ( 19.09 перенос на 03.10 в 17:30 онлайн) ( 7.11  не бу
+ дет с переносом)  https://telemost.360.yandex.ru/j/0613232957
+ \nhttps://telemost.360.yandex.ru/j/0613232957
+LOCATION:1412
+URL:https://telemost.360.yandex.ru/j/0613232957
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки
+DTSTART;TZID=Europe/Moscow:20260905T173000
+DTEND;TZID=Europe/Moscow:20260905T190000
+DTSTAMP:20261114T052012Z
+UID:f00b21a7471c659aff963840a95caa30016a6cd6@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261226T205959Z
+EXDATE;TZID=Europe/Moscow:20260912T173000
+EXDATE;TZID=Europe/Moscow:20260919T173000
+EXDATE;TZID=Europe/Moscow:20260926T173000
+EXDATE;TZID=Europe/Moscow:20261010T173000
+EXDATE;TZID=Europe/Moscow:20261024T173000
+EXDATE;TZID=Europe/Moscow:20261107T173000
+EXDATE;TZID=Europe/Moscow:20261121T173000
+EXDATE;TZID=Europe/Moscow:20261205T173000
+EXDATE;TZID=Europe/Moscow:20261219T173000
+DESCRIPTION:Профессиональный иностранный язы
+ к (английский) \nКривошеева Н.Н.\, гр.№6\, 1412
+  ( 19.09 перенос на 03.10 в 19:10 онлайн) (7.11 не бу
+ дет с переносом) https://telemost.360.yandex.ru/j/0613232957
+ \nhttps://telemost.360.yandex.ru/j/0613232957
+LOCATION:1412
+URL:https://telemost.360.yandex.ru/j/0613232957
+END:VEVENT
+END:VCALENDAR

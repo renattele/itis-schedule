@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:Введение в программную инженерию
+DTSTART;TZID=Europe/Moscow:20260903T191000
+DTEND;TZID=Europe/Moscow:20260903T204000
+DTSTAMP:20261114T052012Z
+UID:46128aacc97e03b9569e08c8e61e406b41ccc9d1@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261231T205959Z
+DESCRIPTION:Введение в программную инженерию 
+ Тощев А.С.\,в 1305\n\nлек по н.н.\, практ. по ч.н.
+  ( со 2-й нед.) https://kpfu.mts-link.ru/j/83410197/338117240\nhttps
+ ://kpfu.mts-link.ru/j/83410197/338117240
+LOCATION:1305
+URL:https://kpfu.mts-link.ru/j/83410197/338117240
+END:VEVENT
+END:VCALENDAR
