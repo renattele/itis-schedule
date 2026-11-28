@@ -1,0 +1,87 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ITIS Schedule Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITIS Лекции
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+SUMMARY:ИИ
+DTSTART;TZID=Europe/Moscow:20260907T173000
+DTEND;TZID=Europe/Moscow:20260907T190000
+DTSTAMP:20261128T135614Z
+UID:a47178fcdf243d02933c8537af2158895a19c2ef@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261228T205959Z
+DESCRIPTION:Технологии искусственного интелл
+ екта\, Агафонов А.А.\, \nауд. 218
+LOCATION:218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Дополнительные главы дискретной ма
+ тематики
+DTSTART;TZID=Europe/Moscow:20260904T173000
+DTEND;TZID=Europe/Moscow:20260904T190000
+DTSTAMP:20261128T135614Z
+UID:0f193a2b0deca7d91ab527a7f7cbaa4b2280446e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору:\nСкриптинг\, 
+ визуализация (Frontend)\, Зайцева Д.А. (вебина
+ ры)\nДополнительные главы дискретной мат
+ ематики\, Лернер Э.Ю. в 1310\nСкриптинг\, виз
+ уализация\, Костюк Д.И. в 1305  \nФункциональ
+ ное программирование (Erlang)\, Фролов Д.Д. в 
+ 1509 \nФункциональное программирование (Пр
+ омышленная разработка\, эксплуатация и н
+ адежность программных систем SRE (Функцио
+ нальное программирование) Фахрутдинов С
+ .Р.  (вебинары)
+LOCATION:1310
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Дополнительные главы дискретной ма
+ тематики
+DTSTART;TZID=Europe/Moscow:20260904T191000
+DTEND;TZID=Europe/Moscow:20260904T204000
+DTSTAMP:20261128T135614Z
+UID:07876b26e737acbf967b210801e65f07ea8c8a71@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору:\nФункционал
+ ьное программирование (Erlang)\, Фролов Д.Д. 
+ в 1509  \nДополнительные главы дискретной м
+ атематики\, Лернер Э.Ю. в 1408
+LOCATION:1408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория систем
+DTSTART;TZID=Europe/Moscow:20260914T155000
+DTEND;TZID=Europe/Moscow:20260914T172000
+DTSTAMP:20261128T135614Z
+UID:aa77d561cae8cde0ba5078a6451b3dfc0f239d5e@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261221T205959Z
+EXDATE;TZID=Europe/Moscow:20260921T155000
+EXDATE;TZID=Europe/Moscow:20261005T155000
+EXDATE;TZID=Europe/Moscow:20261019T155000
+EXDATE;TZID=Europe/Moscow:20261102T155000
+EXDATE;TZID=Europe/Moscow:20261116T155000
+EXDATE;TZID=Europe/Moscow:20261130T155000
+EXDATE;TZID=Europe/Moscow:20261214T155000
+DESCRIPTION:Теория систем и системный анализ\,
+  Еникеева З.А.\, \nнечетн.нед.\n1310-1311
+LOCATION:1310-1311
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Дополнительные главы дискретной ма
+ тематики
+DTSTART;TZID=Europe/Moscow:20260904T155000
+DTEND;TZID=Europe/Moscow:20260904T172000
+DTSTAMP:20261128T135614Z
+UID:cde6d8b95b5ec7ad80c60640ba9665667413e36a@itis-schedule
+RRULE:FREQ=WEEKLY;UNTIL=20261225T205959Z
+DESCRIPTION:Дисциплины по выбору:\nСкриптинг\, 
+ визуализация\, Костюк Д.И. в 1305 \nСкриптин
+ г\, визуализация (Frontend)\, Зайцева Д.А. (веби
+ нары)\nДополнительные главы дискретной м
+ атематики\, Лернер Э.Ю. в 1310
+LOCATION:1310
+END:VEVENT
+END:VCALENDAR
